@@ -1,0 +1,138 @@
+[metadata]
+doc_id = "egyptian_koshari"
+cuisine = "Egyptian"
+dish_name = "Koshari"
+alternate_names = ["Kushari", "Koshary"]
+category = "main_course"
+tags = ["vegetarian", "street_food", "lentils", "rice", "pasta", "comfort_food", "iconic"]
+allergens = ["gluten"]
+difficulty = "medium"
+total_time_minutes = 75
+
+[recipe.standard]
+serving_size = "1 plate (approximately 450g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 55
+
+[recipe.standard.ingredients]
+items = [
+    "1 cup Egyptian short-grain rice, rinsed",
+    "1 cup brown lentils, picked over and rinsed",
+    "200g ditalini pasta or small macaroni",
+    "1 cup small vermicelli noodles (sha'riya)",
+    "1 can (400g) crushed tomatoes",
+    "4 large onions, thinly sliced",
+    "6 cloves garlic, minced",
+    "1/2 cup white vinegar",
+    "2 tablespoons tomato paste",
+    "1 teaspoon ground cumin",
+    "1 teaspoon ground coriander",
+    "1/2 teaspoon cayenne pepper",
+    "1/2 teaspoon ground cinnamon",
+    "4 tablespoons vegetable oil, divided",
+    "Salt and black pepper to taste",
+    "2.5 cups water"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Boil brown lentils in 4 cups of salted water for 20-25 minutes until just tender but still holding shape. Drain and set aside.",
+    "Cook pasta in a large pot of boiling salted water until al dente, about 8-10 minutes. Drain and set aside.",
+    "Heat 2 tablespoons oil in a large saucepan over medium heat (350°F/175°C). Toast the vermicelli until deep golden brown, about 2-3 minutes. Add rinsed rice and stir to coat. Add 2.5 cups of water, season with salt, bring to a boil, then reduce heat to low, cover and cook 18 minutes until rice is tender.",
+    "Meanwhile, heat remaining 2 tablespoons oil in a large skillet over medium-high heat (375°F/190°C). Fry the sliced onions, stirring frequently, for 20-25 minutes until deeply caramelized and crispy. Remove half and set aside for topping; leave the rest in the pan.",
+    "Add minced garlic to the onions in the pan and cook 1 minute. Add tomato paste and cook 2 minutes. Pour in crushed tomatoes, vinegar, cumin, coriander, cayenne, cinnamon, salt, and pepper. Simmer the tomato sauce (da'a) over medium-low heat for 15 minutes until thickened.",
+    "Make the garlic-vinegar sauce (khall bi-toom): combine 1/4 cup white vinegar, 2 minced garlic cloves, salt, and a pinch of cumin. Stir well.",
+    "To assemble each plate: layer rice-lentil mixture at the base, top with pasta, ladle generous tomato sauce over, spoon garlic vinegar sauce to taste, and finish with crispy fried onions on top. Serve immediately."
+]
+
+[recipe.standard.macros]
+calories = 580
+protein_g = 18
+carbs_g = 104
+fat_g = 10
+fiber_g = 11
+sugar_g = 10
+sodium_mg = 620
+
+[recipe.healthy_variant]
+variant_name = "Whole Grain Koshari"
+variant_type = "low_calorie"
+description = "A nutritionally upgraded koshari using brown rice, whole wheat pasta, and a reduced-oil baked crispy onion topping instead of deep-fried onions, preserving authentic flavors with fewer calories."
+serving_size = "1 plate (approximately 430g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 60
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1 cup brown rice, rinsed",
+    "1 cup green lentils, rinsed",
+    "150g whole wheat small pasta",
+    "1 can (400g) crushed tomatoes, no salt added",
+    "2 large onions, thinly sliced",
+    "4 cloves garlic, minced",
+    "1/3 cup apple cider vinegar",
+    "1 tablespoon tomato paste",
+    "1 teaspoon ground cumin",
+    "1 teaspoon ground coriander",
+    "1/4 teaspoon cayenne pepper",
+    "1/4 teaspoon ground cinnamon",
+    "1 tablespoon olive oil",
+    "1 teaspoon baking powder (for crispier baked onions)",
+    "Salt and black pepper to taste",
+    "2.5 cups water"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 400°F (205°C). Toss sliced onions with 1/2 tablespoon olive oil and baking powder. Spread in a single layer on a parchment-lined baking sheet and bake 25-30 minutes, flipping halfway, until golden and crisp.",
+    "Boil green lentils in 4 cups of water for 20-22 minutes until just tender. Drain and set aside.",
+    "Cook whole wheat pasta in boiling salted water until al dente, about 10 minutes. Drain and set aside.",
+    "Cook brown rice: combine rice with 2.5 cups water and a pinch of salt. Bring to a boil, reduce to lowest heat, cover and cook 40-45 minutes until water is absorbed.",
+    "Heat remaining 1/2 tablespoon olive oil in a saucepan over medium heat (350°F/175°C). Add garlic and cook 1 minute. Add tomato paste, cook 1 minute. Add crushed tomatoes, vinegar, cumin, coriander, cayenne, cinnamon, salt and pepper. Simmer 15 minutes until thickened.",
+    "Assemble: layer brown rice and lentils, top with whole wheat pasta, spoon tomato sauce generously over everything, and top with baked crispy onions. Serve warm."
+]
+
+[recipe.healthy_variant.macros]
+calories = 420
+protein_g = 16
+carbs_g = 76
+fat_g = 6
+fiber_g = 14
+sugar_g = 8
+sodium_mg = 390
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -160
+protein_difference = "-2g"
+key_changes = [
+    "Brown rice replaces white rice, adding fiber and lowering glycemic index",
+    "Whole wheat pasta replaces white pasta for more fiber and nutrients",
+    "Onions are oven-baked with minimal oil instead of deep-fried, saving significant fat",
+    "Olive oil replaces vegetable oil for healthier fat profile",
+    "No-salt-added canned tomatoes reduce sodium by approximately 230mg per serving"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "Ditalini pasta", substitute = "Broken spaghetti or any small pasta on hand", saving_percent = 40, reason = "Specialty small pasta shapes are more expensive; any short pasta works identically in this dish" },
+    { original = "Brown lentils", substitute = "Split red lentils (reduce cook time to 12 min)", saving_percent = 20, reason = "Red lentils are often cheaper and more widely available, though they soften more" },
+    { original = "Crushed tomatoes (canned)", substitute = "Fresh tomatoes blended and cooked down", saving_percent = 35, reason = "Fresh tomatoes in season cost far less and produce an equally authentic sauce" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Egyptian short-grain rice", substitute = "Any short-grain or medium-grain white rice", reason = "The sticky texture of short-grain rice is key; any short or medium grain variety produces nearly identical results" },
+    { original = "Vermicelli noodles (sha'riya)", substitute = "Orzo pasta or thin broken angel hair", reason = "Traditional Egyptian vermicelli may not be available outside Egypt; orzo replicates the toasted noodle flavor when browned in oil" },
+    { original = "White vinegar (for da'a sauce)", substitute = "Apple cider vinegar or lemon juice", reason = "The acidic tang of the sauce can be replicated with apple cider vinegar or fresh lemon juice" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "Vegetable oil for frying", substitute = "Any neutral cooking oil (sunflower, canola)", reason = "Any high smoke-point neutral oil works perfectly for frying the onions" },
+    { original = "Tomato paste", substitute = "Extra crushed tomatoes reduced longer", reason = "Cooking down extra canned tomatoes for 10 more minutes concentrates flavor similarly to paste" },
+    { original = "Ground coriander", substitute = "Extra cumin (double the quantity)", reason = "Cumin is the dominant spice in koshari; omitting coriander and adding extra cumin keeps the flavor authentic" }
+]

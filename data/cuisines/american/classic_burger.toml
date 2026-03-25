@@ -1,0 +1,135 @@
+[metadata]
+doc_id = "american_classic_burger"
+cuisine = "American"
+dish_name = "Classic Cheeseburger"
+alternate_names = ["American Cheeseburger", "Diner Burger", "Beef Cheeseburger"]
+category = "main_course"
+tags = ["beef", "grilled", "cheese", "sandwich", "classic", "american"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "easy"
+total_time_minutes = 25
+
+[recipe.standard]
+serving_size = "1 burger (approximately 320g)"
+servings_per_recipe = 4
+prep_time_minutes = 10
+cook_time_minutes = 15
+
+[recipe.standard.ingredients]
+items = [
+    "1.5 lbs (680g) 80/20 ground beef",
+    "4 brioche or sesame seed burger buns",
+    "4 slices American cheese",
+    "4 leaves iceberg lettuce",
+    "1 large beefsteak tomato, sliced into 4 rounds",
+    "1 medium yellow onion, sliced into rings",
+    "8 dill pickle slices",
+    "3 tablespoons mayonnaise",
+    "2 tablespoons yellow mustard",
+    "2 tablespoons ketchup",
+    "1 teaspoon garlic powder",
+    "1 teaspoon onion powder",
+    "1 teaspoon kosher salt",
+    "1/2 teaspoon black pepper",
+    "1 tablespoon unsalted butter (for toasting buns)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Divide the ground beef into 4 equal portions (about 6 oz / 170g each). Gently form into patties about 3/4 inch thick, pressing a slight dimple in the center with your thumb to prevent puffing. Season both sides generously with salt, black pepper, garlic powder, and onion powder.",
+    "Preheat a cast-iron skillet or outdoor grill to high heat (450°F / 232°C). For a skillet, add a thin film of neutral oil. For a grill, oil the grates with a folded paper towel.",
+    "Cook the patties for 3–4 minutes on the first side without moving them, until a deep brown crust forms. Flip once and cook for another 2–3 minutes for medium (160°F / 71°C internal temperature). Place one slice of American cheese on each patty during the last minute of cooking; tent loosely with foil to melt.",
+    "While the patties rest, melt butter in a separate pan over medium heat (350°F / 177°C) and toast the cut side of each bun for 1–2 minutes until golden brown.",
+    "Build each burger: spread mayonnaise on the bottom bun, then stack lettuce, tomato, the cheese-topped patty, onion rings, and pickles. Spread mustard and ketchup on the top bun. Press gently and serve immediately."
+]
+
+[recipe.standard.macros]
+calories = 660
+protein_g = 38
+carbs_g = 38
+fat_g = 38
+fiber_g = 2
+sugar_g = 7
+sodium_mg = 980
+
+[recipe.healthy_variant]
+variant_name = "Turkey Lettuce-Wrap Burger"
+variant_type = "low_calorie"
+description = "A lighter take on the classic using lean ground turkey patties seasoned with Worcestershire and herbs, served in crisp romaine lettuce wraps instead of a bun, topped with avocado and Greek-yogurt-based sauce."
+serving_size = "1 burger (approximately 280g)"
+servings_per_recipe = 4
+prep_time_minutes = 12
+cook_time_minutes = 12
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1.5 lbs (680g) 93% lean ground turkey",
+    "8 large outer romaine lettuce leaves (for wrapping)",
+    "2 slices reduced-fat Swiss cheese, halved",
+    "1 large beefsteak tomato, sliced",
+    "1/2 red onion, thinly sliced",
+    "8 dill pickle slices",
+    "1/2 ripe avocado, mashed",
+    "3 tablespoons non-fat plain Greek yogurt",
+    "1 teaspoon Dijon mustard",
+    "1 teaspoon lemon juice",
+    "1 teaspoon Worcestershire sauce",
+    "1 teaspoon garlic powder",
+    "1 teaspoon onion powder",
+    "1/2 teaspoon smoked paprika",
+    "3/4 teaspoon kosher salt",
+    "1/2 teaspoon black pepper",
+    "1 teaspoon olive oil"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "In a bowl, combine ground turkey with Worcestershire sauce, garlic powder, onion powder, smoked paprika, salt, and pepper. Mix gently and form into 4 patties about 3/4 inch thick. Make a dimple in the center of each.",
+    "Mix Greek yogurt, Dijon mustard, and lemon juice together in a small bowl to make the sauce. Set aside.",
+    "Heat olive oil in a nonstick skillet or grill pan over medium-high heat (400°F / 204°C). Cook turkey patties 5–6 minutes per side until cooked through to an internal temperature of 165°F (74°C). Place half a slice of Swiss cheese on each patty in the last minute and cover to melt.",
+    "While patties cook, lay out two overlapping romaine leaves per burger to form a sturdy wrap.",
+    "Spread mashed avocado on the romaine leaves, add tomato, red onion, and pickles, then place the cheese-topped patty on top. Drizzle with the yogurt-mustard sauce, fold the lettuce around the filling, and serve immediately."
+]
+
+[recipe.healthy_variant.macros]
+calories = 390
+protein_g = 44
+carbs_g = 10
+fat_g = 19
+fiber_g = 3
+sugar_g = 3
+sodium_mg = 620
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -270
+protein_difference = "+6g"
+key_changes = [
+    "Ground beef (80/20) replaced with 93% lean ground turkey, cutting saturated fat significantly",
+    "Brioche bun replaced with romaine lettuce wrap, eliminating ~120 calories of refined carbs",
+    "Mayonnaise replaced with non-fat Greek yogurt and Dijon mustard sauce",
+    "American cheese replaced with reduced-fat Swiss cheese",
+    "Avocado adds heart-healthy monounsaturated fats in place of excess saturated fat"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "brioche buns", substitute = "standard sesame-seed hamburger buns", saving_percent = 55, reason = "Brioche buns cost 2–3x more; standard buns hold the burger just as well for everyday cooking" },
+    { original = "80/20 ground beef", substitute = "store-brand ground chuck (75/25)", saving_percent = 20, reason = "Store-brand chuck is nearly identical in flavor; drain excess fat after cooking to reduce grease" },
+    { original = "beefsteak tomato", substitute = "roma tomatoes, sliced", saving_percent = 30, reason = "Roma tomatoes are consistently cheaper and available year-round while providing the same fresh flavor" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "American cheese slices", substitute = "cheddar or Colby Jack slices", reason = "American cheese can be hard to find outside the US; cheddar melts similarly and is globally available" },
+    { original = "dill pickles", substitute = "any brined cucumber pickles or pickled jalapeños", reason = "Dill pickles are a regional product; any tangy pickled vegetable provides the same acidity and crunch" },
+    { original = "brioche buns", substitute = "any soft white or potato rolls", reason = "Brioche is a specialty item in many markets; soft potato or milk rolls offer the same tender texture" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "cast-iron skillet", substitute = "any heavy-bottomed stainless steel or nonstick pan", reason = "Cast iron retains heat best but any sturdy pan on high heat will produce a good crust" },
+    { original = "garlic powder", substitute = "2 cloves fresh garlic, minced and mixed into the meat", reason = "Fresh garlic works perfectly mixed into the patty; use approximately 1/2 teaspoon per clove replacing powder" },
+    { original = "mayonnaise", substitute = "softened butter or sour cream", reason = "Both provide richness and help the condiment adhere; butter is almost always on hand" }
+]

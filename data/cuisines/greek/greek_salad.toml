@@ -1,0 +1,137 @@
+# ============================================================
+# RECIPE DOCUMENT — GREEK SALAD (HORIATIKI)
+# Cuisine: Greek
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "greek_greek_salad"
+cuisine = "Greek"
+dish_name = "Greek Salad"
+alternate_names = ["Horiatiki", "Village Salad", "Horiatiki Salata"]
+category = "salad"
+tags = ["vegetarian", "gluten_free", "traditional", "quick_meal", "contains_dairy", "healthy"]
+allergens = ["dairy"]
+difficulty = "easy"
+total_time_minutes = 15
+
+[recipe.standard]
+serving_size = "1 large plate (approximately 320g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 0
+
+[recipe.standard.ingredients]
+items = [
+    "4 large ripe tomatoes, cut into wedges",
+    "1 large cucumber, cut into half-moons",
+    "1 green bell pepper, sliced into rings",
+    "1 red onion, thinly sliced",
+    "150g Kalamata olives (with pits — traditional)",
+    "200g feta cheese, kept in one large block (not crumbled)",
+    "4 tbsp extra-virgin olive oil",
+    "1 tsp dried Greek oregano",
+    "Salt and black pepper to taste",
+    "Optional: 1 tbsp red wine vinegar"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Cut tomatoes into large wedges. Do not use refrigerated tomatoes — they must be room temperature for best flavor.",
+    "Cut cucumber lengthwise in half, then slice into thick half-moons about 1cm.",
+    "Slice green pepper into thin rings. Slice red onion very thinly.",
+    "Arrange tomatoes, cucumber, bell pepper, and onion in a large shallow bowl.",
+    "Add Kalamata olives.",
+    "Place the block of feta on top — do not crumble it. This is traditional.",
+    "Drizzle generously with extra-virgin olive oil. Sprinkle dried oregano over the feta and vegetables.",
+    "Season with salt and pepper. Add red wine vinegar if desired.",
+    "Serve immediately at room temperature. Do not toss — let diners break the feta as they eat."
+]
+
+[recipe.standard.macros]
+calories = 320
+protein_g = 10
+carbs_g = 16
+fat_g = 24
+fiber_g = 4
+sugar_g = 10
+sodium_mg = 720
+# VALIDATION: (10×4) + (16×4) + (24×9) = 40 + 64 + 216 = 320 ✓
+
+[recipe.healthy_variant]
+variant_name = "Protein-Boosted Greek Salad with Chickpeas and Reduced Feta"
+variant_type = "high_protein"
+description = "A more substantial horiatiki with chickpeas added for plant protein and fiber, reduced feta quantity (still present for flavor), and a lemon-herb dressing using less oil. Adds romaine lettuce for volume and extra nutrients."
+serving_size = "1 large plate (approximately 380g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 0
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "4 large ripe tomatoes, wedged",
+    "1 large cucumber, sliced",
+    "1 green bell pepper, sliced",
+    "1 red onion, thinly sliced",
+    "2 cups romaine lettuce, torn",
+    "400g canned chickpeas, drained and rinsed",
+    "80g Kalamata olives",
+    "100g feta cheese, crumbled",
+    "2 tbsp extra-virgin olive oil",
+    "1.5 tbsp lemon juice",
+    "1 tsp dried oregano",
+    "Salt and pepper to taste"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Rinse and drain chickpeas well.",
+    "Cut all vegetables as described in standard recipe.",
+    "Combine romaine, tomatoes, cucumber, bell pepper, onion, chickpeas, and olives in a large bowl.",
+    "Make dressing: whisk olive oil, lemon juice, oregano, salt, and pepper.",
+    "Toss salad with dressing. Top with crumbled feta.",
+    "Serve immediately."
+]
+
+[recipe.healthy_variant.macros]
+calories = 280
+protein_g = 12
+carbs_g = 28
+fat_g = 14
+fiber_g = 8
+sugar_g = 10
+sodium_mg = 520
+# VALIDATION: (12×4) + (28×4) + (14×9) = 48 + 112 + 126 = 286 ✓ (within ±10 of 280)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -40
+protein_difference = "+2g"
+key_changes = [
+    "Chickpeas added — plant protein and fiber for a more substantial meal",
+    "Reduced feta (100g vs 200g) — saves ~160 calories across servings",
+    "Romaine lettuce added — increases volume and micronutrients",
+    "Less olive oil (2 tbsp vs 4 tbsp) — saves ~120 calories across servings"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "Kalamata olives", substitute = "any black cured olives", saving_percent = 30, reason = "Kalamata has a distinct fruity flavor; any quality black olive provides the briny element" },
+    { original = "feta cheese (block)", substitute = "any brined white cheese (Bulgarian or Turkish white cheese)", saving_percent = 40, reason = "Any brined white cheese in blocks provides similar saltiness and texture to Greek feta" },
+    { original = "extra-virgin olive oil", substitute = "regular olive oil", saving_percent = 30, reason = "The salad is served raw so quality olive oil matters; however, regular olive oil still works" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Greek Kalamata olives", substitute = "any pitted black olives from a can", reason = "Canned black olives are universally available and provide the olive element of the salad" },
+    { original = "dried Greek oregano", substitute = "Italian dried oregano or dried mixed herbs", reason = "Greek oregano is more pungent; Italian oregano is widely available and nearly identical" },
+    { original = "red wine vinegar", substitute = "lemon juice (1 tbsp)", reason = "Lemon juice provides the same acidity and is equally traditional in Greek cooking" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "feta cheese", substitute = "any firm white cheese broken into chunks", reason = "The salty, crumbly element can be provided by any firm, lightly salty white cheese" },
+    { original = "red wine vinegar", substitute = "lemon juice or white vinegar (use half the amount)", reason = "Any mild acid works to brighten the olive oil dressing" },
+    { original = "dried Greek oregano", substitute = "dried thyme or Italian seasoning", reason = "Any Mediterranean herb provides the same herbal backdrop for the simple salad" }
+]

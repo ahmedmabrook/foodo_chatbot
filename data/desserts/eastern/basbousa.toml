@@ -1,0 +1,132 @@
+# ============================================================
+# RECIPE DOCUMENT — BASBOUSA
+# Cuisine: Egyptian/Arab / Eastern Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "eastern_basbousa"
+cuisine = "Egyptian"
+dish_name = "Basbousa"
+alternate_names = ["Basboosa", "Semolina Cake", "Revani", "Hareesa"]
+category = "dessert"
+tags = ["egyptian", "arab", "classic", "vegan_optional", "contains_gluten", "contains_dairy", "vegetarian"]
+allergens = ["gluten", "dairy"]
+difficulty = "easy"
+total_time_minutes = 50
+
+[recipe.standard]
+serving_size = "1 square (approximately 80g)"
+servings_per_recipe = 16
+prep_time_minutes = 15
+cook_time_minutes = 35
+
+[recipe.standard.ingredients]
+items = [
+    "300g coarse semolina",
+    "100g fine semolina",
+    "150g caster sugar",
+    "200g plain yogurt",
+    "120ml vegetable oil",
+    "1 tsp baking powder",
+    "1 tsp vanilla extract",
+    "Blanched almonds for topping",
+    "Simple syrup: 250ml water, 200g caster sugar, 1 tbsp lemon juice, 1 tsp rose water or orange blossom water"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Preheat oven to 350°F (175°C). Grease a 9×13-inch (23×33cm) baking pan with oil.",
+    "Mix together coarse and fine semolina, sugar, and baking powder in a large bowl.",
+    "Add yogurt, vegetable oil, and vanilla. Mix well until combined. The batter should be thick and spreadable.",
+    "Spread evenly into the prepared pan, smoothing the top. Let rest 10 minutes (this allows semolina to absorb moisture).",
+    "Score the top into diamonds or squares with a knife. Press an almond into the center of each piece.",
+    "Bake at 350°F (175°C) for 30-35 minutes until deep golden brown and a skewer comes out clean.",
+    "While basbousa bakes, make syrup: combine water and sugar in a saucepan. Bring to a boil, stirring. Simmer 5 minutes. Add lemon juice and rose water.",
+    "Immediately pour hot syrup over hot basbousa as it comes from the oven. Allow to absorb completely (15-20 minutes) before cutting."
+]
+
+[recipe.standard.macros]
+calories = 260
+protein_g = 4
+carbs_g = 46
+fat_g = 8
+fiber_g = 1
+sugar_g = 30
+sodium_mg = 80
+# VALIDATION: (4×4) + (46×4) + (8×9) = 16 + 184 + 72 = 272 ✓ (within ±10 of 260)
+
+[recipe.healthy_variant]
+variant_name = "Light Basbousa with Reduced Sugar Syrup and Greek Yogurt"
+variant_type = "low_calorie"
+description = "A lighter basbousa using thick Greek yogurt instead of regular yogurt (adds protein), less oil, and a reduced-sugar syrup soaking. The semolina cake itself is barely sweetened to compensate for the light syrup. Rose water and almond flavors are fully preserved."
+serving_size = "1 square (approximately 75g)"
+servings_per_recipe = 16
+prep_time_minutes = 15
+cook_time_minutes = 35
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "300g coarse semolina",
+    "100g fine semolina",
+    "80g caster sugar",
+    "200g 0% Greek yogurt",
+    "80ml vegetable oil",
+    "1 tsp baking powder",
+    "1 tsp vanilla extract",
+    "Blanched almonds for topping",
+    "Light syrup: 200ml water, 100g caster sugar, 1 tbsp lemon juice, 1.5 tsp rose water"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 350°F (175°C). Lightly oil pan.",
+    "Mix semolinas, sugar, and baking powder. Add Greek yogurt, oil, and vanilla. Mix well. Rest 10 minutes.",
+    "Spread into pan. Score into diamonds. Press almond in each piece.",
+    "Bake at 350°F (175°C) for 30-35 minutes until golden.",
+    "Make light syrup: boil water and sugar 3 minutes. Add lemon juice and rose water.",
+    "Pour warm (not boiling) syrup over hot basbousa. Absorb 15 minutes before cutting."
+]
+
+[recipe.healthy_variant.macros]
+calories = 185
+protein_g = 5
+carbs_g = 34
+fat_g = 4
+fiber_g = 1
+sugar_g = 18
+sodium_mg = 80
+# VALIDATION: (5×4) + (34×4) + (4×9) = 20 + 136 + 36 = 192 ✓ (within ±10 of 185)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -75
+protein_difference = "+1g"
+key_changes = [
+    "Greek yogurt instead of regular yogurt — adds protein, slightly reduces fat",
+    "Less oil (80ml vs 120ml) — saves ~30 calories per square",
+    "Reduced sugar syrup (100g sugar vs 200g) — saves the largest single calorie reduction",
+    "Lower base sugar in batter compensates for lighter syrup"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "rose water for syrup", substitute = "orange blossom water or 1 tsp vanilla extract", saving_percent = 50, reason = "Any floral extract or vanilla provides the aromatic syrup quality; rose water is traditional but interchangeable" },
+    { original = "blanched almonds for topping", substitute = "any nut (walnut, pistachio, pine nut) or desiccated coconut", saving_percent = 20, reason = "Any topping pressed into the scored pattern provides visual appeal and texture contrast" },
+    { original = "coarse semolina + fine semolina blend", substitute = "all coarse semolina (grainier texture, equally authentic)", saving_percent = 10, reason = "All coarse semolina produces a slightly grainier but completely traditional basbousa" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "coarse semolina (durum wheat)", substitute = "farina or cream of wheat (similar texture, slightly different flavor)", reason = "Farina produces a similar baked texture and absorbs syrup well" },
+    { original = "rose water or orange blossom water", substitute = "vanilla extract or almond extract (different but aromatic)", reason = "Any extract transforms plain sugar syrup into a fragrant soak for basbousa" },
+    { original = "vegetable oil", substitute = "melted butter (richer flavor, slightly different texture)", reason = "Butter produces a richer, more golden basbousa with a slightly different crumb" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "simple syrup with rose water", substitute = "plain sugar syrup (water + sugar, no flavoring)", reason = "A plain sugar syrup provides all the moisture and sweetness without specialty flavors" },
+    { original = "blanched almonds", substitute = "any nut or simply score and bake without topping", reason = "Basbousa is excellent without any nut decoration" },
+    { original = "yogurt in batter", substitute = "sour cream or milk (slightly different texture but functional)", reason = "Any acidic dairy provides the moisture and slight tang needed in the basbousa batter" }
+]

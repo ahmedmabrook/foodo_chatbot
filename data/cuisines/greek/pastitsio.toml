@@ -1,0 +1,142 @@
+# ============================================================
+# RECIPE DOCUMENT — PASTITSIO
+# Cuisine: Greek
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "greek_pastitsio"
+cuisine = "Greek"
+dish_name = "Pastitsio"
+alternate_names = ["Pasticio", "Greek Baked Pasta", "Greek Lasagna"]
+category = "main_course"
+tags = ["comfort_food", "festive", "high_protein", "traditional", "contains_dairy", "contains_eggs", "contains_gluten"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "hard"
+total_time_minutes = 120
+
+[recipe.standard]
+serving_size = "1 portion (approximately 380g)"
+servings_per_recipe = 8
+prep_time_minutes = 40
+cook_time_minutes = 80
+
+[recipe.standard.ingredients]
+items = [
+    "400g bucatini or penne pasta",
+    "Meat sauce: 600g ground beef",
+    "Meat sauce: 1 large onion, diced",
+    "Meat sauce: 4 cloves garlic, minced",
+    "Meat sauce: 400g canned crushed tomatoes",
+    "Meat sauce: 2 tbsp tomato paste",
+    "Meat sauce: 1/2 tsp cinnamon",
+    "Meat sauce: 1/4 tsp allspice",
+    "Meat sauce: 1/2 cup dry red wine",
+    "Meat sauce: 2 tbsp olive oil, salt, pepper",
+    "Béchamel: 4 cups whole milk",
+    "Béchamel: 4 tbsp butter",
+    "Béchamel: 4 tbsp all-purpose flour",
+    "Béchamel: 2 eggs",
+    "Béchamel: 60g Kefalotyri or Parmesan, grated",
+    "Béchamel: pinch nutmeg, salt, white pepper"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make meat sauce: brown ground beef in olive oil. Add onion, garlic, cinnamon, and allspice. Add tomato paste, cook 2 minutes. Add wine (reduce by half), then crushed tomatoes. Simmer 25-30 minutes until thick.",
+    "Make béchamel: melt butter, whisk in flour (2 min roux). Gradually whisk in hot milk until smooth. Cook until thick. Off heat, whisk in eggs and half the cheese. Season with nutmeg, salt, pepper.",
+    "Cook pasta to al dente. Drain. Toss with 2 tbsp of béchamel sauce.",
+    "Preheat oven to 375°F (190°C). Grease a 9x13 dish.",
+    "Spread half the pasta in the dish. Layer all the meat sauce. Top with remaining pasta. Pour all of the béchamel over, spreading to cover completely. Sprinkle with remaining cheese.",
+    "Bake 35-40 minutes until top is golden and set. Rest 20 minutes before cutting — crucial for clean slices."
+]
+
+[recipe.standard.macros]
+calories = 520
+protein_g = 30
+carbs_g = 50
+fat_g = 22
+fiber_g = 4
+sugar_g = 8
+sodium_mg = 600
+# VALIDATION: (30×4) + (50×4) + (22×9) = 120 + 200 + 198 = 518 ✓ (within ±10 of 520)
+
+[recipe.healthy_variant]
+variant_name = "Light Pastitsio with Lentil Meat Sauce and Cauliflower Béchamel"
+variant_type = "low_calorie"
+description = "A lighter pastitsio using whole wheat pasta, a ground turkey and red lentil meat sauce, and a lighter béchamel made with low-fat milk thickened with cauliflower puree. Retains the signature cinnamon-spiced layers."
+serving_size = "1 portion (approximately 360g)"
+servings_per_recipe = 8
+prep_time_minutes = 40
+cook_time_minutes = 80
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "300g whole wheat penne",
+    "Light meat sauce: 400g lean ground turkey",
+    "Light meat sauce: 1/2 cup red lentils",
+    "Light meat sauce: 1 large onion, diced",
+    "Light meat sauce: 4 cloves garlic, minced",
+    "Light meat sauce: 400g crushed tomatoes",
+    "Light meat sauce: 1/2 tsp cinnamon, 1/4 tsp allspice",
+    "Light meat sauce: 1 tbsp olive oil",
+    "Light béchamel: 2 cups low-fat milk",
+    "Light béchamel: 1 cup cauliflower puree",
+    "Light béchamel: 2 tbsp butter",
+    "Light béchamel: 3 tbsp flour",
+    "Light béchamel: 2 eggs",
+    "Light béchamel: 40g Parmesan, grated",
+    "Nutmeg, salt, white pepper"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Make turkey-lentil sauce: brown turkey. Add onion, garlic, cinnamon, allspice. Add crushed tomatoes and red lentils + 1/2 cup water. Simmer 20-25 minutes until lentils cooked and sauce thick.",
+    "Make light béchamel: melt butter, stir in flour. Whisk in hot milk and cauliflower puree. Cook until thick. Off heat, stir in eggs and Parmesan. Season.",
+    "Cook whole wheat pasta. Drain.",
+    "Assemble in greased dish: pasta layer, meat sauce, pasta, béchamel, cheese.",
+    "Bake at 375°F (190°C) for 35-40 minutes until golden. Rest 20 minutes before slicing."
+]
+
+[recipe.healthy_variant.macros]
+calories = 360
+protein_g = 28
+carbs_g = 42
+fat_g = 10
+fiber_g = 8
+sugar_g = 6
+sodium_mg = 420
+# VALIDATION: (28×4) + (42×4) + (10×9) = 112 + 168 + 90 = 370 ✓ (within ±10 of 360)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -160
+protein_difference = "-2g"
+key_changes = [
+    "Turkey + lentils instead of beef — reduces fat, adds fiber from lentils",
+    "Cauliflower in béchamel replaces half the cream content — reduces fat significantly",
+    "Whole wheat pasta — more fiber, lower glycemic index",
+    "Reduced cheese — saves ~20 calories per serving"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "ground beef", substitute = "ground pork or a beef-pork mix", saving_percent = 20, reason = "Pork adds fat and richness similar to beef at often lower cost" },
+    { original = "Kefalotyri cheese", substitute = "Parmesan or Romano", saving_percent = 20, reason = "Kefalotyri is a Greek hard cheese; Parmesan provides nearly identical flavor for the topping" },
+    { original = "dry red wine", substitute = "extra broth + 1 tsp red wine vinegar", saving_percent = 90, reason = "The wine adds depth; vinegar-spiked broth provides the acid without opening a bottle" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "bucatini pasta", substitute = "penne or ziti", reason = "Any large tubular pasta works for pastitsio; the thick pasta holds the sauce layers well" },
+    { original = "allspice (for meat sauce)", substitute = "equal parts cinnamon and black pepper", reason = "This combination approximates allspice's warm, aromatic character" },
+    { original = "Kefalotyri", substitute = "any hard, salty cheese for topping", reason = "Graviera, Pecorino, or aged cheddar all provide a salty, meltable topping" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "red wine in meat sauce", substitute = "beef broth + 1 tbsp tomato paste", reason = "Extra tomato paste deepens the sauce; broth replaces the liquid volume of wine" },
+    { original = "béchamel sauce", substitute = "ricotta mixed with 2 eggs and a pinch of nutmeg", reason = "Egg-enriched ricotta creates a creamy, set topping layer without making a roux" },
+    { original = "cinnamon in meat sauce", substitute = "mixed spice or pumpkin spice blend (use same amount)", reason = "Any warm spice blend containing cinnamon provides the Greek-style sweet spice note" }
+]

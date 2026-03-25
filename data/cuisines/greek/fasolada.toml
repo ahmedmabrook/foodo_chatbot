@@ -1,0 +1,141 @@
+# ============================================================
+# RECIPE DOCUMENT — FASOLADA
+# Cuisine: Greek
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "greek_fasolada"
+cuisine = "Greek"
+dish_name = "Fasolada"
+alternate_names = ["Fassolada", "Greek Bean Soup", "White Bean Soup"]
+category = "soup"
+tags = ["vegan", "vegetarian", "gluten_free", "high_fiber", "traditional", "comfort_food"]
+allergens = ["none"]
+difficulty = "easy"
+total_time_minutes = 120
+
+[recipe.standard]
+serving_size = "1 large bowl (approximately 400g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 100
+
+[recipe.standard.ingredients]
+items = [
+    "400g dried white beans (cannellini or gigantes), soaked overnight",
+    "2 large onions, diced",
+    "3 carrots, diced",
+    "3 stalks celery, diced",
+    "4 cloves garlic, minced",
+    "400g canned crushed tomatoes",
+    "4 tbsp extra-virgin olive oil",
+    "2 tbsp tomato paste",
+    "1 tsp dried oregano",
+    "1 bay leaf",
+    "Salt and black pepper to taste",
+    "Extra olive oil and crusty bread for serving"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Drain soaked beans. Rinse well.",
+    "Bring beans to a boil in a large pot of fresh unsalted water. Boil 10 minutes, skimming foam. Drain.",
+    "In the same pot, heat 2 tbsp olive oil over medium heat. Sauté onions until soft, about 6 minutes. Add garlic and cook 1 minute.",
+    "Add carrots and celery. Cook 5 minutes.",
+    "Add tomato paste and stir 2 minutes. Add crushed tomatoes, oregano, bay leaf, and drained beans.",
+    "Cover with 1.5 liters of water or vegetable broth. Bring to a boil.",
+    "Reduce heat and simmer covered for 70-80 minutes until beans are very tender and creamy.",
+    "Remove bay leaf. Add remaining olive oil. Season generously with salt and pepper.",
+    "Crush a few beans against the side to thicken the broth naturally.",
+    "Serve hot with crusty bread and a drizzle of olive oil."
+]
+
+[recipe.standard.macros]
+calories = 320
+protein_g = 14
+carbs_g = 46
+fat_g = 10
+fiber_g = 14
+sugar_g = 8
+sodium_mg = 440
+# VALIDATION: (14×4) + (46×4) + (10×9) = 56 + 184 + 90 = 330 ✓ (within ±10 of 320)
+
+[recipe.healthy_variant]
+variant_name = "Fasolada with Spinach and Lemon — Extra Greens"
+variant_type = "high_protein"
+description = "An enhanced fasolada adding baby spinach and lemon juice for a more nutritious soup. Less oil and a squeeze of fresh lemon at the end brightens the naturally rich bean soup. Still 100% plant-based and vegan."
+serving_size = "1 large bowl (approximately 420g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 100
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "400g dried white beans, soaked overnight",
+    "2 large onions, diced",
+    "3 carrots, diced",
+    "3 stalks celery, diced",
+    "4 cloves garlic, minced",
+    "200g baby spinach",
+    "400g canned crushed tomatoes",
+    "2 tbsp extra-virgin olive oil",
+    "1 tbsp tomato paste",
+    "1 tsp dried oregano",
+    "1 bay leaf",
+    "Juice of 1 lemon",
+    "Salt and black pepper to taste"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Prepare and cook beans as in the standard recipe.",
+    "Heat 1 tbsp olive oil. Sauté onions, garlic, carrots, and celery.",
+    "Add tomato paste, crushed tomatoes, oregano, bay leaf, and beans. Cover with water.",
+    "Simmer 70-80 minutes until beans are very tender.",
+    "Stir in baby spinach — it wilts in 1 minute.",
+    "Add lemon juice and remaining olive oil. Season. Serve hot."
+]
+
+[recipe.healthy_variant.macros]
+calories = 280
+protein_g = 14
+carbs_g = 44
+fat_g = 6
+fiber_g = 16
+sugar_g = 8
+sodium_mg = 360
+# VALIDATION: (14×4) + (44×4) + (6×9) = 56 + 176 + 54 = 286 ✓ (within ±10 of 280)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -40
+protein_difference = "0g"
+key_changes = [
+    "Spinach added — iron, folate, vitamins A and C for negligible calories",
+    "Less olive oil (2 tbsp vs 4 tbsp) — saves ~80 calories",
+    "Lemon juice brightens flavor — reduces need for extra salt",
+    "More fiber from spinach — increases satiety"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "dried cannellini beans", substitute = "dried navy beans or any white bean variety", saving_percent = 20, reason = "Any white bean cooks identically in fasolada; gigantes are more expensive than navy beans" },
+    { original = "extra-virgin olive oil (generous amount)", substitute = "regular olive oil", saving_percent = 30, reason = "Since the oil is cooked into the soup, extra-virgin quality matters less than for raw use" },
+    { original = "fresh celery", substitute = "celery seeds (1/2 tsp) if stalks unavailable", saving_percent = 50, reason = "Celery seeds provide the same flavor at lower cost when fresh celery is expensive" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "dried beans (requiring overnight soak)", substitute = "canned white beans (2 x 400g cans), drained and rinsed", reason = "Canned beans eliminate the soaking and reduce cooking time to 20 minutes" },
+    { original = "dried oregano (Greek)", substitute = "Italian dried oregano or dried thyme", reason = "Greek oregano is more pungent; Italian oregano is widely available and nearly identical" },
+    { original = "crusty Greek bread", substitute = "any rustic bread or sourdough for serving", reason = "Any good crusty bread serves the same purpose as a vehicle for the thick bean soup" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "dried beans", substitute = "canned beans (reduce cooking time by 60 minutes)", reason = "Canned beans make fasolada accessible as a quick 20-minute weeknight meal" },
+    { original = "canned crushed tomatoes", substitute = "2 tbsp tomato paste + 1 cup water", reason = "Diluted tomato paste creates the tomato base quickly from pantry staples" },
+    { original = "dried oregano", substitute = "dried thyme or dried mixed herbs", reason = "Any Mediterranean dried herb provides the herbal backdrop for the bean soup" }
+]

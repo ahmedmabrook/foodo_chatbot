@@ -1,0 +1,150 @@
+# ============================================================
+# RECIPE DOCUMENT — MINESTRONE
+# Cuisine: Italian
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "italian_minestrone"
+cuisine = "Italian"
+dish_name = "Minestrone"
+alternate_names = ["Minestrone Soup", "Italian Vegetable Soup", "Minestrone Classico"]
+category = "soup"
+tags = ["vegan", "vegetarian", "high_fiber", "contains_gluten", "comfort_food", "traditional"]
+allergens = ["gluten"]
+difficulty = "easy"
+total_time_minutes = 60
+
+[recipe.standard]
+serving_size = "1 large bowl (approximately 450g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 40
+
+[recipe.standard.ingredients]
+items = [
+    "1 large onion, diced",
+    "3 cloves garlic, minced",
+    "2 carrots, diced",
+    "2 stalks celery, diced",
+    "2 medium zucchini, diced",
+    "200g green beans, cut into 2cm pieces",
+    "400g canned cannellini beans, drained",
+    "400g canned diced tomatoes",
+    "1.5 liters vegetable broth",
+    "1 cup small pasta (ditalini, elbow, or small shells)",
+    "100g leafy greens (savoy cabbage or kale), shredded",
+    "3 tbsp olive oil",
+    "1 tbsp tomato paste",
+    "1 tsp dried oregano",
+    "1 tsp dried basil",
+    "1 bay leaf",
+    "Salt and black pepper to taste",
+    "Parmesan rind (optional, for richness)",
+    "Extra-virgin olive oil and grated Parmesan for serving"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Heat olive oil in a large pot over medium heat. Sauté onion, carrots, and celery for 8 minutes until softened. Add garlic and cook 1 minute.",
+    "Add tomato paste and stir for 2 minutes.",
+    "Add diced tomatoes, vegetable broth, oregano, basil, bay leaf, and Parmesan rind if using. Bring to a boil.",
+    "Add carrots and green beans. Simmer 10 minutes.",
+    "Add zucchini and shredded cabbage or kale. Simmer 8 more minutes.",
+    "Add cannellini beans and pasta. Cook until pasta is al dente, about 8-10 minutes.",
+    "Taste and season with salt and pepper. Remove bay leaf and Parmesan rind.",
+    "Serve in deep bowls. Drizzle with extra-virgin olive oil and top with grated Parmesan."
+]
+
+[recipe.standard.macros]
+calories = 280
+protein_g = 10
+carbs_g = 42
+fat_g = 8
+fiber_g = 10
+sugar_g = 8
+sodium_mg = 640
+# VALIDATION: (10×4) + (42×4) + (8×9) = 40 + 168 + 72 = 280 ✓
+
+[recipe.healthy_variant]
+variant_name = "High-Protein Minestrone with Lentils and Barley"
+variant_type = "high_protein"
+description = "An even more nutritious minestrone replacing regular pasta with whole grain barley and adding green lentils for extra protein and fiber. Uses twice the vegetables and a low-sodium broth base. One of the most nutrient-dense soups possible."
+serving_size = "1 large bowl (approximately 450g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 55
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1 large onion, diced",
+    "3 cloves garlic, minced",
+    "2 carrots, diced",
+    "2 stalks celery, diced",
+    "2 medium zucchini, diced",
+    "1 medium sweet potato, diced",
+    "200g green beans",
+    "1/2 cup dried green lentils",
+    "1/2 cup pearl barley",
+    "400g canned diced tomatoes",
+    "1.8 liters low-sodium vegetable broth",
+    "100g baby spinach",
+    "2 tbsp olive oil",
+    "1 tbsp tomato paste",
+    "1 tsp dried oregano",
+    "1 tsp smoked paprika",
+    "Salt and black pepper to taste"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Heat olive oil in a large pot. Sauté onion, carrots, and celery 8 minutes. Add garlic, cook 1 minute.",
+    "Add tomato paste, diced tomatoes, broth, oregano, smoked paprika, and dried lentils. Bring to a boil.",
+    "Add barley and sweet potato. Reduce heat and simmer covered for 25 minutes.",
+    "Add zucchini and green beans. Cook 10 more minutes until all vegetables are tender and barley and lentils are cooked.",
+    "Stir in baby spinach — it will wilt in 1 minute.",
+    "Season with salt and pepper. Serve with a drizzle of olive oil."
+]
+
+[recipe.healthy_variant.macros]
+calories = 260
+protein_g = 12
+carbs_g = 42
+fat_g = 6
+fiber_g = 14
+sugar_g = 8
+sodium_mg = 380
+# VALIDATION: (12×4) + (42×4) + (6×9) = 48 + 168 + 54 = 270 ✓ (within ±10 of 260)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -20
+protein_difference = "+2g"
+key_changes = [
+    "Lentils added — plant-based protein and iron with substantial fiber",
+    "Barley replaces pasta — whole grain with more fiber and a lower glycemic index",
+    "Sweet potato added — extra vitamins A and C, natural sweetness",
+    "Low-sodium broth — reduces sodium by ~260mg per serving"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "cannellini beans (canned)", substitute = "dried white beans, soaked and cooked", saving_percent = 60, reason = "Dried beans cost a fraction of canned and produce superior texture and flavor" },
+    { original = "vegetable broth", substitute = "water + 1 bouillon cube per 500ml", saving_percent = 50, reason = "Bouillon is the most economical way to add savory depth to soups" },
+    { original = "fresh green beans", substitute = "frozen cut green beans", saving_percent = 30, reason = "Frozen green beans are equally nutritious and often cheaper than fresh" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "ditalini pasta", substitute = "any small pasta (orzo, macaroni, broken spaghetti)", reason = "Any small pasta shape cooks to the same result; size matters more than shape" },
+    { original = "savoy cabbage", substitute = "regular green cabbage or kale", reason = "Any hearty green works; kale takes longer to soften; regular cabbage is most available" },
+    { original = "Parmesan rind", substitute = "a small piece of any hard cheese rind, or a Parmesan tea bag", reason = "Cheese rind adds umami depth; it can be simmered in any soup for richness" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "canned diced tomatoes", substitute = "2 tbsp tomato paste + 1 cup water", reason = "Tomato paste creates a concentrated tomato base when diluted with water" },
+    { original = "dried Italian herbs (oregano, basil)", substitute = "Italian seasoning blend or any herb mix", reason = "Any dried herb combination works; Italian seasoning is the most practical single substitute" },
+    { original = "any pasta or grain", substitute = "whatever starch you have (rice, barley, lentils, pasta)", reason = "Minestrone is historically a flexible recipe — use whatever is available" }
+]

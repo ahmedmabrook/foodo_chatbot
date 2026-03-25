@@ -1,0 +1,137 @@
+[metadata]
+doc_id = "french_cassoulet"
+cuisine = "French"
+dish_name = "Cassoulet"
+alternate_names = ["White Bean Casserole", "Cassoulet de Toulouse"]
+category = "main_course"
+tags = ["beans", "duck", "sausage", "braised", "slow-cooked", "Occitan", "winter", "casserole"]
+allergens = ["gluten"]
+difficulty = "hard"
+total_time_minutes = 300
+
+[recipe.standard]
+serving_size = "1 bowl (approximately 450g)"
+servings_per_recipe = 6
+prep_time_minutes = 60
+cook_time_minutes = 240
+
+[recipe.standard.ingredients]
+items = [
+    "500 g dried white haricot beans (or Tarbais beans), soaked overnight",
+    "4 duck confit legs",
+    "400 g Toulouse sausages (coarse pork sausage)",
+    "300 g pork belly, cut into 5 cm chunks",
+    "200 g smoked pork rind (couenne), scored and tied into a bundle",
+    "150 g lardons or thick-cut bacon",
+    "1 large onion, studded with 2 cloves",
+    "4 garlic cloves, minced",
+    "1 can (400 g) crushed tomatoes",
+    "2 tablespoons tomato paste",
+    "1 bouquet garni (thyme, bay leaves, parsley stems)",
+    "1 litre chicken or duck stock",
+    "Salt, black pepper, and fresh thyme to taste",
+    "75 g coarse breadcrumbs for topping"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Drain and rinse soaked beans. Place in a large pot with the pork rind bundle and the clove-studded onion. Cover with cold water and bring to a boil. Simmer for 45 minutes until beans are just tender but not falling apart. Drain, reserving 500 ml of the cooking liquid. Discard onion.",
+    "In a large Dutch oven over medium-high heat (375°F/190°C), sear pork belly pieces until golden brown on all sides, about 5 minutes. Remove and set aside. Brown Toulouse sausages in the same pot, about 4 minutes. Remove and cut into thirds. Render lardons until crispy and remove.",
+    "In the same fat, sauté garlic until fragrant, about 1 minute. Add crushed tomatoes, tomato paste, and bouquet garni. Cook 5 minutes until sauce darkens slightly.",
+    "Add chicken stock and reserved bean liquid. Return pork belly, lardons, and pork rind bundle. Bring to a simmer, then add drained beans, nestling them around the meats.",
+    "Place duck confit legs on top, skin side up. Press sausage pieces into the beans. Cover and transfer to oven at 325°F/165°C. Cook 90 minutes.",
+    "Remove lid and increase oven temperature to 375°F/190°C. Break the developing crust back into the cassoulet once, then allow a new crust to form, about 30 more minutes. The crust should be golden brown.",
+    "Remove from oven, let rest 10 minutes. Discard bouquet garni and pork rind bundle. Adjust seasoning and scatter fresh thyme before serving directly from the pot."
+]
+
+[recipe.standard.macros]
+calories = 810
+protein_g = 54
+carbs_g = 52
+fat_g = 40
+fiber_g = 14
+sugar_g = 6
+sodium_mg = 1050
+
+[recipe.healthy_variant]
+variant_name = "Lighter Cassoulet with Chicken and Turkey Sausage"
+variant_type = "low_calorie"
+description = "A lighter cassoulet that retains the soul of the Languedoc original by using skinless chicken thighs, lean turkey sausage, and halved duck fat. White beans remain the hearty centrepiece."
+serving_size = "1 bowl (approximately 430g)"
+servings_per_recipe = 6
+prep_time_minutes = 45
+cook_time_minutes = 180
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "500 g dried white haricot beans, soaked overnight",
+    "6 bone-in, skinless chicken thighs",
+    "300 g lean turkey or chicken sausages",
+    "120 g turkey bacon, cut into cubes",
+    "1 large onion, diced",
+    "4 garlic cloves, minced",
+    "1 can (400 g) crushed tomatoes",
+    "1 tablespoon tomato paste",
+    "1 bouquet garni (thyme, bay leaves, parsley stems)",
+    "1 litre low-sodium chicken stock",
+    "1 teaspoon olive oil",
+    "2 medium carrots, diced",
+    "2 celery stalks, diced",
+    "Salt, black pepper, and fresh thyme to taste",
+    "50 g wholemeal breadcrumbs for topping"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Drain and rinse soaked beans. Simmer in a pot with fresh water, diced onion, and bouquet garni for 45 minutes until just tender. Drain, reserving 400 ml cooking liquid.",
+    "Heat olive oil in a large Dutch oven over medium-high heat (375°F/190°C). Sear chicken thighs until golden, about 3 minutes per side. Remove and set aside. Brown turkey sausages, about 3 minutes. Remove and slice into thirds.",
+    "In the same pot, cook turkey bacon until slightly crispy. Add garlic, carrots, and celery and cook 4-5 minutes until softened.",
+    "Stir in crushed tomatoes and tomato paste. Cook 3 minutes. Add chicken stock and reserved bean liquid. Return chicken thighs and turkey bacon to the pot along with drained beans.",
+    "Nestle sausage pieces into the beans. Cover and transfer to oven at 325°F/165°C. Bake for 75 minutes until chicken is cooked through to 165°F/74°C.",
+    "Remove lid, scatter wholemeal breadcrumbs over the top, increase oven to 375°F/190°C, and bake uncovered for 20-25 minutes until a golden crust forms.",
+    "Remove from oven, rest 10 minutes, discard bouquet garni, adjust seasoning, and garnish with fresh thyme before serving."
+]
+
+[recipe.healthy_variant.macros]
+calories = 530
+protein_g = 52
+carbs_g = 50
+fat_g = 12
+fiber_g = 15
+sugar_g = 7
+sodium_mg = 680
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -280
+protein_difference = "-2g"
+key_changes = [
+    "Duck confit replaced with skinless chicken thighs, dramatically reducing saturated fat",
+    "Toulouse pork sausage replaced with lean turkey sausage",
+    "Pork belly and pork rind removed entirely",
+    "Turkey bacon used instead of lardons",
+    "Wholemeal breadcrumbs add fibre to the topping",
+    "Low-sodium stock and reduced salt cut sodium significantly"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "Duck confit legs (store-bought)", substitute = "Bone-in chicken thighs roasted with duck fat or olive oil until crispy", saving_percent = 70, reason = "Chicken thighs achieve similar richness at a fraction of the price when well-seasoned and roasted until golden" },
+    { original = "Tarbais beans (specialty French beans)", substitute = "Dried cannellini beans or Great Northern beans", saving_percent = 60, reason = "These white beans have nearly identical texture and flavour and are widely available at a much lower cost" },
+    { original = "Toulouse sausage (specialty butcher)", substitute = "Fresh coarse pork sausages or Italian-style pork sausages", saving_percent = 45, reason = "Coarse-ground pork sausages provide the same meaty texture and are sold in every supermarket" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Smoked pork rind (couenne)", substitute = "2 strips of thick-cut smoked bacon left whole during cooking", reason = "Whole strips of smoked bacon add the same gelatinous body and smokiness during long braising" },
+    { original = "Duck or goose fat for roasting", substitute = "Olive oil or vegetable oil", reason = "While less rich, a neutral oil still achieves golden browning and is universally available" },
+    { original = "Coarse breadcrumbs (fresh)", substitute = "Panko breadcrumbs from a packet", reason = "Panko creates an equally crispy, golden crust and is available in most grocery stores" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "Dried haricot beans soaked overnight", substitute = "2 cans (400 g each) of drained white cannellini beans", reason = "Canned beans save the overnight soak and 45-minute par-boil; skip directly to the assembly step" },
+    { original = "Bouquet garni", substitute = "1 teaspoon dried thyme, 2 bay leaves, and a few parsley stems added loose", reason = "Dried herbs from the pantry deliver the same aromatic depth over the long braise" },
+    { original = "Dutch oven (heavy braiser)", substitute = "Any large oven-safe casserole dish or deep baking pan covered tightly with foil", reason = "A tightly sealed baking dish retains moisture well enough for the long, slow braise" }
+]

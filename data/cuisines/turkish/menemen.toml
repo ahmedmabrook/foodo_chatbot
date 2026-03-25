@@ -1,0 +1,133 @@
+# ============================================================
+# RECIPE DOCUMENT — MENEMEN
+# Cuisine: Turkish
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "turkish_menemen"
+cuisine = "Turkish"
+dish_name = "Menemen"
+alternate_names = ["Turkish Scrambled Eggs", "Turkish Shakshuka", "Menemen Breakfast"]
+category = "breakfast"
+tags = ["vegetarian", "gluten_free", "quick_meal", "high_protein", "traditional", "street_food"]
+allergens = ["eggs"]
+difficulty = "easy"
+total_time_minutes = 20
+
+[recipe.standard]
+serving_size = "1 pan portion (approximately 300g)"
+servings_per_recipe = 2
+prep_time_minutes = 5
+cook_time_minutes = 15
+
+[recipe.standard.ingredients]
+items = [
+    "4 large eggs",
+    "3 medium tomatoes, diced (or 400g canned diced tomatoes, drained)",
+    "2 green Turkish peppers (carliston or banana peppers), diced",
+    "1 small onion, finely diced (optional — purists debate this)",
+    "2 tbsp olive oil",
+    "1 tsp sweet paprika",
+    "1/2 tsp dried red chili flakes (pul biber)",
+    "Salt and black pepper to taste",
+    "Fresh parsley for garnish",
+    "Crusty bread or simit for serving"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Heat olive oil in a wide, shallow pan over medium heat. Add the diced onion (if using) and cook until soft, about 4 minutes.",
+    "Add diced green peppers. Cook 3-4 minutes until softened.",
+    "Add diced fresh tomatoes, paprika, and chili flakes. Cook over medium heat, stirring occasionally, for 5-6 minutes until the tomatoes break down into a thick, saucy base. Season with salt and pepper.",
+    "Create small wells in the tomato mixture. Crack eggs directly into the pan (or beat lightly first for a more scrambled result — both are authentic).",
+    "Cook over low-medium heat, gently folding the eggs into the tomato mixture as they set. Remove from heat while eggs are still slightly soft — they continue cooking in the residual heat.",
+    "Garnish with fresh parsley and a pinch of chili flakes. Serve immediately directly from the pan with crusty bread for dipping."
+]
+
+[recipe.standard.macros]
+calories = 300
+protein_g = 16
+carbs_g = 18
+fat_g = 18
+fiber_g = 4
+sugar_g = 10
+sodium_mg = 480
+# VALIDATION: (16×4) + (18×4) + (18×9) = 64 + 72 + 162 = 298 ✓ (within ±10 of 300)
+
+[recipe.healthy_variant]
+variant_name = "Light Menemen with Egg Whites and Extra Vegetables"
+variant_type = "low_calorie"
+description = "A lighter menemen using 2 whole eggs + 4 egg whites to reduce fat and cholesterol while maintaining volume and protein. Extra bell peppers, zucchini, and spinach are added to significantly increase vegetable content and fiber. The classic tomato-pepper base and Turkish spices are fully preserved."
+serving_size = "1 pan portion (approximately 320g)"
+servings_per_recipe = 2
+prep_time_minutes = 8
+cook_time_minutes = 15
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "2 whole eggs + 4 egg whites",
+    "3 medium tomatoes, diced",
+    "1 green Turkish pepper or bell pepper, diced",
+    "1/2 red bell pepper, diced",
+    "1 small zucchini, diced",
+    "1 large handful baby spinach",
+    "1 tbsp olive oil",
+    "1 tsp sweet paprika",
+    "1/2 tsp chili flakes",
+    "Salt and black pepper to taste",
+    "Fresh parsley for garnish",
+    "Whole grain bread for serving"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Heat olive oil in a wide pan over medium heat. Add green pepper, red bell pepper, and zucchini. Cook 4-5 minutes until softened.",
+    "Add diced tomatoes, paprika, and chili flakes. Cook 5-6 minutes until tomatoes break down. Add spinach and wilt briefly.",
+    "Lightly whisk 2 whole eggs and 4 egg whites together. Season with salt and pepper.",
+    "Pour egg mixture over the vegetables. Gently fold over low heat until just set — soft and creamy, not dry.",
+    "Garnish with fresh parsley. Serve immediately with whole grain bread."
+]
+
+[recipe.healthy_variant.macros]
+calories = 200
+protein_g = 18
+carbs_g = 14
+fat_g = 8
+fiber_g = 4
+sugar_g = 8
+sodium_mg = 360
+# VALIDATION: (18×4) + (14×4) + (8×9) = 72 + 56 + 72 = 200 ✓
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -100
+protein_difference = "+2g"
+key_changes = [
+    "Egg whites replace 2 whole eggs — reduces fat and cholesterol while maintaining protein",
+    "Added zucchini and spinach — increases fiber and volume with minimal calories",
+    "Less olive oil (1 tbsp vs. 2 tbsp) — saves ~60 calories",
+    "Whole grain bread instead of crusty white bread — more fiber, lower glycemic response"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "Turkish green peppers (carliston)", substitute = "any mild green or banana pepper", saving_percent = 20, reason = "Any mild green pepper provides the same slightly bitter, fresh pepper flavor traditional to menemen" },
+    { original = "fresh ripe tomatoes", substitute = "canned diced tomatoes, well drained (about half a 400g can)", saving_percent = 40, reason = "Canned tomatoes work well; drain excess liquid to avoid a watery menemen" },
+    { original = "olive oil", substitute = "any neutral vegetable oil", saving_percent = 50, reason = "The dish cooks quickly; any oil works as the cooking medium" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Turkish carliston peppers", substitute = "regular green bell pepper", reason = "Green bell pepper is universally available and provides a similar mild pepper base" },
+    { original = "pul biber (Turkish red chili flakes)", substitute = "any red chili flakes or cayenne pepper (use half amount)", reason = "Any mild to moderate chili seasoning provides the necessary background heat" },
+    { original = "simit or Turkish crusty bread for serving", substitute = "any crusty bread, toast, or flatbread", reason = "Any bread works for dipping into menemen's tomato base" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "fresh tomatoes", substitute = "canned crushed tomatoes (use 200ml)", reason = "Canned tomatoes are a pantry staple that make menemen even faster to prepare" },
+    { original = "fresh parsley garnish", substitute = "dried parsley or dried oregano", reason = "Any dried herb adds aromatic finishing to the dish" },
+    { original = "carliston peppers + chili flakes", substitute = "any bell pepper + a pinch of cayenne", reason = "Bell pepper plus cayenne provides both the mild pepper base and heat element" }
+]

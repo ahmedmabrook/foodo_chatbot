@@ -1,0 +1,133 @@
+# ============================================================
+# RECIPE DOCUMENT — LEMON TART
+# Cuisine: French / Western Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "western_lemon_tart"
+cuisine = "French"
+dish_name = "Lemon Tart"
+alternate_names = ["Tarte au Citron", "Classic Lemon Tart", "French Lemon Curd Tart"]
+category = "dessert"
+tags = ["french", "classic", "elegant", "contains_gluten", "contains_dairy", "contains_eggs", "vegetarian"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "medium"
+total_time_minutes = 90
+
+[recipe.standard]
+serving_size = "1 slice (approximately 120g)"
+servings_per_recipe = 8
+prep_time_minutes = 40
+cook_time_minutes = 50
+
+[recipe.standard.ingredients]
+items = [
+    "Sweet pastry (pâte sucrée): 180g all-purpose flour",
+    "Pastry: 90g cold butter, cubed",
+    "Pastry: 60g powdered sugar",
+    "Pastry: 1 large egg yolk",
+    "Pastry: 1-2 tbsp cold water",
+    "Pastry: pinch of salt",
+    "Lemon curd filling: 3 large lemons, zest and juice (about 120ml juice)",
+    "Filling: 150g caster sugar",
+    "Filling: 3 large eggs + 2 egg yolks",
+    "Filling: 120g cold butter, cubed",
+    "Serving: powdered sugar and lemon slices for garnish"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make pastry: pulse flour, butter, and sugar in a food processor until breadcrumbs. Add egg yolk and water. Pulse until dough just comes together. Press into a disc, wrap, and refrigerate 30 minutes.",
+    "Roll pastry thin (3mm) and line a 9-inch (23cm) tart tin. Trim edges. Refrigerate 15 minutes.",
+    "Blind bake: prick base, line with parchment and baking beans. Bake at 375°F (190°C) for 15 minutes. Remove beans and bake 8-10 more minutes until golden. Cool.",
+    "Make lemon curd: whisk lemon zest, juice, sugar, eggs, and yolks in a heavy saucepan. Cook over medium-low heat (165°F/74°C), stirring constantly, until thickened, about 8-10 minutes.",
+    "Remove from heat. Strain through a fine sieve. Add cold butter cubes and whisk until incorporated and glossy.",
+    "Pour warm curd into the cooled tart shell. Refrigerate 2 hours until set.",
+    "Dust with powdered sugar and garnish with lemon slices before serving."
+]
+
+[recipe.standard.macros]
+calories = 360
+protein_g = 6
+carbs_g = 40
+fat_g = 20
+fiber_g = 1
+sugar_g = 28
+sodium_mg = 140
+# VALIDATION: (6×4) + (40×4) + (20×9) = 24 + 160 + 180 = 364 ✓ (within ±10 of 360)
+
+[recipe.healthy_variant]
+variant_name = "Light Lemon Tart with Almond Crust and Reduced-Butter Curd"
+variant_type = "low_calorie"
+description = "A lighter lemon tart using an almond-oat crust (no butter pastry) and a lemon curd made with half the butter and whole eggs only (no extra yolks). The bright, intensely lemony curd is preserved. The almond crust adds a nutty flavor and more fiber than traditional pastry."
+serving_size = "1 slice (approximately 110g)"
+servings_per_recipe = 8
+prep_time_minutes = 30
+cook_time_minutes = 40
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "Almond-oat crust: 150g ground almonds (almond flour)",
+    "Crust: 50g rolled oats, processed fine",
+    "Crust: 2 tbsp honey or maple syrup",
+    "Crust: 2 tbsp coconut oil, melted",
+    "Crust: pinch of salt",
+    "Light lemon curd: 3 lemons, zest and juice (about 120ml)",
+    "Curd: 120g caster sugar",
+    "Curd: 3 large whole eggs",
+    "Curd: 60g cold butter, cubed"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 350°F (175°C). Mix almond flour, fine oat powder, honey, coconut oil, and salt until combined. Press firmly into a 9-inch tart tin base and sides.",
+    "Bake crust at 350°F (175°C) for 12-15 minutes until golden. Cool.",
+    "Make light lemon curd: whisk lemon zest, juice, sugar, and whole eggs in a saucepan. Cook over medium-low heat, stirring constantly until thickened to coat a spoon (about 8 minutes).",
+    "Remove from heat. Strain. Whisk in cold butter until smooth.",
+    "Pour into cooled crust. Refrigerate 2 hours.",
+    "Dust with powdered sugar and garnish with lemon zest before serving."
+]
+
+[recipe.healthy_variant.macros]
+calories = 250
+protein_g = 6
+carbs_g = 26
+fat_g = 14
+fiber_g = 2
+sugar_g = 20
+sodium_mg = 80
+# VALIDATION: (6×4) + (26×4) + (14×9) = 24 + 104 + 126 = 254 ✓ (within ±10 of 250)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -110
+protein_difference = "0g"
+key_changes = [
+    "Almond-oat crust instead of butter pastry — removes ~80 calories of refined carbs and butter",
+    "Half the butter in curd (60g vs 120g) — cuts fat significantly",
+    "Whole eggs only (no extra yolks) — reduces cholesterol and fat",
+    "Coconut oil in crust instead of butter — different fat profile, still rich"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "fresh lemons (3 for zest and juice)", substitute = "bottled lemon juice (120ml) + 1 tsp lemon extract (no zest)", saving_percent = 30, reason = "Bottled lemon juice produces functional curd; zest adds complexity but is optional" },
+    { original = "pâte sucrée butter pastry", substitute = "store-bought shortcrust pastry", saving_percent = 40, reason = "Store-bought shortcrust is an excellent time-saver and produces a perfectly good tart base" },
+    { original = "powdered sugar for dusting", substitute = "thin drizzle of honey or skip garnish", saving_percent = 100, reason = "The bright yellow curd is visually striking without any garnish" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "tart tin with removable base", substitute = "any 9-inch pie dish (tart won't unmould, serve from dish)", reason = "A pie dish works perfectly; slices are served from the dish rather than unmoulded" },
+    { original = "baking beans for blind baking", substitute = "dried rice or dried chickpeas as baking weights", reason = "Any dried legume or grain keeps the pastry base flat during blind baking" },
+    { original = "fine sieve for straining curd", substitute = "skip straining if no lumps visible (careful stirring prevents curdling)", reason = "Careful continuous stirring over low heat produces smooth curd without needing to strain" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "butter in lemon curd", substitute = "coconut oil (provides richness and gloss in the curd)", reason = "Coconut oil produces a smooth, glossy curd with a subtle coconut undertone" },
+    { original = "pastry crust", substitute = "crushed digestive biscuits mixed with melted butter (press into tin)", reason = "A digestive biscuit base requires no baking and produces a delicious buttery crust" },
+    { original = "3 fresh lemons", substitute = "lemon juice from a bottle (use 120ml) — less fragrant but functional", reason = "Bottled lemon juice provides the essential acidity and flavor for the curd" }
+]

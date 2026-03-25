@@ -1,0 +1,147 @@
+[metadata]
+doc_id = "eastern_baklava"
+cuisine = "Eastern Dessert"
+dish_name = "Baklava"
+alternate_names = ["Baklawa", "Baklawa bil Mish"]
+category = "dessert"
+tags = ["phyllo", "nuts", "syrup", "levantine", "baked", "layered"]
+allergens = ["gluten", "dairy", "nuts"]
+difficulty = "medium"
+total_time_minutes = 90
+
+[recipe.standard]
+serving_size = "1 piece (approximately 60g)"
+servings_per_recipe = 24
+prep_time_minutes = 35
+cook_time_minutes = 55
+
+[recipe.standard.ingredients]
+items = [
+    "450g (1 lb) phyllo dough, thawed",
+    "250g unsalted butter, melted and clarified",
+    "150g raw walnuts, coarsely chopped",
+    "150g raw pistachios, coarsely chopped",
+    "100g raw almonds, coarsely chopped",
+    "2 tbsp granulated sugar (for nut filling)",
+    "1 tsp ground cinnamon",
+    "1/4 tsp ground cardamom",
+    "1/4 tsp ground cloves",
+    "For sugar syrup: 2 cups (400g) granulated sugar",
+    "For sugar syrup: 1 cup (240ml) water",
+    "For sugar syrup: 1 tbsp fresh lemon juice",
+    "For sugar syrup: 2 tbsp orange blossom water",
+    "For sugar syrup: 1 tbsp rose water",
+    "Extra crushed pistachios, for garnish"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Prepare the sugar syrup: combine sugar, water, and lemon juice in a saucepan. Bring to a boil, stirring to dissolve sugar. Reduce heat and simmer 10 minutes until slightly thickened. Add orange blossom water and rose water, stir, remove from heat, and cool completely. The syrup must be cold when poured over hot baklava.",
+    "Mix walnuts, pistachios, and almonds together with 2 tbsp sugar, cinnamon, cardamom, and cloves. Set aside.",
+    "Preheat oven to 325°F (160°C). Brush a 9x13-inch (23x33cm) baking pan generously with melted butter.",
+    "Unroll phyllo and cover with a slightly damp towel to prevent drying. Layer 10 sheets of phyllo in the pan, brushing each sheet with melted butter after laying it down.",
+    "Spread half the nut mixture evenly over the phyllo base.",
+    "Layer 5 more phyllo sheets over the nuts, brushing each with butter.",
+    "Spread the remaining nut mixture evenly.",
+    "Top with the remaining phyllo sheets (approximately 10–12 sheets), brushing each generously with butter. Ensure the top sheet is well-buttered.",
+    "Using a sharp knife, cut the baklava into diamond or square shapes, cutting all the way through to the bottom of the pan.",
+    "Bake at 325°F (160°C) for 50–55 minutes until the top is deep golden and the layers are crisp.",
+    "Immediately remove from oven and pour the cold sugar syrup evenly over the hot baklava. Allow to absorb for at least 2 hours before serving.",
+    "Garnish each piece with a pinch of crushed pistachios before serving."
+]
+
+[recipe.standard.macros]
+calories = 280
+protein_g = 4
+carbs_g = 34
+fat_g = 15
+fiber_g = 2
+sugar_g = 24
+sodium_mg = 85
+
+[recipe.healthy_variant]
+variant_name = "Honey-Glazed Baklava with Reduced Butter"
+variant_type = "low_calorie"
+description = "A lighter baklava using half the butter quantity applied via misting spray, a honey-lemon syrup instead of full sugar syrup, and a higher proportion of nutrient-dense walnuts and almonds with less added sugar in the filling."
+serving_size = "1 piece (approximately 55g)"
+servings_per_recipe = 24
+prep_time_minutes = 35
+cook_time_minutes = 55
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "450g phyllo dough, thawed",
+    "Olive oil cooking spray",
+    "75g unsalted butter, melted (for pan greasing and final top layer only)",
+    "200g raw walnuts, coarsely chopped",
+    "100g raw almonds, coarsely chopped",
+    "80g raw pistachios, coarsely chopped",
+    "1 tsp ground cinnamon",
+    "1/4 tsp ground cardamom",
+    "For honey syrup: 1/2 cup (170g) raw honey",
+    "For honey syrup: 1/2 cup (120ml) water",
+    "For honey syrup: 1 tbsp fresh lemon juice",
+    "For honey syrup: 1 tsp orange blossom water",
+    "2 tbsp crushed pistachios, for garnish"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Prepare honey syrup: combine honey, water, and lemon juice in a saucepan over medium-low heat. Stir until honey dissolves; do not boil. Add orange blossom water. Remove from heat and cool completely.",
+    "Combine walnuts, almonds, and pistachios with cinnamon and cardamom. No added sugar.",
+    "Preheat oven to 325°F (160°C). Brush pan bottom and sides with a small amount of melted butter.",
+    "Unroll phyllo and cover with a slightly damp towel. Layer 10 sheets of phyllo, spraying each sheet with olive oil cooking spray instead of brushing with butter.",
+    "Spread half the nut mixture evenly over the phyllo.",
+    "Add 5 more phyllo sheets, each sprayed with olive oil.",
+    "Spread the remaining nut mixture.",
+    "Top with remaining phyllo sheets, spraying each with olive oil. Brush only the very top sheet lightly with remaining melted butter for color.",
+    "Cut into diamond or square shapes all the way through to the bottom.",
+    "Bake at 325°F (160°C) for 50–55 minutes until deep golden and crisp.",
+    "Pour cold honey syrup over the hot baklava immediately out of the oven. Allow 2 hours to absorb.",
+    "Garnish with crushed pistachios and serve."
+]
+
+[recipe.healthy_variant.macros]
+calories = 195
+protein_g = 4
+carbs_g = 22
+fat_g = 11
+fiber_g = 2
+sugar_g = 14
+sodium_mg = 65
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -85
+protein_difference = "0g"
+key_changes = [
+    "Replaced most butter brushing with olive oil cooking spray, cutting saturated fat by over 60%",
+    "Replaced 400g sugar syrup with a light honey-water syrup, reducing added sugar significantly",
+    "Eliminated added sugar from the nut filling",
+    "Increased walnut and almond proportion for more fiber and heart-healthy fats"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "Pistachios", substitute = "Sunflower seeds or pumpkin seeds", saving_percent = 65, reason = "Pistachios are one of the most expensive nuts; seeds provide crunch and healthy fats at a fraction of the cost." },
+    { original = "Almonds", substitute = "Peanuts (roasted, unsalted)", saving_percent = 50, reason = "Peanuts are among the most affordable nuts and add a pleasant richness to the filling." },
+    { original = "Orange blossom water", substitute = "A strip of orange zest simmered in the syrup", saving_percent = 60, reason = "Orange zest steeped in the syrup gives the same citrus-floral aroma without buying specialty water." }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Phyllo dough (fresh)", substitute = "Frozen phyllo dough, thawed overnight in fridge", reason = "Fresh phyllo is rarely available outside specialty stores; frozen phyllo is carried in most supermarkets and works identically." },
+    { original = "Mixed raw nuts", substitute = "Pre-mixed roasted nut blend (unsalted)", reason = "Pre-mixed roasted nut blends are available in most grocery stores and eliminate the need to buy three separate types." },
+    { original = "Rose water", substitute = "A small strip of dried rose petals steeped in warm syrup", reason = "Dried rose petals are often easier to find than bottled rose water in general supermarkets." }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "Pastry brush", substitute = "A clean paintbrush or silicone brush", reason = "Any clean, unused paintbrush works perfectly to butter phyllo sheets evenly." },
+    { original = "Sharp knife for cutting", substitute = "Pizza wheel/roller cutter", reason = "A pizza roller cuts through phyllo layers cleanly without tearing and is a common kitchen tool." },
+    { original = "9x13 inch baking pan", substitute = "Any oven-safe dish of similar volume", reason = "Two smaller pans or a round casserole dish of equivalent volume work equally well; adjust cut patterns accordingly." },
+    { original = "Nut grinder or food processor", substitute = "Zip-lock bag and rolling pin", reason = "Sealing nuts in a bag and crushing with a rolling pin produces the same coarse chop without any special equipment." },
+    { original = "Clarified butter", substitute = "Unsalted regular butter, slowly melted and skimmed", reason = "Skimming the white milk solids from the surface of melted regular butter produces a functional clarified butter substitute." },
+    { original = "Large flat serving tray", substitute = "The baking pan itself lined with parchment", reason = "Baklava is traditionally served directly from the pan; lining with parchment before baking allows clean removal." }
+]

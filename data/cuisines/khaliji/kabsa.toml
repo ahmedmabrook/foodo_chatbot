@@ -1,0 +1,153 @@
+[metadata]
+doc_id = "khaliji_kabsa"
+cuisine = "Khaliji"
+dish_name = "Kabsa"
+alternate_names = ["Al Kabsa", "Saudi Rice", "Machboos Al-Lahm"]
+category = "main_course"
+tags = ["rice", "lamb", "spiced", "one-pot", "celebratory", "national-dish"]
+allergens = ["none"]
+difficulty = "medium"
+total_time_minutes = 120
+
+[recipe.standard]
+serving_size = "1 plate (approximately 450g)"
+servings_per_recipe = 6
+prep_time_minutes = 25
+cook_time_minutes = 95
+
+[recipe.standard.ingredients]
+items = [
+    "1 kg bone-in lamb shoulder, cut into large pieces",
+    "3 cups basmati rice, rinsed and soaked 30 minutes",
+    "2 large onions, finely diced",
+    "4 cloves garlic, minced",
+    "1 can (400g) whole peeled tomatoes, crushed",
+    "3 tablespoons tomato paste",
+    "4 tablespoons ghee",
+    "1 cinnamon stick",
+    "6 cardamom pods, bruised",
+    "4 cloves",
+    "2 bay leaves",
+    "2 loomi (dried black limes), pierced",
+    "1 teaspoon turmeric",
+    "1.5 teaspoons kabsa spice mix (baharat)",
+    "1 teaspoon cumin",
+    "0.5 teaspoon black pepper",
+    "0.5 teaspoon ground coriander",
+    "Salt to taste",
+    "4.5 cups water or lamb broth",
+    "Handful of raisins",
+    "Handful of toasted pine nuts, for garnish",
+    "Fresh parsley, for garnish"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Heat ghee in a large heavy-bottomed pot over medium-high heat. Brown the lamb pieces on all sides for 8–10 minutes until deep golden. Remove and set aside.",
+    "In the same pot, sauté the diced onions over medium heat for 10 minutes until soft and golden. Add garlic and cook 2 more minutes.",
+    "Add crushed tomatoes and tomato paste. Stir well and cook for 5 minutes until the mixture darkens slightly.",
+    "Return lamb to the pot. Add all whole spices (cinnamon stick, cardamom pods, cloves, bay leaves, loomi), ground spices (turmeric, kabsa mix, cumin, black pepper, coriander), and salt. Stir to coat.",
+    "Pour in 4.5 cups of water or broth. Bring to a boil, then reduce heat to low, cover tightly, and simmer for 60 minutes until lamb is tender and broth is fragrant.",
+    "Remove lamb pieces and set aside. Strain the broth and measure out 3 cups. Discard solids except the loomi.",
+    "Return the 3 cups of spiced broth to the pot and bring to a boil. Drain the soaked rice and add to the pot along with the raisins and the reserved loomi. Stir once.",
+    "Place the lamb pieces on top of the rice. Cover tightly and cook on low heat (250°F / 120°C) for 20 minutes. Remove from heat and let steam, covered, for 10 more minutes.",
+    "Gently fluff the rice and transfer to a large serving platter. Arrange lamb on top and garnish with toasted pine nuts and fresh parsley."
+]
+
+[recipe.standard.macros]
+calories = 620
+protein_g = 38
+carbs_g = 68
+fat_g = 20
+fiber_g = 3
+sugar_g = 5
+sodium_mg = 580
+
+[recipe.healthy_variant]
+variant_name = "Lean Kabsa with Brown Rice"
+variant_type = "low_calorie"
+description = "A lighter version of classic Kabsa using lean lamb leg instead of fatty shoulder, brown basmati rice for added fiber, and reduced ghee. Preserves the authentic spice profile while cutting calories and saturated fat significantly."
+serving_size = "1 plate (approximately 420g)"
+servings_per_recipe = 6
+prep_time_minutes = 25
+cook_time_minutes = 105
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1 kg boneless lean lamb leg, trimmed of visible fat, cut into chunks",
+    "3 cups brown basmati rice, rinsed and soaked 60 minutes",
+    "2 large onions, finely diced",
+    "4 cloves garlic, minced",
+    "1 can (400g) whole peeled tomatoes, crushed",
+    "2 tablespoons tomato paste",
+    "1.5 tablespoons olive oil",
+    "1 cinnamon stick",
+    "6 cardamom pods, bruised",
+    "4 cloves",
+    "2 bay leaves",
+    "2 loomi (dried black limes), pierced",
+    "1 teaspoon turmeric",
+    "1.5 teaspoons kabsa spice mix (baharat)",
+    "1 teaspoon cumin",
+    "0.5 teaspoon black pepper",
+    "0.5 teaspoon ground coriander",
+    "Salt to taste",
+    "5 cups low-sodium lamb or chicken broth",
+    "Fresh parsley, for garnish"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Heat olive oil in a large heavy-bottomed pot over medium-high heat. Brown lean lamb chunks on all sides for 8–10 minutes. Remove and set aside.",
+    "Sauté diced onions in the same pot over medium heat for 10 minutes. Add garlic and cook 2 more minutes.",
+    "Add crushed tomatoes and tomato paste. Cook 5 minutes until darkened.",
+    "Return lamb, add all whole and ground spices, and salt. Stir to coat well.",
+    "Pour in 5 cups of low-sodium broth. Bring to boil, reduce to low, cover, and simmer 70 minutes until lamb is tender.",
+    "Remove lamb and set aside. Strain broth and measure 4.5 cups (brown rice needs more liquid).",
+    "Return broth to pot and bring to a boil. Add drained brown rice and reserved loomi. Stir once, place lamb on top.",
+    "Cover tightly and cook on low heat (250°F / 120°C) for 40 minutes. Remove from heat and steam, covered, for 10 more minutes.",
+    "Fluff rice gently, transfer to a serving platter, arrange lamb on top, and garnish with fresh parsley."
+]
+
+[recipe.healthy_variant.macros]
+calories = 470
+protein_g = 40
+carbs_g = 55
+fat_g = 10
+fiber_g = 6
+sugar_g = 4
+sodium_mg = 390
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -150
+protein_difference = "+2g"
+key_changes = [
+    "Replaced fatty lamb shoulder with lean, trimmed lamb leg",
+    "Switched white basmati rice to brown basmati rice for more fiber",
+    "Reduced ghee from 4 tablespoons to 1.5 tablespoons olive oil",
+    "Eliminated raisins and pine nuts to reduce sugar and fat",
+    "Used low-sodium broth to reduce sodium significantly"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "lamb shoulder", substitute = "chicken thighs (bone-in)", saving_percent = 45, reason = "Chicken is significantly less expensive than lamb and cooks faster while absorbing kabsa spices well." },
+    { original = "basmati rice", substitute = "long-grain white rice", saving_percent = 30, reason = "Long-grain rice is widely available and cheaper while still producing fluffy separate grains." },
+    { original = "pine nuts", substitute = "roasted sunflower seeds or slivered almonds", saving_percent = 60, reason = "Pine nuts are among the most expensive nuts; these alternatives provide similar crunch at a fraction of the cost." }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "loomi (dried black lime)", substitute = "1 tablespoon lime zest plus 1 tablespoon lime juice added at end of cooking", reason = "Loomi is specialty Middle Eastern ingredient; lime zest and juice replicate the sour citrus note." },
+    { original = "kabsa spice mix (baharat)", substitute = "equal parts allspice, cinnamon, coriander, and a pinch of nutmeg", reason = "Baharat is a pre-blended spice mix that can be approximated with these pantry staples." },
+    { original = "bone-in lamb shoulder", substitute = "beef chuck or bone-in beef short ribs", reason = "Beef chuck provides the same rich, gelatinous braising quality and is available in most supermarkets." }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "whole cardamom pods", substitute = "0.5 teaspoon ground cardamom", reason = "Ground cardamom is a common pantry spice that delivers the same flavor without sourcing whole pods." },
+    { original = "ghee", substitute = "unsalted butter or neutral vegetable oil", reason = "Butter closely mimics ghee's richness; vegetable oil works for a dairy-free version." },
+    { original = "whole peeled tomatoes (canned)", substitute = "3 fresh ripe tomatoes, roughly chopped", reason = "Fresh tomatoes are a standard home ingredient and work identically once cooked down." }
+]

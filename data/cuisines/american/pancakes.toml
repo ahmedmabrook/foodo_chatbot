@@ -1,0 +1,139 @@
+# ============================================================
+# RECIPE DOCUMENT — BUTTERMILK PANCAKES
+# Cuisine: American
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "american_pancakes"
+cuisine = "American"
+dish_name = "Buttermilk Pancakes"
+alternate_names = ["Flapjacks", "Griddle Cakes", "American Pancakes"]
+category = "breakfast"
+tags = ["breakfast", "vegetarian", "comfort_food", "american_classic", "contains_dairy", "contains_eggs", "contains_gluten"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "easy"
+total_time_minutes = 25
+
+[recipe.standard]
+serving_size = "3 pancakes (approximately 200g)"
+servings_per_recipe = 4
+prep_time_minutes = 10
+cook_time_minutes = 15
+
+[recipe.standard.ingredients]
+items = [
+    "1.5 cups all-purpose flour",
+    "1.5 tbsp sugar",
+    "1.5 tsp baking powder",
+    "1/2 tsp baking soda",
+    "1/2 tsp salt",
+    "1.5 cups buttermilk",
+    "2 large eggs",
+    "3 tbsp unsalted butter, melted",
+    "1 tsp vanilla extract",
+    "Butter for the griddle",
+    "Maple syrup and fresh berries for serving"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Whisk flour, sugar, baking powder, baking soda, and salt in a large bowl.",
+    "In a separate bowl, whisk buttermilk, eggs, melted butter, and vanilla together.",
+    "Pour wet ingredients into dry ingredients. Stir gently with a few strokes — lumps are okay and even desirable. Do not overmix; overmixing develops gluten and makes pancakes tough.",
+    "Let the batter rest 5 minutes while heating the griddle.",
+    "Heat a griddle or large non-stick pan over medium heat (350°F/175°C). Add a small pat of butter.",
+    "Pour 1/4 cup batter per pancake. Cook until bubbles form on the surface and edges look set, about 2-3 minutes.",
+    "Flip once and cook 1-2 more minutes until golden on the bottom.",
+    "Serve immediately with maple syrup and fresh berries."
+]
+
+[recipe.standard.macros]
+calories = 340
+protein_g = 10
+carbs_g = 48
+fat_g = 12
+fiber_g = 2
+sugar_g = 12
+sodium_mg = 480
+# VALIDATION: (10×4) + (48×4) + (12×9) = 40 + 192 + 108 = 340 ✓
+
+[recipe.healthy_variant]
+variant_name = "Whole Wheat Oat Pancakes with Banana"
+variant_type = "low_calorie"
+description = "Hearty whole wheat and oat pancakes sweetened naturally with ripe mashed banana instead of sugar. Greek yogurt replaces some of the butter for protein and creaminess. Served with fresh fruit instead of maple syrup."
+serving_size = "3 pancakes (approximately 200g)"
+servings_per_recipe = 4
+prep_time_minutes = 10
+cook_time_minutes = 15
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "3/4 cup whole wheat flour",
+    "3/4 cup rolled oats",
+    "1 tsp baking powder",
+    "1/2 tsp baking soda",
+    "1/4 tsp salt",
+    "1 tsp cinnamon",
+    "1 cup low-fat buttermilk",
+    "2 large eggs",
+    "1 ripe banana, mashed",
+    "2 tbsp plain Greek yogurt",
+    "1 tsp vanilla extract",
+    "Cooking spray for griddle",
+    "Fresh berries or sliced banana for serving"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Pulse rolled oats briefly in a blender to make a coarse oat flour.",
+    "Whisk whole wheat flour, oat flour, baking powder, baking soda, salt, and cinnamon in a bowl.",
+    "Whisk together buttermilk, eggs, mashed banana, Greek yogurt, and vanilla.",
+    "Combine wet and dry. Stir gently. Rest 5 minutes.",
+    "Heat griddle over medium heat (350°F/175°C). Spray with cooking spray.",
+    "Pour 1/4 cup batter per pancake. Cook until bubbles form and edges set, about 3 minutes. Flip and cook 2 more minutes.",
+    "Serve with fresh berries or sliced banana — no syrup needed."
+]
+
+[recipe.healthy_variant.macros]
+calories = 240
+protein_g = 12
+carbs_g = 38
+fat_g = 6
+fiber_g = 5
+sugar_g = 8
+sodium_mg = 320
+# VALIDATION: (12×4) + (38×4) + (6×9) = 48 + 152 + 54 = 254 ✓ (within ±10 of 240)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -100
+protein_difference = "+2g"
+key_changes = [
+    "Whole wheat flour + oats — more fiber, more micronutrients, lower glycemic index",
+    "Mashed banana replaces sugar — natural sweetness with potassium and fiber",
+    "Greek yogurt replaces most butter — reduces fat while adding protein",
+    "No butter on griddle (cooking spray) — eliminates ~30 extra calories per batch"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "buttermilk", substitute = "regular milk + 1.5 tbsp lemon juice (let sit 5 min)", saving_percent = 40, reason = "Homemade buttermilk substitute works perfectly in pancakes at no extra cost" },
+    { original = "unsalted butter", substitute = "vegetable oil (use 2 tbsp)", saving_percent = 20, reason = "Vegetable oil produces equally fluffy pancakes at a lower cost" },
+    { original = "vanilla extract", substitute = "a pinch of cinnamon or simply omit", saving_percent = 80, reason = "Vanilla adds flavor depth but pancakes are perfectly good without it" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "buttermilk", substitute = "plain yogurt thinned with milk to pouring consistency", reason = "Yogurt provides the same acid and thickness as buttermilk" },
+    { original = "baking soda (used with buttermilk)", substitute = "1 extra tsp baking powder and omit buttermilk acid", reason = "Regular milk + extra baking powder works if buttermilk and baking soda are unavailable together" },
+    { original = "maple syrup", substitute = "honey, fruit jam, or fresh sliced bananas", reason = "Any sweet topping works; honey is a universal alternative to maple syrup" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "buttermilk", substitute = "1 cup milk + 1 tbsp white vinegar, rest 5 minutes", reason = "The acid from vinegar curdles the milk, creating an effective buttermilk substitute" },
+    { original = "vanilla extract", substitute = "a tiny pinch of cardamom or cinnamon", reason = "Any warm spice adds aromatic complexity to the batter" },
+    { original = "maple syrup", substitute = "sugar dissolved in warm water (2:1 sugar to water)", reason = "Simple syrup is a universal sweetener topping that can be made from any sugar" }
+]

@@ -1,0 +1,146 @@
+# ============================================================
+# RECIPE DOCUMENT — MOLOKHIA
+# Cuisine: Egyptian
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "egyptian_molokhia"
+cuisine = "Egyptian"
+dish_name = "Molokhia"
+alternate_names = ["Mulukhiyah", "Mloukhieh", "Jute Mallow Soup"]
+category = "main_course"
+tags = ["comfort_food", "contains_gluten", "high_protein", "traditional"]
+allergens = ["none"]
+difficulty = "medium"
+total_time_minutes = 75
+
+# ============================================================
+# STANDARD (TRADITIONAL) RECIPE
+# ============================================================
+[recipe.standard]
+serving_size = "1 bowl with rice (approximately 400g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 55
+
+[recipe.standard.ingredients]
+items = [
+    "1 whole chicken (about 1.5 kg), cut into pieces",
+    "500g fresh or frozen molokhia leaves (jute mallow), finely chopped",
+    "2 cups long-grain rice",
+    "1 large onion, halved",
+    "6 cloves garlic, minced",
+    "2 tbsp coriander (ground)",
+    "1 tbsp ghee or butter",
+    "4 cups chicken broth (from boiling chicken)",
+    "2 bay leaves",
+    "1 cinnamon stick",
+    "Salt and black pepper to taste",
+    "1 tbsp white vinegar (for serving)",
+    "Toasted bread pieces (for serving)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Place chicken pieces in a large pot with onion halves, bay leaves, cinnamon stick, salt, and pepper. Cover with water and bring to a boil. Skim the foam, then reduce heat and simmer for 45 minutes until chicken is tender.",
+    "Remove chicken pieces and strain the broth. Set aside 4 cups of broth for the molokhia. Cook rice in 2 cups of broth and 1.5 cups water until fluffy. Set aside.",
+    "In a large pot, heat ghee over medium heat (350°F/175°C). Add minced garlic and ground coriander. Sauté for 30-45 seconds, stirring constantly, until fragrant — this is called 'ta'leyya' and is the defining flavor of molokhia.",
+    "Immediately pour in the 4 cups of hot chicken broth over the garlic-coriander mixture. Bring to a boil.",
+    "Add the finely chopped molokhia leaves all at once. Stir once and bring back to a boil. Cook for exactly 3-4 minutes — do not overcook or the texture becomes slimy.",
+    "Taste and adjust seasoning with salt and pepper.",
+    "To serve: place rice in a bowl, ladle molokhia soup over it, top with pieces of chicken. Serve with toasted bread and vinegar-soaked onions on the side."
+]
+
+[recipe.standard.macros]
+calories = 350
+protein_g = 28
+carbs_g = 24
+fat_g = 16
+fiber_g = 4
+sugar_g = 2
+sodium_mg = 480
+# VALIDATION: (28×4) + (24×4) + (16×9) = 112 + 96 + 144 = 352 ✓ (within ±10 of 350)
+
+# ============================================================
+# HEALTHY VARIANT
+# ============================================================
+[recipe.healthy_variant]
+variant_name = "Light Molokhia with Skinless Chicken and Brown Rice"
+variant_type = "low_calorie"
+description = "A leaner version of classic molokhia using skinless chicken breast, brown rice for added fiber, and olive oil instead of ghee. The ta'leyya base is made with minimal fat while preserving the authentic garlic-coriander flavor."
+serving_size = "1 bowl with rice (approximately 380g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 55
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "600g skinless, boneless chicken breast",
+    "500g fresh or frozen molokhia leaves, finely chopped",
+    "1.5 cups brown rice",
+    "1 large onion, halved",
+    "6 cloves garlic, minced",
+    "2 tbsp coriander (ground)",
+    "1 tsp olive oil",
+    "4 cups low-sodium chicken broth",
+    "2 bay leaves",
+    "Salt and black pepper to taste"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Poach chicken breasts in water with onion, bay leaves, salt, and pepper over medium heat (350°F/175°C) for 20-25 minutes until cooked through. Remove chicken and reserve 4 cups of broth.",
+    "Cook brown rice according to package directions, using some of the chicken broth for extra flavor. Brown rice takes about 40-45 minutes.",
+    "Shred or slice the poached chicken breast. Set aside.",
+    "In a large pot, heat olive oil over medium heat. Add minced garlic and ground coriander. Sauté for 30 seconds until fragrant.",
+    "Pour the 4 cups of hot chicken broth over the garlic-coriander base. Bring to a boil.",
+    "Add the chopped molokhia leaves. Bring back to a boil and cook for 3-4 minutes. Season with salt and pepper.",
+    "Serve over brown rice topped with sliced chicken breast."
+]
+
+[recipe.healthy_variant.macros]
+calories = 260
+protein_g = 30
+carbs_g = 16
+fat_g = 8
+fiber_g = 6
+sugar_g = 1
+sodium_mg = 320
+# VALIDATION: (30×4) + (16×4) + (8×9) = 120 + 64 + 72 = 256 ✓ (within ±10 of 260)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -90
+protein_difference = "+2g"
+key_changes = [
+    "Skinless chicken breast instead of whole chicken — removes skin fat, reduces calories by ~70 per serving",
+    "Brown rice instead of white rice — adds fiber and has a lower glycemic index",
+    "Olive oil instead of ghee — smaller amount, healthier unsaturated fat profile",
+    "Low-sodium broth — reduces sodium by ~160mg per serving"
+]
+
+# ============================================================
+# SUBSTITUTIONS
+# ============================================================
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "fresh molokhia leaves", substitute = "frozen molokhia leaves", saving_percent = 50, reason = "Frozen molokhia is widely available year-round at lower cost and performs identically in cooked soups" },
+    { original = "whole chicken", substitute = "chicken thighs or drumsticks", saving_percent = 30, reason = "Bone-in thighs give equally rich broth at lower cost than a whole bird" },
+    { original = "ghee", substitute = "vegetable oil", saving_percent = 60, reason = "Vegetable oil works for the ta'leyya base — ghee adds richness but is not essential to the dish" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "molokhia leaves", substitute = "spinach or finely chopped kale (will not have same flavor but similar nutrition)", reason = "Available in most supermarkets; flavor profile differs but works as a nutritional substitute" },
+    { original = "ground coriander", substitute = "cumin (use half the amount)", reason = "Widely available, provides an earthy base though the flavor will be slightly different" },
+    { original = "long-grain rice", substitute = "any white rice variety", reason = "Jasmine or basmati rice both work well for serving alongside the stew" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "chicken broth", substitute = "water with 1 tsp salt and a bouillon cube", reason = "Bouillon cubes are a pantry staple that approximate store-bought broth" },
+    { original = "white vinegar (for serving)", substitute = "lemon juice", reason = "Lemon juice is a common kitchen staple that provides the same acidic balance" },
+    { original = "ghee", substitute = "butter", reason = "Butter is the closest pantry equivalent to ghee for the ta'leyya fry" }
+]

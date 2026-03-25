@@ -1,0 +1,157 @@
+# ============================================================
+# RECIPE DOCUMENT — THAREED
+# Cuisine: Khaliji
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "khaliji_thareed"
+cuisine = "Khaliji"
+dish_name = "Thareed"
+alternate_names = ["Tharid", "Ath-Thareed", "Gulf Bread Stew"]
+category = "main_course"
+tags = ["festive", "comfort_food", "high_protein", "ramadan", "traditional", "contains_gluten"]
+allergens = ["gluten"]
+difficulty = "medium"
+total_time_minutes = 100
+
+# ============================================================
+# STANDARD (TRADITIONAL) RECIPE
+# ============================================================
+[recipe.standard]
+serving_size = "1 large plate (approximately 450g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 80
+
+[recipe.standard.ingredients]
+items = [
+    "600g bone-in lamb (shoulder or ribs), cut into pieces",
+    "2 large round flatbreads (ruqaq or thin Arabic bread), torn into pieces",
+    "2 medium onions, diced",
+    "3 medium tomatoes, diced",
+    "2 medium zucchini, cubed",
+    "2 medium carrots, cubed",
+    "1 medium potato, cubed",
+    "4 cloves garlic, minced",
+    "2 tbsp tomato paste",
+    "2 tbsp ghee",
+    "1 tsp baharat spice mix",
+    "1 tsp cumin",
+    "1 tsp turmeric",
+    "1/2 tsp cinnamon",
+    "3 dried limes (loomi), pierced",
+    "Salt and black pepper to taste",
+    "Fresh parsley or cilantro for garnish"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Heat ghee in a large heavy pot over medium-high heat (375°F/190°C). Brown lamb pieces on all sides, about 6-8 minutes. Remove and set aside.",
+    "In the same pot, sauté onions until golden, about 6 minutes. Add garlic and cook 1 minute. Add tomato paste and cook 2 minutes.",
+    "Return lamb to the pot. Add diced tomatoes, baharat, cumin, turmeric, cinnamon, and pierced dried limes. Season with salt and pepper.",
+    "Add 1.5 liters of water. Bring to a boil, skim foam, then reduce heat to low. Simmer covered for 45 minutes.",
+    "Add carrots and potatoes. Cook 15 minutes. Add zucchini and cook 10 more minutes until all vegetables are tender.",
+    "Arrange torn flatbread pieces in the bottom of a large deep serving dish. The bread should cover the base generously.",
+    "Ladle the hot stew broth over the bread — enough to fully soak and soften it without making it mushy.",
+    "Arrange the lamb pieces and vegetables on top of the soaked bread. Garnish with fresh herbs. Serve immediately."
+]
+
+[recipe.standard.macros]
+calories = 520
+protein_g = 30
+carbs_g = 58
+fat_g = 18
+fiber_g = 6
+sugar_g = 8
+sodium_mg = 520
+# VALIDATION: (30×4) + (58×4) + (18×9) = 120 + 232 + 162 = 514 ✓ (within ±10 of 520)
+
+# ============================================================
+# HEALTHY VARIANT
+# ============================================================
+[recipe.healthy_variant]
+variant_name = "Light Thareed with Chicken and Whole Wheat Bread"
+variant_type = "low_calorie"
+description = "A lighter thareed using skinless chicken thighs instead of lamb, whole wheat flatbread for more fiber, and olive oil instead of ghee. Extra vegetables increase volume and nutrition. The dried lime and baharat spices are preserved for authentic flavor."
+serving_size = "1 plate (approximately 420g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 60
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "600g skinless chicken thighs, bone-in",
+    "2 whole wheat flatbreads, torn",
+    "2 medium onions, diced",
+    "3 medium tomatoes, diced",
+    "2 medium zucchini, cubed",
+    "2 medium carrots, cubed",
+    "200g green beans, trimmed",
+    "4 cloves garlic, minced",
+    "2 tbsp tomato paste",
+    "1 tbsp olive oil",
+    "1 tsp baharat spice mix",
+    "1 tsp cumin",
+    "1 tsp turmeric",
+    "3 dried limes (loomi), pierced",
+    "Salt and black pepper to taste",
+    "Fresh cilantro for garnish"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Heat olive oil in a large pot over medium-high heat (375°F/190°C). Brown chicken thighs for 3-4 minutes per side. Remove.",
+    "Sauté onions until golden. Add garlic, cook 1 minute. Add tomato paste, cook 2 minutes.",
+    "Return chicken. Add diced tomatoes, baharat, cumin, turmeric, dried limes, salt, and pepper. Add 1.2 liters of water.",
+    "Bring to a boil, skim, then simmer covered for 30 minutes.",
+    "Add carrots and cook 10 minutes. Add zucchini and green beans. Cook 10 more minutes.",
+    "Tear whole wheat flatbread into a large serving dish. Ladle broth over bread to soak.",
+    "Place chicken and vegetables on top. Garnish with cilantro."
+]
+
+[recipe.healthy_variant.macros]
+calories = 380
+protein_g = 32
+carbs_g = 40
+fat_g = 10
+fiber_g = 8
+sugar_g = 8
+sodium_mg = 380
+# VALIDATION: (32×4) + (40×4) + (10×9) = 128 + 160 + 90 = 378 ✓ (within ±10 of 380)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -140
+protein_difference = "+2g"
+key_changes = [
+    "Chicken thighs instead of lamb — reduces fat by ~8g per serving, saves ~80 calories",
+    "Olive oil instead of ghee — smaller amount, healthier fat profile",
+    "Whole wheat flatbread — adds fiber, slower digestion",
+    "Green beans added — extra vegetables increase volume and fiber with minimal calories"
+]
+
+# ============================================================
+# SUBSTITUTIONS
+# ============================================================
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "bone-in lamb shoulder", substitute = "lamb neck or bone-in beef short ribs", saving_percent = 30, reason = "Cheaper cuts have more collagen and produce a richer broth when slow-cooked" },
+    { original = "ruqaq flatbread", substitute = "any thin lavash or tortilla", saving_percent = 40, reason = "Thin flatbread from a grocery store performs identically when soaked in broth" },
+    { original = "ghee", substitute = "vegetable oil", saving_percent = 60, reason = "Any neutral oil works for browning; ghee adds richness but is not essential" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "dried limes (loomi)", substitute = "zest of 1 lime + 1 tsp lime juice", reason = "Fresh lime provides tartness; dried lime has an earthier flavor but the lime brightness is the key element" },
+    { original = "baharat spice mix", substitute = "equal parts allspice, black pepper, coriander, and cinnamon", reason = "Baharat is a blend; this combination approximates the warm, complex Gulf spice profile" },
+    { original = "ruqaq bread", substitute = "pita bread, slightly stale works best", reason = "Day-old pita absorbs broth well without disintegrating" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "baharat", substitute = "1/2 tsp cumin + 1/2 tsp allspice + pinch of nutmeg", reason = "Basic warm spices available in most kitchens approximate baharat's flavor" },
+    { original = "dried limes", substitute = "1 tbsp lemon juice added at the end", reason = "Lemon juice provides the tartness that dried limes contribute to the broth" },
+    { original = "fresh tomatoes", substitute = "2 tbsp tomato paste + 1 cup water", reason = "Tomato paste creates the same tomato base for the broth" }
+]

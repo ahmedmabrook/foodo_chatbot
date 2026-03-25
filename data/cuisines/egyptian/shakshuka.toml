@@ -1,0 +1,151 @@
+# ============================================================
+# RECIPE DOCUMENT — SHAKSHUKA
+# Cuisine: Egyptian
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "egyptian_shakshuka"
+cuisine = "Egyptian"
+dish_name = "Shakshuka"
+alternate_names = ["Shakshouka", "Eggs in Tomato Sauce", "Chakchouka"]
+category = "breakfast"
+tags = ["vegetarian", "quick_meal", "comfort_food", "breakfast", "high_protein"]
+allergens = ["eggs"]
+difficulty = "easy"
+total_time_minutes = 30
+
+# ============================================================
+# STANDARD (TRADITIONAL) RECIPE
+# ============================================================
+[recipe.standard]
+serving_size = "2 eggs with sauce (approximately 320g)"
+servings_per_recipe = 4
+prep_time_minutes = 10
+cook_time_minutes = 20
+
+[recipe.standard.ingredients]
+items = [
+    "8 large eggs",
+    "3 large ripe tomatoes, diced (or 400g canned crushed tomatoes)",
+    "1 large green bell pepper, diced",
+    "1 large onion, diced",
+    "4 cloves garlic, minced",
+    "2 tbsp tomato paste",
+    "3 tbsp olive oil",
+    "1 tsp cumin",
+    "1 tsp paprika",
+    "1/2 tsp chili powder or fresh chili",
+    "1/2 tsp black pepper",
+    "Salt to taste",
+    "Fresh parsley or cilantro for garnish",
+    "Crusty bread or pita for serving"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Heat olive oil in a large, wide skillet or cast-iron pan over medium heat (350°F/175°C). Add diced onion and bell pepper. Cook for 7-8 minutes until soft and slightly caramelized.",
+    "Add garlic, cumin, paprika, chili, and black pepper. Cook for 1 minute until fragrant.",
+    "Add tomato paste and stir for 1-2 minutes. Add diced tomatoes (or canned crushed tomatoes). Season with salt. Stir well.",
+    "Simmer the tomato sauce over medium-low heat for 10 minutes until thickened and flavors meld. Taste and adjust seasoning.",
+    "Use a spoon to create 8 wells in the sauce. Carefully crack one egg into each well.",
+    "Cover the pan with a lid. Cook over medium-low heat for 6-8 minutes for runny yolks, or 10-12 minutes for fully set yolks.",
+    "Garnish with fresh chopped parsley or cilantro. Serve immediately from the pan with warm pita or crusty bread."
+]
+
+[recipe.standard.macros]
+calories = 310
+protein_g = 18
+carbs_g = 20
+fat_g = 18
+fiber_g = 4
+sugar_g = 8
+sodium_mg = 440
+# VALIDATION: (18×4) + (20×4) + (18×9) = 72 + 80 + 162 = 314 ✓ (within ±10 of 310)
+
+# ============================================================
+# HEALTHY VARIANT
+# ============================================================
+[recipe.healthy_variant]
+variant_name = "Green Shakshuka with Spinach and Egg Whites"
+variant_type = "low_calorie"
+description = "A lighter green version of shakshuka using a base of spinach, kale, and green pepper instead of tomato sauce. Combines whole eggs with extra egg whites to boost protein while reducing fat. Adds feta for richness without excess calories."
+serving_size = "2 eggs with greens (approximately 300g)"
+servings_per_recipe = 4
+prep_time_minutes = 10
+cook_time_minutes = 20
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "4 large whole eggs",
+    "4 large egg whites",
+    "200g fresh spinach",
+    "100g kale, stems removed and chopped",
+    "2 green bell peppers, diced",
+    "1 large onion, diced",
+    "4 cloves garlic, minced",
+    "1 jalapeno or green chili, minced",
+    "1 tsp cumin",
+    "1/2 tsp coriander",
+    "1 tbsp olive oil",
+    "Juice of half a lemon",
+    "Salt and black pepper to taste",
+    "30g feta cheese, crumbled (optional, for serving)"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Heat olive oil in a wide skillet over medium heat (350°F/175°C). Add onion and green peppers. Cook 6-7 minutes until soft.",
+    "Add garlic, jalapeno, cumin, and coriander. Cook 1 minute.",
+    "Add kale and cook 3 minutes, stirring. Add spinach and cook until wilted, about 2 minutes. Season with salt, pepper, and lemon juice.",
+    "Flatten the greens base with a spoon. Create 8 wells (4 for whole eggs, 4 for egg whites).",
+    "Carefully crack a whole egg into 4 wells. Pour egg whites into the remaining 4 wells.",
+    "Cover and cook over medium-low heat for 6-8 minutes until whites are set but yolks are still slightly runny.",
+    "Top with crumbled feta if using. Serve with whole wheat pita."
+]
+
+[recipe.healthy_variant.macros]
+calories = 230
+protein_g = 18
+carbs_g = 18
+fat_g = 10
+fiber_g = 5
+sugar_g = 5
+sodium_mg = 350
+# VALIDATION: (18×4) + (18×4) + (10×9) = 72 + 72 + 90 = 234 ✓ (within ±10 of 230)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -80
+protein_difference = "0g"
+key_changes = [
+    "Green base (spinach and kale) instead of tomato — higher iron, folate, and vitamin K",
+    "4 whole eggs + 4 egg whites instead of 8 whole eggs — reduces fat by ~5g per serving",
+    "Reduced olive oil (1 tbsp vs 3 tbsp) — saves ~60 calories",
+    "Lemon juice for brightness instead of rich tomato sauce"
+]
+
+# ============================================================
+# SUBSTITUTIONS
+# ============================================================
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "fresh tomatoes", substitute = "canned crushed tomatoes", saving_percent = 40, reason = "Canned tomatoes are cheaper, available year-round, and often produce a more concentrated sauce" },
+    { original = "olive oil", substitute = "vegetable oil or sunflower oil", saving_percent = 60, reason = "Any neutral oil works for sautéing; olive oil flavor is subtle after cooking" },
+    { original = "fresh herbs for garnish", substitute = "dried herbs mixed with a little oil", saving_percent = 75, reason = "Dried parsley or cilantro stirred in at the end approximates the fresh herb garnish" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "fresh tomatoes", substitute = "jarred marinara sauce (reduce added spices)", reason = "Pre-made tomato sauce creates a quick shakshuka base; adjust seasoning to taste" },
+    { original = "green bell pepper", substitute = "any color bell pepper or diced zucchini", reason = "Bell pepper adds sweetness; zucchini provides bulk with a milder flavor" },
+    { original = "chili powder", substitute = "a pinch of cayenne pepper or black pepper", reason = "Any heat source can be adjusted to personal preference" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "fresh eggs", substitute = "there is no substitute — eggs are the dish", reason = "This dish is defined by eggs; focus on the sauce ingredients for substitutions" },
+    { original = "fresh tomatoes", substitute = "2 tbsp tomato paste diluted in 1 cup water", reason = "Tomato paste is a pantry staple that creates a quick, concentrated tomato base" },
+    { original = "fresh garlic", substitute = "1 tsp garlic powder", reason = "Garlic powder is a reliable pantry substitute for fresh garlic in cooked sauces" }
+]

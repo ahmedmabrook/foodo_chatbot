@@ -1,0 +1,141 @@
+# ============================================================
+# RECIPE DOCUMENT — HAREES
+# Cuisine: Khaliji
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "khaliji_harees"
+cuisine = "Khaliji"
+dish_name = "Harees"
+alternate_names = ["Harisa", "Jareesh (wheat version)", "Harees bil Dajaj"]
+category = "main_course"
+tags = ["festive", "comfort_food", "high_protein", "ramadan", "traditional"]
+allergens = ["gluten"]
+difficulty = "medium"
+total_time_minutes = 180
+
+# ============================================================
+# STANDARD (TRADITIONAL) RECIPE
+# ============================================================
+[recipe.standard]
+serving_size = "1 bowl (approximately 400g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 160
+
+[recipe.standard.ingredients]
+items = [
+    "500g whole wheat grains (harees wheat), soaked overnight",
+    "1 whole chicken (about 1.5 kg), skin removed",
+    "1 large onion, halved",
+    "4 cardamom pods",
+    "1 cinnamon stick",
+    "3 tbsp ghee",
+    "1 tsp cumin",
+    "Salt to taste",
+    "Water (approximately 2 liters)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Drain soaked wheat. Rinse well.",
+    "In a large heavy pot, combine soaked wheat, whole chicken pieces, halved onion, cardamom pods, cinnamon stick, and salt. Cover with about 2 liters of water.",
+    "Bring to a boil over high heat. Skim foam. Reduce heat to low, cover, and simmer for 2.5-3 hours, stirring every 20-30 minutes to prevent sticking.",
+    "Once the chicken is falling off the bone and the wheat is fully broken down and porridge-like, remove the chicken. Remove bones and cartilage. Shred the meat finely.",
+    "Return shredded chicken to the pot. Continue cooking over low heat, stirring vigorously and continuously with a wooden spoon, for 20-30 more minutes. The mixture should become smooth and thick, like a dense porridge.",
+    "Add cumin. Taste and adjust salt.",
+    "Serve in bowls topped with a generous pour of hot ghee and a sprinkle of cinnamon. Traditionally eaten with the hands."
+]
+
+[recipe.standard.macros]
+calories = 480
+protein_g = 32
+carbs_g = 52
+fat_g = 16
+fiber_g = 6
+sugar_g = 2
+sodium_mg = 380
+# VALIDATION: (32×4) + (52×4) + (16×9) = 128 + 208 + 144 = 480 ✓
+
+# ============================================================
+# HEALTHY VARIANT
+# ============================================================
+[recipe.healthy_variant]
+variant_name = "Light Harees with Chicken Breast and Less Ghee"
+variant_type = "low_calorie"
+description = "A lighter version of harees using skinless chicken breast instead of whole chicken, reducing ghee to a minimal drizzle, and adding turmeric for anti-inflammatory benefits. The wheat base remains traditional but is cooked in low-sodium broth for added flavor without extra fat."
+serving_size = "1 bowl (approximately 380g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 150
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "500g whole wheat grains, soaked overnight",
+    "600g skinless chicken breast",
+    "1 large onion, halved",
+    "4 cardamom pods",
+    "1 cinnamon stick",
+    "1 tsp turmeric",
+    "1 tsp cumin",
+    "1 tbsp ghee (for topping only, divided among bowls)",
+    "Salt to taste",
+    "1.5 liters low-sodium chicken broth + 500ml water"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Drain soaked wheat. Rinse well.",
+    "Combine wheat, chicken breast, onion, cardamom, cinnamon, turmeric, and salt in a large pot. Cover with broth and water.",
+    "Bring to a boil. Skim foam. Reduce heat to low and simmer covered for 2-2.5 hours, stirring every 20 minutes.",
+    "When chicken is very tender and wheat is broken down, remove chicken. Shred finely, discarding any fat.",
+    "Return shredded chicken breast to the pot. Stir vigorously for 15-20 minutes until smooth and thick.",
+    "Add cumin, adjust salt. Serve topped with a small drizzle of ghee and ground cinnamon per bowl."
+]
+
+[recipe.healthy_variant.macros]
+calories = 350
+protein_g = 34
+carbs_g = 42
+fat_g = 6
+fiber_g = 6
+sugar_g = 1
+sodium_mg = 280
+# VALIDATION: (34×4) + (42×4) + (6×9) = 136 + 168 + 54 = 358 ✓ (within ±10 of 350)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -130
+protein_difference = "+2g"
+key_changes = [
+    "Chicken breast instead of whole chicken — removes skin fat, reduces calories by ~80 per serving",
+    "1 tbsp ghee total (shared) instead of 3 tbsp — saves ~100 calories spread across servings",
+    "Low-sodium broth instead of plain water — adds flavor without extra fat or salt",
+    "Turmeric added — anti-inflammatory curcumin with no calorie cost"
+]
+
+# ============================================================
+# SUBSTITUTIONS
+# ============================================================
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "whole wheat harees grains", substitute = "cracked wheat (bulgur, coarse grade)", saving_percent = 30, reason = "Coarse bulgur is widely available and much cheaper; cooking time is reduced to 45-60 minutes" },
+    { original = "whole chicken", substitute = "chicken legs and thighs only", saving_percent = 25, reason = "Dark meat pieces cost less than a whole bird and provide even more flavor in slow cooking" },
+    { original = "ghee", substitute = "clarified butter or regular butter", saving_percent = 50, reason = "Regular butter provides the same rich finish at significantly lower cost" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "harees wheat grains", substitute = "farro or whole spelt berries", reason = "Both are whole wheat grains available in health food stores that cook to a similar creamy texture" },
+    { original = "ghee", substitute = "unsalted butter", reason = "Butter provides the same finishing richness; ghee just has a higher smoke point" },
+    { original = "cardamom pods", substitute = "1/4 tsp ground cardamom", reason = "Ground cardamom is widely available and provides the same floral warmth" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "harees wheat", substitute = "rolled oats (creates a porridge-like consistency, not traditional but passable)", reason = "Oats produce a similar thick porridge texture though the flavor differs significantly" },
+    { original = "cinnamon stick", substitute = "1/4 tsp ground cinnamon", reason = "Ground cinnamon is a universal pantry spice" },
+    { original = "cardamom pods", substitute = "a pinch of ground cardamom or omit", reason = "Cardamom adds floral notes; the dish works without it when unavailable" }
+]

@@ -1,0 +1,141 @@
+[metadata]
+doc_id = "italian_margherita_pizza"
+cuisine = "Italian"
+dish_name = "Margherita Pizza"
+alternate_names = ["Pizza Margherita", "Neapolitan Pizza"]
+category = "main_course"
+tags = ["pizza", "baked", "vegetarian", "neapolitan", "classic"]
+allergens = ["gluten", "dairy"]
+difficulty = "medium"
+total_time_minutes = 90
+
+[recipe.standard]
+serving_size = "1 slice (approximately 175g, 2 slices per serving)"
+servings_per_recipe = 4
+prep_time_minutes = 30
+cook_time_minutes = 12
+
+[recipe.standard.ingredients]
+items = [
+    "500g (17.6 oz) 00 flour, plus extra for dusting",
+    "325ml (11 fl oz) lukewarm water",
+    "7g (0.25 oz) active dry yeast",
+    "10g (0.35 oz) fine sea salt",
+    "5g (1 tsp) sugar",
+    "15ml (1 tbsp) extra-virgin olive oil",
+    "400g (14 oz) canned San Marzano whole tomatoes, crushed by hand",
+    "2 garlic cloves, minced",
+    "5ml (1 tsp) extra-virgin olive oil (for sauce)",
+    "4g (0.75 tsp) fine sea salt (for sauce)",
+    "250g (8.8 oz) fresh fior di latte mozzarella, torn into pieces",
+    "20 fresh basil leaves",
+    "30ml (2 tbsp) extra-virgin olive oil (for finishing)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Combine yeast, sugar, and 100ml lukewarm water in a small bowl. Let stand 5 minutes until foamy.",
+    "Mound the flour on a clean work surface and make a well in the center. Pour in the yeast mixture, remaining 225ml water, and olive oil. Mix from the center outward until a shaggy dough forms.",
+    "Knead the dough vigorously for 10 minutes until smooth and elastic. Shape into a ball, cover with a damp cloth, and let rise at room temperature for 2 hours until doubled.",
+    "Prepare the sauce: combine crushed San Marzano tomatoes, garlic, olive oil, and salt in a bowl. Do not cook — the sauce is used raw for authentic Neapolitan flavor.",
+    "Preheat oven to its highest setting, ideally 500°F (260°C) or higher, with a pizza stone or heavy baking sheet inside, for at least 45 minutes.",
+    "Punch down the dough and divide into 4 equal balls (about 200g each). On a lightly floured surface, stretch each ball by hand into a 10–12 inch (25–30 cm) round, keeping the edges slightly thicker.",
+    "Transfer the dough round to a floured pizza peel or parchment-lined paddle. Spoon 3–4 tablespoons of tomato sauce onto the base, spreading it in a circular motion, leaving a 1-inch (2.5 cm) border.",
+    "Distribute torn mozzarella evenly over the sauce. Slide the pizza onto the preheated stone and bake for 10–12 minutes until the crust is charred in spots and the cheese is bubbling.",
+    "Remove from oven, immediately scatter fresh basil leaves over the top, drizzle with extra-virgin olive oil, and serve at once."
+]
+
+[recipe.standard.macros]
+calories = 560
+protein_g = 22
+carbs_g = 76
+fat_g = 18
+fiber_g = 4
+sugar_g = 5
+sodium_mg = 780
+
+# Check: (22×4) + (76×4) + (18×9) = 88 + 304 + 162 = 554 ✓ (within ±10 of 560)
+
+[recipe.healthy_variant]
+variant_name = "Cauliflower Crust Margherita"
+variant_type = "low_calorie"
+description = "A lighter take on the classic using a cauliflower-based crust instead of white flour dough, with reduced mozzarella and an abundance of fresh vegetables."
+serving_size = "1 piece (approximately 200g, 2 pieces per serving)"
+servings_per_recipe = 4
+prep_time_minutes = 35
+cook_time_minutes = 30
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "900g (2 lb) cauliflower florets (about 1 large head)",
+    "2 large eggs, beaten",
+    "60g (2.1 oz) part-skim mozzarella, shredded",
+    "30g (1 oz) grated Parmesan",
+    "5g (1 tsp) dried oregano",
+    "3g (0.5 tsp) garlic powder",
+    "3g (0.5 tsp) fine sea salt",
+    "300g (10.5 oz) canned San Marzano whole tomatoes, crushed by hand",
+    "2 garlic cloves, minced",
+    "3g (0.5 tsp) fine sea salt (for sauce)",
+    "100g (3.5 oz) part-skim fresh mozzarella, torn",
+    "1 medium zucchini, thinly sliced",
+    "1 medium tomato, thinly sliced",
+    "15 fresh basil leaves",
+    "10ml (2 tsp) extra-virgin olive oil"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 425°F (220°C). Line two baking sheets with parchment paper.",
+    "Pulse cauliflower florets in a food processor until they resemble fine rice. Place in a clean kitchen towel and squeeze out as much moisture as possible — this step is critical for a crisp crust.",
+    "In a large bowl, combine the dried cauliflower rice, beaten eggs, shredded mozzarella, Parmesan, oregano, garlic powder, and salt. Mix until a cohesive dough forms.",
+    "Divide the mixture in half and spread each portion into a thin, even round (about 10 inches / 25 cm) on the prepared baking sheets. Bake for 18–20 minutes until golden and firm.",
+    "While the crusts bake, combine crushed tomatoes, minced garlic, and salt in a bowl to make the raw sauce.",
+    "Remove crusts from oven and spread tomato sauce over each, leaving a small border. Arrange torn mozzarella, zucchini slices, and tomato slices evenly on top.",
+    "Return to oven and bake for a further 8–10 minutes until the cheese is melted and the vegetables are tender.",
+    "Scatter fresh basil over each pizza, drizzle with olive oil, and serve immediately."
+]
+
+[recipe.healthy_variant.macros]
+calories = 310
+protein_g = 24
+carbs_g = 22
+fat_g = 14
+fiber_g = 6
+sugar_g = 8
+sodium_mg = 590
+
+# Check: (24×4) + (22×4) + (14×9) = 96 + 88 + 126 = 310 ✓
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -250
+protein_difference = "+2g"
+key_changes = [
+    "Cauliflower crust replaces 00 flour dough, eliminating most refined carbohydrates",
+    "Mozzarella quantity reduced by 60% and switched to part-skim variety",
+    "Added zucchini and fresh tomato slices for extra fiber and micronutrients",
+    "Finishing olive oil reduced from 2 tablespoons to 2 teaspoons"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "San Marzano canned tomatoes", substitute = "Good-quality generic canned whole plum tomatoes", saving_percent = 50, reason = "San Marzano DOP commands a premium; high-quality generic plum tomatoes produce an excellent sauce when seasoned well." },
+    { original = "Fior di latte mozzarella", substitute = "Supermarket block whole-milk mozzarella, sliced thin", saving_percent = 60, reason = "Fresh imported mozzarella is expensive; block mozzarella melts well and costs a fraction of the price." },
+    { original = "00 flour", substitute = "All-purpose (plain) flour", saving_percent = 30, reason = "00 flour produces a finer crumb, but all-purpose flour is widely available and yields a very acceptable Neapolitan-style crust at lower cost." }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Pizza stone", substitute = "Inverted heavy-duty baking sheet preheated in oven", reason = "A pizza stone requires a specialty purchase; an inverted baking sheet preheated at maximum temperature provides similar bottom-crust crisping." },
+    { original = "Fresh basil leaves", substitute = "Dried basil (add with sauce, not after baking)", reason = "Fresh basil may be unavailable seasonally; dried basil stirred into the sauce still delivers herbal flavor." },
+    { original = "Active dry yeast", substitute = "Instant (fast-action) yeast, same quantity", reason = "Instant yeast does not require proofing and is more commonly stocked in grocery stores; reduce rise time by about 25%." }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "Pizza peel", substitute = "Flat cookie sheet or cutting board dusted with flour", reason = "A pizza peel is a specialist tool; any flat, smooth surface works to slide the pizza onto the stone." },
+    { original = "Kitchen scale for dough", substitute = "Standard measuring cups (1 cup 00 flour ≈ 120g)", reason = "A scale is ideal for precision, but volumetric measuring cups produce consistent results for home bakers." },
+    { original = "Stand mixer with dough hook", substitute = "Hand kneading on a lightly floured surface for 10 minutes", reason = "A stand mixer speeds dough development, but traditional Neapolitan pizza is made entirely by hand." }
+]

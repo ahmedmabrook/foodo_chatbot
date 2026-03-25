@@ -1,0 +1,138 @@
+[metadata]
+doc_id = "greek_souvlaki"
+cuisine = "Greek"
+dish_name = "Souvlaki"
+alternate_names = ["Pork Souvlaki", "Souvlakia", "Greek Kebab"]
+category = "main_course"
+tags = ["grilled", "pork", "skewer", "street food", "marinade", "traditional"]
+allergens = ["gluten"]
+difficulty = "easy"
+total_time_minutes = 50
+
+[recipe.standard]
+serving_size = "2 skewers with pita (approximately 320g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 15
+
+[recipe.standard.ingredients]
+items = [
+    "800g pork shoulder or pork neck, cut into 3cm cubes",
+    "4 pita breads",
+    "60ml extra virgin olive oil",
+    "3 tablespoons fresh lemon juice",
+    "4 garlic cloves, minced",
+    "2 teaspoons dried oregano",
+    "1 teaspoon sweet paprika",
+    "1/2 teaspoon black pepper",
+    "1 teaspoon salt",
+    "8 wooden or metal skewers",
+    "1 medium red onion, thinly sliced (for serving)",
+    "2 medium tomatoes, sliced (for serving)",
+    "Fresh parsley, chopped (for garnish)",
+    "Tzatziki sauce (for serving)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "If using wooden skewers, soak them in water for 30 minutes to prevent burning.",
+    "Combine olive oil, lemon juice, minced garlic, dried oregano, paprika, salt, and pepper in a bowl to make the marinade. Add the pork cubes, toss thoroughly to coat, and marinate for at least 30 minutes at room temperature or up to 24 hours refrigerated.",
+    "Thread the marinated pork cubes onto skewers, 4 to 5 pieces per skewer, leaving a small gap between each piece to ensure even cooking.",
+    "Preheat a charcoal grill or gas grill to high heat, around 450°F (230°C). A cast-iron grill pan over high heat also works well.",
+    "Grill the skewers for 10 to 12 minutes total, turning every 3 to 4 minutes on all four sides, until the pork is charred at the edges and cooked through to an internal temperature of 160°F (71°C).",
+    "While the pork grills, warm the pita breads directly on the grill for about 1 minute per side until lightly charred and pliable.",
+    "Slide pork off the skewers onto warmed pita. Top with sliced onion, tomato, fresh parsley, and a generous spoonful of tzatziki. Fold and serve immediately."
+]
+
+[recipe.standard.macros]
+# protein: 38g × 4 = 152 | carbs: 30g × 4 = 120 | fat: 18g × 9 = 162 | total = 434 ≈ 430
+calories = 430
+protein_g = 38
+carbs_g = 30
+fat_g = 18
+fiber_g = 2
+sugar_g = 3
+sodium_mg = 580
+
+[recipe.healthy_variant]
+variant_name = "Chicken Souvlaki with Wholegrain Pita"
+variant_type = "low_calorie"
+description = "A leaner souvlaki using skinless chicken breast marinated with lemon, herbs, and a reduced amount of olive oil, served on wholegrain pita with extra fresh vegetables instead of tzatziki."
+serving_size = "2 skewers with pita (approximately 310g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 12
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "800g boneless skinless chicken breast, cut into 3cm cubes",
+    "4 small wholegrain pita breads",
+    "2 tablespoons extra virgin olive oil",
+    "4 tablespoons fresh lemon juice",
+    "4 garlic cloves, minced",
+    "2 teaspoons dried oregano",
+    "1 teaspoon sweet paprika",
+    "1/2 teaspoon black pepper",
+    "1 teaspoon salt",
+    "8 wooden or metal skewers",
+    "1 medium red onion, thinly sliced",
+    "2 medium tomatoes, sliced",
+    "1 cucumber, sliced into rounds",
+    "Large handful of fresh parsley, chopped",
+    "1 lemon, cut into wedges for serving"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "If using wooden skewers, soak them in water for 30 minutes.",
+    "Whisk together olive oil, lemon juice, minced garlic, oregano, paprika, salt, and pepper. Add chicken cubes and marinate for at least 30 minutes, or up to 12 hours refrigerated.",
+    "Thread chicken onto skewers, 4 to 5 pieces per skewer, with small gaps between each piece.",
+    "Preheat a grill or cast-iron grill pan to medium-high heat, around 400°F (205°C).",
+    "Grill chicken skewers for 10 to 12 minutes total, turning every 3 minutes, until cooked through to an internal temperature of 165°F (74°C). Do not overcook to keep chicken juicy.",
+    "Warm wholegrain pitas on the grill for 30 to 60 seconds per side.",
+    "Serve skewers on warmed wholegrain pita, topped with sliced onion, tomato, cucumber, and fresh parsley. Squeeze lemon wedges over the top instead of tzatziki to keep calories low."
+]
+
+[recipe.healthy_variant.macros]
+# protein: 42g × 4 = 168 | carbs: 28g × 4 = 112 | fat: 9g × 9 = 81 | total = 361 ≈ 360
+calories = 360
+protein_g = 42
+carbs_g = 28
+fat_g = 9
+fiber_g = 4
+sugar_g = 4
+sodium_mg = 490
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -70
+protein_difference = "+4g"
+key_changes = [
+    "Skinless chicken breast replaces fatty pork shoulder, cutting saturated fat substantially",
+    "Olive oil in marinade reduced from 60ml to 2 tablespoons",
+    "Wholegrain pita replaces standard white pita, adding fiber and nutrients",
+    "Tzatziki replaced with fresh cucumber slices and lemon juice, eliminating dairy calories",
+    "Extra fresh vegetables added to increase volume and satiety with minimal calories"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "pork shoulder/neck", substitute = "pork butt or pork loin on sale", saving_percent = 25, reason = "Pork butt is often cheaper per kilo and still has enough fat for juicy skewers; pork loin works well for leaner preference" },
+    { original = "fresh lemon juice", substitute = "bottled lemon juice", saving_percent = 50, reason = "Bottled lemon juice is a fraction of the cost and works perfectly in a marinade where subtle fresh nuances are masked by grilling" },
+    { original = "extra virgin olive oil", substitute = "regular olive oil or sunflower oil", saving_percent = 30, reason = "For a high-heat marinade the premium qualities of extra virgin are largely lost; regular olive oil or a neutral oil produces the same result at lower cost" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "charcoal grill", substitute = "gas grill, grill pan, or oven broiler", reason = "Traditional souvlaki uses charcoal for smokiness, but a cast-iron grill pan or oven broiler at high heat delivers excellent char and flavor at home" },
+    { original = "pork neck", substitute = "pork shoulder or chicken thighs", reason = "Pork neck can be hard to find in many butcher shops; shoulder has similar fat content, or boneless thighs provide equivalent juiciness" },
+    { original = "dried Greek oregano", substitute = "regular dried Italian oregano", reason = "Greek oregano has a more intense aroma but standard dried oregano found in any supermarket gives a very comparable flavor in this dish" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "metal skewers", substitute = "soaked wooden chopsticks or bamboo satay skewers", reason = "Any long wooden skewer soaked in water for 30 minutes works just as well for threading meat on a home grill or grill pan" },
+    { original = "grill or grill pan", substitute = "oven broiler set to high", reason = "Place skewers on a rack-lined baking sheet under the broiler at 500°F (260°C), turning halfway, for a similar charred finish without specialized equipment" },
+    { original = "fresh garlic", substitute = "garlic powder (1/4 tsp per clove)", reason = "Garlic powder is a pantry staple that integrates evenly into the marinade and delivers the necessary garlic flavor without mincing" }
+]

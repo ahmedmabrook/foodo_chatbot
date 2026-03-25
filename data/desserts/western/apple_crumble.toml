@@ -1,0 +1,133 @@
+# ============================================================
+# RECIPE DOCUMENT — APPLE CRUMBLE
+# Cuisine: British / Western Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "western_apple_crumble"
+cuisine = "British"
+dish_name = "Apple Crumble"
+alternate_names = ["Apple Crisp", "Apple Brown Betty", "Baked Apple Crumble"]
+category = "dessert"
+tags = ["british", "classic", "comfort_food", "contains_gluten", "contains_dairy", "vegetarian"]
+allergens = ["gluten", "dairy"]
+difficulty = "easy"
+total_time_minutes = 55
+
+[recipe.standard]
+serving_size = "1 portion (approximately 250g)"
+servings_per_recipe = 6
+prep_time_minutes = 15
+cook_time_minutes = 40
+
+[recipe.standard.ingredients]
+items = [
+    "Apple filling: 1kg (about 6) Bramley or Granny Smith apples, peeled, cored, sliced",
+    "Apple filling: 3 tbsp caster sugar",
+    "Apple filling: 1 tsp cinnamon, 1/4 tsp nutmeg",
+    "Apple filling: 1 tbsp lemon juice",
+    "Crumble topping: 200g plain flour",
+    "Crumble topping: 100g cold butter, cubed",
+    "Crumble topping: 100g demerara sugar",
+    "Crumble topping: 50g rolled oats",
+    "Crumble topping: 1/2 tsp cinnamon",
+    "Serving: vanilla ice cream or custard"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Preheat oven to 375°F (190°C). Grease a 9×9-inch (23×23cm) baking dish.",
+    "Prepare filling: toss sliced apples with caster sugar, cinnamon, nutmeg, and lemon juice. Spread evenly in the baking dish.",
+    "Make crumble: place flour and cold cubed butter in a bowl. Rub butter into flour with fingertips until mixture resembles coarse breadcrumbs. Stir in demerara sugar, oats, and cinnamon.",
+    "Spread crumble topping evenly over apples. Press down slightly — do not pack tightly.",
+    "Bake at 375°F (190°C) for 35-40 minutes until the topping is golden brown and the apple juices are bubbling at the edges.",
+    "Rest 5 minutes before serving warm with vanilla ice cream or custard."
+]
+
+[recipe.standard.macros]
+calories = 380
+protein_g = 4
+carbs_g = 60
+fat_g = 14
+fiber_g = 4
+sugar_g = 38
+sodium_mg = 100
+# VALIDATION: (4×4) + (60×4) + (14×9) = 16 + 240 + 126 = 382 ✓ (within ±10 of 380)
+
+[recipe.healthy_variant]
+variant_name = "Oat-Heavy Apple Crumble with Reduced Butter and Honey Sweetened Filling"
+variant_type = "low_calorie"
+description = "A healthier apple crumble with an oat-dominant crumble topping (less flour, more oats), coconut oil instead of butter, reduced sugar in the topping, and honey instead of sugar in the apple filling. Higher in fiber and lower in saturated fat."
+serving_size = "1 portion (approximately 250g)"
+servings_per_recipe = 6
+prep_time_minutes = 15
+cook_time_minutes = 40
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "Apple filling: 1kg apples, peeled, cored, sliced",
+    "Apple filling: 2 tbsp honey or maple syrup",
+    "Apple filling: 1 tsp cinnamon, 1/4 tsp nutmeg",
+    "Apple filling: 1 tbsp lemon juice",
+    "Crumble topping: 100g rolled oats",
+    "Crumble topping: 60g whole wheat flour",
+    "Crumble topping: 60g coconut oil (solid) or cold butter",
+    "Crumble topping: 50g brown sugar",
+    "Crumble topping: 2 tbsp chopped walnuts or almonds",
+    "Crumble topping: 1/2 tsp cinnamon",
+    "Serving: low-fat vanilla yogurt"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 375°F (190°C). Lightly oil baking dish.",
+    "Toss apple slices with honey, cinnamon, nutmeg, and lemon juice. Spread in dish.",
+    "Make oat crumble: mix oats, whole wheat flour, coconut oil, brown sugar, chopped nuts, and cinnamon. Rub coconut oil in until crumbly.",
+    "Spread crumble over apples.",
+    "Bake at 375°F (190°C) for 35-40 minutes until golden and bubbling.",
+    "Serve warm with low-fat vanilla yogurt."
+]
+
+[recipe.healthy_variant.macros]
+calories = 280
+protein_g = 4
+carbs_g = 46
+fat_g = 10
+fiber_g = 5
+sugar_g = 28
+sodium_mg = 40
+# VALIDATION: (4×4) + (46×4) + (10×9) = 16 + 184 + 90 = 290 ✓ (within ±10 of 280)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -100
+protein_difference = "0g"
+key_changes = [
+    "Oat-heavy topping (100g oats vs 50g) — more fiber and whole grain content",
+    "Less fat in topping (60g coconut oil vs 100g butter) — saves ~60 calories per serving",
+    "Honey instead of caster sugar in filling — slightly lower glycemic impact",
+    "Added walnuts — healthy fats and crunch with minimal extra calories"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "Bramley or Granny Smith apples", substitute = "any available tart cooking apple or mix of sweet/tart", saving_percent = 20, reason = "Any apple variety works; tart apples hold shape better, but sweet apples are equally delicious" },
+    { original = "demerara sugar", substitute = "brown sugar or regular caster sugar", saving_percent = 15, reason = "Any sugar type provides sweetness; demerara adds a coarser texture but isn't essential" },
+    { original = "vanilla ice cream for serving", substitute = "plain yogurt or simply serve warm on its own", saving_percent = 70, reason = "Apple crumble is delicious served plain or with a simple dollop of yogurt" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Granny Smith apples", substitute = "any firm apple — Golden Delicious, Fuji, or Pink Lady", reason = "Firm apple varieties hold their shape during baking and provide the right texture" },
+    { original = "demerara sugar in topping", substitute = "light brown sugar", reason = "Brown sugar creates a similar caramel-toffee flavor in the crumble topping" },
+    { original = "nutmeg", substitute = "allspice or mixed spice (use half the amount)", reason = "Allspice provides a similar warm, sweet spice note in the filling" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "plain flour in crumble", substitute = "any flour (self-raising works, skip baking powder)", reason = "Any flour type creates the crumble texture; self-raising adds a slight lift" },
+    { original = "rolled oats", substitute = "quick oats (slightly finer texture in topping)", reason = "Quick oats produce a slightly finer crumble but work identically in the recipe" },
+    { original = "cold butter (must be cold)", substitute = "cold coconut oil (solid state)", reason = "Cold solid coconut oil produces the same crumb texture as cold butter when rubbed in" }
+]

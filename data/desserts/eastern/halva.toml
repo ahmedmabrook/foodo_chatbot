@@ -1,0 +1,129 @@
+# ============================================================
+# RECIPE DOCUMENT — HALVA
+# Cuisine: Turkish/Arab/Greek / Eastern Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "eastern_halva"
+cuisine = "Turkish"
+dish_name = "Halva"
+alternate_names = ["Helva", "Semolina Halva", "Irmik Helvası", "Tahini Halva", "Sooji Halva"]
+category = "dessert"
+tags = ["turkish", "arab", "greek", "vegan", "vegetarian", "gluten_free_option", "contains_gluten", "contains_nuts"]
+allergens = ["gluten", "nuts"]
+difficulty = "easy"
+total_time_minutes = 30
+
+[recipe.standard]
+serving_size = "1 slice/portion (approximately 100g)"
+servings_per_recipe = 8
+prep_time_minutes = 5
+cook_time_minutes = 25
+
+[recipe.standard.ingredients]
+items = [
+    "Semolina halva: 250g coarse semolina",
+    "Semolina halva: 200g unsalted butter",
+    "Semolina halva: 600ml whole milk",
+    "Semolina halva: 150g caster sugar",
+    "Semolina halva: 50g pine nuts or blanched almonds",
+    "Semolina halva: 1 tsp ground cinnamon",
+    "Semolina halva: 1/4 tsp ground cardamom",
+    "Optional: 40g raisins"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Heat milk and sugar together in a saucepan until sugar dissolves and milk is hot (not boiling). Keep warm.",
+    "Melt butter in a heavy-bottomed pot over medium heat. Add pine nuts and toast until golden, stirring, about 2 minutes.",
+    "Add semolina to the butter-nut mixture. Cook, stirring constantly, over medium heat for 8-10 minutes until the semolina turns a deep golden-amber color and smells nutty. This toasting step is essential for flavor.",
+    "Remove from heat briefly. Carefully pour in hot milk mixture (it will sputter). Stir vigorously.",
+    "Return to low heat. Stir constantly for 3-5 minutes until the mixture comes together as a thick, non-sticky mass and pulls from the sides of the pan.",
+    "Add raisins if using. Stir to combine.",
+    "Press into a greased dish or mould and smooth the top. Dust with cinnamon.",
+    "Let rest 10 minutes. Unmould or cut into diamonds/squares. Serve warm or at room temperature."
+]
+
+[recipe.standard.macros]
+calories = 360
+protein_g = 7
+carbs_g = 44
+fat_g = 18
+fiber_g = 2
+sugar_g = 22
+sodium_mg = 60
+# VALIDATION: (7×4) + (44×4) + (18×9) = 28 + 176 + 162 = 366 ✓ (within ±10 of 360)
+
+[recipe.healthy_variant]
+variant_name = "Light Semolina Halva with Olive Oil and Honey"
+variant_type = "low_calorie"
+description = "A lighter halva using olive oil instead of butter (same toasting technique, different fat profile), low-fat milk, and honey instead of refined sugar. Reduced nuts and no raisins. The deeply toasted semolina and warm spice character are identical — the signature golden, nutty flavor is fully preserved."
+serving_size = "1 portion (approximately 90g)"
+servings_per_recipe = 8
+prep_time_minutes = 5
+cook_time_minutes = 25
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "200g coarse semolina",
+    "80ml olive oil",
+    "550ml low-fat milk",
+    "100g honey",
+    "30g pine nuts or almonds (toasted)",
+    "1 tsp ground cinnamon",
+    "1/4 tsp ground cardamom"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Warm low-fat milk with honey until honey dissolves. Keep hot.",
+    "Heat olive oil in a heavy pot over medium heat. Add pine nuts and toast 1-2 minutes.",
+    "Add semolina. Toast, stirring constantly, for 8-10 minutes until deep golden amber and nutty.",
+    "Remove from heat. Carefully pour in hot milk mixture. Stir vigorously.",
+    "Return to low heat. Stir 3-5 minutes until dough forms and pulls from pan sides.",
+    "Press into mould. Dust with cinnamon. Rest 10 minutes. Serve warm or at room temperature."
+]
+
+[recipe.healthy_variant.macros]
+calories = 240
+protein_g = 7
+carbs_g = 36
+fat_g = 8
+fiber_g = 2
+sugar_g = 16
+sodium_mg = 40
+# VALIDATION: (7×4) + (36×4) + (8×9) = 28 + 144 + 72 = 244 ✓ (within ±10 of 240)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -120
+protein_difference = "0g"
+key_changes = [
+    "Olive oil instead of butter — healthier unsaturated fat profile, same toasting ability",
+    "Low-fat milk instead of whole milk — saves ~30 calories per serving",
+    "Honey instead of sugar — natural sweetener with slightly lower glycemic impact",
+    "Reduced semolina (200g vs 250g) and fewer nuts — smaller serving, same satisfaction"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "pine nuts", substitute = "blanched almonds, walnuts, or skip nuts", saving_percent = 60, reason = "Any nut toasted in butter adds the essential crunchy, rich element; pine nuts are traditional but expensive" },
+    { original = "coarse semolina", substitute = "fine semolina or cream of wheat (slightly different texture)", saving_percent = 10, reason = "Fine semolina or cream of wheat toasts and hydrates similarly for halva" },
+    { original = "whole milk", substitute = "water (traditional vegan version; less rich, simpler flavor)", saving_percent = 30, reason = "Water-based halva is a classic vegan version; add a little extra butter to compensate richness" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "coarse semolina", substitute = "fine semolina (more readily available)", reason = "Fine semolina produces a smoother, slightly denser halva; same technique applies" },
+    { original = "pine nuts", substitute = "any toasted nut — walnuts, almonds, cashews", reason = "Any nut toasted in the butter provides the essential crunch and richness" },
+    { original = "ground cardamom", substitute = "ground cinnamon only (skip cardamom)", reason = "Cinnamon alone creates a warm, aromatic halva; cardamom adds complexity but isn't essential" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "whole milk + butter", substitute = "water + butter (simple vegan base: boil 600ml water, add 150g sugar)", reason = "Water and butter create a traditional, simpler halva that is still delicious" },
+    { original = "mould for shaping", substitute = "press into a greased bowl and invert, or serve in scoops", reason = "Any shape works; halva can be scooped directly from the pot into bowls" },
+    { original = "raisins (optional)", substitute = "any dried fruit or skip entirely", reason = "Halva is excellent without raisins; any dried fruit adds sweetness and chew" }
+]

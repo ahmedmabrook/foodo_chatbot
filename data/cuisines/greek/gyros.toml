@@ -1,0 +1,126 @@
+# ============================================================
+# RECIPE DOCUMENT — GYROS
+# Cuisine: Greek
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "greek_gyros"
+cuisine = "Greek"
+dish_name = "Gyros"
+alternate_names = ["Greek Gyros", "Gyro", "Pork Gyros"]
+category = "main_course"
+tags = ["street_food", "high_protein", "comfort_food", "traditional", "contains_dairy", "contains_gluten"]
+allergens = ["gluten", "dairy"]
+difficulty = "medium"
+total_time_minutes = 60
+
+[recipe.standard]
+serving_size = "1 pita wrap (approximately 320g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 40
+
+[recipe.standard.ingredients]
+items = [
+    "600g pork shoulder, thinly sliced",
+    "4 round pita breads",
+    "Marinade: 2 tbsp olive oil, 1 tbsp red wine vinegar, 1 tbsp dried oregano",
+    "Marinade: 1 tsp cumin, 1 tsp paprika, 1/2 tsp garlic powder, salt and pepper",
+    "Tzatziki (for serving): 200g Greek yogurt, 1/2 cucumber grated, 2 cloves garlic, 1 tbsp olive oil, 1 tsp dill",
+    "Toppings: 2 tomatoes diced, 1/2 red onion thinly sliced, fresh parsley",
+    "French fries (optional, traditional in Greek-style wrap)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Thinly slice pork shoulder across the grain into 3-5mm strips.",
+    "Combine marinade: olive oil, vinegar, oregano, cumin, paprika, garlic powder, salt, and pepper. Marinate pork for at least 30 minutes (or overnight for best results).",
+    "Make tzatziki: grate cucumber, squeeze dry, mix with Greek yogurt, minced garlic, olive oil, dill, salt. Refrigerate.",
+    "Cook pork: heat a cast-iron grill pan or heavy skillet over very high heat (450°F/230°C). Cook marinated pork in batches for 2-3 minutes per side until charred at edges and cooked through. The char flavor is essential.",
+    "Warm pita breads directly over a gas flame or in a dry pan for 30 seconds per side.",
+    "Assemble: spread tzatziki on warm pita. Add cooked pork. Top with diced tomatoes, sliced red onion, and fresh parsley.",
+    "Roll or fold and serve immediately."
+]
+
+[recipe.standard.macros]
+calories = 540
+protein_g = 34
+carbs_g = 48
+fat_g = 22
+fiber_g = 4
+sugar_g = 6
+sodium_mg = 620
+# VALIDATION: (34×4) + (48×4) + (22×9) = 136 + 192 + 198 = 526 ✓ (within ±10 of 540)
+
+[recipe.healthy_variant]
+variant_name = "Chicken Gyros in Whole Wheat Pita with Light Tzatziki"
+variant_type = "low_calorie"
+description = "Gyros made with marinated chicken breast, served in whole wheat pita with 0% fat Greek yogurt tzatziki and extra salad vegetables. Retains the authentic oregano-garlic spice profile and charred texture."
+serving_size = "1 pita wrap (approximately 300g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 20
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "600g skinless chicken breast, thinly sliced",
+    "4 whole wheat pita breads",
+    "Marinade: 1 tbsp olive oil, 1 tbsp lemon juice, 1 tbsp dried oregano",
+    "Marinade: 1 tsp cumin, 1/2 tsp paprika, 2 cloves garlic minced, salt and pepper",
+    "Light tzatziki: 200g 0% Greek yogurt, 1/2 cucumber grated, 2 cloves garlic, 1 tsp dill, lemon juice",
+    "Toppings: 2 tomatoes diced, 1/2 red onion sliced, lettuce, parsley"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Thinly slice chicken breast. Marinate 30 minutes in olive oil, lemon, oregano, cumin, paprika, garlic, salt, pepper.",
+    "Make light tzatziki: mix 0% Greek yogurt with squeezed cucumber, garlic, dill, and lemon juice.",
+    "Grill chicken in batches on a very hot pan for 2-3 minutes per side until cooked through and slightly charred.",
+    "Warm whole wheat pita breads.",
+    "Assemble with light tzatziki, chicken, extra salad toppings.",
+    "Serve immediately."
+]
+
+[recipe.healthy_variant.macros]
+calories = 380
+protein_g = 38
+carbs_g = 36
+fat_g = 10
+fiber_g = 5
+sugar_g = 5
+sodium_mg = 460
+# VALIDATION: (38×4) + (36×4) + (10×9) = 152 + 144 + 90 = 386 ✓ (within ±10 of 380)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -160
+protein_difference = "+4g"
+key_changes = [
+    "Chicken breast instead of pork shoulder — reduces fat by ~12g per serving",
+    "Whole wheat pita — more fiber, lower glycemic index",
+    "0% Greek yogurt tzatziki — saves ~30 calories per wrap",
+    "Extra salad toppings replace French fries — removes ~150 calories from optional fries"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "pork shoulder (for slicing)", substitute = "pork leg or any pork cut that can be thinly sliced", saving_percent = 20, reason = "Most pork cuts can be used; shoulder is preferred for fat marbling but leg works fine" },
+    { original = "Greek yogurt for tzatziki", substitute = "plain yogurt strained through cheesecloth overnight", saving_percent = 40, reason = "Strained plain yogurt achieves the same thickness as Greek yogurt at lower cost" },
+    { original = "round pita bread", substitute = "any flatbread (lavash, flour tortilla)", saving_percent = 20, reason = "Any flexible flatbread works as a wrapper for gyros" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "pork shoulder", substitute = "chicken thighs or lamb, thinly sliced", reason = "Chicken thighs stay juicy when grilled; lamb provides a more traditional flavor" },
+    { original = "cast-iron grill pan", substitute = "any heavy skillet over very high heat", reason = "Very high heat in any pan produces the desired charring on the meat" },
+    { original = "fresh parsley (garnish)", substitute = "fresh cilantro or omit", reason = "Parsley adds freshness; any available fresh herb or even dried herbs work as a garnish" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "red wine vinegar in marinade", substitute = "lemon juice", reason = "Lemon juice provides the necessary acid in the marinade at a comparable intensity" },
+    { original = "dried oregano (Greek)", substitute = "Italian dried oregano or thyme", reason = "Greek oregano is more pungent; Italian oregano or thyme provide a similar herbal base" },
+    { original = "fresh tzatziki", substitute = "plain Greek yogurt with minced garlic and a pinch of dried dill", reason = "This 2-ingredient version approximates tzatziki for a quick assembly" }
+]

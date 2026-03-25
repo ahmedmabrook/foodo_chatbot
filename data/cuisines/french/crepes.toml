@@ -1,0 +1,133 @@
+# ============================================================
+# RECIPE DOCUMENT — CRÊPES
+# Cuisine: French
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "french_crepes"
+cuisine = "French"
+dish_name = "Crêpes"
+alternate_names = ["Galettes Bretonnes", "Savory Crepes", "Ham and Cheese Galette"]
+category = "breakfast"
+tags = ["breakfast", "traditional", "comfort_food", "contains_dairy", "contains_eggs", "contains_gluten"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "medium"
+total_time_minutes = 40
+
+[recipe.standard]
+serving_size = "2 galette-style crêpes (approximately 250g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 25
+
+[recipe.standard.ingredients]
+items = [
+    "Batter: 1 cup all-purpose flour",
+    "Batter: 2 large eggs",
+    "Batter: 1.5 cups whole milk",
+    "Batter: 2 tbsp melted butter",
+    "Batter: pinch of salt",
+    "Filling: 8 slices good-quality ham",
+    "Filling: 120g Gruyère or Emmental cheese, grated",
+    "Filling: 4 large eggs",
+    "Butter for cooking",
+    "Fresh parsley for garnish"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make batter: blend flour, eggs, milk, melted butter, and salt until completely smooth. The batter should be thin — like heavy cream consistency. Rest 30 minutes in the refrigerator.",
+    "Heat a 25cm crêpe pan or non-stick pan over medium-high heat (375°F/190°C). Add a small pat of butter.",
+    "Pour 3-4 tbsp of batter and immediately swirl to coat the pan in a thin, even circle.",
+    "Cook for 1-2 minutes until edges lift and surface is set. For galette-style: sprinkle Gruyère in the center, add 1-2 slices of ham.",
+    "Crack an egg in the center of the crêpe. Let the egg white set while the yolk remains runny, about 2 minutes.",
+    "Fold the four edges inward to form a square, exposing the egg yolk. Slide onto a plate.",
+    "Serve immediately with fresh parsley. The signature is the runny egg yolk breaking into the melted cheese."
+]
+
+[recipe.standard.macros]
+calories = 460
+protein_g = 28
+carbs_g = 32
+fat_g = 24
+fiber_g = 2
+sugar_g = 6
+sodium_mg = 680
+# VALIDATION: (28×4) + (32×4) + (24×9) = 112 + 128 + 216 = 456 ✓ (within ±10 of 460)
+
+[recipe.healthy_variant]
+variant_name = "Buckwheat Galettes with Turkey Ham and Reduced-Fat Cheese"
+variant_type = "low_calorie"
+description = "Authentic Breton-style buckwheat galettes — gluten-free and nuttier in flavor — filled with turkey ham, reduced-fat Swiss cheese, and wilted spinach instead of egg. Buckwheat flour is traditional in Brittany and naturally adds fiber and protein."
+serving_size = "2 galettes (approximately 240g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 25
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "Buckwheat batter: 1 cup buckwheat flour",
+    "Buckwheat batter: 2 large eggs",
+    "Buckwheat batter: 1.5 cups water (or part low-fat milk)",
+    "Buckwheat batter: 1 tbsp olive oil",
+    "Buckwheat batter: pinch of salt",
+    "Filling: 8 slices turkey ham",
+    "Filling: 80g part-skim Swiss cheese, grated",
+    "Filling: 100g baby spinach, quickly wilted",
+    "Cooking spray for pan"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Make buckwheat batter: blend buckwheat flour, eggs, water, olive oil, and salt until smooth. Rest 30 minutes.",
+    "Wilt spinach in a hot pan for 1 minute. Squeeze out all moisture.",
+    "Heat a non-stick crêpe pan over medium-high heat. Spray with cooking spray.",
+    "Pour batter and swirl into a thin round. Cook 1-2 minutes until set.",
+    "Sprinkle reduced-fat Swiss cheese over the surface. Add 2 slices turkey ham and a small mound of wilted spinach in the center.",
+    "Fold four edges inward to form a square. Cook 1 more minute until cheese melts.",
+    "Serve immediately."
+]
+
+[recipe.healthy_variant.macros]
+calories = 300
+protein_g = 24
+carbs_g = 28
+fat_g = 10
+fiber_g = 4
+sugar_g = 3
+sodium_mg = 500
+# VALIDATION: (24×4) + (28×4) + (10×9) = 96 + 112 + 90 = 298 ✓ (within ±10 of 300)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -160
+protein_difference = "-4g"
+key_changes = [
+    "Buckwheat flour instead of white flour — naturally gluten-free (pure buckwheat), more fiber, nuttier flavor",
+    "Turkey ham instead of regular ham — lower fat and sodium",
+    "Part-skim Swiss instead of Gruyère — reduces fat by ~5g per serving",
+    "No whole egg in filling — wilted spinach adds nutrition without adding saturated fat"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "Gruyère cheese", substitute = "any Swiss-style cheese or mozzarella", saving_percent = 30, reason = "Gruyère is premium; any mild melting cheese works and is cheaper" },
+    { original = "good-quality ham", substitute = "deli turkey or any sliced cooked meat", saving_percent = 40, reason = "Any sliced cooked meat provides the protein filling for the galette" },
+    { original = "butter for cooking", substitute = "cooking spray or a minimal amount of oil", saving_percent = 50, reason = "A modern non-stick pan requires very little fat; cooking spray eliminates most of the butter" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "crêpe pan", substitute = "any flat 25cm non-stick frying pan", reason = "The low sides of a crêpe pan help with flipping; a regular non-stick works fine" },
+    { original = "buckwheat flour", substitute = "all-purpose flour for regular crêpes", reason = "White flour crêpes are the standard; buckwheat is used for the savory galette style" },
+    { original = "Gruyère", substitute = "any good melting cheese (Comté, Emmental, Fontina)", reason = "All these cheeses melt beautifully and have mild, nutty flavors" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "crêpe batter", substitute = "thinned-out pancake batter (add extra milk)", reason = "Regular pancake batter thinned with extra milk makes a serviceable crêpe" },
+    { original = "melted butter in batter", substitute = "any neutral oil", reason = "Oil keeps the crêpe tender and prevents sticking; butter flavor is subtle" },
+    { original = "Gruyère (filling)", substitute = "any cheese that melts — cheddar, mozzarella", reason = "The filling cheese just needs to melt; any melting cheese works" }
+]

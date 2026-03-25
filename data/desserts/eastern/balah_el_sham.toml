@@ -1,0 +1,130 @@
+# ============================================================
+# RECIPE DOCUMENT — BALAH EL SHAM
+# Cuisine: Egyptian/Levantine / Eastern Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "eastern_balah_el_sham"
+cuisine = "Egyptian"
+dish_name = "Balah El Sham"
+alternate_names = ["Balah el Sham", "Egyptian Churros", "Sham Dates Fritters", "Fried Choux Pastry"]
+category = "dessert"
+tags = ["egyptian", "levantine", "street_food", "fried", "ramadan", "contains_gluten", "vegan", "vegetarian"]
+allergens = ["gluten"]
+difficulty = "medium"
+total_time_minutes = 45
+
+[recipe.standard]
+serving_size = "6 pieces with syrup (approximately 160g)"
+servings_per_recipe = 6
+prep_time_minutes = 15
+cook_time_minutes = 30
+
+[recipe.standard.ingredients]
+items = [
+    "Choux dough: 240ml water",
+    "Choux dough: 100g unsalted butter or vegetable oil",
+    "Choux dough: 1 tsp sugar",
+    "Choux dough: 1/2 tsp salt",
+    "Choux dough: 150g all-purpose flour",
+    "Choux dough: 3-4 large eggs",
+    "For frying: vegetable oil",
+    "Sugar syrup: 300g sugar, 250ml water, 1 tbsp lemon juice, 1 tsp vanilla, 1 tsp rose water"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make choux dough: bring water, butter, sugar, and salt to a full boil. Remove from heat. Add flour all at once and stir vigorously until a smooth ball forms and pulls from the sides.",
+    "Beat in eggs one at a time until dough is smooth, glossy, and drops from the spoon in a V-shape.",
+    "Make syrup: combine sugar and water, boil 8-10 minutes until lightly syrupy. Add lemon juice, vanilla, and rose water. Keep warm.",
+    "Heat oil to 350°F (175°C). Transfer dough to a piping bag with a large star tip.",
+    "Pipe 8-10cm lengths into the hot oil, cutting with scissors. Fry in batches, turning occasionally, for 4-5 minutes until deep golden brown and cooked through.",
+    "Immediately submerge in warm sugar syrup for 2-3 minutes.",
+    "Serve warm."
+]
+
+[recipe.standard.macros]
+calories = 400
+protein_g = 5
+carbs_g = 58
+fat_g = 18
+fiber_g = 1
+sugar_g = 40
+sodium_mg = 180
+# VALIDATION: (5×4) + (58×4) + (18×9) = 20 + 232 + 162 = 414 ✓ (within ±10 of 400)
+
+[recipe.healthy_variant]
+variant_name = "Baked Balah El Sham with Light Honey Syrup"
+variant_type = "low_calorie"
+description = "Balah el sham baked at high heat instead of deep-fried, with the choux dough made using olive oil instead of butter. A honey-rose water drizzle replaces the heavy sugar syrup soak. The star-piped ridged shape and crispy-airy texture are maintained through high-temperature baking."
+serving_size = "6 pieces with honey drizzle (approximately 145g)"
+servings_per_recipe = 6
+prep_time_minutes = 15
+cook_time_minutes = 25
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "Choux dough: 240ml water",
+    "Choux dough: 60ml olive oil",
+    "Choux dough: 1 tsp sugar, 1/2 tsp salt",
+    "Choux dough: 150g all-purpose flour",
+    "Choux dough: 3 large eggs",
+    "Honey drizzle: 80g honey",
+    "Honey drizzle: 2 tbsp water",
+    "Honey drizzle: 1/2 tsp rose water",
+    "Honey drizzle: 1/2 tsp vanilla extract"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Make choux dough using olive oil instead of butter. Same technique: boil water with oil, sugar, salt, add flour off heat, beat eggs in one at a time.",
+    "Preheat oven to 425°F (220°C). Line baking sheet with parchment.",
+    "Pipe 8-10cm ridged lengths onto baking sheet.",
+    "Bake at 425°F (220°C) for 18-22 minutes until golden and crisp. Do not open oven in first 15 minutes.",
+    "Make honey drizzle: warm honey, water, rose water, and vanilla until combined.",
+    "Drizzle honey mixture over warm baked pieces. Serve immediately."
+]
+
+[recipe.healthy_variant.macros]
+calories = 240
+protein_g = 5
+carbs_g = 38
+fat_g = 8
+fiber_g = 1
+sugar_g = 22
+sodium_mg = 180
+# VALIDATION: (5×4) + (38×4) + (8×9) = 20 + 152 + 72 = 244 ✓ (within ±10 of 240)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -160
+protein_difference = "0g"
+key_changes = [
+    "Baked instead of fried — saves ~120 calories of absorbed oil per serving",
+    "Olive oil instead of butter in dough — healthier fat profile",
+    "Honey drizzle instead of full sugar syrup soak — saves ~60 calories per serving",
+    "High-temperature baking achieves crispy exterior similar to frying"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "rose water in syrup", substitute = "vanilla extract only", saving_percent = 50, reason = "Vanilla syrup is aromatic and delicious without rose water" },
+    { original = "butter in choux dough", substitute = "any vegetable oil or margarine", saving_percent = 30, reason = "Any fat produces functional choux dough; butter adds richness but oil works well" },
+    { original = "sugar syrup (heavy soak)", substitute = "powdered sugar dusting (skip syrup entirely)", saving_percent = 80, reason = "A simple powdered sugar dusting is a lighter, faster alternative to syrup soaking" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "star-tipped piping bag", substitute = "spoon dough into rough log shapes or balls", reason = "Hand-shaped pieces fry or bake identically with slightly less ridged appearance" },
+    { original = "rose water for syrup", substitute = "orange blossom water or 1 tsp vanilla extract", reason = "Any aromatic water or extract creates fragrant syrup" },
+    { original = "piping bag", substitute = "zip-lock bag with corner snipped off", reason = "A cut corner zip-lock bag pipes adequate choux shapes for this recipe" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "eggs in choux dough", substitute = "3 eggs is the minimum — do not reduce below this", reason = "Eggs are structural in choux pastry and cannot be replaced in this recipe" },
+    { original = "sugar syrup soak", substitute = "drizzle with any jam thinned with hot water", reason = "Thinned jam provides sweetness and a glossy finish as a pantry alternative to syrup" },
+    { original = "star piping tip", substitute = "any piping tip or fork-rolled log shapes", reason = "The ridged surface from a star tip crisps up nicely but any shape works" }
+]

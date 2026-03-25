@@ -1,0 +1,129 @@
+# ============================================================
+# RECIPE DOCUMENT — PANNA COTTA
+# Cuisine: Italian / Western Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "western_panna_cotta"
+cuisine = "Italian"
+dish_name = "Panna Cotta"
+alternate_names = ["Vanilla Panna Cotta", "Italian Cream Pudding", "Cooked Cream"]
+category = "dessert"
+tags = ["italian", "classic", "no_bake", "gluten_free", "contains_dairy", "elegant"]
+allergens = ["dairy"]
+difficulty = "easy"
+total_time_minutes = 20
+
+[recipe.standard]
+serving_size = "1 ramekin (approximately 160g)"
+servings_per_recipe = 6
+prep_time_minutes = 10
+cook_time_minutes = 10
+
+[recipe.standard.ingredients]
+items = [
+    "600ml heavy cream",
+    "100ml whole milk",
+    "70g caster sugar",
+    "1 vanilla bean (or 2 tsp vanilla extract)",
+    "2.5 tsp (7g) powdered gelatin (or 3 gelatin sheets)",
+    "Pinch of salt",
+    "Berry coulis for serving: 200g mixed berries, 2 tbsp sugar, 1 tbsp lemon juice"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Bloom gelatin: sprinkle powdered gelatin over 3 tbsp cold water in a small bowl. Let stand 5 minutes until absorbed and spongy.",
+    "In a saucepan, combine cream, milk, sugar, and vanilla (scraped seeds + pod). Heat over medium heat, stirring, until sugar dissolves and mixture just begins to steam (170°F/77°C) — do not boil.",
+    "Remove from heat. Remove vanilla pod. Add bloomed gelatin and stir until completely dissolved.",
+    "Strain through a fine sieve into a pourable jug. Skim any foam.",
+    "Lightly oil 6 ramekins or dariole moulds with a flavourless oil. Pour in the cream mixture.",
+    "Allow to cool to room temperature, then refrigerate 4-6 hours until fully set.",
+    "Make berry coulis: simmer berries, sugar, and lemon juice for 5 minutes. Blend and strain.",
+    "To serve: run a knife around the edge and invert onto plates, or serve directly in ramekins. Spoon berry coulis over the top."
+]
+
+[recipe.standard.macros]
+calories = 340
+protein_g = 4
+carbs_g = 22
+fat_g = 26
+fiber_g = 1
+sugar_g = 20
+sodium_mg = 60
+# VALIDATION: (4×4) + (22×4) + (26×9) = 16 + 88 + 234 = 338 ✓ (within ±10 of 340)
+
+[recipe.healthy_variant]
+variant_name = "Light Panna Cotta with Half-and-Half and Fresh Fruit Topping"
+variant_type = "low_calorie"
+description = "A lighter panna cotta using half heavy cream and half low-fat milk instead of all cream, with reduced sugar and brightened with lemon zest. The gelatin ratio is slightly adjusted for the reduced fat content to maintain a proper set. Served with fresh berries instead of a sugared coulis."
+serving_size = "1 ramekin (approximately 160g)"
+servings_per_recipe = 6
+prep_time_minutes = 10
+cook_time_minutes = 10
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "300ml heavy cream",
+    "300ml low-fat milk (1% or 2%)",
+    "50g caster sugar",
+    "1 tsp vanilla extract",
+    "Zest of 1 lemon",
+    "2.5 tsp (7g) powdered gelatin",
+    "Pinch of salt",
+    "Topping: 200g fresh mixed berries, no added sugar"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Bloom gelatin in 3 tbsp cold water for 5 minutes.",
+    "Heat cream, milk, sugar, vanilla, and lemon zest in a saucepan over medium heat until steaming. Do not boil.",
+    "Remove from heat. Add bloomed gelatin. Stir until dissolved.",
+    "Strain into a jug. Cool slightly, then pour into lightly oiled ramekins.",
+    "Refrigerate at least 4 hours until firmly set.",
+    "Serve in ramekins or unmoulded, topped with fresh mixed berries."
+]
+
+[recipe.healthy_variant.macros]
+calories = 200
+protein_g = 4
+carbs_g = 16
+fat_g = 14
+fiber_g = 1
+sugar_g = 14
+sodium_mg = 60
+# VALIDATION: (4×4) + (16×4) + (14×9) = 16 + 64 + 126 = 206 ✓ (within ±10 of 200)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -140
+protein_difference = "0g"
+key_changes = [
+    "Half low-fat milk instead of all heavy cream — cuts fat from 26g to 14g per serving",
+    "Reduced sugar (50g vs 70g) — saves ~20 calories per serving",
+    "Fresh berries instead of sugared coulis — saves ~30 calories and adds fiber",
+    "Lemon zest adds brightness without calories"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "heavy cream", substitute = "coconut cream (dairy-free, tropical flavor)", saving_percent = 10, reason = "Full-fat coconut cream sets beautifully with gelatin and provides a coconut-vanilla flavored panna cotta" },
+    { original = "vanilla bean", substitute = "vanilla extract or vanilla paste", saving_percent = 80, reason = "Both provide authentic vanilla flavor at a fraction of the cost of whole beans" },
+    { original = "fresh mixed berries for serving", substitute = "any available fresh or thawed frozen fruit", saving_percent = 40, reason = "Any fruit provides the colorful, fresh contrast to the white panna cotta" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "powdered gelatin", substitute = "gelatin sheets (3 sheets per 2.5 tsp powder; bloom in cold water)", reason = "Sheet gelatin and powder gelatin are interchangeable in the same ratio" },
+    { original = "dariole moulds or ramekins", substitute = "any small cups, glasses, or bowls", reason = "Panna cotta sets in any vessel; if not unmoulding, any glass works perfectly" },
+    { original = "vanilla bean", substitute = "vanilla extract (1.5 tsp)", reason = "Vanilla extract provides the necessary vanilla flavor in this delicate dessert" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "berry coulis", substitute = "honey drizzle or jam thinned with hot water", reason = "A thin drizzle of honey or thinned jam provides sweetness and visual appeal on the panna cotta" },
+    { original = "heavy cream", substitute = "whipping cream (35% fat)", reason = "Whipping cream is widely available and sets into a beautiful panna cotta" },
+    { original = "lightly oiling ramekins for unmoulding", substitute = "serve directly in the ramekin with no unmoulding", reason = "Serving in the ramekin is equally elegant and avoids any unmoulding difficulty" }
+]

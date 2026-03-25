@@ -1,0 +1,138 @@
+[metadata]
+doc_id = "turkish_iskender_kebab"
+cuisine = "Turkish"
+dish_name = "İskender Kebab"
+alternate_names = ["Alexander Kebab", "Bursa Kebab"]
+category = "main_course"
+tags = ["kebab", "lamb", "beef", "tomato sauce", "yogurt", "pide bread", "butter"]
+allergens = ["gluten", "dairy"]
+difficulty = "hard"
+total_time_minutes = 90
+
+[recipe.standard]
+serving_size = "1 plate (approximately 450g)"
+servings_per_recipe = 4
+prep_time_minutes = 30
+cook_time_minutes = 60
+
+[recipe.standard.ingredients]
+items = [
+    "600g thinly sliced doner-style lamb or beef (leg or shoulder)",
+    "4 rounds pide bread (or thick flatbread), cut into bite-sized cubes",
+    "400g canned crushed tomatoes",
+    "2 tablespoons tomato paste",
+    "1 tablespoon red pepper paste (biber salçası)",
+    "1 teaspoon dried oregano",
+    "1 teaspoon paprika",
+    "1/2 teaspoon black pepper",
+    "1 teaspoon salt",
+    "80g unsalted butter",
+    "3 tablespoons olive oil",
+    "2 cloves garlic, minced",
+    "400g full-fat plain yogurt, at room temperature",
+    "1 clove garlic, grated (for yogurt)",
+    "1/2 teaspoon salt (for yogurt)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Prepare the tomato sauce: heat 2 tablespoons olive oil in a saucepan over medium heat (350°F/175°C). Add garlic and cook 1 minute until fragrant. Add tomato paste and red pepper paste, stir for 2 minutes. Add crushed tomatoes, oregano, paprika, salt, and black pepper. Simmer 20 minutes until thickened.",
+    "Prepare the doner meat: slice lamb or beef very thinly against the grain. Season with salt and black pepper. Brush a cast-iron grill pan with remaining 1 tablespoon olive oil and heat over high heat (450°F/230°C). Grill meat slices in batches for 2–3 minutes per side until lightly charred. Set aside.",
+    "Toast the pide cubes: spread bread cubes in a single layer on a baking sheet. Drizzle lightly with olive oil and toast in the oven at 375°F (190°C) for 8–10 minutes until golden and slightly crispy on the edges but still chewy inside.",
+    "Prepare the garlic yogurt: combine full-fat yogurt with grated garlic and salt. Whisk until smooth and creamy. Keep at room temperature — cold yogurt will break when hot butter is added.",
+    "Brown the butter: melt butter in a small saucepan over medium heat (325°F/165°C). Continue cooking, swirling the pan, until the milk solids turn golden brown and it smells nutty, about 4–5 minutes. Remove from heat immediately.",
+    "Assemble the plates: divide toasted pide cubes among 4 warm plates, arranging them in a single layer. Spoon hot tomato sauce generously over the bread. Layer grilled meat slices on top of the sauce.",
+    "Add yogurt: place a large dollop of garlic yogurt to the side of each plate (or spoon across the meat according to the Bursa tradition).",
+    "Finish and serve: drizzle browned butter over the entire plate just before serving, letting it sizzle against the yogurt. Serve immediately while the butter is still bubbling."
+]
+
+[recipe.standard.macros]
+calories = 620
+protein_g = 36
+carbs_g = 48
+fat_g = 30
+fiber_g = 3
+sugar_g = 7
+sodium_mg = 870
+
+[recipe.healthy_variant]
+variant_name = "Grilled Iskender Bowl (Breadless)"
+variant_type = "low_calorie"
+description = "A lighter, grain-bowl-style version of İskender that replaces toasted pide with roasted cauliflower and bulgur, uses low-fat yogurt, and eliminates the browned butter finish. The tomato sauce and grilled meat remain traditional."
+serving_size = "1 bowl (approximately 420g)"
+servings_per_recipe = 4
+prep_time_minutes = 25
+cook_time_minutes = 40
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "500g thinly sliced lean lamb leg (trimmed of fat)",
+    "200g coarse bulgur wheat, cooked",
+    "300g cauliflower florets, roasted",
+    "1 tablespoon olive oil (for cauliflower)",
+    "300g canned crushed tomatoes",
+    "1 tablespoon tomato paste",
+    "1 teaspoon red pepper paste (biber salçası)",
+    "1 teaspoon paprika",
+    "1/2 teaspoon black pepper",
+    "1 teaspoon salt",
+    "1 tablespoon olive oil (for sauce)",
+    "2 cloves garlic, minced",
+    "350g low-fat plain yogurt (2% fat), at room temperature",
+    "1 clove garlic, grated (for yogurt)",
+    "1/4 teaspoon salt (for yogurt)",
+    "Fresh flat-leaf parsley, chopped, for garnish"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Roast the cauliflower: toss florets in 1 tablespoon olive oil, season with salt and pepper. Roast at 425°F (220°C) for 20–25 minutes until caramelized and tender. Set aside.",
+    "Cook the bulgur: bring 400ml water to a boil with a pinch of salt. Add bulgur, stir, cover, and cook on low heat (212°F/100°C) for 12 minutes until water is absorbed. Fluff with a fork.",
+    "Prepare the tomato sauce: heat 1 tablespoon olive oil over medium heat (350°F/175°C). Add garlic, cook 1 minute. Add tomato paste and red pepper paste, stir 2 minutes. Add crushed tomatoes, paprika, salt, and pepper. Simmer 15 minutes.",
+    "Grill the lean lamb: heat a grill pan over high heat (450°F/230°C) with no added fat. Season lamb slices with salt and pepper. Grill 2 minutes per side until cooked through and lightly charred.",
+    "Prepare the low-fat yogurt: whisk together low-fat yogurt, grated garlic, and salt until smooth. Keep at room temperature.",
+    "Assemble the bowls: place a scoop of bulgur and a portion of roasted cauliflower in each bowl. Spoon hot tomato sauce over the base. Layer grilled lamb slices on top.",
+    "Add yogurt and garnish: dollop garlic yogurt alongside the meat. Garnish with fresh parsley. Serve immediately without butter topping."
+]
+
+[recipe.healthy_variant.macros]
+calories = 420
+protein_g = 38
+carbs_g = 36
+fat_g = 12
+fiber_g = 6
+sugar_g = 6
+sodium_mg = 620
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -200
+protein_difference = "+2g"
+key_changes = [
+    "Replaced toasted pide bread with cooked bulgur wheat and roasted cauliflower, reducing refined carbs",
+    "Eliminated 80g browned butter, cutting approximately 560 calories from the dish",
+    "Switched to low-fat yogurt (2%) instead of full-fat yogurt",
+    "Trimmed lamb leg of visible fat before grilling, reducing overall fat content"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "lamb leg (doner-style)", substitute = "chicken thigh, thinly sliced and marinated", saving_percent = 45, reason = "Chicken thigh is significantly cheaper than lamb while still delivering juicy, flavorful results when grilled over high heat" },
+    { original = "full-fat plain yogurt", substitute = "homemade strained yogurt from whole milk", saving_percent = 35, reason = "Straining store-brand whole-milk yogurt overnight produces thick yogurt nearly identical to premium brands at a fraction of the cost" },
+    { original = "red pepper paste (biber salçası)", substitute = "roasted red peppers blended with a pinch of chili flakes", saving_percent = 40, reason = "Jarred roasted peppers blended smooth and seasoned replicate the depth of biber salçası without the specialty-store price" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "pide bread (Turkish flatbread)", substitute = "naan bread or thick pita bread, cut into cubes", reason = "Naan or thick pita bread have a similar chewy, dense crumb that toasts well and soaks up the tomato sauce without disintegrating" },
+    { original = "biber salçası (Turkish red pepper paste)", substitute = "harissa paste diluted with a small amount of olive oil", reason = "Harissa is widely available in supermarkets and provides a similar smoky-spicy depth; use half the quantity as it is more intense" },
+    { original = "fresh doner-style lamb slices", substitute = "lamb kebab mince formed into thin patties and grilled", reason = "Ground lamb is available in most supermarkets; formed into thin oval patties and grilled, it delivers the same flavor profile when sliced before serving" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "cast-iron grill pan", substitute = "heavy-bottomed stainless steel skillet", reason = "A heavy skillet heated to high heat will sear the meat and develop similar char marks; press meat down with a spatula to maximize contact" },
+    { original = "unsalted butter (for browning)", substitute = "salted butter, reducing added salt elsewhere", reason = "Salted butter browns identically to unsalted; simply reduce the salt in the tomato sauce by half a teaspoon to compensate" },
+    { original = "baking sheet for toasting bread", substitute = "dry skillet or griddle on stovetop", reason = "Pide cubes can be toasted in a dry skillet over medium heat, tossing frequently, to achieve the same golden crust without an oven" }
+]

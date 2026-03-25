@@ -1,0 +1,147 @@
+# ============================================================
+# RECIPE DOCUMENT — BOUILLABAISSE
+# Cuisine: French
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "french_bouillabaisse"
+cuisine = "French"
+dish_name = "Bouillabaisse"
+alternate_names = ["Marseille Fish Stew", "Provençal Bouillabaisse", "Bouillabaisso"]
+category = "soup"
+tags = ["traditional", "seafood", "comfort_food", "festive", "contains_shellfish", "gluten_free"]
+allergens = ["shellfish", "gluten"]
+difficulty = "hard"
+total_time_minutes = 120
+
+[recipe.standard]
+serving_size = "1 large bowl with rouille (approximately 500g)"
+servings_per_recipe = 6
+prep_time_minutes = 30
+cook_time_minutes = 90
+
+[recipe.standard.ingredients]
+items = [
+    "800g mixed firm fish (monkfish, sea bass, mullet), cut into pieces",
+    "400g mussels, scrubbed",
+    "300g prawns or shrimp, shell-on",
+    "1 large onion, diced",
+    "2 leeks, sliced",
+    "4 cloves garlic, minced",
+    "4 large tomatoes, diced",
+    "1/2 fennel bulb, diced",
+    "1/2 tsp saffron threads, soaked in 2 tbsp hot water",
+    "1 cup dry white wine",
+    "1.5 liters fish stock (or water with fish bones)",
+    "3 tbsp olive oil",
+    "1 tsp dried thyme",
+    "1 bay leaf",
+    "1 strip orange peel (dried or fresh)",
+    "Salt and black pepper",
+    "Rouille: 4 cloves garlic, 1 egg yolk, 200ml olive oil, 1/2 tsp saffron, pinch cayenne, 1 tsp lemon juice",
+    "Grilled baguette slices for serving"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Heat olive oil in a large pot over medium heat. Sauté onion, leeks, and fennel until very soft, 10 minutes. Add garlic, cook 1 minute.",
+    "Add diced tomatoes, saffron water, thyme, bay leaf, and orange peel. Cook 5 minutes.",
+    "Add white wine. Cook until reduced by half.",
+    "Add fish stock. Bring to a boil. Add the firmest fish pieces first (monkfish). Boil vigorously for 5 minutes — the boiling emulsifies the broth.",
+    "Add medium-firm fish. Boil 3 more minutes.",
+    "Add mussels and shrimp. Cook 3-4 minutes until mussels open and shrimp turn pink. Discard any mussels that don't open.",
+    "Make rouille: pound garlic in a mortar. Work in egg yolk. Slowly drizzle in olive oil while stirring to create a thick emulsion. Add saffron and cayenne.",
+    "Spread rouille on grilled baguette slices. Serve soup in bowls with the bread floating on top."
+]
+
+[recipe.standard.macros]
+calories = 420
+protein_g = 38
+carbs_g = 20
+fat_g = 20
+fiber_g = 4
+sugar_g = 6
+sodium_mg = 720
+# VALIDATION: (38×4) + (20×4) + (20×9) = 152 + 80 + 180 = 412 ✓ (within ±10 of 420)
+
+[recipe.healthy_variant]
+variant_name = "Light Bouillabaisse with Olive Oil Rouille and Whole Grain Bread"
+variant_type = "low_calorie"
+description = "A lighter bouillabaisse using more lean white fish and fewer shell-on shrimp, a reduced-fat rouille made with Greek yogurt base, and served with whole grain bread. The aromatic saffron-fennel broth is fully preserved."
+serving_size = "1 large bowl (approximately 480g)"
+servings_per_recipe = 6
+prep_time_minutes = 30
+cook_time_minutes = 60
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1 kg mixed lean white fish (cod, halibut, tilapia), cut into pieces",
+    "300g mussels",
+    "200g shrimp, peeled",
+    "1 large onion, diced",
+    "2 leeks, sliced",
+    "4 cloves garlic, minced",
+    "4 large tomatoes, diced",
+    "1/2 fennel bulb, diced",
+    "1/2 tsp saffron in 2 tbsp hot water",
+    "3/4 cup dry white wine",
+    "1.5 liters fish stock",
+    "2 tbsp olive oil",
+    "1 tsp dried thyme, 1 bay leaf, 1 strip orange peel",
+    "Light rouille: 4 cloves garlic, 1/2 cup plain Greek yogurt, 1 tbsp olive oil, pinch saffron, pinch cayenne",
+    "4 slices whole grain baguette"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Heat olive oil. Sauté onion, leeks, and fennel until soft. Add garlic.",
+    "Add tomatoes, saffron water, thyme, bay leaf, orange peel. Cook 5 minutes.",
+    "Add wine, reduce by half. Add fish stock. Bring to a boil.",
+    "Cook fish in order of firmness: firmest first, shrimp and mussels last. Total 10-12 minutes.",
+    "Make light rouille: blend Greek yogurt, garlic, olive oil, saffron, and cayenne.",
+    "Serve soup with light rouille spread on toasted whole grain bread."
+]
+
+[recipe.healthy_variant.macros]
+calories = 300
+protein_g = 38
+carbs_g = 18
+fat_g = 8
+fiber_g = 4
+sugar_g = 6
+sodium_mg = 540
+# VALIDATION: (38×4) + (18×4) + (8×9) = 152 + 72 + 72 = 296 ✓ (within ±10 of 300)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -120
+protein_difference = "0g"
+key_changes = [
+    "Greek yogurt rouille instead of traditional egg-oil — saves ~100 calories in condiment",
+    "Lean white fish as main protein — lower in fat than some oily fish",
+    "Whole grain bread — more fiber than regular baguette",
+    "Less olive oil overall — saves ~40 calories"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "mixed firm fish (monkfish)", substitute = "any firm white fish (cod, pollock, haddock)", saving_percent = 50, reason = "Monkfish is premium; any firm-fleshed white fish holds together in the boiling stew" },
+    { original = "saffron threads", substitute = "1/4 tsp turmeric + pinch of paprika for color", saving_percent = 95, reason = "Saffron is among the most expensive ingredients; turmeric provides color at minimal cost" },
+    { original = "fresh fish stock", substitute = "water with 2 fish bouillon cubes or clam juice", saving_percent = 70, reason = "Clam juice is an excellent broth base; bouillon adds depth to plain water" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "fresh mussels", substitute = "canned mussels (add at the very end)", reason = "Canned mussels are cooked; add at the last minute just to heat through" },
+    { original = "fennel bulb", substitute = "1/2 tsp fennel seeds + celery stalks", reason = "Fennel seeds provide the same anise flavor; celery provides similar crunch" },
+    { original = "orange peel", substitute = "1 tsp orange zest or 1 tbsp orange juice", reason = "Orange provides a subtle sweetness and aroma; zest is the most concentrated form" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "fish stock", substitute = "water + shrimp shells simmered 20 minutes", reason = "Shrimp shells make excellent impromptu seafood stock at no extra cost" },
+    { original = "rouille", substitute = "mayonnaise with minced garlic and a pinch of cayenne", reason = "Garlic mayonnaise (aioli) is the simplest substitute for the traditional rouille" },
+    { original = "saffron", substitute = "turmeric alone (1/4 tsp)", reason = "Turmeric provides the golden color; the subtle floral taste of saffron is lost but the broth looks authentic" }
+]

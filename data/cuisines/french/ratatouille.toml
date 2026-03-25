@@ -1,0 +1,142 @@
+# ============================================================
+# RECIPE DOCUMENT — RATATOUILLE
+# Cuisine: French
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "french_ratatouille"
+cuisine = "French"
+dish_name = "Ratatouille"
+alternate_names = ["Ratatouille Provençale", "Tian de Légumes", "French Vegetable Stew"]
+category = "main_course"
+tags = ["vegan", "vegetarian", "gluten_free", "comfort_food", "traditional", "low_calorie"]
+allergens = ["none"]
+difficulty = "medium"
+total_time_minutes = 75
+
+[recipe.standard]
+serving_size = "1 generous bowl (approximately 400g)"
+servings_per_recipe = 4
+prep_time_minutes = 25
+cook_time_minutes = 50
+
+[recipe.standard.ingredients]
+items = [
+    "2 medium eggplants, diced",
+    "2 medium zucchini, diced",
+    "2 medium bell peppers (1 red, 1 yellow), diced",
+    "4 large ripe tomatoes, diced",
+    "2 medium onions, diced",
+    "4 cloves garlic, minced",
+    "4 tbsp extra-virgin olive oil",
+    "1 tsp dried thyme",
+    "1 tsp dried herbes de Provence",
+    "2 sprigs fresh rosemary",
+    "1 bay leaf",
+    "Salt and black pepper to taste",
+    "Fresh basil and olive oil for serving"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Salt eggplant cubes. Let rest on paper towels for 20 minutes. Pat dry — this removes bitterness and excess moisture.",
+    "Heat 2 tbsp olive oil in a large Dutch oven over medium-high heat (375°F/190°C). Sauté eggplant until golden, about 6 minutes. Remove.",
+    "In the same pot, heat 1 tbsp olive oil. Sauté zucchini until lightly golden, about 4 minutes. Remove.",
+    "Add remaining oil. Sauté onions until soft, 5 minutes. Add garlic, bell peppers, thyme, herbes de Provence, and bay leaf. Cook 8 minutes.",
+    "Add diced tomatoes. Cook down for 10 minutes until sauce thickens.",
+    "Return eggplant and zucchini to the pot. Add rosemary. Stir gently.",
+    "Cover and simmer on low heat for 20-25 minutes, stirring occasionally, until all vegetables are tender and flavors melded.",
+    "Remove bay leaf and rosemary. Taste and season. Finish with fresh basil and a drizzle of olive oil. Serve hot or at room temperature — it improves the next day."
+]
+
+[recipe.standard.macros]
+calories = 220
+protein_g = 5
+carbs_g = 24
+fat_g = 12
+fiber_g = 8
+sugar_g = 14
+sodium_mg = 320
+# VALIDATION: (5×4) + (24×4) + (12×9) = 20 + 96 + 108 = 224 ✓ (within ±10 of 220)
+
+[recipe.healthy_variant]
+variant_name = "Tian-Style Ratatouille with Chickpeas and Quinoa"
+variant_type = "high_protein"
+description = "An upgraded ratatouille incorporating chickpeas for protein and served over quinoa for a complete meal. The vegetables are arranged in overlapping rounds (tian style) for visual elegance. Transforms a side dish into a complete plant-based main course."
+serving_size = "1 plate with quinoa (approximately 420g)"
+servings_per_recipe = 4
+prep_time_minutes = 30
+cook_time_minutes = 55
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "2 medium zucchini, thinly sliced into rounds",
+    "2 medium yellow squash, thinly sliced",
+    "4 large tomatoes, thinly sliced",
+    "1 medium eggplant, thinly sliced",
+    "400g canned chickpeas, drained",
+    "1.5 cups quinoa",
+    "1 large onion, diced",
+    "4 cloves garlic, minced",
+    "400g canned crushed tomatoes (for base sauce)",
+    "3 tbsp olive oil",
+    "1 tsp herbes de Provence",
+    "1 tsp dried thyme",
+    "Salt and black pepper to taste",
+    "Fresh basil for garnish"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Make base sauce: sauté onion and garlic in 1 tbsp olive oil. Add crushed tomatoes, thyme, salt. Simmer 10 minutes. Add chickpeas. Pour into a baking dish.",
+    "Preheat oven to 375°F (190°C).",
+    "Arrange sliced vegetables in overlapping rounds over the sauce, alternating zucchini, squash, tomato, and eggplant.",
+    "Drizzle with remaining olive oil. Sprinkle with herbes de Provence, salt, and pepper.",
+    "Cover with foil and bake 30 minutes. Remove foil, bake 20 more minutes until vegetables are tender and edges caramelized.",
+    "Cook quinoa separately in 3 cups water for 15 minutes.",
+    "Serve tian over quinoa. Garnish with fresh basil."
+]
+
+[recipe.healthy_variant.macros]
+calories = 380
+protein_g = 16
+carbs_g = 54
+fat_g = 12
+fiber_g = 12
+sugar_g = 12
+sodium_mg = 320
+# VALIDATION: (16×4) + (54×4) + (12×9) = 64 + 216 + 108 = 388 ✓ (within ±10 of 380)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = +160
+protein_difference = "+11g"
+key_changes = [
+    "Chickpeas added — plant-based protein, iron, and significant fiber",
+    "Quinoa base — complete protein with all essential amino acids",
+    "Tian-style presentation — vegetables arranged in rounds, visually striking",
+    "Note: healthy variant is higher in calories but transforms this into a complete protein-rich meal"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "herbes de Provence", substitute = "dried thyme + dried rosemary + dried oregano (equal parts)", saving_percent = 50, reason = "Herbes de Provence is a blend; these three herbs available separately approximate it" },
+    { original = "multiple bell pepper colors", substitute = "one color bell pepper or green pepper", saving_percent = 30, reason = "Mixed colors add visual appeal; a single color provides identical flavor" },
+    { original = "extra-virgin olive oil", substitute = "regular olive oil", saving_percent = 30, reason = "Extra-virgin is preferred for finishing; regular olive oil works fine for cooking" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "herbes de Provence", substitute = "Italian seasoning blend", reason = "Italian seasoning is nearly identical to herbes de Provence and universally available" },
+    { original = "fresh rosemary", substitute = "dried rosemary (use 1/3 the amount)", reason = "Dried rosemary provides the same resinous piney notes as fresh" },
+    { original = "Dutch oven", substitute = "any large heavy pot with a lid", reason = "Any heavy pot retains heat well for slow-cooked vegetable stews" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "herbes de Provence", substitute = "dried thyme alone (it is the dominant herb in the blend)", reason = "Thyme is the backbone of Provençal cooking; it carries the dish on its own" },
+    { original = "fresh basil (garnish)", substitute = "dried basil or fresh parsley", reason = "Any fresh herb garnish provides color and brightness at serving" },
+    { original = "fresh tomatoes", substitute = "canned diced tomatoes, drained", reason = "Good quality canned tomatoes work; drain excess liquid first" }
+]

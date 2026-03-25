@@ -1,0 +1,150 @@
+# ============================================================
+# RECIPE DOCUMENT — HAWAWSHI
+# Cuisine: Egyptian
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "egyptian_hawawshi"
+cuisine = "Egyptian"
+dish_name = "Hawawshi"
+alternate_names = ["Hawawshy", "Egyptian Meat Bread"]
+category = "main_course"
+tags = ["street_food", "comfort_food", "high_protein", "contains_gluten", "quick_meal"]
+allergens = ["gluten"]
+difficulty = "medium"
+total_time_minutes = 50
+
+# ============================================================
+# STANDARD (TRADITIONAL) RECIPE
+# ============================================================
+[recipe.standard]
+serving_size = "1 sandwich (approximately 280g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 30
+
+[recipe.standard.ingredients]
+items = [
+    "4 round pita bread rounds (thick Egyptian baladi bread preferred)",
+    "500g ground beef (80% lean)",
+    "1 large onion, very finely diced or grated",
+    "1 medium green bell pepper, finely diced",
+    "4 cloves garlic, minced",
+    "1/2 cup fresh parsley, finely chopped",
+    "1 medium tomato, finely diced",
+    "1 tsp cumin",
+    "1 tsp coriander",
+    "1/2 tsp black pepper",
+    "1/2 tsp chili flakes",
+    "1/2 tsp cinnamon",
+    "Salt to taste",
+    "2 tbsp vegetable oil (for brushing)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Combine ground beef, grated onion, diced bell pepper, garlic, parsley, tomato, cumin, coriander, black pepper, chili flakes, cinnamon, and salt in a large bowl. Mix very well with your hands for 2 minutes until fully combined.",
+    "Slit each pita bread halfway around the edge to create a pocket. Do not fully separate the two halves.",
+    "Stuff each pita generously with the raw meat mixture, pressing it to fill evenly. Seal the edges by pressing firmly.",
+    "Brush both sides of each stuffed pita lightly with vegetable oil.",
+    "Heat a heavy skillet, griddle, or panini press over medium-high heat (375°F/190°C). Cook each hawawshi for 4-5 minutes per side, pressing down firmly, until bread is crispy and golden brown and meat is fully cooked through.",
+    "Alternatively, bake at 425°F (220°C) for 20-25 minutes, flipping halfway through.",
+    "Let rest 2 minutes before cutting in half. Serve with sliced tomatoes and pickled vegetables."
+]
+
+[recipe.standard.macros]
+calories = 500
+protein_g = 28
+carbs_g = 48
+fat_g = 22
+fiber_g = 4
+sugar_g = 4
+sodium_mg = 520
+# VALIDATION: (28×4) + (48×4) + (22×9) = 112 + 192 + 198 = 502 ✓ (within ±10 of 500)
+
+# ============================================================
+# HEALTHY VARIANT
+# ============================================================
+[recipe.healthy_variant]
+variant_name = "Baked Hawawshi with Lean Turkey on Whole Wheat"
+variant_type = "low_calorie"
+description = "A lighter hawawshi using lean ground turkey instead of beef, whole wheat pita for more fiber, and baked in the oven instead of pan-fried with oil. Extra vegetables in the filling increase volume while reducing calorie density."
+serving_size = "1 sandwich (approximately 270g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 25
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "4 whole wheat pita rounds",
+    "500g lean ground turkey (93% lean)",
+    "1 large onion, grated",
+    "1 medium green bell pepper, finely diced",
+    "1 medium red bell pepper, finely diced",
+    "4 cloves garlic, minced",
+    "1 cup fresh parsley, finely chopped",
+    "1 medium tomato, finely diced",
+    "1 tsp cumin",
+    "1 tsp coriander",
+    "1/2 tsp black pepper",
+    "1/2 tsp chili flakes",
+    "Salt to taste",
+    "Cooking spray"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 425°F (220°C). Line a baking sheet with parchment paper.",
+    "Mix ground turkey with grated onion, both bell peppers, garlic, parsley, tomato, cumin, coriander, black pepper, chili flakes, and salt. Mix thoroughly.",
+    "Open whole wheat pita pockets and fill generously with the turkey mixture, pressing to fill evenly.",
+    "Spray both sides of each stuffed pita lightly with cooking spray.",
+    "Place on the baking sheet. Bake for 12 minutes, flip carefully, then bake another 10-13 minutes until pita is golden and turkey is fully cooked (internal temperature 165°F/74°C).",
+    "Let rest 2 minutes, then cut and serve."
+]
+
+[recipe.healthy_variant.macros]
+calories = 370
+protein_g = 28
+carbs_g = 32
+fat_g = 14
+fiber_g = 7
+sugar_g = 4
+sodium_mg = 380
+# VALIDATION: (28×4) + (32×4) + (14×9) = 112 + 128 + 126 = 366 ✓ (within ±10 of 370)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -130
+protein_difference = "0g"
+key_changes = [
+    "Ground turkey instead of 80% lean beef — reduces fat by ~8g per serving, saves ~70 calories",
+    "Whole wheat pita instead of white pita — adds fiber, lowers glycemic impact",
+    "Baked instead of pan-fried — eliminates added oil entirely",
+    "Extra bell peppers — increase vegetable content without adding significant calories"
+]
+
+# ============================================================
+# SUBSTITUTIONS
+# ============================================================
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "ground beef 80% lean", substitute = "ground beef 70% lean", saving_percent = 15, reason = "Fattier ground beef costs less per kg; excess fat renders out during cooking" },
+    { original = "whole wheat pita", substitute = "regular pita or flatbread", saving_percent = 20, reason = "Regular pita is slightly cheaper and works identically for this recipe" },
+    { original = "fresh parsley", substitute = "dried parsley (use 2 tsp)", saving_percent = 80, reason = "Dried parsley works fine when cooked inside the filling" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Egyptian baladi bread", substitute = "any thick pita or naan bread", reason = "Thick flatbread that can hold a stuffing without tearing is the key requirement" },
+    { original = "ground coriander", substitute = "curry powder (use half the amount)", reason = "Widely available spice blend that contains coriander as a base" },
+    { original = "chili flakes", substitute = "a pinch of cayenne pepper or hot sauce", reason = "Any heat source can substitute; adjust amount to taste preference" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "ground beef", substitute = "any ground meat you have (chicken, pork, or a mix)", reason = "Hawawshi works with any ground meat — flavor will vary but the technique is the same" },
+    { original = "vegetable oil for brushing", substitute = "olive oil or melted butter", reason = "Any cooking fat provides the same browning and crisping effect on the bread surface" },
+    { original = "bell pepper", substitute = "any available vegetables (grated zucchini, grated carrot)", reason = "Any finely grated vegetable adds moisture and texture to the filling" }
+]

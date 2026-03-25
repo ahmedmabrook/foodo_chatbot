@@ -1,0 +1,134 @@
+# ============================================================
+# RECIPE DOCUMENT — QATAYEF
+# Cuisine: Levantine/Arab / Eastern Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "eastern_qatayef"
+cuisine = "Levantine"
+dish_name = "Qatayef"
+alternate_names = ["Katayef", "Qataif", "Arab Stuffed Pancakes", "Ramadan Pancakes"]
+category = "dessert"
+tags = ["levantine", "arab", "ramadan", "fried", "contains_gluten", "contains_dairy", "contains_nuts", "vegetarian"]
+allergens = ["gluten", "dairy", "nuts"]
+difficulty = "medium"
+total_time_minutes = 60
+
+[recipe.standard]
+serving_size = "3 qatayef with syrup (approximately 200g)"
+servings_per_recipe = 6
+prep_time_minutes = 30
+cook_time_minutes = 30
+
+[recipe.standard.ingredients]
+items = [
+    "Batter: 250g all-purpose flour",
+    "Batter: 1 tsp instant yeast",
+    "Batter: 1 tbsp sugar",
+    "Batter: 1/2 tsp baking powder",
+    "Batter: 350ml warm water",
+    "Cheese filling: 300g akkawi cheese or mozzarella, shredded",
+    "Cheese filling: 2 tbsp caster sugar",
+    "Cheese filling: 1 tbsp rose water",
+    "Nut filling (alternative): 150g chopped walnuts, 2 tbsp sugar, 1 tsp cinnamon",
+    "For frying: vegetable oil",
+    "Sugar syrup: 250g sugar, 200ml water, 1 tbsp lemon juice, 1 tsp orange blossom water"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make batter: whisk flour, yeast, sugar, baking powder, and warm water until smooth. Rest 20-30 minutes until bubbles form on the surface.",
+    "Make sugar syrup: combine sugar and water, bring to boil, simmer 5 minutes. Add lemon juice and orange blossom water. Cool.",
+    "Cook pancakes: heat a non-stick pan over medium heat (no oil). Pour about 3 tbsp batter per pancake. Cook only one side until surface bubbles form and the top is set (no longer wet). Pancakes should be cooked on one side only. Stack with bubbly side up.",
+    "Prepare cheese filling: mix shredded akkawi with sugar and rose water. Or prepare walnut filling: mix walnuts with sugar and cinnamon.",
+    "Fill and fold: place filling on the uncooked (bubbly) side. Fold in half and pinch edges firmly to seal into a half-moon shape.",
+    "Fry sealed qatayef in hot oil (350°F/175°C) for 2-3 minutes per side until golden.",
+    "Remove and immediately dip in cool sugar syrup (or drizzle over). Serve warm."
+]
+
+[recipe.standard.macros]
+calories = 480
+protein_g = 12
+carbs_g = 62
+fat_g = 20
+fiber_g = 2
+sugar_g = 36
+sodium_mg = 380
+# VALIDATION: (12×4) + (62×4) + (20×9) = 48 + 248 + 180 = 476 ✓ (within ±10 of 480)
+
+[recipe.healthy_variant]
+variant_name = "Baked Qatayef with Walnut-Cinnamon Filling and Light Syrup"
+variant_type = "low_calorie"
+description = "Qatayef baked in the oven instead of deep-fried, filled with a walnut-cinnamon mixture (no cheese to reduce sodium and fat), and dipped in a lighter syrup with reduced sugar. The signature one-side-cooked pancake shape and the crispy exterior are achieved through brushing with oil before baking."
+serving_size = "3 qatayef with syrup (approximately 190g)"
+servings_per_recipe = 6
+prep_time_minutes = 30
+cook_time_minutes = 30
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "Batter: 250g all-purpose flour, 1 tsp yeast, 1 tbsp sugar, 1/2 tsp baking powder, 350ml warm water",
+    "Walnut filling: 150g chopped walnuts",
+    "Walnut filling: 2 tbsp brown sugar",
+    "Walnut filling: 1 tsp cinnamon",
+    "Walnut filling: 1/2 tsp ground cardamom",
+    "Walnut filling: 1 tbsp rose water",
+    "1 tbsp olive oil (for brushing before baking)",
+    "Light syrup: 150g sugar, 200ml water, 1 tbsp lemon juice, 1 tsp orange blossom water"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Make batter and rest 20-30 minutes as in standard recipe.",
+    "Cook pancakes on one side only as in standard recipe.",
+    "Mix walnut filling ingredients.",
+    "Fill and seal qatayef with walnut filling, pinching edges firmly.",
+    "Place on a parchment-lined baking sheet. Brush lightly with olive oil.",
+    "Bake at 400°F (200°C) for 12-15 minutes until golden and crisp, turning once halfway.",
+    "Make light syrup: boil sugar and water 3 minutes. Add lemon juice and orange blossom water.",
+    "Drizzle light syrup over baked qatayef or dip briefly. Serve warm."
+]
+
+[recipe.healthy_variant.macros]
+calories = 310
+protein_g = 7
+carbs_g = 46
+fat_g = 12
+fiber_g = 2
+sugar_g = 24
+sodium_mg = 180
+# VALIDATION: (7×4) + (46×4) + (12×9) = 28 + 184 + 108 = 320 ✓ (within ±10 of 310)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -170
+protein_difference = "-5g"
+key_changes = [
+    "Baked instead of deep-fried — saves ~120 calories of absorbed oil per serving",
+    "Walnut filling instead of cheese — reduces sodium significantly",
+    "Light syrup (150g sugar vs 250g) — saves ~60 calories per serving",
+    "Cardamom added to filling — enhances flavor complexity without calories"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "akkawi cheese", substitute = "mozzarella + a pinch of salt (akkawi is saltier)", saving_percent = 30, reason = "Mozzarella has the same melt and stretch as akkawi; adding salt replicates the salty flavor" },
+    { original = "orange blossom water for syrup", substitute = "rose water or a strip of lemon zest in the syrup", saving_percent = 30, reason = "Any floral water or citrus zest infuses the syrup with aromatic quality" },
+    { original = "chopped walnuts for filling", substitute = "any available nut (almonds, mixed nuts, peanuts)", saving_percent = 30, reason = "Any nut provides the crunchy, sweet filling; walnuts are traditional but not exclusive" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "akkawi cheese", substitute = "ricotta mixed with a pinch of salt and 1 tbsp sugar", reason = "Ricotta has similar mild, milky character and works well in the sweet cheese filling" },
+    { original = "orange blossom water", substitute = "1 tsp vanilla extract or simply skip floral water", reason = "Vanilla provides aromatic depth in the syrup without specialty ingredients" },
+    { original = "instant yeast for batter", substitute = "active dry yeast (activate in warm water first, add 10 minutes)", reason = "Active dry yeast produces the same bubbly, yeast-leavened pancake batter" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "qatayef batter (yeast-leavened)", substitute = "standard pancake batter cooked one-side only (no yeast, less authentic bubbles)", reason = "Regular pancake batter cooked one-side-only produces functional qatayef wrappers" },
+    { original = "sugar syrup with orange blossom", substitute = "honey thinned with a little warm water", reason = "Warm honey drizzled over qatayef provides the sweetness and gloss of sugar syrup" },
+    { original = "deep frying or baking", substitute = "pan-fry in 1 tbsp oil per batch (shallow fry method)", reason = "Shallow frying with minimal oil produces golden qatayef with far less oil than deep frying" }
+]

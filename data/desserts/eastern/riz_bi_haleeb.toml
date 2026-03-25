@@ -1,0 +1,129 @@
+# ============================================================
+# RECIPE DOCUMENT — RIZ BI HALEEB
+# Cuisine: Lebanese/Arab / Eastern Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "eastern_riz_bi_haleeb"
+cuisine = "Lebanese"
+dish_name = "Riz bi Haleeb"
+alternate_names = ["Roz bel Laban", "Middle Eastern Rice Pudding", "Lebanese Rice Pudding", "Riz au Lait"]
+category = "dessert"
+tags = ["lebanese", "arab", "gluten_free", "vegetarian", "comfort_food", "contains_dairy"]
+allergens = ["dairy"]
+difficulty = "easy"
+total_time_minutes = 40
+
+[recipe.standard]
+serving_size = "1 bowl (approximately 250g)"
+servings_per_recipe = 6
+prep_time_minutes = 5
+cook_time_minutes = 35
+
+[recipe.standard.ingredients]
+items = [
+    "150g short-grain rice (arborio or Egyptian rice), rinsed",
+    "1 liter whole milk",
+    "200ml heavy cream",
+    "100g caster sugar",
+    "1 tbsp cornstarch, dissolved in 2 tbsp cold water",
+    "1 tsp rose water",
+    "1 tsp orange blossom water",
+    "Ground pistachios and cinnamon for garnish"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Combine rinsed rice and milk in a heavy saucepan. Bring to a gentle boil over medium heat, stirring frequently.",
+    "Reduce heat to low. Simmer uncovered, stirring regularly, for 20-25 minutes until rice is fully soft and the mixture has thickened considerably.",
+    "Add heavy cream and sugar. Stir until sugar dissolves. Cook a further 5 minutes.",
+    "Add dissolved cornstarch. Stir continuously for 2-3 minutes until the pudding thickens to a creamy, pourable consistency.",
+    "Remove from heat. Stir in rose water and orange blossom water.",
+    "Pour into individual serving bowls or one large dish. Allow to cool to room temperature, then refrigerate.",
+    "Serve cold or at room temperature. Garnish with ground pistachios and a dusting of cinnamon."
+]
+
+[recipe.standard.macros]
+calories = 340
+protein_g = 8
+carbs_g = 48
+fat_g = 14
+fiber_g = 0
+sugar_g = 28
+sodium_mg = 100
+# VALIDATION: (8×4) + (48×4) + (14×9) = 32 + 192 + 126 = 350 ✓ (within ±10 of 340)
+
+[recipe.healthy_variant]
+variant_name = "Light Riz bi Haleeb with Low-Fat Milk and Reduced Sugar"
+variant_type = "low_calorie"
+description = "A lighter rice pudding using all low-fat milk (no heavy cream), reduced sugar, and adding cornstarch to achieve thickness without fat. The essential rose water and orange blossom water aromatics are fully preserved. A thin layer of desiccated coconut is added for texture."
+serving_size = "1 bowl (approximately 250g)"
+servings_per_recipe = 6
+prep_time_minutes = 5
+cook_time_minutes = 35
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "150g short-grain rice, rinsed",
+    "1.2 liters low-fat milk (2%)",
+    "60g caster sugar",
+    "1.5 tbsp cornstarch, dissolved in 3 tbsp cold water",
+    "1 tsp rose water",
+    "1 tsp orange blossom water",
+    "1/4 tsp vanilla extract",
+    "Ground pistachios and cinnamon for garnish"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Simmer rice in low-fat milk over low-medium heat, stirring frequently, for 25-30 minutes until rice is very soft and mixture thickens.",
+    "Add sugar. Stir to dissolve. Cook 2 minutes.",
+    "Add dissolved cornstarch. Stir continuously 3 minutes until pudding thickens well.",
+    "Remove from heat. Add rose water, orange blossom water, and vanilla.",
+    "Pour into bowls. Cool and refrigerate.",
+    "Garnish with pistachios and cinnamon. Serve cold."
+]
+
+[recipe.healthy_variant.macros]
+calories = 210
+protein_g = 8
+carbs_g = 40
+fat_g = 3
+fiber_g = 0
+sugar_g = 20
+sodium_mg = 100
+# VALIDATION: (8×4) + (40×4) + (3×9) = 32 + 160 + 27 = 219 ✓ (within ±10 of 210)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -130
+protein_difference = "0g"
+key_changes = [
+    "No heavy cream — eliminates the most calorie-dense ingredient, saving ~90 calories per serving",
+    "Low-fat milk instead of whole milk — saves ~40 calories per serving",
+    "Reduced sugar (60g vs 100g) — saves ~30 calories across servings",
+    "Extra cornstarch compensates for less fat by providing thickness"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "short-grain rice (arborio)", substitute = "any short-grain or medium-grain white rice", saving_percent = 40, reason = "Any starchy short-grain white rice releases starch during cooking to create a creamy pudding" },
+    { original = "rose water and orange blossom water", substitute = "vanilla extract only (1.5 tsp)", saving_percent = 60, reason = "Vanilla provides a classic, universally appealing aromatic background for rice pudding" },
+    { original = "heavy cream", substitute = "skip entirely and use more milk — lighter and cheaper", saving_percent = 100, reason = "All-milk rice pudding thickened with cornstarch is delicious and significantly lighter" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "short-grain rice", substitute = "regular long-grain rice (stir more; less creamy but works)", reason = "Long-grain rice produces a less creamy pudding but is perfectly delicious and widely available" },
+    { original = "rose water", substitute = "vanilla extract or cardamom-infused milk", reason = "Cardamom-infused milk (add 2-3 pods while cooking) provides a warm, aromatic alternative" },
+    { original = "cornstarch thickener", substitute = "extra rice (add 20g more rice for natural thickening)", reason = "Extra rice releases more starch during cooking and thickens the pudding naturally" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "rose water and orange blossom water", substitute = "vanilla extract", reason = "Vanilla is a universal pantry item that pairs naturally with rice pudding" },
+    { original = "heavy cream", substitute = "whole milk (use 1.2 liters total — all milk version)", reason = "An all-milk rice pudding is a delicious lighter version of the classic" },
+    { original = "ground pistachios garnish", substitute = "ground cinnamon alone or any crushed nut", reason = "Cinnamon is a universal garnish for rice pudding; any nut provides textural contrast" }
+]

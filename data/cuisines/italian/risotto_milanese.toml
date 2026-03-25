@@ -1,0 +1,135 @@
+# ============================================================
+# RECIPE DOCUMENT — RISOTTO ALLA MILANESE
+# Cuisine: Italian
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "italian_risotto_milanese"
+cuisine = "Italian"
+dish_name = "Risotto alla Milanese"
+alternate_names = ["Saffron Risotto", "Milan Style Risotto", "Osso Buco Risotto"]
+category = "main_course"
+tags = ["vegetarian", "comfort_food", "festive", "contains_dairy", "traditional"]
+allergens = ["dairy"]
+difficulty = "medium"
+total_time_minutes = 45
+
+[recipe.standard]
+serving_size = "1 plate (approximately 320g)"
+servings_per_recipe = 4
+prep_time_minutes = 10
+cook_time_minutes = 35
+
+[recipe.standard.ingredients]
+items = [
+    "320g Arborio or Carnaroli rice",
+    "1.2 liters chicken or beef broth, kept hot",
+    "1 large onion, very finely diced",
+    "1/2 tsp saffron threads, soaked in 1/2 cup warm broth",
+    "120ml dry white wine",
+    "60g butter, divided",
+    "60g Parmesan cheese (Parmigiano-Reggiano), grated",
+    "2 tbsp beef bone marrow (optional, traditional in Milan)",
+    "Salt and white pepper to taste"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Keep broth in a separate pot over low heat — it must be hot when added to the rice.",
+    "Melt half the butter in a wide, heavy-bottomed pan over medium heat. Add finely diced onion and cook gently for 8-10 minutes until very soft and translucent but not browned.",
+    "If using bone marrow, add it now and let it melt into the onion.",
+    "Add dry rice and toast for 2 minutes, stirring, until the edges look translucent and the rice smells nutty.",
+    "Pour in white wine. Stir until completely absorbed.",
+    "Add hot broth one ladle at a time, stirring frequently and adding the next ladle only when the previous one is absorbed. This process takes 18-20 minutes.",
+    "About halfway through, add the saffron broth. The risotto will turn a beautiful deep golden yellow.",
+    "When rice is al dente (a slight firmness at center) and sauce is creamy, remove from heat. Add remaining cold butter and Parmesan. Vigorously stir to emulsify — this is 'mantecatura' and creates the creamy texture. Rest 1 minute.",
+    "Serve immediately on warm plates. Risotto should spread like a wave (all'onda) on the plate."
+]
+
+[recipe.standard.macros]
+calories = 480
+protein_g = 14
+carbs_g = 68
+fat_g = 16
+fiber_g = 2
+sugar_g = 4
+sodium_mg = 580
+# VALIDATION: (14×4) + (68×4) + (16×9) = 56 + 272 + 144 = 472 ✓ (within ±10 of 480)
+
+[recipe.healthy_variant]
+variant_name = "Cauliflower Saffron Risotto with Light Parmesan Finish"
+variant_type = "low_carb"
+description = "A low-carb risotto substitute using cauliflower rice processed to Arborio-sized pieces, cooked with the traditional saffron and white wine flavor base. Finished with a smaller amount of butter and Parmesan. Has the same golden color and aromatic quality without the heavy starch."
+serving_size = "1 plate (approximately 350g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 20
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1 large cauliflower head, grated into rice-sized pieces (about 4 cups)",
+    "600ml low-sodium chicken broth, warm",
+    "1 large onion, very finely diced",
+    "1/2 tsp saffron threads, soaked in 1/4 cup warm broth",
+    "80ml dry white wine",
+    "1 tbsp butter",
+    "30g Parmesan cheese, grated",
+    "1 tbsp olive oil",
+    "Salt and white pepper to taste",
+    "Fresh thyme (optional)"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Prepare cauliflower rice: grate or pulse cauliflower florets to rice-sized pieces.",
+    "Heat olive oil in a wide pan over medium heat. Sauté onion until very soft, 8-10 minutes.",
+    "Add cauliflower rice. Stir to coat. Add white wine and stir until absorbed.",
+    "Add saffron broth. Stir well to distribute the golden color.",
+    "Add remaining broth in 2-3 additions, stirring. Cauliflower cooks much faster than rice — total cook time is 8-10 minutes from here. Do not overcook or it becomes mushy.",
+    "Remove from heat when cauliflower is just tender with slight texture. Stir in butter and Parmesan.",
+    "Season with salt and white pepper. Serve immediately."
+]
+
+[recipe.healthy_variant.macros]
+calories = 180
+protein_g = 8
+carbs_g = 18
+fat_g = 8
+fiber_g = 5
+sugar_g = 6
+sodium_mg = 360
+# VALIDATION: (8×4) + (18×4) + (8×9) = 32 + 72 + 72 = 176 ✓ (within ±10 of 180)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -300
+protein_difference = "-6g"
+key_changes = [
+    "Cauliflower replaces Arborio rice — eliminates ~50g carbs per serving",
+    "Reduced butter (1 tbsp vs 60g) — saves ~80 calories",
+    "Reduced Parmesan (30g vs 60g) — saves ~40 calories",
+    "Olive oil replaces butter for sautéing — healthier fat profile"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "saffron threads", substitute = "1/4 tsp turmeric for color + a pinch of paprika", saving_percent = 95, reason = "Saffron is extremely expensive; turmeric provides the golden color at a tiny fraction of the cost" },
+    { original = "Parmigiano-Reggiano", substitute = "Grana Padano or any hard Italian cheese", saving_percent = 25, reason = "Grana Padano has a similar flavor profile and is typically cheaper than Parmigiano-Reggiano" },
+    { original = "dry white wine", substitute = "extra broth + 1 tbsp white wine vinegar", saving_percent = 80, reason = "The alcohol evaporates; what remains is acidity and flavor — vinegar provides the acid" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Arborio or Carnaroli rice", substitute = "any short-grain rice (sushi rice works)", reason = "Short-grain rice has the starch needed to create a creamy risotto; long-grain will not work" },
+    { original = "saffron", substitute = "turmeric (provides color only) + extra Parmesan (for richness)", reason = "Saffron provides both color and a unique floral metallic flavor; turmeric covers the color part" },
+    { original = "bone marrow", substitute = "1 extra tbsp butter added to onions", reason = "Bone marrow adds richness; extra butter provides a similar fat-enriched base" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "chicken broth", substitute = "water with a bouillon cube", reason = "Bouillon provides the salt and umami depth needed for the risotto cooking liquid" },
+    { original = "dry white wine", substitute = "lemon juice diluted in water (2 tbsp lemon + 60ml water)", reason = "The white wine is for acidity; diluted lemon juice performs the same function" },
+    { original = "Parmesan cheese", substitute = "any hard cheese you have, finely grated", reason = "Aged hard cheese provides the salt and fat needed for the finishing mantecatura" }
+]

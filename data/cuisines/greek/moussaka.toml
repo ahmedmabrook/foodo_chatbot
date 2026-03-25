@@ -1,0 +1,155 @@
+[metadata]
+doc_id = "greek_moussaka"
+cuisine = "Greek"
+dish_name = "Moussaka"
+alternate_names = ["Mousakas", "Greek Lasagna"]
+category = "main_course"
+tags = ["baked", "lamb", "eggplant", "bechamel", "comfort food", "traditional"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "hard"
+total_time_minutes = 150
+
+[recipe.standard]
+serving_size = "1 slice (approximately 380g)"
+servings_per_recipe = 6
+prep_time_minutes = 45
+cook_time_minutes = 105
+
+[recipe.standard.ingredients]
+items = [
+    "3 large eggplants (about 1.2kg), sliced 1cm thick",
+    "500g ground lamb",
+    "2 medium onions, finely diced",
+    "4 garlic cloves, minced",
+    "400g canned crushed tomatoes",
+    "120ml dry red wine",
+    "3 tablespoons olive oil",
+    "1 teaspoon ground cinnamon",
+    "1/2 teaspoon ground allspice",
+    "1/4 teaspoon ground nutmeg",
+    "2 bay leaves",
+    "Salt and black pepper to taste",
+    "Olive oil for brushing eggplant",
+    "70g unsalted butter",
+    "70g all-purpose flour",
+    "700ml whole milk, warmed",
+    "2 large eggs, beaten",
+    "80g Kefalotyri or Pecorino Romano, grated",
+    "Pinch of nutmeg for bechamel"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Slice eggplants, sprinkle generously with salt, and let them drain in a colander for 30 minutes to remove bitterness. Rinse and pat dry thoroughly.",
+    "Brush eggplant slices on both sides with olive oil and arrange on baking sheets. Roast in the oven at 400°F (200°C) for 20 minutes, flipping halfway, until golden and softened. Set aside.",
+    "Heat 3 tablespoons olive oil in a large skillet over medium-high heat. Add onions and cook for 5 minutes until softened. Add garlic and cook 1 minute more.",
+    "Add ground lamb to the skillet, breaking it up with a wooden spoon. Cook until no longer pink, about 8 minutes. Drain excess fat.",
+    "Pour in red wine and let it reduce for 2 minutes. Add crushed tomatoes, cinnamon, allspice, nutmeg, bay leaves, salt, and pepper. Simmer uncovered for 25 minutes until the sauce thickens. Remove bay leaves and set aside.",
+    "Prepare the bechamel: melt butter in a saucepan over medium heat. Whisk in flour and cook for 2 minutes to form a roux. Gradually whisk in warm milk, cooking and stirring constantly for 8 minutes until the sauce thickens and coats a spoon. Remove from heat, cool slightly, then whisk in beaten eggs, half the cheese, and a pinch of nutmeg.",
+    "Preheat oven to 375°F (190°C). Lightly oil a 9x13 inch (23x33cm) baking dish. Arrange half the eggplant slices in an even layer on the bottom.",
+    "Spread the entire meat sauce evenly over the eggplant layer. Top with the remaining eggplant slices.",
+    "Pour the bechamel sauce evenly over the top layer, smoothing it out with a spatula. Sprinkle with remaining grated cheese.",
+    "Bake at 375°F (190°C) for 45 minutes until the top is deep golden brown and bubbling at the edges. Rest for at least 20 minutes before slicing and serving."
+]
+
+[recipe.standard.macros]
+# protein: 28g × 4 = 112 | carbs: 22g × 4 = 88 | fat: 26g × 9 = 234 | total = 434 ≈ 430
+calories = 430
+protein_g = 28
+carbs_g = 22
+fat_g = 26
+fiber_g = 5
+sugar_g = 9
+sodium_mg = 620
+
+[recipe.healthy_variant]
+variant_name = "Light Moussaka with Zucchini"
+variant_type = "low_calorie"
+description = "A lighter version replacing half the eggplant with zucchini, using lean ground turkey instead of lamb, and a Greek yogurt-based bechamel with significantly less butter and flour."
+serving_size = "1 slice (approximately 350g)"
+servings_per_recipe = 6
+prep_time_minutes = 45
+cook_time_minutes = 90
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "2 medium eggplants (about 600g), sliced 1cm thick",
+    "2 medium zucchini (about 400g), sliced 1cm thick",
+    "450g lean ground turkey (93% lean)",
+    "2 medium onions, finely diced",
+    "4 garlic cloves, minced",
+    "400g canned crushed tomatoes",
+    "60ml dry red wine",
+    "1 tablespoon olive oil",
+    "1 teaspoon ground cinnamon",
+    "1/2 teaspoon ground allspice",
+    "1/4 teaspoon ground nutmeg",
+    "2 bay leaves",
+    "Salt and black pepper to taste",
+    "Cooking spray for vegetables",
+    "30g unsalted butter",
+    "40g all-purpose flour",
+    "400ml low-fat milk, warmed",
+    "250g non-fat Greek yogurt",
+    "1 large egg, beaten",
+    "40g Kefalotyri or Parmesan, grated",
+    "Pinch of nutmeg for sauce"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Slice eggplants, salt, and drain for 30 minutes. Rinse and pat dry. Slice zucchini and pat dry.",
+    "Spray vegetable slices lightly with cooking spray. Arrange on baking sheets and roast at 400°F (200°C) for 18 minutes, flipping halfway, until golden. Set aside.",
+    "Heat 1 tablespoon olive oil in a large skillet over medium-high heat. Cook onions for 5 minutes until soft. Add garlic and cook 1 minute.",
+    "Add ground turkey, breaking it up as it cooks, about 7 minutes until cooked through. Drain any liquid.",
+    "Add red wine and reduce for 2 minutes. Add tomatoes, cinnamon, allspice, nutmeg, bay leaves, salt, and pepper. Simmer 20 minutes until thickened. Remove bay leaves.",
+    "For the yogurt bechamel: melt butter in a saucepan, whisk in flour, cook 2 minutes. Gradually add warm milk, stirring constantly for 5 minutes until thickened. Remove from heat, cool 5 minutes, then whisk in Greek yogurt, beaten egg, half the cheese, and nutmeg.",
+    "Preheat oven to 375°F (190°C). Lightly spray a 9x13 inch (23x33cm) baking dish. Layer eggplant on the bottom, then alternate remaining eggplant and zucchini slices.",
+    "Spread meat sauce evenly over the vegetable layer, then top with remaining vegetable slices.",
+    "Pour yogurt bechamel over the top and spread evenly. Sprinkle with remaining cheese.",
+    "Bake at 375°F (190°C) for 40 minutes until golden brown. Rest 20 minutes before serving."
+]
+
+[recipe.healthy_variant.macros]
+# protein: 30g × 4 = 120 | carbs: 18g × 4 = 72 | fat: 11g × 9 = 99 | total = 291 ≈ 290
+calories = 290
+protein_g = 30
+carbs_g = 18
+fat_g = 11
+fiber_g = 5
+sugar_g = 8
+sodium_mg = 430
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -140
+protein_difference = "+2g"
+key_changes = [
+    "Ground turkey replaces lamb, reducing saturated fat significantly",
+    "Zucchini replaces half the eggplant, adding nutrients while lowering density",
+    "Greek yogurt bechamel replaces classic butter-heavy bechamel, cutting fat by more than half",
+    "Cooking spray replaces olive oil for roasting vegetables",
+    "Reduced cheese quantity by half throughout the recipe"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "ground lamb", substitute = "ground beef (80/20)", saving_percent = 35, reason = "Ground beef is widely available and significantly cheaper than lamb while providing similar texture and richness in the meat sauce" },
+    { original = "Kefalotyri cheese", substitute = "Parmesan or Pecorino Romano", saving_percent = 20, reason = "These aged hard cheeses share a similar sharp, salty profile and are much easier to find at standard grocery prices" },
+    { original = "dry red wine", substitute = "beef broth with 1 teaspoon red wine vinegar", saving_percent = 40, reason = "Provides similar depth and acidity for braising at a fraction of the cost, using pantry staples" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Kefalotyri cheese", substitute = "Pecorino Romano or aged Parmesan", reason = "Kefalotyri is a Greek hard sheep's milk cheese rarely found outside specialty stores; Pecorino or Parmesan are widely available in any supermarket" },
+    { original = "ground lamb", substitute = "ground beef or a 50/50 beef-pork mixture", reason = "Ground lamb can be hard to source in many regions; ground beef or mixed pork-beef gives a comparable rich meatiness" },
+    { original = "canned crushed tomatoes", substitute = "canned diced tomatoes, pulsed briefly", reason = "Diced tomatoes are universally stocked and can be roughly blended to achieve the same texture" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "9x13 inch baking dish", substitute = "any large oven-safe roasting pan or two 8x8 dishes", reason = "The layered assembly just needs adequate depth and surface area; two smaller pans work equally well" },
+    { original = "basting brush for eggplant", substitute = "paper towel dipped in oil or hands", reason = "Rubbing oil onto eggplant slices by hand or with a paper towel achieves the same even coating without a specialized brush" },
+    { original = "wire whisk for bechamel", substitute = "a fork or wooden spoon with vigorous stirring", reason = "A fork or wooden spoon can adequately incorporate the roux and milk if stirred constantly and quickly to prevent lumps" }
+]

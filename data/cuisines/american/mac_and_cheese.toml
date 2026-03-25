@@ -1,0 +1,137 @@
+[metadata]
+doc_id = "american_mac_and_cheese"
+cuisine = "American"
+dish_name = "Macaroni and Cheese"
+alternate_names = ["Mac and Cheese", "Baked Mac", "Mac 'n' Cheese"]
+category = "main_course"
+tags = ["pasta", "cheese", "baked", "comfort food", "classic", "american"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "medium"
+total_time_minutes = 55
+
+[recipe.standard]
+serving_size = "1 portion (approximately 350g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 35
+
+[recipe.standard.ingredients]
+items = [
+    "1 lb (450g) elbow macaroni",
+    "4 tablespoons unsalted butter",
+    "1/4 cup (30g) all-purpose flour",
+    "3 cups (720ml) whole milk, warmed",
+    "1 cup (240ml) heavy cream",
+    "2 cups (200g) sharp cheddar cheese, freshly shredded",
+    "1 cup (100g) Gruyère cheese, freshly shredded",
+    "1/2 cup (50g) Parmesan cheese, grated",
+    "1 teaspoon dry mustard powder",
+    "1/2 teaspoon garlic powder",
+    "1/4 teaspoon cayenne pepper",
+    "1/2 teaspoon smoked paprika",
+    "1 teaspoon kosher salt",
+    "1/2 teaspoon black pepper",
+    "1/2 cup (50g) panko breadcrumbs",
+    "1 tablespoon unsalted butter, melted (for topping)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Preheat oven to 375°F (190°C). Bring a large pot of salted water to a boil and cook macaroni 2 minutes less than the package directions (it will finish in the oven). Drain and set aside.",
+    "In a large heavy-bottomed saucepan over medium heat (350°F / 177°C), melt 4 tablespoons butter. Whisk in the flour and cook, stirring constantly, for 1–2 minutes to form a blonde roux.",
+    "Gradually pour in the warm milk and cream, whisking continuously to prevent lumps. Increase heat to medium-high and cook, stirring, until the béchamel thickens enough to coat the back of a spoon, about 5–7 minutes.",
+    "Remove the pan from heat. Stir in dry mustard, garlic powder, cayenne, smoked paprika, salt, and pepper. Add the shredded cheddar, Gruyère, and half the Parmesan a handful at a time, stirring until fully melted and smooth after each addition.",
+    "Add the drained pasta to the cheese sauce and stir well to coat every piece. Pour into a greased 9×13-inch baking dish.",
+    "In a small bowl, toss panko breadcrumbs with the melted butter and remaining Parmesan. Sprinkle evenly over the pasta.",
+    "Bake uncovered at 375°F (190°C) for 25–30 minutes until the top is golden and the sauce is bubbling around the edges. Rest for 5 minutes before serving."
+]
+
+[recipe.standard.macros]
+calories = 720
+protein_g = 30
+carbs_g = 70
+fat_g = 36
+fiber_g = 3
+sugar_g = 8
+sodium_mg = 740
+
+[recipe.healthy_variant]
+variant_name = "Cauliflower-Boosted Whole Wheat Mac"
+variant_type = "low_calorie"
+description = "Whole wheat pasta and a velvety sauce made from steamed cauliflower purée, low-fat milk, and reduced sharp cheddar give all the creamy comfort of classic mac with far fewer calories and significantly more fiber and vegetables."
+serving_size = "1 portion (approximately 360g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 35
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "12 oz (340g) whole wheat elbow macaroni",
+    "3 cups (300g) cauliflower florets, steamed until very tender",
+    "1 tablespoon olive oil",
+    "2 tablespoons all-purpose flour",
+    "2 cups (480ml) 1% low-fat milk, warmed",
+    "1.5 cups (150g) sharp cheddar cheese, freshly shredded",
+    "1/4 cup (25g) Parmesan cheese, grated",
+    "1 teaspoon dry mustard powder",
+    "1/2 teaspoon garlic powder",
+    "1/4 teaspoon cayenne pepper",
+    "1/2 teaspoon smoked paprika",
+    "3/4 teaspoon kosher salt",
+    "1/2 teaspoon black pepper",
+    "1/4 cup (25g) whole wheat breadcrumbs",
+    "2 tablespoons fresh flat-leaf parsley, chopped"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 375°F (190°C). Cook whole wheat macaroni in salted boiling water 2 minutes less than package directions. Drain and set aside.",
+    "Blend the steamed cauliflower with 1/2 cup of the warm milk in a blender until completely smooth and creamy. Set aside.",
+    "In a large saucepan over medium heat (350°F / 177°C), heat olive oil. Whisk in flour and cook for 1 minute to form a roux. Gradually whisk in remaining milk and cook until thickened, about 4–5 minutes.",
+    "Stir in the cauliflower purée until fully combined. Remove from heat. Add dry mustard, garlic powder, cayenne, paprika, salt, and pepper. Stir in shredded cheddar and half the Parmesan a handful at a time until melted and smooth.",
+    "Add drained pasta and stir to coat. Transfer to a greased 9×13-inch baking dish. Mix whole wheat breadcrumbs with remaining Parmesan and sprinkle on top.",
+    "Bake uncovered at 375°F (190°C) for 25 minutes until golden and bubbly. Garnish with fresh parsley and rest 5 minutes before serving."
+]
+
+[recipe.healthy_variant.macros]
+calories = 460
+protein_g = 22
+carbs_g = 58
+fat_g = 16
+fiber_g = 7
+sugar_g = 7
+sodium_mg = 480
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -260
+protein_difference = "-8g"
+key_changes = [
+    "Heavy cream eliminated entirely; replaced with cauliflower purée for creaminess and added vegetables",
+    "Whole milk replaced with 1% low-fat milk, reducing fat substantially",
+    "Cheese quantity reduced by 40% while maintaining sharp flavor with high-quality cheddar",
+    "Whole wheat pasta increases fiber by 4g per serving compared to refined macaroni",
+    "Butter in sauce replaced with olive oil for heart-healthier monounsaturated fat profile"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "Gruyère cheese", substitute = "Swiss cheese or shredded mozzarella", saving_percent = 60, reason = "Gruyère is a specialty import cheese; Swiss or mozzarella melt smoothly and cost a fraction of the price" },
+    { original = "heavy cream", substitute = "whole milk or evaporated milk", saving_percent = 50, reason = "Evaporated milk adds creaminess at far lower cost; shake the can well before using" },
+    { original = "panko breadcrumbs", substitute = "crushed plain crackers or day-old bread crumbs", saving_percent = 70, reason = "Blitzed stale bread or crushed Ritz crackers make an excellent topping at nearly zero extra cost" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Gruyère cheese", substitute = "Emmental or any mild melting cheese", reason = "Gruyère is unavailable in many regions; Emmental is its close relative and widely available globally" },
+    { original = "elbow macaroni", substitute = "any short pasta shape (penne, shells, cavatappi)", reason = "The sauce works with any pasta that has nooks to hold cheese; shells and cavatappi are particularly good" },
+    { original = "dry mustard powder", substitute = "1 tablespoon Dijon mustard or yellow mustard", reason = "Dry mustard is a pantry staple in the US but not universally available; prepared mustard adds the same tang" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "9×13-inch baking dish", substitute = "any large oven-safe pot or Dutch oven", reason = "A Dutch oven or large cast-iron pan works perfectly; skip the breadcrumb crust or broil briefly at the end" },
+    { original = "freshly shredded cheese blocks", substitute = "pre-shredded bagged cheese", reason = "Pre-shredded cheese has anti-caking agents that can make sauce slightly grainy; whisk sauce vigorously over low heat to compensate" },
+    { original = "smoked paprika", substitute = "regular sweet paprika plus a drop of liquid smoke", reason = "Smoked paprika can be swapped with sweet paprika; add one small drop of liquid smoke to approximate the smoky depth" }
+]

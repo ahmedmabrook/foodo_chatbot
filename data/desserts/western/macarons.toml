@@ -1,0 +1,133 @@
+# ============================================================
+# RECIPE DOCUMENT — MACARONS
+# Cuisine: French / Western Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "western_macarons"
+cuisine = "French"
+dish_name = "Macarons"
+alternate_names = ["French Macarons", "Macarons de Paris", "French Almond Cookies"]
+category = "dessert"
+tags = ["french", "elegant", "gluten_free", "contains_dairy", "contains_eggs", "contains_nuts"]
+allergens = ["dairy", "eggs", "nuts"]
+difficulty = "hard"
+total_time_minutes = 90
+
+[recipe.standard]
+serving_size = "2 macarons (approximately 40g)"
+servings_per_recipe = 20
+prep_time_minutes = 60
+cook_time_minutes = 30
+
+[recipe.standard.ingredients]
+items = [
+    "200g almond flour (fine, blanched)",
+    "200g powdered sugar",
+    "150g egg whites, aged at room temperature (about 4-5 eggs)",
+    "150g caster sugar",
+    "Food coloring gel (optional)",
+    "Vanilla buttercream filling: 100g unsalted butter, softened",
+    "Buttercream filling: 200g powdered sugar",
+    "Buttercream filling: 1-2 tbsp heavy cream",
+    "Buttercream filling: 1 tsp vanilla extract"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Sift almond flour and powdered sugar together twice. Discard any large pieces. This is the 'tant pour tant'.",
+    "Make Italian meringue: place caster sugar in a saucepan with just enough water to moisten (about 50ml). Heat without stirring to 244°F (118°C). While syrup heats, begin beating egg whites to soft peaks. Stream hot syrup into egg whites while beating at high speed. Continue beating until stiff, glossy, and the bowl is cool.",
+    "Add food coloring to meringue if using.",
+    "Fold almond mixture into meringue using macaronage technique: fold with a spatula, pressing batter against the bowl, until it flows like lava and falls in a continuous ribbon from the spatula. Do not over-mix or under-mix.",
+    "Pipe 3cm rounds onto parchment-lined baking sheets. Tap sheets firmly on the counter to pop air bubbles. Let rest 30-60 minutes until a dry skin forms (shells should not stick to your finger).",
+    "Bake at 300°F (150°C) for 12-14 minutes. Shells should develop feet and slide cleanly off parchment when cool.",
+    "Make buttercream: beat softened butter, powdered sugar, cream, and vanilla until smooth. Pipe onto half the shells, sandwich with remaining shells.",
+    "Mature in the refrigerator for 24 hours before serving for best texture."
+]
+
+[recipe.standard.macros]
+calories = 180
+protein_g = 3
+carbs_g = 26
+fat_g = 8
+fiber_g = 1
+sugar_g = 24
+sodium_mg = 20
+# VALIDATION: (3×4) + (26×4) + (8×9) = 12 + 104 + 72 = 188 ✓ (within ±10 of 180)
+
+[recipe.healthy_variant]
+variant_name = "Reduced-Sugar Macarons with Greek Yogurt Filling"
+variant_type = "low_calorie"
+description = "Macarons with 20% less sugar in both shells and filling, and a tangy Greek yogurt-cream cheese filling instead of pure buttercream. The classic macaron shell technique (feet, smooth top, crisp exterior) is unchanged. The filling is lighter and less sweet, letting the almond flavor shine."
+serving_size = "2 macarons (approximately 40g)"
+servings_per_recipe = 20
+prep_time_minutes = 60
+cook_time_minutes = 30
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "200g almond flour",
+    "160g powdered sugar (reduced)",
+    "150g aged egg whites",
+    "120g caster sugar (reduced)",
+    "Food coloring gel (optional)",
+    "Greek yogurt filling: 100g cream cheese, softened",
+    "Greek yogurt filling: 80g thick 0% Greek yogurt",
+    "Greek yogurt filling: 3 tbsp powdered sugar",
+    "Greek yogurt filling: 1 tsp vanilla extract or lemon zest"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Sift almond flour and reduced powdered sugar twice.",
+    "Make Italian meringue with reduced caster sugar heated to 244°F (118°C). Beat into egg whites. Cool to stiff peaks.",
+    "Macaronage: fold almond mix into meringue until lava-like ribbon consistency.",
+    "Pipe 3cm rounds. Rest 30-60 minutes until skin forms.",
+    "Bake at 300°F (150°C) for 12-14 minutes. Cool completely.",
+    "Make filling: beat cream cheese smooth. Fold in Greek yogurt, powdered sugar, and vanilla. Refrigerate 30 minutes to firm.",
+    "Sandwich macaron shells with yogurt filling. Mature in refrigerator 24 hours."
+]
+
+[recipe.healthy_variant.macros]
+calories = 135
+protein_g = 4
+carbs_g = 16
+fat_g = 7
+fiber_g = 1
+sugar_g = 14
+sodium_mg = 25
+# VALIDATION: (4×4) + (16×4) + (7×9) = 16 + 64 + 63 = 143 ✓ (within ±10 of 135)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -45
+protein_difference = "+1g"
+key_changes = [
+    "Reduced sugar in shells (20% less) — less sweet overall",
+    "Greek yogurt-cream cheese filling instead of buttercream — cuts fat significantly",
+    "Protein from Greek yogurt improves nutritional profile",
+    "Tangy filling provides flavor complexity that compensates for reduced sweetness"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "fine almond flour (blanched)", substitute = "home-ground blanched almonds (process in food processor until very fine, sift)", saving_percent = 40, reason = "Home-ground almonds are significantly cheaper; sifting removes coarse pieces for smooth shells" },
+    { original = "gel food coloring", substitute = "natural powders (beet powder for red, matcha for green, cocoa for brown)", saving_percent = 30, reason = "Natural powder colorings create beautiful pastel and earth-toned macarons" },
+    { original = "vanilla buttercream filling", substitute = "jam filling (strawberry, raspberry, or any jam)", saving_percent = 60, reason = "Jam filling is far simpler and cheaper; a tiny amount of jam in each macaron is classic in home baking" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "aged egg whites (dehydrated 24-48 hours in fridge)", substitute = "fresh egg whites at room temperature (results may vary slightly)", reason = "Fresh room-temperature whites produce acceptable macarons; aging improves consistency but isn't mandatory" },
+    { original = "Italian meringue (heated sugar syrup method)", substitute = "French meringue method (beat egg whites, gradually add sugar — simpler)", reason = "French method requires no candy thermometer; produces slightly less stable but often successful shells" },
+    { original = "baking mat or parchment for piping", substitute = "silicone baking mat or greased parchment", reason = "A silicone mat provides even heat distribution and non-stick surface ideal for macarons" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "almond flour", substitute = "sunflower seed flour (allergy-friendly macarons; different flavor)", reason = "Finely ground sunflower seeds create structurally similar shells for nut-free versions" },
+    { original = "piping bag for shells", substitute = "spoon rounds carefully (less uniform but functional)", reason = "Spooned rounds can create rustic macarons; consistency suffers but flavor is identical" },
+    { original = "stand or hand mixer for meringue", substitute = "hand whisk (very labor intensive; meringue takes 15-20 minutes by hand)", reason = "Hand whisking produces meringue but requires significant effort and time" }
+]

@@ -1,0 +1,130 @@
+# ============================================================
+# RECIPE DOCUMENT — EGGPLANT PARMIGIANA
+# Cuisine: Italian
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "italian_eggplant_parmigiana"
+cuisine = "Italian"
+dish_name = "Eggplant Parmigiana"
+alternate_names = ["Melanzane alla Parmigiana", "Eggplant Parmesan", "Parmigiana di Melanzane"]
+category = "main_course"
+tags = ["vegetarian", "comfort_food", "contains_dairy", "contains_eggs", "contains_gluten", "traditional"]
+allergens = ["dairy", "eggs", "gluten"]
+difficulty = "medium"
+total_time_minutes = 90
+
+[recipe.standard]
+serving_size = "1 generous portion (approximately 380g)"
+servings_per_recipe = 6
+prep_time_minutes = 30
+cook_time_minutes = 60
+
+[recipe.standard.ingredients]
+items = [
+    "2 large eggplants (about 1.2 kg total), sliced 1cm thick",
+    "2 cups simple tomato sauce (San Marzano tomatoes, garlic, basil)",
+    "200g fresh mozzarella, sliced",
+    "80g Parmesan cheese, grated",
+    "2 large eggs, beaten",
+    "1 cup breadcrumbs (or plain flour for lighter version)",
+    "Olive oil for frying",
+    "Salt for drawing out eggplant moisture",
+    "Fresh basil leaves"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Salt eggplant slices generously on both sides. Let sit on a wire rack for 30 minutes to draw out moisture. Pat thoroughly dry with paper towels — this step is critical for crispy, non-oily eggplant.",
+    "Make tomato sauce: simmer crushed San Marzano tomatoes with 2 cloves minced garlic and fresh basil for 15 minutes. Season with salt.",
+    "Dip dry eggplant slices in beaten egg, then breadcrumbs.",
+    "Fry coated eggplant in olive oil over medium-high heat (375°F/190°C) in batches for 2-3 minutes per side until golden. Drain on paper towels.",
+    "Preheat oven to 375°F (190°C). In a baking dish, spread a thin layer of tomato sauce.",
+    "Layer fried eggplant slices. Cover with tomato sauce, slices of mozzarella, and a sprinkle of Parmesan. Repeat layers, finishing with sauce and Parmesan.",
+    "Bake 30-35 minutes until bubbling and top is golden brown.",
+    "Rest 15 minutes before serving. Garnish with fresh basil."
+]
+
+[recipe.standard.macros]
+calories = 380
+protein_g = 16
+carbs_g = 28
+fat_g = 24
+fiber_g = 6
+sugar_g = 8
+sodium_mg = 560
+# VALIDATION: (16×4) + (28×4) + (24×9) = 64 + 112 + 216 = 392 ✓ (within ±10 of 380)
+
+[recipe.healthy_variant]
+variant_name = "Baked Eggplant Parmigiana with Part-Skim Cheese"
+variant_type = "low_calorie"
+description = "A lighter parmigiana where eggplant slices are baked instead of fried, using part-skim mozzarella and reduced Parmesan. The eggplant is brushed with a small amount of olive oil and roasted until golden, achieving a meaty texture without frying."
+serving_size = "1 portion (approximately 360g)"
+servings_per_recipe = 6
+prep_time_minutes = 30
+cook_time_minutes = 55
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "2 large eggplants, sliced 1cm thick",
+    "2 cups simple tomato sauce",
+    "150g part-skim mozzarella, sliced",
+    "50g Parmesan cheese, grated",
+    "2 tbsp olive oil (for brushing eggplant)",
+    "Salt",
+    "Fresh basil"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Salt eggplant slices. Rest 30 minutes on a rack. Pat dry.",
+    "Preheat oven to 425°F (220°C). Brush eggplant slices lightly with olive oil on both sides.",
+    "Place on baking sheets. Roast 15-18 minutes, flipping halfway, until golden and tender. Do not crowd the pan.",
+    "Make simple tomato sauce as in the standard recipe.",
+    "Reduce oven to 375°F (190°C). Layer eggplant, tomato sauce, part-skim mozzarella, and Parmesan in a baking dish. Repeat.",
+    "Bake 25-30 minutes until golden and bubbling. Rest 15 minutes. Garnish with basil."
+]
+
+[recipe.healthy_variant.macros]
+calories = 220
+protein_g = 14
+carbs_g = 18
+fat_g = 12
+fiber_g = 6
+sugar_g = 8
+sodium_mg = 420
+# VALIDATION: (14×4) + (18×4) + (12×9) = 56 + 72 + 108 = 236 ✓ (within ±10 of 220)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -160
+protein_difference = "-2g"
+key_changes = [
+    "Baked instead of fried — eggplant does not absorb frying oil, saving ~100 calories per serving",
+    "No breading — eliminates the egg and breadcrumb coating entirely",
+    "Part-skim mozzarella — reduces fat by ~3g per serving",
+    "Reduced Parmesan — less added fat while maintaining flavor"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "fresh mozzarella", substitute = "shredded low-moisture mozzarella", saving_percent = 40, reason = "Block or shredded mozzarella melts well and costs significantly less than fresh mozzarella" },
+    { original = "San Marzano canned tomatoes", substitute = "any canned whole or crushed tomatoes", saving_percent = 50, reason = "San Marzano are premium; any good quality crushed tomatoes produce excellent sauce" },
+    { original = "Parmesan (Parmigiano-Reggiano)", substitute = "any hard cheese grated fine", saving_percent = 30, reason = "Grana Padano or aged cheddar provide similar topping qualities at lower cost" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "fresh eggplant (large globe)", substitute = "Japanese eggplant (use 4-5 smaller ones)", reason = "Smaller eggplants have less bitterness and fewer seeds; they work identically when layered" },
+    { original = "fresh mozzarella", substitute = "any melting cheese (fontina or provolone)", reason = "Any cheese with good melting properties works in the layered bake" },
+    { original = "homemade tomato sauce", substitute = "store-bought marinara sauce", reason = "Good quality jarred marinara saves significant time without compromising flavor" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "San Marzano tomatoes", substitute = "2 tbsp tomato paste + 1.5 cups water + pinch of sugar", reason = "Diluted tomato paste creates a quick, concentrated tomato sauce from pantry staples" },
+    { original = "breadcrumbs", substitute = "crushed crackers or toast ground fine", reason = "Any dry, finely ground bread product creates an identical crispy coating" },
+    { original = "fresh basil", substitute = "dried Italian seasoning", reason = "Dried mixed herbs provide the herbal backdrop that fresh basil adds to the dish" }
+]

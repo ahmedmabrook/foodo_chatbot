@@ -1,0 +1,151 @@
+[metadata]
+doc_id = "turkish_lahmacun"
+cuisine = "Turkish"
+dish_name = "Lahmacun"
+alternate_names = ["Turkish Pizza", "Lahmajo", "Lahm bi Ajeen"]
+category = "main_course"
+tags = ["flatbread", "minced meat", "lamb", "street food", "thin crust", "tomato", "herbs"]
+allergens = ["gluten"]
+difficulty = "medium"
+total_time_minutes = 75
+
+[recipe.standard]
+serving_size = "2 lahmacun rounds (approximately 280g)"
+servings_per_recipe = 4
+prep_time_minutes = 35
+cook_time_minutes = 40
+
+[recipe.standard.ingredients]
+items = [
+    "300g strong white bread flour, plus extra for dusting",
+    "1 teaspoon instant yeast",
+    "1 teaspoon sugar",
+    "1 teaspoon salt",
+    "180ml warm water (105°F/40°C)",
+    "1 tablespoon olive oil",
+    "350g lean ground lamb (or half lamb, half beef)",
+    "1 medium onion, very finely grated",
+    "3 cloves garlic, finely grated",
+    "2 medium tomatoes, seeds removed, very finely chopped",
+    "1 small green bell pepper, very finely chopped",
+    "2 tablespoons tomato paste",
+    "1 tablespoon red pepper paste (biber salçası)",
+    "1/2 teaspoon ground cumin",
+    "1/2 teaspoon paprika",
+    "1/4 teaspoon cayenne pepper",
+    "1/4 teaspoon cinnamon",
+    "1/2 teaspoon black pepper",
+    "1 teaspoon salt",
+    "3 tablespoons fresh flat-leaf parsley, finely chopped",
+    "Juice of 1 lemon (to serve)",
+    "Fresh parsley and sliced onions (to serve)",
+    "Sumac (to serve)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make the dough: combine flour, yeast, sugar, and salt in a large bowl. Add warm water and olive oil. Mix until a rough dough forms. Knead on a lightly floured surface for 8–10 minutes until smooth and elastic. Cover with a damp cloth and rest 30 minutes at room temperature (about 70°F/21°C).",
+    "Prepare the meat topping: combine ground lamb, grated onion, grated garlic, chopped tomatoes, chopped pepper, tomato paste, red pepper paste, cumin, paprika, cayenne, cinnamon, black pepper, salt, and chopped parsley in a large bowl. Mix vigorously by hand for 2–3 minutes until the mixture is almost paste-like and homogeneous. Refrigerate while the dough rests.",
+    "Preheat oven: place a baking stone or heavy baking sheet on the top rack and preheat the oven to its maximum temperature, at least 500°F (260°C). Allow to heat for at least 30 minutes.",
+    "Divide and roll: divide the dough into 8 equal balls. On a lightly floured surface, roll each ball as thinly as possible into an oval shape, roughly 10–12 inches (25–30cm) long. The dough should be nearly translucent.",
+    "Spread the topping: divide the meat mixture into 8 equal portions. Using wet fingertips or the back of a spoon, spread a very thin, even layer of meat mixture all the way to the edges of each dough round. Press firmly so the meat adheres.",
+    "Bake: slide 2 lahmacun at a time onto the hot baking stone or sheet. Bake at 500°F (260°C) for 5–7 minutes until the edges are crisp and golden and the meat is fully cooked with slight caramelization.",
+    "Serve: squeeze fresh lemon juice over each lahmacun. Top with fresh parsley leaves and thinly sliced onion tossed with sumac. Roll up like a wrap or fold in half and eat immediately."
+]
+
+[recipe.standard.macros]
+calories = 480
+protein_g = 26
+carbs_g = 56
+fat_g = 16
+fiber_g = 4
+sugar_g = 5
+sodium_mg = 740
+
+[recipe.healthy_variant]
+variant_name = "Whole-Wheat Lahmacun with Chicken"
+variant_type = "low_calorie"
+description = "A lighter lahmacun using a whole-wheat and white flour blend for added fibre, lean ground chicken instead of lamb for lower saturated fat, and extra vegetables in the topping to increase volume and nutrients while reducing calories."
+serving_size = "2 lahmacun rounds (approximately 270g)"
+servings_per_recipe = 4
+prep_time_minutes = 35
+cook_time_minutes = 35
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "200g whole-wheat flour",
+    "100g strong white bread flour",
+    "1 teaspoon instant yeast",
+    "1 teaspoon sugar",
+    "1 teaspoon salt",
+    "180ml warm water (105°F/40°C)",
+    "1 tablespoon olive oil",
+    "350g lean ground chicken breast",
+    "1 medium onion, very finely grated",
+    "3 cloves garlic, finely grated",
+    "2 medium tomatoes, seeds removed, very finely chopped",
+    "1 small green bell pepper, very finely chopped",
+    "1/2 medium zucchini, very finely grated and squeezed dry",
+    "1 tablespoon tomato paste",
+    "1 tablespoon red pepper paste (biber salçası)",
+    "1/2 teaspoon ground cumin",
+    "1/2 teaspoon paprika",
+    "1/4 teaspoon cayenne pepper",
+    "1/2 teaspoon black pepper",
+    "1 teaspoon salt",
+    "3 tablespoons fresh flat-leaf parsley, finely chopped",
+    "Juice of 1 lemon (to serve)",
+    "Fresh parsley, sliced tomatoes, and shredded lettuce (to serve)"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Make the whole-wheat dough: combine both flours, yeast, sugar, and salt. Add warm water and olive oil. Knead 10 minutes (whole-wheat dough needs slightly longer). Cover and rest 35 minutes. The dough will be slightly denser than all-white flour dough.",
+    "Prepare the chicken topping: combine ground chicken with grated onion, garlic, tomatoes, pepper, zucchini, tomato paste, red pepper paste, cumin, paprika, cayenne, black pepper, salt, and parsley. Mix thoroughly until paste-like. The extra moisture from zucchini helps keep the lean chicken from drying out.",
+    "Preheat oven: place a baking stone or heavy sheet on the top rack. Preheat to 500°F (260°C) for at least 30 minutes.",
+    "Divide and roll: divide dough into 8 balls. Roll each as thinly as possible into an oval about 10 inches (25cm) long. Whole-wheat dough is slightly less elastic; let it rest 2 minutes if it springs back.",
+    "Spread and bake: spread a thin, even layer of chicken topping to the edges of each round. Bake 2 at a time at 500°F (260°C) for 5–6 minutes until edges are crisp and the chicken is cooked through.",
+    "Serve: squeeze lemon over each lahmacun. Top with fresh parsley, sliced tomatoes, and shredded lettuce. Roll and serve immediately."
+]
+
+[recipe.healthy_variant.macros]
+calories = 360
+protein_g = 28
+carbs_g = 46
+fat_g = 7
+fiber_g = 7
+sugar_g = 5
+sodium_mg = 580
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -120
+protein_difference = "+2g"
+key_changes = [
+    "Replaced all white flour with a 2:1 whole-wheat to white flour blend, increasing fibre by 3g per serving",
+    "Substituted lean ground chicken breast for ground lamb, reducing fat from 16g to 7g per serving",
+    "Added grated zucchini to the topping, increasing vegetable content and moisture without extra calories",
+    "Reduced tomato paste and eliminated cinnamon to keep the lighter chicken flavor distinct"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "ground lamb", substitute = "ground beef (80% lean)", saving_percent = 35, reason = "Ground beef is widely available and cheaper than lamb; the bold spice mix of cumin, paprika, and biber salçası ensures the flavor remains rich and authentic" },
+    { original = "fresh tomatoes (for topping)", substitute = "drained canned diced tomatoes, finely chopped", saving_percent = 40, reason = "Canned tomatoes are cheaper year-round and have consistent moisture content; press them very dry with a cloth to prevent a soggy topping" },
+    { original = "biber salçası (red pepper paste)", substitute = "double-concentrated tomato paste mixed with 1/4 teaspoon smoked paprika and pinch of chili", saving_percent = 50, reason = "This combination approximates the sweet-smoky heat of biber salçası using pantry staples found in any kitchen" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "baking stone", substitute = "cast-iron skillet preheated on stovetop, then finished under broiler", reason = "A preheated cast-iron pan on the stovetop followed by 2 minutes under the broiler replicates the intense bottom heat of a baking stone, producing a crisp base" },
+    { original = "biber salçası", substitute = "harissa paste (use half the quantity)", reason = "Harissa is available in most international grocery sections; its smoky chili base closely mirrors biber salçası though it is more intense, so reduce the quantity" },
+    { original = "sumac (for serving)", substitute = "lemon zest mixed with a pinch of citric acid or extra lemon juice", reason = "Sumac's primary role is tartness; fresh lemon zest with a touch of extra lemon juice replicates that bright sour note in the topping" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "baking stone or heavy sheet pan", substitute = "inverted cast-iron skillet or thick cookie sheet preheated 30 minutes", reason = "Any heavy, oven-safe surface preheated thoroughly will conduct heat the same way; the key is 30 minutes of preheating at maximum oven temperature" },
+    { original = "stand mixer with dough hook", substitute = "mixing by hand with a wooden spoon and 10 minutes of kneading", reason = "Lahmacun dough is soft and low-hydration, making hand-kneading straightforward; no equipment needed beyond a flat work surface" },
+    { original = "rolling pin", substitute = "smooth wine bottle or tall glass", reason = "A smooth glass bottle is an effective rolling pin substitute for thin dough; dust lightly with flour to prevent sticking" }
+]

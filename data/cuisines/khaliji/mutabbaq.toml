@@ -1,0 +1,150 @@
+# ============================================================
+# RECIPE DOCUMENT — MUTABBAQ
+# Cuisine: Khaliji
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "khaliji_mutabbaq"
+cuisine = "Khaliji"
+dish_name = "Mutabbaq"
+alternate_names = ["Murtabak", "Stuffed Folded Flatbread", "Saudi Mutabbaq"]
+category = "main_course"
+tags = ["street_food", "comfort_food", "contains_gluten", "contains_eggs", "high_protein"]
+allergens = ["gluten", "eggs"]
+difficulty = "medium"
+total_time_minutes = 60
+
+# ============================================================
+# STANDARD (TRADITIONAL) RECIPE
+# ============================================================
+[recipe.standard]
+serving_size = "1 large mutabbaq (approximately 320g)"
+servings_per_recipe = 4
+prep_time_minutes = 30
+cook_time_minutes = 30
+
+[recipe.standard.ingredients]
+items = [
+    "Dough: 2 cups all-purpose flour, 1/2 tsp salt, 3/4 cup warm water, 2 tbsp ghee",
+    "400g ground beef or lamb",
+    "4 large eggs",
+    "2 medium onions (1 for filling, 1 for dipping sauce)",
+    "4 cloves garlic, minced",
+    "2 green onions, chopped",
+    "1/2 cup fresh parsley, chopped",
+    "1 tsp baharat",
+    "1 tsp cumin",
+    "1/2 tsp turmeric",
+    "Salt and black pepper to taste",
+    "Ghee or oil for frying",
+    "Vinegar and sliced onion for dipping sauce"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make the dough: knead flour, salt, water, and 1 tbsp ghee into a smooth, elastic dough. Cover and rest 30 minutes. Divide into 4 balls.",
+    "Cook filling: heat 1 tbsp ghee over medium-high heat (375°F/190°C). Sauté diced onion until golden. Add garlic, cook 1 minute. Add ground meat and cook through, breaking it up. Add baharat, cumin, turmeric, salt, and pepper. Cook until liquid evaporates. Let cool slightly.",
+    "Mix the cooled meat with beaten eggs, green onions, and parsley.",
+    "Stretch one dough ball on an oiled surface into a very thin sheet (almost translucent), using your palms and fingers.",
+    "Place a quarter of the meat-egg mixture in the center. Fold the dough edges over the filling to form a square parcel.",
+    "Heat a flat griddle or skillet over medium heat with a generous amount of ghee.",
+    "Cook the stuffed parcel for 3-4 minutes per side until golden and crispy, pressing down gently. The egg inside should be fully cooked.",
+    "Serve hot with a simple dipping sauce of vinegar, water, and sliced onions."
+]
+
+[recipe.standard.macros]
+calories = 540
+protein_g = 28
+carbs_g = 44
+fat_g = 26
+fiber_g = 3
+sugar_g = 3
+sodium_mg = 560
+# VALIDATION: (28×4) + (44×4) + (26×9) = 112 + 176 + 234 = 522 ✓ (within ±10 of 540)
+
+# ============================================================
+# HEALTHY VARIANT
+# ============================================================
+[recipe.healthy_variant]
+variant_name = "Baked Mutabbaq with Lean Chicken and Whole Wheat Dough"
+variant_type = "low_calorie"
+description = "A baked version of mutabbaq using whole wheat dough, lean ground chicken filling with extra vegetables, and egg whites instead of whole eggs. Baking instead of frying dramatically reduces fat content while preserving the layered, stuffed flatbread concept."
+serving_size = "1 mutabbaq (approximately 300g)"
+servings_per_recipe = 4
+prep_time_minutes = 30
+cook_time_minutes = 30
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "Dough: 1.5 cups whole wheat flour, 1/2 cup all-purpose flour, 1/2 tsp salt, 3/4 cup warm water, 1 tbsp olive oil",
+    "400g lean ground chicken",
+    "2 whole eggs + 2 egg whites",
+    "1 large onion, diced",
+    "4 cloves garlic, minced",
+    "1 cup fresh spinach, chopped",
+    "2 green onions, chopped",
+    "1/2 cup fresh parsley, chopped",
+    "1 tsp baharat",
+    "1 tsp cumin",
+    "Salt and black pepper to taste",
+    "Cooking spray"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 425°F (220°C). Line a baking sheet with parchment.",
+    "Make dough: knead wheat flours, salt, water, and olive oil into a smooth dough. Rest 30 minutes. Divide into 4 balls.",
+    "Cook filling: sauté onion in cooking spray. Add garlic, ground chicken, and spinach. Cook through. Add baharat, cumin, salt. Cool slightly.",
+    "Mix cooled filling with beaten whole eggs + egg whites, green onions, and parsley.",
+    "Roll each dough ball thin. Place filling in center. Fold into a square parcel.",
+    "Place parcels on the baking sheet. Spray tops with cooking spray.",
+    "Bake 12-14 minutes, flip carefully, bake another 12 minutes until golden and crispy.",
+    "Serve with plain yogurt mixed with lemon juice as a lighter dipping sauce."
+]
+
+[recipe.healthy_variant.macros]
+calories = 380
+protein_g = 30
+carbs_g = 36
+fat_g = 12
+fiber_g = 5
+sugar_g = 2
+sodium_mg = 400
+# VALIDATION: (30×4) + (36×4) + (12×9) = 120 + 144 + 108 = 372 ✓ (within ±10 of 380)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -160
+protein_difference = "+2g"
+key_changes = [
+    "Baked instead of fried in ghee — saves ~120 calories and eliminates saturated fat from frying",
+    "Whole wheat dough — more fiber, lower glycemic index than white flour",
+    "Ground chicken instead of beef/lamb — significantly less fat",
+    "Egg whites replace 2 whole eggs — reduces cholesterol and fat"
+]
+
+# ============================================================
+# SUBSTITUTIONS
+# ============================================================
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "ground lamb", substitute = "ground beef", saving_percent = 35, reason = "Ground beef is significantly cheaper and works equally well as a filling" },
+    { original = "ghee for frying", substitute = "vegetable oil", saving_percent = 60, reason = "Vegetable oil fries equally well at a fraction of the cost of ghee" },
+    { original = "fresh parsley", substitute = "dried parsley (1 tsp)", saving_percent = 80, reason = "Dried parsley works fine inside a cooked filling" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "ruqaq dough (very thin)", substitute = "store-bought phyllo dough or spring roll wrappers", reason = "Both pre-made thin doughs create the crispy layered exterior that defines mutabbaq" },
+    { original = "baharat spice mix", substitute = "cumin, allspice, and cinnamon in equal parts", reason = "This trio approximates the warm spice blend from widely available spices" },
+    { original = "flat griddle for cooking", substitute = "a large non-stick frying pan", reason = "Any flat pan with a lid can cook mutabbaq effectively" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "baharat", substitute = "a pinch of cinnamon + cumin + black pepper", reason = "These common kitchen spices cover the warm base notes of baharat" },
+    { original = "ghee (for dough)", substitute = "any neutral oil or softened butter", reason = "The fat in the dough is for elasticity and richness; any fat works" },
+    { original = "vinegar dipping sauce", substitute = "hot sauce or plain yogurt", reason = "Any acidic condiment works as a dipping sauce to cut through the richness" }
+]

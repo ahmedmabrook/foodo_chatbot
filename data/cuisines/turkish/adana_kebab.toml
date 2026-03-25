@@ -1,0 +1,140 @@
+# ============================================================
+# RECIPE DOCUMENT — ADANA KEBAB
+# Cuisine: Turkish
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "turkish_adana_kebab"
+cuisine = "Turkish"
+dish_name = "Adana Kebab"
+alternate_names = ["Adana Kebabı", "Kıyma Kebab", "Turkish Minced Meat Kebab", "Spicy Lamb Kebab"]
+category = "main_course"
+tags = ["street_food", "high_protein", "traditional", "gluten_free", "spicy"]
+allergens = ["none"]
+difficulty = "medium"
+total_time_minutes = 45
+
+[recipe.standard]
+serving_size = "2 skewers with accompaniments (approximately 350g)"
+servings_per_recipe = 4
+prep_time_minutes = 30
+cook_time_minutes = 15
+
+[recipe.standard.ingredients]
+items = [
+    "600g ground lamb (20% fat preferred)",
+    "100g lamb tail fat (kuyruk yağı) or regular lamb fat, finely chopped",
+    "1 large onion, finely grated and moisture squeezed out",
+    "4 cloves garlic, minced",
+    "2 tbsp red pepper paste (biber salçası)",
+    "1 tbsp dried red chili flakes (pul biber)",
+    "1 tsp sweet paprika",
+    "1 tsp cumin",
+    "1 tsp black pepper",
+    "1/2 tsp allspice",
+    "Salt to taste",
+    "Serving: 4 flatbreads (lavash or pide)",
+    "Serving: grilled tomatoes and green peppers, sumac onions, fresh parsley"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Combine ground lamb, lamb fat, squeezed grated onion, garlic, red pepper paste, chili flakes, paprika, cumin, black pepper, allspice, and salt. Mix by hand very thoroughly for 5-7 minutes until the mixture is cohesive and slightly sticky. This hand-mixing develops the myosin proteins that hold the kebab on the skewer.",
+    "Divide into 8 portions (about 90g each). Roll each into a sausage shape. Thread onto flat metal skewers, pressing and molding the meat along the length of the skewer into a flat elongated shape, about 15cm long.",
+    "Refrigerate 30 minutes to firm up (optional but helps shape hold).",
+    "Prepare charcoal grill or gas grill to very high heat (500°F/260°C). Grill kebabs 6-8 minutes, turning regularly, until charred on the outside and cooked through.",
+    "Simultaneously grill whole tomatoes and green peppers on the grill.",
+    "Make sumac onions: thinly slice onion, toss with sumac, salt, and fresh parsley.",
+    "Serve kebabs on warm flatbread with grilled vegetables, sumac onions, fresh parsley, and a squeeze of lemon."
+]
+
+[recipe.standard.macros]
+calories = 480
+protein_g = 32
+carbs_g = 24
+fat_g = 28
+fiber_g = 3
+sugar_g = 4
+sodium_mg = 580
+# VALIDATION: (32×4) + (24×4) + (28×9) = 128 + 96 + 252 = 476 ✓ (within ±10 of 480)
+
+[recipe.healthy_variant]
+variant_name = "Lean Adana Kebab with Ground Turkey and Whole Wheat Flatbread"
+variant_type = "low_calorie"
+description = "A lighter Adana using lean ground turkey (or 90/10 lean beef) instead of fatty lamb, with the full authentic spice blend (pul biber, red pepper paste, cumin) fully preserved. Served with whole wheat flatbread. Lower fat but same intense spiced flavor."
+serving_size = "2 skewers with accompaniments (approximately 330g)"
+servings_per_recipe = 4
+prep_time_minutes = 30
+cook_time_minutes = 15
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "600g lean ground turkey (or 90/10 lean ground beef)",
+    "1 large onion, finely grated and squeezed dry",
+    "4 cloves garlic, minced",
+    "2 tbsp red pepper paste (biber salçası)",
+    "1 tbsp dried chili flakes (pul biber)",
+    "1 tsp sweet paprika",
+    "1 tsp cumin",
+    "1 tsp black pepper",
+    "1/2 tsp allspice",
+    "1 tbsp olive oil (added to bind since no fat)",
+    "Salt to taste",
+    "Serving: 4 whole wheat flatbreads",
+    "Serving: grilled tomatoes, green peppers, sumac onions, fresh parsley"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Combine ground turkey, squeezed onion, garlic, red pepper paste, chili flakes, paprika, cumin, black pepper, allspice, olive oil, and salt. Mix vigorously by hand for 5-7 minutes. The olive oil helps bind lean meat mixtures.",
+    "Refrigerate mixture 30 minutes — this is especially important for lean meat to help it hold on the skewer.",
+    "Thread onto flat metal skewers, pressing firmly into an elongated flat shape.",
+    "Grill over high heat (475°F/245°C) for 6-8 minutes, turning carefully, until charred and cooked through.",
+    "Grill tomatoes and green peppers alongside.",
+    "Make sumac onions. Warm whole wheat flatbreads.",
+    "Serve with all accompaniments and lemon wedges."
+]
+
+[recipe.healthy_variant.macros]
+calories = 310
+protein_g = 34
+carbs_g = 26
+fat_g = 8
+fiber_g = 4
+sugar_g = 4
+sodium_mg = 480
+# VALIDATION: (34×4) + (26×4) + (8×9) = 136 + 104 + 72 = 312 ✓ (within ±10 of 310)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -170
+protein_difference = "+2g"
+key_changes = [
+    "Lean turkey instead of fatty lamb — reduces fat from 28g to 8g per serving",
+    "No lamb tail fat — eliminates ~80 calories of saturated fat",
+    "Whole wheat flatbread — more fiber, lower glycemic index",
+    "Full authentic spice blend maintained — flavor profile unchanged"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "ground lamb shoulder", substitute = "ground beef (80/20)", saving_percent = 30, reason = "Ground beef produces excellent kebabs with the same fat-to-lean ratio needed for skewer adhesion" },
+    { original = "lamb tail fat (kuyruk yağı)", substitute = "skip or use 2 tbsp vegetable oil mixed into meat", saving_percent = 100, reason = "A small amount of vegetable oil helps bind the mixture if tail fat is unavailable" },
+    { original = "red pepper paste (biber salçası)", substitute = "2 tbsp tomato paste + 1 tsp chili flakes + 1 tsp paprika", saving_percent = 40, reason = "This combination approximates the concentrated red pepper flavor of biber salçası" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "flat metal skewers (wide blade)", substitute = "round metal skewers or soaked wooden skewers", reason = "Round skewers work; press the meat more firmly and rotate carefully during grilling" },
+    { original = "biber salçası (Turkish red pepper paste)", substitute = "harissa paste or any chili paste", reason = "Any concentrated chili paste provides the necessary heat and deep pepper flavor" },
+    { original = "pul biber (Turkish chili flakes)", substitute = "Aleppo pepper or regular red chili flakes", reason = "Aleppo pepper is closest in heat and fruity character; regular chili flakes also work" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "charcoal or gas grill", substitute = "cast-iron grill pan over very high heat", reason = "A grill pan gets hot enough to char the outside of kebabs and create similar smoky flavor" },
+    { original = "biber salçası", substitute = "tomato paste + hot sauce", reason = "Tomato paste with a dash of hot sauce provides concentrated flavor and heat" },
+    { original = "flat metal skewers", substitute = "form patties instead of skewers (same seasoning, same taste)", reason = "Formed kebab patties (kofta-style) cook identically and require no skewers" }
+]

@@ -1,0 +1,145 @@
+# ============================================================
+# RECIPE DOCUMENT — KOFTA MESHWEYA
+# Cuisine: Egyptian
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "egyptian_kofta_meshweya"
+cuisine = "Egyptian"
+dish_name = "Kofta Meshweya"
+alternate_names = ["Kofta Mashwiya", "Grilled Egyptian Kofta", "Kofta Kebab"]
+category = "main_course"
+tags = ["grilled", "high_protein", "street_food", "comfort_food", "quick_meal"]
+allergens = ["none"]
+difficulty = "easy"
+total_time_minutes = 35
+
+# ============================================================
+# STANDARD (TRADITIONAL) RECIPE
+# ============================================================
+[recipe.standard]
+serving_size = "4 kofta skewers (approximately 300g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 15
+
+[recipe.standard.ingredients]
+items = [
+    "700g ground beef (80% lean) or mixed beef and lamb",
+    "1 large onion, grated (squeeze out excess liquid)",
+    "1/2 cup fresh parsley, very finely chopped",
+    "4 cloves garlic, minced",
+    "1 tsp cumin",
+    "1 tsp coriander",
+    "1 tsp paprika",
+    "1/2 tsp allspice",
+    "1/2 tsp cinnamon",
+    "1/2 tsp black pepper",
+    "1/2 tsp chili flakes (optional)",
+    "Salt to taste",
+    "Wooden or metal skewers"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Combine ground meat with grated onion (liquid squeezed out), parsley, garlic, cumin, coriander, paprika, allspice, cinnamon, black pepper, chili flakes, and salt. Mix very thoroughly with your hands for 3 minutes until the mixture becomes cohesive and sticky.",
+    "Refrigerate the mixture for at least 15 minutes (or up to overnight) to allow the spices to meld and the mixture to firm up — this prevents the kofta from falling off the skewers.",
+    "Divide mixture into 16 equal portions. Wet your hands with cold water. Take each portion and mold it firmly around a flat metal skewer or dampened wooden skewer, pressing and squeezing to create a long oval shape about 12-15cm.",
+    "Preheat grill or grill pan to high heat (450°F/230°C). Lightly oil the grates.",
+    "Grill kofta for 3-4 minutes per side, turning carefully once, until cooked through and nicely charred. Total cooking time about 12-15 minutes. Internal temperature should reach 160°F (71°C).",
+    "Rest 2 minutes off the heat. Serve with pita bread, sliced tomatoes, onion rings, and tahini sauce."
+]
+
+[recipe.standard.macros]
+calories = 370
+protein_g = 34
+carbs_g = 8
+fat_g = 22
+fiber_g = 2
+sugar_g = 2
+sodium_mg = 420
+# VALIDATION: (34×4) + (8×4) + (22×9) = 136 + 32 + 198 = 366 ✓ (within ±10 of 370)
+
+# ============================================================
+# HEALTHY VARIANT
+# ============================================================
+[recipe.healthy_variant]
+variant_name = "Lean Kofta with Ground Turkey and Extra Herbs"
+variant_type = "high_protein"
+description = "A high-protein, lower-fat kofta using 93% lean ground turkey mixed with extra fresh herbs and grated vegetables for moisture. Baked in the oven instead of grilled with added fat, this version delivers the same spiced flavor with fewer calories."
+serving_size = "4 kofta skewers (approximately 290g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 20
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "700g ground turkey (93% lean)",
+    "1 large onion, grated (liquid squeezed out)",
+    "1 medium zucchini, grated (liquid squeezed out)",
+    "1 cup fresh parsley, very finely chopped",
+    "4 cloves garlic, minced",
+    "1 tsp cumin",
+    "1 tsp coriander",
+    "1 tsp paprika",
+    "1/2 tsp allspice",
+    "1/2 tsp cinnamon",
+    "Salt and black pepper to taste"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 425°F (220°C). Line a baking sheet with parchment paper.",
+    "Combine ground turkey, grated onion (squeezed dry), grated zucchini (squeezed dry), parsley, garlic, and all spices. Mix well for 3 minutes. The zucchini adds moisture that turkey lacks compared to beef.",
+    "Refrigerate mixture 15 minutes. Shape into 16 kofta around dampened wooden skewers.",
+    "Place on the lined baking sheet. Bake for 18-20 minutes until cooked through (internal temperature 165°F/74°C), turning once halfway.",
+    "Optional: broil for the last 2-3 minutes for slight char.",
+    "Serve with whole wheat pita, sliced tomatoes, and low-fat yogurt sauce."
+]
+
+[recipe.healthy_variant.macros]
+calories = 280
+protein_g = 34
+carbs_g = 8
+fat_g = 12
+fiber_g = 3
+sugar_g = 3
+sodium_mg = 310
+# VALIDATION: (34×4) + (8×4) + (12×9) = 136 + 32 + 108 = 276 ✓ (within ±10 of 280)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -90
+protein_difference = "0g"
+key_changes = [
+    "Ground turkey instead of 80% lean beef — reduces fat by ~10g per serving",
+    "Grated zucchini added — increases vegetable content and moisture without extra fat",
+    "Baked instead of grilled — no added oil, uniform cooking",
+    "Extra parsley (1 cup vs 1/2 cup) — adds micronutrients and reduces calorie density"
+]
+
+# ============================================================
+# SUBSTITUTIONS
+# ============================================================
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "ground lamb", substitute = "ground beef only", saving_percent = 35, reason = "Lamb is significantly more expensive; beef-only kofta is equally delicious and authentic in Egypt" },
+    { original = "metal skewers", substitute = "dampened wooden kebab sticks or flattened tin foil rolls", saving_percent = 100, reason = "Soaked wooden sticks or DIY foil rods work perfectly and cost almost nothing" },
+    { original = "ground beef 80% lean", substitute = "ground beef 70% lean (pat off excess fat after cooking)", saving_percent = 15, reason = "Fattier ground beef costs less; excess fat drips off during grilling" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "allspice", substitute = "equal parts cinnamon and black pepper", reason = "This combination approximates allspice's warm, complex flavor" },
+    { original = "flat metal skewers", substitute = "round wooden skewers (soak 30 min first)", reason = "Round wooden skewers are available at any grocery store" },
+    { original = "grill pan", substitute = "heavy cast-iron skillet over high heat", reason = "A very hot cast-iron pan creates excellent browning and char marks" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "fresh parsley", substitute = "dried parsley (1 tbsp) or cilantro", reason = "Dried parsley and fresh cilantro are common kitchen items that work in the spice mixture" },
+    { original = "allspice and cinnamon", substitute = "mixed spice or pumpkin spice blend", reason = "Any warm spice blend containing cinnamon works as a background spice note" },
+    { original = "skewers", substitute = "shape into patties and grill or pan-fry", reason = "Kofta patties cook identically to skewered kofta and require no special equipment" }
+]

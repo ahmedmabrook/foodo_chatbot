@@ -1,0 +1,129 @@
+[metadata]
+doc_id = "western_chocolate_lava_cake"
+cuisine = "Western Dessert"
+dish_name = "Chocolate Lava Cake"
+alternate_names = ["Molten Chocolate Cake", "Fondant au Chocolat", "Chocolate Coulant"]
+category = "dessert"
+tags = ["chocolate", "warm dessert", "individual portion", "French-inspired", "dinner party"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "medium"
+total_time_minutes = 30
+
+[recipe.standard]
+serving_size = "1 cake (approximately 100g)"
+servings_per_recipe = 6
+prep_time_minutes = 15
+cook_time_minutes = 12
+
+[recipe.standard.ingredients]
+items = [
+    "170g (6 oz) dark chocolate (70% cocoa), finely chopped",
+    "115g (1/2 cup) unsalted butter, plus extra for greasing",
+    "3 large eggs",
+    "3 large egg yolks",
+    "150g (3/4 cup) granulated sugar",
+    "60g (1/2 cup) all-purpose flour",
+    "1/4 tsp fine sea salt",
+    "1 tsp pure vanilla extract",
+    "Cocoa powder for dusting ramekins",
+    "Powdered sugar and vanilla ice cream for serving"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Preheat oven to 425°F (220°C). Generously butter six 6-oz ramekins and dust with cocoa powder, tapping out any excess.",
+    "Melt the chopped dark chocolate and butter together in a heatproof bowl set over a saucepan of barely simmering water (double boiler), stirring until completely smooth. Remove from heat and let cool for 5 minutes.",
+    "In a large mixing bowl, vigorously whisk together the whole eggs, egg yolks, and sugar until the mixture is pale, thick, and falls in a ribbon from the whisk, about 3 minutes.",
+    "Pour the slightly cooled chocolate mixture into the egg mixture and fold gently with a rubber spatula until just combined.",
+    "Sift the flour and salt over the chocolate mixture and fold until no dry streaks remain. Stir in the vanilla extract.",
+    "Divide the batter evenly among the prepared ramekins, filling each about three-quarters full. At this point the ramekins can be refrigerated for up to 24 hours.",
+    "Place ramekins on a baking sheet and bake at 425°F (220°C) for 11–13 minutes, until the edges are set and puffed but the center still jiggles slightly when gently shaken.",
+    "Remove from oven and let rest for 1 minute. Run a thin knife around the edge of each cake, then invert onto a dessert plate. Dust with powdered sugar and serve immediately with vanilla ice cream."
+]
+
+[recipe.standard.macros]
+calories = 420
+protein_g = 7
+carbs_g = 44
+fat_g = 24
+fiber_g = 2
+sugar_g = 36
+sodium_mg = 130
+
+[recipe.healthy_variant]
+variant_name = "Black Bean Lava Cake"
+variant_type = "low_calorie"
+description = "A genuinely fudgy lava cake made with a black bean and oat flour base, sweetened with dates and a touch of maple syrup, achieving a molten center without refined flour or butter."
+serving_size = "1 cake (approximately 95g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 12
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1 can (240g drained) black beans, rinsed and drained",
+    "6 Medjool dates, pitted, soaked in warm water 10 minutes",
+    "3 tablespoons unsweetened cocoa powder",
+    "2 tablespoons pure maple syrup",
+    "2 large eggs",
+    "2 tablespoons coconut oil, melted, plus extra for greasing",
+    "3 tablespoons oat flour",
+    "1/2 tsp baking powder",
+    "1/4 tsp fine sea salt",
+    "1 tsp pure vanilla extract",
+    "30g (1 oz) dark chocolate (85% cocoa), broken into 6 small squares for the molten center"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 425°F (220°C). Lightly grease six 6-oz ramekins with coconut oil.",
+    "Drain the soaked dates and blend them in a food processor with the drained black beans until completely smooth, scraping down the sides as needed.",
+    "Add the cocoa powder, maple syrup, eggs, melted coconut oil, oat flour, baking powder, salt, and vanilla extract to the food processor. Process until the batter is completely smooth and uniform.",
+    "Divide the batter among the prepared ramekins, filling each halfway. Press one square of dark chocolate into the center of each portion, then cover with remaining batter to fill three-quarters full.",
+    "Bake at 425°F (220°C) for 11–13 minutes, until edges are set but center still jiggles.",
+    "Let rest 1 minute, run a knife around the edge, invert onto a plate, and serve immediately."
+]
+
+[recipe.healthy_variant.macros]
+calories = 220
+protein_g = 8
+carbs_g = 28
+fat_g = 9
+fiber_g = 6
+sugar_g = 16
+sodium_mg = 140
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -200
+protein_difference = "+1g"
+key_changes = [
+    "Black beans and oat flour replace all-purpose flour and butter, adding fiber and protein",
+    "Dates and maple syrup replace refined granulated sugar",
+    "Coconut oil replaces butter, reducing saturated fat",
+    "Single square of 85% chocolate provides the molten center with less sugar than a full chocolate-butter mixture"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "70% dark chocolate bar", substitute = "Dark chocolate chips (semi-sweet)", saving_percent = 35, reason = "Baking chips cost significantly less per ounce and melt equally well in this application" },
+    { original = "Unsalted European-style butter", substitute = "Standard unsalted butter", saving_percent = 40, reason = "The difference in fat content between premium and standard butter is negligible in a strongly flavored chocolate application" },
+    { original = "Pure vanilla extract", substitute = "Vanilla essence or imitation vanilla", saving_percent = 70, reason = "The intense chocolate flavor masks any subtle difference between pure and imitation vanilla" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Individual 6-oz ramekins", substitute = "Muffin tin greased with butter and cocoa", reason = "A standard 12-cup muffin tin produces smaller but perfectly formed individual cakes; reduce bake time by 2 minutes" },
+    { original = "Double boiler for melting chocolate", substitute = "Microwave in 30-second bursts at 50% power, stirring between each", reason = "Achieves the same smooth melt without specialist equipment; total time about 90 seconds" },
+    { original = "Fine sea salt", substitute = "Regular table salt (use 1/8 tsp)", reason = "Table salt is more concentrated; halve the quantity for the same seasoning effect" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "Cocoa powder for dusting", substitute = "All-purpose flour for dusting", reason = "Flour prevents sticking just as effectively; the flavor difference on the crust is minimal" },
+    { original = "Rubber spatula for folding", substitute = "Wooden spoon with a gentle folding motion", reason = "A wooden spoon folds without deflating the batter when used with light strokes from the bottom of the bowl" },
+    { original = "Kitchen scale for weighing chocolate", substitute = "Standard measuring cups (1 cup chocolate chips ≈ 170g)", reason = "Volume measuring is accurate enough for the chocolate in this recipe" },
+    { original = "Baking sheet for ramekins", substitute = "Cast iron skillet or oven-safe pan as a tray", reason = "Any flat oven-safe surface works to stabilize the ramekins during baking and transport" },
+    { original = "Powdered sugar sifter for garnish", substitute = "Fine-mesh strainer with powdered sugar pressed through with a spoon", reason = "Achieves the same light, even dusting without a dedicated sifter" }
+]

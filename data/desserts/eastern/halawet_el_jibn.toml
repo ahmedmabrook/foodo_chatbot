@@ -1,0 +1,133 @@
+# ============================================================
+# RECIPE DOCUMENT — HALAWET EL JIBN
+# Cuisine: Syrian/Levantine / Eastern Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "eastern_halawet_el_jibn"
+cuisine = "Syrian"
+dish_name = "Halawet El Jibn"
+alternate_names = ["Halawet el Jibn", "Sweet Cheese Rolls", "Cheese Dessert Rolls", "Syrian Cheese Sweets"]
+category = "dessert"
+tags = ["syrian", "levantine", "festive", "ramadan", "gluten_free", "contains_dairy", "vegetarian"]
+allergens = ["dairy"]
+difficulty = "medium"
+total_time_minutes = 40
+
+[recipe.standard]
+serving_size = "3 rolls with syrup (approximately 180g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 20
+
+[recipe.standard.ingredients]
+items = [
+    "300g akkawi or mozzarella cheese, shredded",
+    "100g fine semolina",
+    "150ml water",
+    "50g sugar",
+    "Ashta (cream) filling: 200ml heavy cream",
+    "Ashta filling: 1 tbsp sugar",
+    "Ashta filling: 1 tbsp cornstarch",
+    "Ashta filling: 1 tsp rose water",
+    "Sugar syrup: 200g sugar, 150ml water, 1 tbsp lemon juice, 1 tsp orange blossom water",
+    "Ground pistachios for garnish"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make syrup: combine sugar and water in a saucepan, boil 5 minutes. Add lemon juice and orange blossom water. Cool.",
+    "Make ashta filling: whisk cream, sugar, and cornstarch in a small saucepan. Cook over medium heat, stirring constantly, until very thick (5-7 minutes). Add rose water. Cool and refrigerate.",
+    "Soak shredded akkawi in cold water for 30 minutes to remove excess salt. Drain and squeeze dry.",
+    "In a heavy saucepan, combine water and sugar. Add drained cheese and semolina. Cook over medium heat, stirring constantly, until the dough comes together into a smooth, stretchy, non-sticky mass (about 8-10 minutes).",
+    "Roll the hot cheese dough thin (about 3mm) on a work surface lightly greased with oil. Work quickly as the dough firms as it cools.",
+    "Cut into rectangles (about 8×10cm). Place a small spoon of ashta in the center. Roll into cylinders.",
+    "Arrange on a platter. Drizzle with sugar syrup. Sprinkle ground pistachios. Serve at room temperature or slightly chilled."
+]
+
+[recipe.standard.macros]
+calories = 380
+protein_g = 10
+carbs_g = 44
+fat_g = 18
+fiber_g = 1
+sugar_g = 32
+sodium_mg = 420
+# VALIDATION: (10×4) + (44×4) + (18×9) = 40 + 176 + 162 = 378 ✓ (within ±10 of 380)
+
+[recipe.healthy_variant]
+variant_name = "Light Halawet El Jibn with Reduced Sugar and Greek Yogurt Filling"
+variant_type = "low_calorie"
+description = "A lighter version using less semolina in the dough for a thinner sheet, a Greek yogurt and cream cheese filling instead of heavy cream ashta, and a much lighter sugar syrup. The characteristic soft, stretchy cheese dough rolls with pistachio garnish are preserved."
+serving_size = "3 rolls with light syrup (approximately 165g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 20
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "300g akkawi or low-sodium mozzarella, shredded and soaked",
+    "70g fine semolina",
+    "150ml water",
+    "30g sugar",
+    "Light filling: 100g 0% Greek yogurt, strained thick",
+    "Light filling: 50g light cream cheese",
+    "Light filling: 1 tbsp powdered sugar",
+    "Light filling: 1 tsp rose water",
+    "Light syrup: 100g sugar, 150ml water, 1 tbsp lemon juice, 1 tsp rose water",
+    "Ground pistachios for garnish (1 tbsp total)"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Make light syrup: boil sugar and water 3 minutes. Add lemon juice and rose water. Cool.",
+    "Make filling: whisk Greek yogurt, light cream cheese, powdered sugar, and rose water until smooth. Refrigerate.",
+    "Soak and drain cheese as in standard recipe.",
+    "Cook cheese with water, sugar, and semolina until dough forms, about 8-10 minutes.",
+    "Roll dough thin, cut rectangles, fill with yogurt mixture, roll into cylinders.",
+    "Drizzle with light syrup and sprinkle pistachios."
+]
+
+[recipe.healthy_variant.macros]
+calories = 250
+protein_g = 12
+carbs_g = 30
+fat_g = 9
+fiber_g = 1
+sugar_g = 22
+sodium_mg = 320
+# VALIDATION: (12×4) + (30×4) + (9×9) = 48 + 120 + 81 = 249 ✓ (within ±10 of 250)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -130
+protein_difference = "+2g"
+key_changes = [
+    "Greek yogurt and cream cheese filling instead of heavy cream ashta — cuts fat by ~9g per serving",
+    "Reduced semolina in dough — slightly lighter texture",
+    "Light syrup (100g sugar vs 200g) — saves ~60 calories per serving",
+    "Greek yogurt adds protein to what is otherwise a low-protein dessert"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "akkawi cheese", substitute = "low-moisture mozzarella (soaked in water to desalinate)", saving_percent = 20, reason = "Low-moisture mozzarella has similar stretch and melting properties and is widely available" },
+    { original = "heavy cream for ashta", substitute = "thick Greek yogurt (zero-cooking filling option)", saving_percent = 40, reason = "Thick Greek yogurt sweetened with honey and rose water is a delicious cold filling requiring no cooking" },
+    { original = "ground pistachios garnish", substitute = "any finely chopped green nut or skip entirely", saving_percent = 60, reason = "The pistachio garnish is visual and adds texture; any pale green nut creates similar appeal" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "akkawi cheese (Middle Eastern specialty)", substitute = "mozzarella (most accessible melting cheese globally)", reason = "Low-moisture mozzarella is the closest widely available substitute for akkawi in this recipe" },
+    { original = "fine semolina", substitute = "cream of wheat (fine consistency, similar absorption)", reason = "Fine cream of wheat creates a similar smooth, pliable cheese dough" },
+    { original = "orange blossom water for syrup", substitute = "rose water or vanilla extract", reason = "Any aromatic water or extract transforms plain sugar syrup into a fragrant dessert syrup" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "ashta (cooked cream filling)", substitute = "sweetened cream cheese thinned with a splash of cream", reason = "Soft cream cheese sweetened with sugar and rose water makes an instant ashta-like filling" },
+    { original = "sugar syrup for drizzling", substitute = "honey warmed until runny, drizzled over rolls", reason = "Warm honey provides the sweetness and gloss of sugar syrup from a pantry staple" },
+    { original = "fine semolina in dough", substitute = "all-purpose flour (slightly different texture, still workable)", reason = "A small amount of all-purpose flour can replace semolina in the cheese dough with adjusted water" }
+]

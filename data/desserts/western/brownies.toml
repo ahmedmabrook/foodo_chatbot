@@ -1,0 +1,135 @@
+# ============================================================
+# RECIPE DOCUMENT — BROWNIES
+# Cuisine: American / Western Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "western_brownies"
+cuisine = "American"
+dish_name = "Brownies"
+alternate_names = ["Chocolate Brownies", "Fudgy Brownies", "Classic Brownies"]
+category = "dessert"
+tags = ["american", "chocolate", "comfort_food", "contains_gluten", "contains_dairy", "contains_eggs", "vegetarian"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "easy"
+total_time_minutes = 50
+
+[recipe.standard]
+serving_size = "1 brownie (approximately 70g)"
+servings_per_recipe = 16
+prep_time_minutes = 15
+cook_time_minutes = 35
+
+[recipe.standard.ingredients]
+items = [
+    "200g dark chocolate (70% cocoa), chopped",
+    "200g unsalted butter",
+    "300g granulated sugar",
+    "4 large eggs",
+    "1 tsp pure vanilla extract",
+    "120g all-purpose flour",
+    "40g cocoa powder",
+    "1/2 tsp salt",
+    "100g dark chocolate chips or chunks (optional mix-in)",
+    "100g chopped walnuts (optional)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Preheat oven to 350°F (175°C). Line a 9×13-inch (23×33cm) baking pan with parchment paper. Butter the parchment.",
+    "Melt chocolate and butter together in a heatproof bowl over a pot of simmering water (double boiler), stirring until smooth. Remove from heat and let cool slightly.",
+    "Whisk sugar into the chocolate-butter mixture. Add eggs one at a time, whisking vigorously after each addition. Add vanilla.",
+    "Sift in flour, cocoa powder, and salt. Fold until just combined — do not overmix. Fold in chocolate chips and walnuts if using.",
+    "Pour batter into prepared pan and spread evenly.",
+    "Bake at 350°F (175°C) for 25-30 minutes until a toothpick inserted 2 inches from the edge comes out with moist crumbs (not raw batter). The center should still appear slightly underdone — it will firm up as it cools.",
+    "Cool completely in the pan before cutting into 16 squares. For cleaner cuts, refrigerate for 1 hour first."
+]
+
+[recipe.standard.macros]
+calories = 320
+protein_g = 4
+carbs_g = 36
+fat_g = 18
+fiber_g = 2
+sugar_g = 26
+sodium_mg = 100
+# VALIDATION: (4×4) + (36×4) + (18×9) = 16 + 144 + 162 = 322 ✓ (within ±10 of 320)
+
+[recipe.healthy_variant]
+variant_name = "Black Bean Brownies with Reduced Sugar and Coconut Oil"
+variant_type = "low_calorie"
+description = "Fudgy brownies made with puréed black beans replacing most of the flour and butter, reducing carbs and adding fiber and protein. Coconut oil replaces butter, and honey and reduced sugar replace granulated sugar. The chocolate flavor is intense and the texture remains dense and fudgy."
+serving_size = "1 brownie (approximately 65g)"
+servings_per_recipe = 16
+prep_time_minutes = 15
+cook_time_minutes = 30
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1 can (400g) black beans, drained and rinsed",
+    "100g dark chocolate (70%+), melted",
+    "3 tbsp coconut oil, melted",
+    "3 large eggs",
+    "150g honey or maple syrup (or 120g coconut sugar)",
+    "1 tsp pure vanilla extract",
+    "40g cocoa powder",
+    "40g oat flour or almond flour",
+    "1/2 tsp baking powder",
+    "1/4 tsp salt",
+    "50g dark chocolate chips"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 350°F (175°C). Line a 9×9-inch (23×23cm) pan with parchment.",
+    "Blend black beans in a food processor until completely smooth.",
+    "In a large bowl, whisk together melted chocolate, coconut oil, eggs, honey, and vanilla.",
+    "Add black bean purée, cocoa powder, oat flour, baking powder, and salt. Mix until smooth.",
+    "Fold in chocolate chips.",
+    "Pour into prepared pan. Bake at 350°F (175°C) for 25-28 minutes until set (a toothpick comes out mostly clean).",
+    "Cool completely before cutting. These brownies firm up as they cool — refrigerate 30 minutes for clean cuts."
+]
+
+[recipe.healthy_variant.macros]
+calories = 195
+protein_g = 5
+carbs_g = 26
+fat_g = 9
+fiber_g = 3
+sugar_g = 18
+sodium_mg = 100
+# VALIDATION: (5×4) + (26×4) + (9×9) = 20 + 104 + 81 = 205 ✓ (within ±10 of 195)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -125
+protein_difference = "+1g"
+key_changes = [
+    "Black beans replace most flour — adds fiber and protein, dramatically reduces carbs",
+    "Coconut oil instead of butter — reduces saturated fat",
+    "Honey/maple syrup instead of 300g sugar — lower glycemic index sweetener",
+    "Almond or oat flour instead of all-purpose — adds nutrients, reduces refined carbs"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "70% dark chocolate (bar)", substitute = "cocoa powder + extra butter (for each 30g chocolate: 1 tbsp butter + 3 tbsp cocoa)", saving_percent = 40, reason = "Cocoa powder plus butter replicates melted dark chocolate at significantly lower cost" },
+    { original = "chopped walnuts", substitute = "any cheaper nut or omit entirely", saving_percent = 60, reason = "Brownies are excellent without nuts; any chopped nut works for texture and flavor" },
+    { original = "pure vanilla extract", substitute = "vanilla essence or 1 tsp almond extract (use half)", saving_percent = 50, reason = "Any vanilla flavoring works in brownies; almond extract adds a different but pleasant depth" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "double boiler (bowl over simmering water)", substitute = "microwave in 30-second bursts, stirring between each", reason = "Microwave melting works well for chocolate and butter; stir between bursts to prevent burning" },
+    { original = "dark chocolate (70%+)", substitute = "semisweet or bittersweet chocolate chips", reason = "Semisweet chips melt well and provide the right chocolate flavor for brownies" },
+    { original = "9×13-inch pan", substitute = "two 8×8-inch pans or a muffin tin for individual brownies", reason = "Any baking vessel works; adjust time (muffin tin bakes faster, about 20 minutes)" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "parchment paper liner", substitute = "butter and flour the pan generously", reason = "A well-greased and floured pan releases brownies easily without parchment" },
+    { original = "dark chocolate bar for melting", substitute = "3 heaped tbsp cocoa powder + 3 tbsp vegetable oil (no chocolate needed)", reason = "Cocoa powder and oil recreate the chocolate base for all-pantry brownies" },
+    { original = "walnuts or chocolate chips", substitute = "any pantry mix-in: raisins, dried cranberries, peanut butter chips", reason = "Any add-in creates texture contrast in brownies; sweet-salty combinations work especially well" }
+]

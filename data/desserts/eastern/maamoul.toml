@@ -1,0 +1,136 @@
+# ============================================================
+# RECIPE DOCUMENT — MAAMOUL
+# Cuisine: Levantine/Arab / Eastern Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "eastern_maamoul"
+cuisine = "Levantine"
+dish_name = "Maamoul"
+alternate_names = ["Ma'amoul", "Date Cookies", "Stuffed Semolina Cookies", "Eid Cookies"]
+category = "dessert"
+tags = ["levantine", "arab", "festive", "eid", "contains_gluten", "contains_dairy", "contains_nuts", "vegetarian"]
+allergens = ["gluten", "dairy", "nuts"]
+difficulty = "medium"
+total_time_minutes = 90
+
+[recipe.standard]
+serving_size = "2 maamoul cookies (approximately 70g)"
+servings_per_recipe = 20
+prep_time_minutes = 60
+cook_time_minutes = 30
+
+[recipe.standard.ingredients]
+items = [
+    "Dough: 300g fine semolina",
+    "Dough: 150g all-purpose flour",
+    "Dough: 200g unsalted butter, melted",
+    "Dough: 3 tbsp caster sugar",
+    "Dough: 1 tsp mahlab or 1/2 tsp ground anise",
+    "Dough: 6-8 tbsp warm water or rose water",
+    "Date filling: 400g Medjool dates, pitted",
+    "Date filling: 1 tbsp butter",
+    "Date filling: 1 tsp cinnamon, 1/2 tsp ground fennel",
+    "Walnut filling (alternative): 200g walnuts, finely chopped, 2 tbsp sugar, 1 tsp cinnamon, 1 tbsp rose water",
+    "Powdered sugar for dusting"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Mix semolina, flour, melted butter, sugar, and mahlab. Add warm water or rose water a tablespoon at a time until the dough just comes together and is pliable but not sticky. Do not knead vigorously. Rest 30 minutes.",
+    "Make date filling: warm dates in a pan with butter, cinnamon, and fennel. Mash into a smooth paste. Cool.",
+    "Preheat oven to 350°F (175°C).",
+    "Divide dough into 40 equal balls (about 20g each). Flatten each ball in your palm. Place a small amount of filling (walnut or date) in the center.",
+    "Wrap dough around filling, pinching closed. Shape by hand or press into a maamoul mould to create the traditional decorative pattern.",
+    "Place on baking sheets. Bake at 350°F (175°C) for 20-25 minutes until barely turning golden at the edges — maamoul should stay pale.",
+    "Cool completely. Dust generously with powdered sugar. Store in an airtight container — maamoul improves with 1-2 days of resting."
+]
+
+[recipe.standard.macros]
+calories = 200
+protein_g = 3
+carbs_g = 26
+fat_g = 10
+fiber_g = 2
+sugar_g = 14
+sodium_mg = 20
+# VALIDATION: (3×4) + (26×4) + (10×9) = 12 + 104 + 90 = 206 ✓ (within ±10 of 200)
+
+[recipe.healthy_variant]
+variant_name = "Whole Wheat Maamoul with Extra Date Filling and Less Butter"
+variant_type = "low_calorie"
+description = "A lighter maamoul using whole wheat flour partially replacing semolina, with 30% less butter in the dough, and a date-only filling (dates are naturally sweet, nutrient-dense, and high in fiber). The traditional shape and powdered sugar dusting are maintained."
+serving_size = "2 maamoul cookies (approximately 65g)"
+servings_per_recipe = 20
+prep_time_minutes = 60
+cook_time_minutes = 25
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "Dough: 250g fine semolina",
+    "Dough: 100g whole wheat flour",
+    "Dough: 50g all-purpose flour",
+    "Dough: 140g unsalted butter, melted",
+    "Dough: 2 tbsp caster sugar",
+    "Dough: 1 tsp mahlab or anise",
+    "Dough: 6-8 tbsp warm water or rose water",
+    "Date filling: 450g Medjool dates, pitted",
+    "Date filling: 1 tsp cinnamon",
+    "Date filling: 1/2 tsp cardamom",
+    "Date filling: 1 tbsp orange blossom water",
+    "Powdered sugar for dusting (1 tbsp total — light dusting)"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Mix semolina, whole wheat flour, all-purpose flour, melted butter, sugar, and mahlab. Add rose water or warm water gradually until dough is pliable. Rest 30 minutes.",
+    "Make date filling: blend pitted dates, cinnamon, cardamom, and orange blossom water into a smooth paste.",
+    "Preheat oven to 350°F (175°C).",
+    "Form 40 dough balls. Flatten, fill with date paste, enclose and shape or mould.",
+    "Bake at 350°F (175°C) for 20-22 minutes until pale golden at edges.",
+    "Cool completely. Dust lightly with powdered sugar."
+]
+
+[recipe.healthy_variant.macros]
+calories = 155
+protein_g = 3
+carbs_g = 24
+fat_g = 6
+fiber_g = 2
+sugar_g = 14
+sodium_mg = 15
+# VALIDATION: (3×4) + (24×4) + (6×9) = 12 + 96 + 54 = 162 ✓ (within ±10 of 155)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -45
+protein_difference = "0g"
+key_changes = [
+    "Whole wheat flour in dough — adds fiber and nutrients",
+    "30% less butter (140g vs 200g) — reduces fat by ~4g per 2-cookie serving",
+    "Date-only filling — dates are high in fiber, potassium, and natural sugar",
+    "Lighter powdered sugar dusting — saves minimal calories but reduces sweetness"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "Medjool dates", substitute = "any dried dates, soaked in hot water 10 minutes to soften", saving_percent = 50, reason = "Common dried dates produce identical filling when softened; Medjool dates are simply larger and moister" },
+    { original = "mahlab (cherry pit spice)", substitute = "1/4 tsp anise seed or skip (mahlab is optional)", saving_percent = 100, reason = "Mahlab adds a subtle floral-cherry note; anise or simply omitting it produces fine maamoul" },
+    { original = "maamoul wooden mould", substitute = "hand-shape into balls or flatten with a fork pattern", saving_percent = 100, reason = "Hand-shaping with fork patterns produces authentic-tasting maamoul without specialty moulds" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "mahlab spice", substitute = "ground anise or ground fennel (similar aromatic quality)", reason = "Ground anise or fennel provides the warm, slightly sweet spice note mahlab adds to the dough" },
+    { original = "rose water in dough", substitute = "orange blossom water or plain warm water with a drop of vanilla", reason = "Any floral water or vanilla provides subtle aromatic character to the maamoul dough" },
+    { original = "traditional maamoul mould", substitute = "fork-pressed pattern or simply smooth round cookies", reason = "The pattern is decorative; smooth round maamoul bake identically" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "date filling paste", substitute = "date syrup (dibs) mixed with almond flour for a spreadable filling", reason = "Date syrup and almond flour create a spreadable, fragrant filling" },
+    { original = "walnut filling option", substitute = "peanut butter mixed with honey and cinnamon (accessible nut filling)", reason = "Peanut butter and honey create a sweet, nutty filling with common pantry ingredients" },
+    { original = "powdered sugar dusting", substitute = "skip dusting (maamoul are sweet enough from the filling)", reason = "Maamoul have sufficient sweetness from dates or walnuts without any sugar dusting" }
+]

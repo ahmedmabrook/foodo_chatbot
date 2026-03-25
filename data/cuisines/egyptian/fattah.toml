@@ -1,0 +1,152 @@
+# ============================================================
+# RECIPE DOCUMENT — FATTAH
+# Cuisine: Egyptian
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "egyptian_fattah"
+cuisine = "Egyptian"
+dish_name = "Fattah"
+alternate_names = ["Fatta", "Egyptian Fattah"]
+category = "main_course"
+tags = ["festive", "comfort_food", "high_protein", "contains_gluten", "contains_dairy", "traditional"]
+allergens = ["gluten", "dairy"]
+difficulty = "hard"
+total_time_minutes = 120
+
+# ============================================================
+# STANDARD (TRADITIONAL) RECIPE
+# ============================================================
+[recipe.standard]
+serving_size = "1 large plate (approximately 500g)"
+servings_per_recipe = 6
+prep_time_minutes = 30
+cook_time_minutes = 90
+
+[recipe.standard.ingredients]
+items = [
+    "1.5 kg bone-in lamb or beef (shoulder or shank)",
+    "2 cups Egyptian short-grain rice",
+    "4 large pita bread rounds, torn into pieces and toasted",
+    "2 cups plain full-fat yogurt",
+    "6 cloves garlic, minced",
+    "2 cups tomato sauce (from simmered tomatoes with garlic)",
+    "2 large onions (1 halved for broth, 1 diced for sauce)",
+    "2 tbsp white vinegar",
+    "2 tbsp ghee or butter",
+    "1 tbsp cumin",
+    "1 cinnamon stick",
+    "3 cardamom pods",
+    "Salt and black pepper to taste",
+    "Fresh parsley, chopped (for garnish)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Place meat in a large pot with halved onion, cinnamon stick, cardamom pods, cumin, salt, and pepper. Cover with water and bring to a boil. Skim foam. Reduce to a simmer and cook 1.5 hours until very tender.",
+    "Remove meat and strain the broth. Reserve 4 cups of broth. Cook rice in 2 cups broth plus 1.5 cups water with a pinch of salt and a tbsp of ghee until fluffy, about 18 minutes.",
+    "Make the tomato sauce: sauté diced onion in 1 tbsp ghee until soft. Add garlic, cook 1 minute. Add tomato sauce and vinegar. Season with salt, cumin, and pepper. Simmer 15 minutes until thickened.",
+    "Toast pita bread pieces in the oven at 375°F (190°C) for 8-10 minutes until crispy and golden.",
+    "Shred or slice the cooked meat off the bone.",
+    "To assemble: place toasted pita pieces in a large deep serving dish. Ladle 1-2 cups of hot meat broth over the bread to slightly soften it.",
+    "Spread a layer of cooked rice over the soaked bread. Arrange meat on top.",
+    "Pour tomato sauce over everything. Drizzle cold yogurt generously on top. Garnish with parsley. Serve immediately while the layers are hot."
+]
+
+[recipe.standard.macros]
+calories = 560
+protein_g = 32
+carbs_g = 72
+fat_g = 16
+fiber_g = 4
+sugar_g = 6
+sodium_mg = 620
+# VALIDATION: (32×4) + (72×4) + (16×9) = 128 + 288 + 144 = 560 ✓
+
+# ============================================================
+# HEALTHY VARIANT
+# ============================================================
+[recipe.healthy_variant]
+variant_name = "Light Fattah with Whole Wheat Bread and Low-Fat Yogurt"
+variant_type = "low_calorie"
+description = "A lighter fattah using whole wheat pita, brown rice, lean beef, and low-fat yogurt instead of full-fat. The tomato sauce replaces part of the rich broth soak, cutting calories while maintaining the essential layered flavor profile."
+serving_size = "1 plate (approximately 420g)"
+servings_per_recipe = 6
+prep_time_minutes = 30
+cook_time_minutes = 90
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "800g lean beef stew meat (round or sirloin)",
+    "1.5 cups brown rice",
+    "3 whole wheat pita rounds, torn and toasted",
+    "1.5 cups low-fat plain yogurt (2%)",
+    "6 cloves garlic, minced",
+    "2 cups crushed tomatoes",
+    "1 large onion, halved (for broth)",
+    "1 medium onion, diced (for sauce)",
+    "1 tbsp white vinegar",
+    "1 tbsp olive oil",
+    "1 tbsp cumin",
+    "Salt and black pepper to taste",
+    "Fresh parsley for garnish"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Simmer beef in water with halved onion, cumin, salt, and pepper for 1 hour until tender. Remove meat and reserve 3 cups broth.",
+    "Cook brown rice in 3 cups water with a pinch of salt for 40-45 minutes until done.",
+    "Make tomato sauce: sauté diced onion in 1 tbsp olive oil. Add garlic, then crushed tomatoes and vinegar. Season and simmer 15 minutes.",
+    "Toast whole wheat pita at 375°F (190°C) for 8-10 minutes.",
+    "Slice or shred the lean beef.",
+    "Assemble: place toasted pita in a serving dish. Ladle 1 cup of broth (less than traditional) over bread. Add rice, then meat, then tomato sauce.",
+    "Drizzle cold low-fat yogurt on top. Garnish with parsley. Serve immediately."
+]
+
+[recipe.healthy_variant.macros]
+calories = 420
+protein_g = 30
+carbs_g = 52
+fat_g = 10
+fiber_g = 6
+sugar_g = 5
+sodium_mg = 440
+# VALIDATION: (30×4) + (52×4) + (10×9) = 120 + 208 + 90 = 418 ✓ (within ±10 of 420)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -140
+protein_difference = "-2g"
+key_changes = [
+    "Lean beef instead of lamb — reduces saturated fat significantly",
+    "Brown rice instead of white rice — adds fiber, lower glycemic index",
+    "Whole wheat pita instead of regular — more fiber, slower digestion",
+    "Low-fat yogurt instead of full-fat — saves ~40 calories per serving",
+    "Olive oil instead of ghee — healthier fat profile"
+]
+
+# ============================================================
+# SUBSTITUTIONS
+# ============================================================
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "lamb shoulder", substitute = "beef chuck or beef shank", saving_percent = 40, reason = "Beef is significantly cheaper than lamb and becomes equally tender when slow-braised" },
+    { original = "full-fat yogurt", substitute = "sour cream diluted with 2 tbsp milk", saving_percent = 20, reason = "Diluted sour cream provides similar richness and tang for the topping" },
+    { original = "ghee", substitute = "vegetable oil or butter", saving_percent = 60, reason = "Ghee is clarified butter — regular butter or neutral oil works well for cooking the rice and sauce" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Egyptian short-grain rice", substitute = "Arborio or any short-grain white rice", reason = "Egyptian rice is similar to Arborio; any short-grain white rice gives the correct texture" },
+    { original = "pita bread", substitute = "any flatbread or thick white bread, toasted", reason = "The bread layer just needs to be sturdy enough to absorb broth without dissolving" },
+    { original = "cardamom pods", substitute = "1/4 tsp ground cardamom or omit", reason = "Ground cardamom is widely available; the dish works without it if unavailable" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "tomato sauce", substitute = "2 tbsp tomato paste + 1 cup water, simmered", reason = "Tomato paste is a common pantry staple that creates a quick cooking sauce" },
+    { original = "plain yogurt (for topping)", substitute = "sour cream or cream mixed with lemon juice", reason = "Any tangy dairy topping replicates the cooling effect of yogurt" },
+    { original = "white vinegar", substitute = "lemon juice", reason = "Lemon juice provides the same acidity needed to cut through the richness of the dish" }
+]

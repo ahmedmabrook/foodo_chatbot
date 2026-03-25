@@ -1,0 +1,136 @@
+[metadata]
+doc_id = "western_new_york_cheesecake"
+cuisine = "Western Dessert"
+dish_name = "New York Cheesecake"
+alternate_names = ["NY-Style Cheesecake", "Classic American Cheesecake", "Cream Cheese Cake"]
+category = "dessert"
+tags = ["cheesecake", "American", "baked", "cream cheese", "classic", "party dessert"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "medium"
+total_time_minutes = 420
+
+[recipe.standard]
+serving_size = "1 slice (approximately 140g)"
+servings_per_recipe = 12
+prep_time_minutes = 30
+cook_time_minutes = 90
+
+[recipe.standard.ingredients]
+items = [
+    "For the crust: 200g (2 cups) graham cracker crumbs",
+    "For the crust: 50g (1/4 cup) granulated sugar",
+    "For the crust: 115g (1/2 cup) unsalted butter, melted",
+    "For the filling: 900g (four 8-oz blocks) full-fat cream cheese, room temperature",
+    "For the filling: 300g (1 1/2 cups) granulated sugar",
+    "For the filling: 240g (1 cup) full-fat sour cream, room temperature",
+    "For the filling: 1 tsp pure vanilla extract",
+    "For the filling: 1 tbsp fresh lemon juice",
+    "For the filling: 1/2 tsp fine sea salt",
+    "For the filling: 4 large eggs, room temperature",
+    "For the filling: 2 large egg yolks, room temperature"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Preheat oven to 350°F (175°C). Wrap the outside of a 9-inch (23cm) springform pan tightly with two layers of heavy-duty aluminum foil to prevent water from seeping in during the water bath.",
+    "Combine graham cracker crumbs, sugar, and melted butter in a bowl and mix until the mixture resembles wet sand. Press firmly and evenly into the bottom of the prepared pan. Bake the crust at 350°F (175°C) for 10 minutes, then remove and let cool. Reduce oven temperature to 325°F (160°C).",
+    "Beat the room-temperature cream cheese in a stand mixer on medium speed until completely smooth and free of lumps, about 3 minutes. Scrape down the sides and bottom of the bowl thoroughly.",
+    "Add the sugar and beat on medium speed for 2 minutes. Add the sour cream, vanilla extract, lemon juice, and salt; beat until just combined.",
+    "Add the eggs and egg yolks one at a time, beating on low speed after each addition until just incorporated. Do not overbeat — overmixing incorporates air, which causes cracking.",
+    "Pour the filling over the cooled crust. Place the foil-wrapped springform pan in a large roasting pan. Fill the roasting pan with enough hot water to come 1 inch (2.5cm) up the sides of the springform pan.",
+    "Bake at 325°F (160°C) for 85–95 minutes, until the edges are set and puffed and the center 2 inches (5cm) jiggle gently like firm Jell-O when the pan is nudged.",
+    "Turn off the oven, crack the door open 1 inch, and let the cheesecake cool inside the oven for 1 hour. This gradual cooling prevents cracking.",
+    "Remove from the water bath, remove foil, and cool completely on a wire rack to room temperature, about 2 hours. Refrigerate uncovered for at least 4 hours, preferably overnight, before slicing and serving."
+]
+
+[recipe.standard.macros]
+calories = 480
+protein_g = 8
+carbs_g = 40
+fat_g = 32
+fiber_g = 0
+sugar_g = 32
+sodium_mg = 340
+
+[recipe.healthy_variant]
+variant_name = "Greek Yogurt Cheesecake"
+variant_type = "low_calorie"
+description = "A lighter baked cheesecake using reduced-fat cream cheese blended with thick Greek yogurt, an oat-and-almond crust, and honey as the primary sweetener, delivering the same creamy texture with significantly fewer calories."
+serving_size = "1 slice (approximately 130g)"
+servings_per_recipe = 12
+prep_time_minutes = 30
+cook_time_minutes = 70
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "For the crust: 120g (1 1/4 cups) rolled oats, blended to a coarse flour",
+    "For the crust: 50g (1/2 cup) almond flour",
+    "For the crust: 3 tablespoons honey",
+    "For the crust: 3 tablespoons coconut oil, melted",
+    "For the crust: 1/4 tsp cinnamon",
+    "For the filling: 450g (two 8-oz blocks) reduced-fat cream cheese, room temperature",
+    "For the filling: 480g (2 cups) full-fat plain Greek yogurt, room temperature",
+    "For the filling: 100g (5 tbsp) honey",
+    "For the filling: 1 tsp pure vanilla extract",
+    "For the filling: 1 tbsp fresh lemon juice",
+    "For the filling: 1/4 tsp fine sea salt",
+    "For the filling: 3 large eggs, room temperature"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 325°F (160°C). Wrap a 9-inch springform pan with foil. Blend rolled oats into a coarse flour in a food processor.",
+    "Combine oat flour, almond flour, honey, melted coconut oil, and cinnamon; mix until combined. Press firmly into the bottom of the springform pan. Bake for 10 minutes, then cool.",
+    "Beat reduced-fat cream cheese until smooth. Add Greek yogurt and beat until fully incorporated and lump-free.",
+    "Add honey, vanilla extract, lemon juice, and salt; beat on low until combined.",
+    "Add eggs one at a time, beating on low speed after each until just incorporated. Do not overmix.",
+    "Pour filling over cooled crust. Place pan in a roasting pan with 1 inch of hot water.",
+    "Bake at 325°F (160°C) for 65–75 minutes until edges are set and center jiggles gently. Cool in oven with door cracked for 1 hour.",
+    "Cool to room temperature, then refrigerate for at least 4 hours before slicing."
+]
+
+[recipe.healthy_variant.macros]
+calories = 280
+protein_g = 12
+carbs_g = 26
+fat_g = 14
+fiber_g = 2
+sugar_g = 18
+sodium_mg = 240
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -200
+protein_difference = "+4g"
+key_changes = [
+    "Half the cream cheese replaced with full-fat Greek yogurt, cutting fat while adding protein",
+    "Oat and almond flour crust replaces graham cracker and butter crust, adding fiber",
+    "Honey replaces refined granulated sugar as the primary sweetener",
+    "Reduced egg count (3 vs 6) lowers cholesterol and calorie contribution",
+    "Coconut oil replaces butter in crust, reducing total saturated fat"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "Name-brand full-fat cream cheese (4 blocks)", substitute = "Store-brand or generic full-fat cream cheese", saving_percent = 40, reason = "Generic cream cheese has identical fat content and behaves identically in baked cheesecake" },
+    { original = "Graham crackers for homemade crumbs", substitute = "Digestive biscuits or vanilla wafer cookies", saving_percent = 25, reason = "Both produce a firm, sweet crust with the same texture after baking; digestive biscuits are often cheaper per gram" },
+    { original = "Full-fat sour cream", substitute = "Plain whole-milk yogurt, well-stirred", saving_percent = 30, reason = "Whole-milk yogurt has a similar fat percentage and tangy profile; the texture difference is imperceptible in the baked filling" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "9-inch springform pan", substitute = "9-inch round cake pan lined with parchment, chilled and sliced in the pan", reason = "A standard cake pan works if you do not need to unmold the whole cake; serve slices directly from the pan" },
+    { original = "Stand mixer", substitute = "Hand electric mixer or vigorous hand whisking", reason = "A hand mixer achieves the same lump-free result; ensure cream cheese is fully at room temperature first to ease mixing" },
+    { original = "Large roasting pan for water bath", substitute = "Two nested oven-safe pans or baking the cheesecake on a rack above a pan of water on the shelf below", reason = "Steam from a lower pan creates enough humidity to prevent major cracking without a full submersion water bath" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "Graham cracker crumbs (pre-packaged)", substitute = "Any plain sweet biscuit or cracker crushed in a zip-lock bag with a rolling pin", reason = "Any crisp, lightly sweet biscuit produces a workable crumb crust when combined with butter" },
+    { original = "Heavy-duty aluminum foil for water bath", substitute = "Two layers of regular foil pressed tightly together and crimped up the sides", reason = "Double-layering standard foil provides adequate waterproofing for the duration of the bake" },
+    { original = "Fine-mesh strainer for smooth filling", substitute = "Blending the filling briefly in a blender at low speed to remove lumps", reason = "A blender achieves lump-free filling quickly, though it must be used on low speed to avoid incorporating air" },
+    { original = "Springform pan release mechanism", substitute = "Running a thin, sharp knife dipped in hot water around the entire edge before releasing", reason = "A warmed knife cleanly releases the cheesecake from the pan wall without tearing the edge" },
+    { original = "Instant-read thermometer to check doneness", substitute = "Jiggle test: gently shake the pan — a 2-inch wobbling center with firm edges indicates doneness", reason = "The visual jiggle test is the traditional method used before thermometers and works reliably for cheesecake" },
+    { original = "Offset spatula for smoothing top", substitute = "Butter knife dipped in warm water and dragged across the surface", reason = "A warm butter knife smooths the top filling just as effectively as an offset spatula" }
+]

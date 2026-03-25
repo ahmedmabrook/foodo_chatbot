@@ -1,0 +1,125 @@
+# ============================================================
+# RECIPE DOCUMENT — CRÈME BRÛLÉE
+# Cuisine: French / Western Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "western_creme_brulee"
+cuisine = "French"
+dish_name = "Crème Brûlée"
+alternate_names = ["Creme Brulee", "Burnt Cream", "Trinity Cream"]
+category = "dessert"
+tags = ["french", "classic", "elegant", "contains_dairy", "contains_eggs", "gluten_free"]
+allergens = ["dairy", "eggs"]
+difficulty = "medium"
+total_time_minutes = 90
+
+[recipe.standard]
+serving_size = "1 ramekin (approximately 150g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 70
+
+[recipe.standard.ingredients]
+items = [
+    "500ml heavy cream (double cream)",
+    "6 large egg yolks",
+    "100g caster sugar (plus extra for brûlée topping)",
+    "1 vanilla bean (or 2 tsp pure vanilla extract)",
+    "Pinch of salt"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Preheat oven to 325°F (160°C). Place 6 ramekins in a deep roasting pan.",
+    "Split vanilla bean and scrape seeds. Heat cream with vanilla bean and seeds in a saucepan over medium heat until just steaming (180°F/82°C) — do not boil. Remove from heat and let steep 10 minutes. Remove vanilla pod.",
+    "Whisk egg yolks with caster sugar and salt until pale and slightly thickened, about 2 minutes. Do not create foam.",
+    "Slowly pour hot cream into the egg mixture while whisking constantly to temper. Strain through a fine mesh sieve.",
+    "Pour custard into ramekins. Pour hot water into the roasting pan to reach halfway up the sides of the ramekins (bain-marie).",
+    "Bake at 325°F (160°C) for 35-40 minutes until custard is just set with a slight jiggle in the center. Remove from water bath. Cool to room temperature, then refrigerate at least 2 hours.",
+    "To serve: sprinkle 1.5 tsp caster sugar evenly over each custard. Use a kitchen torch to caramelize until deep amber and crackling. Serve immediately."
+]
+
+[recipe.standard.macros]
+calories = 340
+protein_g = 6
+carbs_g = 22
+fat_g = 26
+fiber_g = 0
+sugar_g = 20
+sodium_mg = 80
+# VALIDATION: (6×4) + (22×4) + (26×9) = 24 + 88 + 234 = 346 ✓ (within ±10 of 340)
+
+[recipe.healthy_variant]
+variant_name = "Light Crème Brûlée with Half-and-Half and Reduced Sugar"
+variant_type = "low_calorie"
+description = "A lighter crème brûlée using half-and-half (half cream, half milk) instead of heavy cream, whole eggs instead of only yolks, and reduced sugar. The classic caramelized sugar crust is maintained and the custard texture is smooth, though slightly less rich."
+serving_size = "1 ramekin (approximately 150g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 70
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "250ml heavy cream",
+    "250ml whole milk",
+    "3 large egg yolks + 2 whole eggs",
+    "70g caster sugar (plus 1 tsp per ramekin for brûlée)",
+    "1 tsp pure vanilla extract",
+    "Pinch of salt"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 325°F (160°C). Arrange ramekins in a roasting pan.",
+    "Heat cream and milk together until steaming. Do not boil.",
+    "Whisk egg yolks, whole eggs, and sugar until combined and slightly lightened. Add vanilla and salt.",
+    "Slowly temper hot cream mixture into eggs while whisking. Strain through a fine sieve.",
+    "Pour into ramekins. Add hot water bain-marie to halfway up sides.",
+    "Bake at 325°F (160°C) for 30-35 minutes until just set with a gentle wobble. Cool then refrigerate 2 hours.",
+    "Sprinkle 1 tsp sugar over each and torch until amber. Serve immediately."
+]
+
+[recipe.healthy_variant.macros]
+calories = 220
+protein_g = 7
+carbs_g = 18
+fat_g = 14
+fiber_g = 0
+sugar_g = 16
+sodium_mg = 80
+# VALIDATION: (7×4) + (18×4) + (14×9) = 28 + 72 + 126 = 226 ✓ (within ±10 of 220)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -120
+protein_difference = "+1g"
+key_changes = [
+    "Half-and-half instead of pure heavy cream — cuts fat from 26g to 14g per serving",
+    "Whole eggs replace some yolks — reduces fat further while adding protein",
+    "Reduced sugar (70g vs 100g) — saves ~50 calories across the batch",
+    "Caramelized sugar crust fully maintained — the defining experience is preserved"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "vanilla bean", substitute = "1.5 tsp pure vanilla extract", saving_percent = 80, reason = "Vanilla extract provides the same vanilla flavor at a fraction of the cost of whole beans" },
+    { original = "heavy cream", substitute = "coconut cream (dairy-free version, slightly different flavor)", saving_percent = 10, reason = "Coconut cream sets into a smooth custard and pairs well with vanilla" },
+    { original = "caster sugar for brûlée", substitute = "regular granulated sugar (same amount)", saving_percent = 20, reason = "Granulated sugar caramelizes well under a torch; slightly larger crystals may need extra torching time" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "kitchen torch for brûlée", substitute = "oven broiler (maximum heat, custards very close to element for 2-3 minutes)", reason = "A very hot broiler caramelizes sugar effectively though less precisely than a torch" },
+    { original = "individual ramekins (ceramic)", substitute = "any oven-safe cups or small dishes of similar size", reason = "Any oven-proof cup works as a ramekin for baking the custard" },
+    { original = "vanilla bean", substitute = "vanilla extract or vanilla paste", reason = "Both provide the vanilla flavor needed; vanilla paste includes the visual flecks" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "heavy cream", substitute = "whipping cream (35% fat)", reason = "Whipping cream is a common supermarket item that produces an excellent custard" },
+    { original = "kitchen torch", substitute = "broiler method or skip the brûlée (serve as vanilla pot de crème)", reason = "Without a torch, the custard is delicious as a plain chilled vanilla custard in ramekins" },
+    { original = "bain-marie setup", substitute = "place ramekins in a deep baking dish with boiling water — same technique described more simply", reason = "A roasting pan with hot water is the simplest implementation of the water bath" }
+]

@@ -1,0 +1,132 @@
+# ============================================================
+# RECIPE DOCUMENT — LUQAIMAT
+# Cuisine: Khaliji/Gulf / Eastern Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "eastern_luqaimat"
+cuisine = "Khaliji"
+dish_name = "Luqaimat"
+alternate_names = ["Luqemat", "Lgeimat", "Gulf Dumplings", "Honey Dumplings", "Zalabia"]
+category = "dessert"
+tags = ["khaliji", "gulf", "street_food", "fried", "ramadan", "vegan", "contains_gluten", "vegetarian"]
+allergens = ["gluten"]
+difficulty = "easy"
+total_time_minutes = 45
+
+[recipe.standard]
+serving_size = "8 pieces with honey (approximately 150g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 25
+
+[recipe.standard.ingredients]
+items = [
+    "Batter: 250g all-purpose flour",
+    "Batter: 1 tsp instant yeast",
+    "Batter: 1 tsp sugar",
+    "Batter: 1/2 tsp salt",
+    "Batter: 1/2 tsp ground cardamom",
+    "Batter: 1/4 tsp ground saffron or turmeric (for color)",
+    "Batter: 300ml warm water",
+    "For frying: vegetable oil",
+    "Toppings: 100g honey or date syrup (dibs)",
+    "Toppings: 1 tsp sesame seeds, ground cinnamon"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make batter: combine flour, yeast, sugar, salt, cardamom, and saffron/turmeric in a bowl. Add warm water and mix until smooth. The batter should be thick but pourable — similar to thick pancake batter. Cover and rest 30-40 minutes until bubbly.",
+    "Heat oil in a deep pot to 350°F (175°C).",
+    "Using wet hands or two wet spoons, scoop small balls (about 1.5 tablespoon each) and drop into hot oil. Fry in batches without overcrowding for 3-4 minutes, turning, until deep golden brown all over.",
+    "Remove with a slotted spoon and drain briefly on paper towels.",
+    "Pile onto a serving plate. Drizzle generously with warm honey or date syrup. Sprinkle with sesame seeds and cinnamon.",
+    "Serve immediately — luqaimat are best eaten hot and crispy."
+]
+
+[recipe.standard.macros]
+calories = 340
+protein_g = 4
+carbs_g = 54
+fat_g = 12
+fiber_g = 1
+sugar_g = 22
+sodium_mg = 160
+# VALIDATION: (4×4) + (54×4) + (12×9) = 16 + 216 + 108 = 340 ✓
+
+[recipe.healthy_variant]
+variant_name = "Baked Luqaimat with Date Syrup and Reduced Frying"
+variant_type = "low_calorie"
+description = "Luqaimat baked in a mini muffin tin instead of deep-fried, keeping the cardamom-saffron flavored dough and date syrup drizzle. A small amount of oil is used in the muffin tin to achieve a lightly crispy exterior. The characteristic round shape and Gulf spice profile are preserved."
+serving_size = "8 pieces with date syrup (approximately 140g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 20
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "Batter: 250g all-purpose flour",
+    "Batter: 1 tsp instant yeast",
+    "Batter: 1 tsp sugar",
+    "Batter: 1/2 tsp salt",
+    "Batter: 1/2 tsp ground cardamom",
+    "Batter: 1/4 tsp turmeric",
+    "Batter: 1 tbsp olive oil",
+    "Batter: 300ml warm water",
+    "Topping: 80g date syrup (dibs) or honey",
+    "Topping: sesame seeds and cinnamon"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Make batter with olive oil added. Rest 30-40 minutes until bubbly.",
+    "Preheat oven to 400°F (200°C). Lightly oil a mini muffin tin.",
+    "Spoon batter into mini muffin cups, filling 2/3 full.",
+    "Bake at 400°F (200°C) for 14-16 minutes until golden and firm.",
+    "While still warm, drizzle with date syrup and sprinkle sesame seeds and cinnamon.",
+    "Serve warm."
+]
+
+[recipe.healthy_variant.macros]
+calories = 210
+protein_g = 5
+carbs_g = 42
+fat_g = 3
+fiber_g = 1
+sugar_g = 16
+sodium_mg = 160
+# VALIDATION: (5×4) + (42×4) + (3×9) = 20 + 168 + 27 = 215 ✓ (within ±10 of 210)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -130
+protein_difference = "+1g"
+key_changes = [
+    "Baked instead of deep-fried — saves ~100 calories of absorbed oil per serving",
+    "Minimal oil in batter and tin only — dramatically reduces fat",
+    "Date syrup instead of honey — natural unrefined sweetener with iron and potassium",
+    "Cardamom and saffron flavors fully preserved — Gulf character unchanged"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "saffron threads or powder", substitute = "turmeric (same color, different flavor; use 1/4 tsp)", saving_percent = 95, reason = "Turmeric provides the yellow-gold color of saffron at a fraction of the cost" },
+    { original = "date syrup (dibs)", substitute = "honey or any available liquid sweetener", saving_percent = 30, reason = "Any pourable sweetener drizzled over hot luqaimat provides the sweet topping" },
+    { original = "sesame seeds topping", substitute = "skip or use a pinch of cinnamon only", saving_percent = 100, reason = "Luqaimat drizzled with honey alone is complete without a seed garnish" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "ground cardamom", substitute = "mixed spice or a small pinch of ground cloves", reason = "Cardamom is the essential Gulf spice; ground cloves provide a warm spice alternative" },
+    { original = "date syrup (dibs)", substitute = "pomegranate molasses (tartly sweet alternative)", reason = "Pomegranate molasses provides a tangy-sweet drizzle that contrasts the fried dough" },
+    { original = "instant yeast in batter", substitute = "active dry yeast (activate first, add 10 minutes rest time)", reason = "Active dry yeast produces identical bubbly batter for luqaimat" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "yeast-leavened batter", substitute = "self-raising flour batter with no yeast (no rest time needed)", reason = "Self-raising flour with warm water and spices makes quick no-wait luqaimat" },
+    { original = "deep frying", substitute = "shallow fry in 2cm oil, turn once (less uniform but functional)", reason = "Shallow frying with 2cm oil produces golden luqaimat using far less oil" },
+    { original = "date syrup or honey", substitute = "any warmed jam thinned with water", reason = "Any sweet, pourable topping works on fresh hot luqaimat" }
+]

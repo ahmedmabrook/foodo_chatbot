@@ -1,0 +1,131 @@
+# ============================================================
+# RECIPE DOCUMENT — ZNOUD EL SIT
+# Cuisine: Lebanese/Levantine / Eastern Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "eastern_znoud_el_sit"
+cuisine = "Lebanese"
+dish_name = "Znoud El Sit"
+alternate_names = ["Znood El Sit", "Lady's Arms", "Fried Cream Rolls", "Lebanese Cream Cigars"]
+category = "dessert"
+tags = ["lebanese", "levantine", "fried", "festive", "ramadan", "contains_gluten", "contains_dairy", "vegetarian"]
+allergens = ["gluten", "dairy"]
+difficulty = "medium"
+total_time_minutes = 50
+
+[recipe.standard]
+serving_size = "3 rolls with syrup (approximately 180g)"
+servings_per_recipe = 6
+prep_time_minutes = 25
+cook_time_minutes = 25
+
+[recipe.standard.ingredients]
+items = [
+    "12 sheets spring roll pastry or thin yufka",
+    "Ashta (clotted cream) filling: 250ml heavy cream",
+    "Ashta filling: 1 tbsp cornstarch",
+    "Ashta filling: 1 tbsp sugar",
+    "Ashta filling: 1 tsp rose water",
+    "Ashta filling: 1 tsp orange blossom water",
+    "For frying: vegetable oil",
+    "Sugar syrup: 250g sugar, 200ml water, 1 tbsp lemon juice, 1 tsp rose water",
+    "Crushed pistachios for garnish"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make ashta filling: whisk cream, cornstarch, and sugar in a saucepan. Cook over medium heat, stirring constantly, until very thick (holds its shape). Remove from heat, stir in rose water and orange blossom water. Cool completely in the refrigerator.",
+    "Make syrup: combine sugar and water, boil 5 minutes. Add lemon juice and rose water. Keep warm.",
+    "Cut spring roll pastry sheets into 12×12cm squares.",
+    "Place 1 tbsp of cold ashta along one edge of a pastry square. Roll tightly into a cigar shape, tucking the ends in. Seal with a paste of flour and water.",
+    "Heat oil to 350°F (175°C). Fry rolls in batches for 2-3 minutes until golden and crisp.",
+    "Immediately dip hot rolls in warm sugar syrup for 1-2 minutes.",
+    "Arrange on a platter, sprinkle with crushed pistachios. Serve warm."
+]
+
+[recipe.standard.macros]
+calories = 420
+protein_g = 5
+carbs_g = 52
+fat_g = 22
+fiber_g = 1
+sugar_g = 36
+sodium_mg = 240
+# VALIDATION: (5×4) + (52×4) + (22×9) = 20 + 208 + 198 = 426 ✓ (within ±10 of 420)
+
+[recipe.healthy_variant]
+variant_name = "Baked Znoud El Sit with Greek Yogurt Ashta"
+variant_type = "low_calorie"
+description = "Znoud el sit baked instead of fried, with the ashta filling made from thick Greek yogurt and a small amount of cream cheese instead of pure heavy cream. The delicate crispy pastry rolls and rose water-scented filling are maintained. A lighter syrup drizzle replaces the full syrup soak."
+serving_size = "3 rolls with drizzle (approximately 165g)"
+servings_per_recipe = 6
+prep_time_minutes = 25
+cook_time_minutes = 20
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "12 sheets spring roll pastry or phyllo",
+    "Light ashta: 150g thick 0% Greek yogurt",
+    "Light ashta: 80g light cream cheese",
+    "Light ashta: 1 tbsp powdered sugar",
+    "Light ashta: 1 tsp rose water",
+    "Light ashta: 1 tsp orange blossom water",
+    "1 tbsp olive or neutral oil (for brushing pastry before baking)",
+    "Light syrup: 100g sugar, 150ml water, 1 tsp rose water",
+    "Crushed pistachios for garnish (1 tbsp)"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Make light ashta: beat Greek yogurt and cream cheese until smooth. Add powdered sugar, rose water, and orange blossom water. Refrigerate 30 minutes to firm.",
+    "Make light syrup: boil sugar and water 3 minutes. Add rose water.",
+    "Fill and roll pastry as in standard recipe.",
+    "Place rolls on a parchment-lined baking sheet. Brush lightly with oil.",
+    "Bake at 400°F (200°C) for 12-15 minutes until golden and crisp.",
+    "Drizzle lightly with warm syrup. Sprinkle pistachios. Serve warm."
+]
+
+[recipe.healthy_variant.macros]
+calories = 250
+protein_g = 8
+carbs_g = 38
+fat_g = 8
+fiber_g = 1
+sugar_g = 22
+sodium_mg = 200
+# VALIDATION: (8×4) + (38×4) + (8×9) = 32 + 152 + 72 = 256 ✓ (within ±10 of 250)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -170
+protein_difference = "+3g"
+key_changes = [
+    "Baked instead of fried — removes ~100 calories of absorbed frying oil per serving",
+    "Greek yogurt + cream cheese filling instead of heavy cream ashta — cuts fat from 22g to 8g",
+    "Greek yogurt adds significant protein to a typically low-protein dessert",
+    "Light syrup drizzle instead of full soak — saves ~50 calories per serving"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "spring roll pastry sheets", substitute = "phyllo pastry (2 sheets layered, butter-free)", saving_percent = 20, reason = "Phyllo creates an equally crispy wrapper for the cream rolls when brushed lightly with oil" },
+    { original = "heavy cream for ashta", substitute = "Greek yogurt only (no cream cheese) — simplest filling", saving_percent = 50, reason = "Thick strained Greek yogurt sweetened with sugar and rose water is a simple, light ashta" },
+    { original = "crushed pistachios garnish", substitute = "any crushed nut or skip garnish", saving_percent = 70, reason = "Any finely crushed green nut provides visual appeal; the garnish is decorative" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "spring roll wrappers", substitute = "phyllo pastry sheets cut to size", reason = "Phyllo creates delicate, flaky rolls when rolled with filling and baked or fried" },
+    { original = "ashta (Middle Eastern clotted cream)", substitute = "thick Greek yogurt or ricotta sweetened with rose water", reason = "Any thick, lightly sweetened dairy can fill these rolls" },
+    { original = "orange blossom water in filling", substitute = "vanilla extract or rose water only", reason = "A single floral extract provides sufficient aromatic character in the filling" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "spring roll pastry", substitute = "filo pastry or even thin crepes (different texture but similar effect)", reason = "Thin crepes can be rolled with ashta for a quick no-pastry version" },
+    { original = "ashta cream filling", substitute = "sweetened condensed milk mixed with cream cheese (instant ashta)", reason = "Condensed milk and cream cheese create a rich, sweet filling with pantry ingredients" },
+    { original = "sugar syrup soak", substitute = "honey drizzle", reason = "Warm honey drizzled over baked rolls provides fragrant sweetness from a pantry staple" }
+]

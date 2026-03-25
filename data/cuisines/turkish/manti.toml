@@ -1,0 +1,134 @@
+# ============================================================
+# RECIPE DOCUMENT — MANTI
+# Cuisine: Turkish
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "turkish_manti"
+cuisine = "Turkish"
+dish_name = "Mantı"
+alternate_names = ["Manti", "Turkish Dumplings", "Turkish Ravioli"]
+category = "main_course"
+tags = ["comfort_food", "festive", "high_protein", "traditional", "contains_dairy", "contains_eggs", "contains_gluten"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "hard"
+total_time_minutes = 120
+
+[recipe.standard]
+serving_size = "1 plate (approximately 300g)"
+servings_per_recipe = 4
+prep_time_minutes = 75
+cook_time_minutes = 45
+
+[recipe.standard.ingredients]
+items = [
+    "Dough: 2 cups all-purpose flour, 1 egg, 1/2 tsp salt, 6 tbsp water",
+    "Filling: 200g ground beef or lamb",
+    "Filling: 1 small onion, grated",
+    "Filling: 1/4 tsp black pepper, 1/4 tsp cumin, salt",
+    "Yogurt sauce: 2 cups full-fat Greek yogurt, 3 cloves garlic, salt",
+    "Butter sauce: 4 tbsp butter",
+    "Butter sauce: 2 tbsp dried mint",
+    "Butter sauce: 1 tsp red pepper flakes",
+    "Butter sauce: 1 tsp sweet paprika",
+    "Sumac for garnish"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make dough: knead flour, egg, salt, and water into a stiff, smooth dough. Cover and rest 30 minutes.",
+    "Make filling: combine ground meat with grated onion, black pepper, cumin, and salt. Mix well.",
+    "Roll dough very thin (2mm). Cut into 3cm squares.",
+    "Place a tiny amount of filling (about 1/4 tsp) in the center of each square. Fold up the corners to meet at the top, pinching all edges tightly to seal.",
+    "Arrange on a lightly floured surface. Traditional mantı are very small — the challenge and art of the dish.",
+    "Make garlic yogurt sauce: mix yogurt with minced garlic and salt.",
+    "Boil mantı in salted water for 10-12 minutes until they float and the dough is cooked through.",
+    "Make butter sauce: melt butter in a small pan. Add red pepper flakes and paprika. Watch carefully — do not burn.",
+    "Plate mantı. Pour garlic yogurt sauce over. Drizzle hot paprika butter over the yogurt. Sprinkle with dried mint and sumac."
+]
+
+[recipe.standard.macros]
+calories = 520
+protein_g = 24
+carbs_g = 52
+fat_g = 24
+fiber_g = 3
+sugar_g = 6
+sodium_mg = 560
+# VALIDATION: (24×4) + (52×4) + (24×9) = 96 + 208 + 216 = 520 ✓
+
+[recipe.healthy_variant]
+variant_name = "Light Mantı with Turkey Filling and Low-Fat Yogurt"
+variant_type = "low_calorie"
+description = "A lighter mantı using lean ground turkey filling, 0% Greek yogurt sauce, and olive oil instead of butter for the sauce. The characteristic garlic-yogurt-red pepper profile is fully preserved. Uses a thinner, whole wheat dough option."
+serving_size = "1 plate (approximately 290g)"
+servings_per_recipe = 4
+prep_time_minutes = 75
+cook_time_minutes = 15
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "Dough: 1.5 cups all-purpose flour + 1/2 cup whole wheat flour, 1 egg, 1/2 tsp salt, 6 tbsp water",
+    "Filling: 200g lean ground turkey",
+    "Filling: 1 small onion, grated",
+    "Filling: 1/4 tsp black pepper, 1/4 tsp cumin, salt",
+    "Yogurt sauce: 2 cups 0% Greek yogurt, 3 cloves garlic, salt",
+    "Oil sauce: 1.5 tbsp olive oil",
+    "Oil sauce: 1 tsp red pepper flakes, 1 tsp sweet paprika",
+    "Dried mint and sumac for garnish"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Make dough with flour blend, egg, salt, and water. Rest 30 minutes.",
+    "Make turkey filling with grated onion, pepper, cumin, salt.",
+    "Roll dough thin. Cut 3cm squares. Fill and seal as in standard recipe.",
+    "Make garlic yogurt sauce with 0% Greek yogurt.",
+    "Boil mantı in salted water 10-12 minutes.",
+    "Heat olive oil in a small pan. Add red pepper flakes and paprika briefly.",
+    "Plate mantı with 0% yogurt sauce. Drizzle olive oil sauce. Top with dried mint and sumac."
+]
+
+[recipe.healthy_variant.macros]
+calories = 380
+protein_g = 26
+carbs_g = 46
+fat_g = 10
+fiber_g = 4
+sugar_g = 6
+sodium_mg = 420
+# VALIDATION: (26×4) + (46×4) + (10×9) = 104 + 184 + 90 = 378 ✓ (within ±10 of 380)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -140
+protein_difference = "+2g"
+key_changes = [
+    "Lean turkey instead of beef/lamb — reduces fat by ~14g per serving",
+    "0% Greek yogurt — saves ~40 calories per serving",
+    "Olive oil instead of butter sauce — saves ~50 calories, healthier fat",
+    "Whole wheat flour blend — adds fiber"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "homemade dough (labor intensive)", substitute = "wonton wrappers from Asian grocery", saving_percent = 40, reason = "Wonton wrappers are thin square dough pieces that are essentially pre-made mantı dough" },
+    { original = "full-fat Greek yogurt", substitute = "regular plain yogurt strained overnight", saving_percent = 40, reason = "Strained yogurt achieves the thickness needed for the sauce at lower cost" },
+    { original = "sumac (garnish)", substitute = "lemon zest + a pinch of salt", saving_percent = 80, reason = "Sumac provides tartness and color; lemon zest provides similar brightness" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "mantı dough (hand-rolled)", substitute = "wonton wrappers, cut into 3cm squares", reason = "Store-bought wonton wrappers save enormous time and work identically when boiled" },
+    { original = "ground lamb", substitute = "ground beef or ground turkey", reason = "Any fine ground meat works in the tiny filling; the yogurt sauce is the dominant flavor" },
+    { original = "sumac powder", substitute = "za'atar spice mix or lemon juice", reason = "Za'atar contains sumac; plain lemon juice provides the necessary tartness" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "butter sauce with paprika", substitute = "olive oil heated with chili flakes and paprika powder", reason = "Any fat heated with paprika and chili creates the essential red-orange topping" },
+    { original = "sumac", substitute = "a squeeze of fresh lemon juice over the finished dish", reason = "Lemon juice provides the tartness of sumac from a common kitchen staple" },
+    { original = "Greek yogurt (thick, for sauce)", substitute = "regular yogurt mixed with a pinch of salt and 1 minced garlic clove", reason = "Even regular yogurt works well as a sauce if thick enough; strain briefly if too thin" }
+]

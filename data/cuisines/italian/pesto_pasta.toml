@@ -1,0 +1,135 @@
+# ============================================================
+# RECIPE DOCUMENT — PESTO GENOVESE PASTA
+# Cuisine: Italian
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "italian_pesto_pasta"
+cuisine = "Italian"
+dish_name = "Pesto Genovese Pasta"
+alternate_names = ["Pasta al Pesto", "Trofie al Pesto", "Pasta with Basil Pesto"]
+category = "main_course"
+tags = ["vegetarian", "comfort_food", "quick_meal", "contains_dairy", "contains_nuts", "traditional"]
+allergens = ["gluten", "dairy", "nuts"]
+difficulty = "easy"
+total_time_minutes = 30
+
+[recipe.standard]
+serving_size = "1 plate (approximately 320g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 15
+
+[recipe.standard.ingredients]
+items = [
+    "400g trofie pasta (or linguine, spaghetti)",
+    "Pesto: 60g fresh basil leaves (about 2 packed cups)",
+    "Pesto: 50g pine nuts",
+    "Pesto: 50g Parmesan (Parmigiano-Reggiano), grated",
+    "Pesto: 20g Pecorino Romano, grated",
+    "Pesto: 2 cloves garlic",
+    "Pesto: 120ml extra-virgin olive oil",
+    "Pesto: pinch of salt",
+    "200g small potatoes, cubed (traditional addition)",
+    "100g green beans (traditional addition)",
+    "Extra Parmesan for serving"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make pesto: in a mortar and pestle (traditional) or food processor, blend basil, pine nuts, garlic, and a pinch of salt to a coarse paste. Gradually add olive oil while blending. Fold in both grated cheeses. Do not over-process — pesto should have some texture.",
+    "Bring a large pot of heavily salted water to a boil.",
+    "Add cubed potatoes. Cook 5 minutes.",
+    "Add green beans. Cook 3 minutes.",
+    "Add pasta. Cook according to package directions until al dente.",
+    "Reserve 1/2 cup pasta cooking water before draining.",
+    "Drain pasta, potatoes, and beans together. Transfer to a large bowl. Let cool slightly (do not add pesto to very hot pasta or the cheese will clump).",
+    "Toss with pesto, adding pasta water 1 tbsp at a time to create a creamy, loose sauce. Serve with extra Parmesan."
+]
+
+[recipe.standard.macros]
+calories = 620
+protein_g = 18
+carbs_g = 72
+fat_g = 28
+fiber_g = 6
+sugar_g = 4
+sodium_mg = 480
+# VALIDATION: (18×4) + (72×4) + (28×9) = 72 + 288 + 252 = 612 ✓ (within ±10 of 620)
+
+[recipe.healthy_variant]
+variant_name = "Zucchini Noodle Pesto with Toasted Walnuts"
+variant_type = "low_carb"
+description = "A low-carb version using spiralized zucchini instead of pasta, with a lighter pesto made with walnuts instead of pine nuts (cheaper and equally nutritious). The pesto uses less oil and is brightened with extra lemon. Served with cherry tomatoes for sweetness."
+serving_size = "1 plate (approximately 320g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 5
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "4 large zucchini, spiralized into noodles",
+    "Light pesto: 60g fresh basil",
+    "Light pesto: 40g walnuts, toasted",
+    "Light pesto: 30g Parmesan, grated",
+    "Light pesto: 2 cloves garlic",
+    "Light pesto: 60ml extra-virgin olive oil",
+    "Light pesto: juice of 1/2 lemon",
+    "Light pesto: pinch of salt",
+    "150g cherry tomatoes, halved (for serving)",
+    "Extra Parmesan for serving"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Make light pesto: blend basil, toasted walnuts, garlic, lemon juice, and salt. Gradually add olive oil. Fold in Parmesan.",
+    "Spiralize zucchini or cut into thin ribbons using a vegetable peeler.",
+    "Heat a large pan over medium-high heat (375°F/190°C). Sauté zucchini noodles with a pinch of salt for 2-3 minutes until just slightly softened but still with bite. Do not overcook — they release water quickly.",
+    "Remove from heat. Drain any excess liquid.",
+    "Toss warm zucchini noodles with pesto and cherry tomatoes.",
+    "Serve immediately topped with extra Parmesan."
+]
+
+[recipe.healthy_variant.macros]
+calories = 280
+protein_g = 10
+carbs_g = 14
+fat_g = 22
+fiber_g = 5
+sugar_g = 6
+sodium_mg = 280
+# VALIDATION: (10×4) + (14×4) + (22×9) = 40 + 56 + 198 = 294 ✓ (within ±10 of 280)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -340
+protein_difference = "-8g"
+key_changes = [
+    "Zucchini noodles replace pasta — eliminates ~58g carbs per serving",
+    "Walnuts instead of pine nuts — cheaper and high in omega-3 fatty acids",
+    "Half the olive oil (60ml vs 120ml) — saves ~120 calories from fat",
+    "No potatoes — further reduces carbohydrate load"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "pine nuts", substitute = "walnuts or toasted sunflower seeds", saving_percent = 70, reason = "Pine nuts are among the most expensive nuts; walnuts provide similar texture and healthy fats" },
+    { original = "Pecorino Romano", substitute = "extra Parmesan (just increase Parmesan amount)", saving_percent = 20, reason = "Parmesan alone makes excellent pesto; Pecorino adds saltiness that can be replaced with a tiny extra pinch of salt" },
+    { original = "fresh basil (large quantity)", substitute = "basil + arugula (50/50 mix)", saving_percent = 40, reason = "Arugula extends the basil while adding peppery notes; reduces the cost of the pesto base" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "trofie pasta", substitute = "any pasta shape (linguine, penne, spaghetti)", reason = "Pesto adheres to all pasta shapes; trofie is traditional but not essential" },
+    { original = "fresh basil", substitute = "jarred pesto sauce", reason = "Good quality jarred pesto is widely available; look for one with basil as the first ingredient" },
+    { original = "pine nuts", substitute = "any toasted nuts (almonds, cashews, pistachios)", reason = "Any toasted nut provides the fat and texture that pine nuts contribute to pesto" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "fresh basil leaves", substitute = "store-bought pesto + a handful of fresh parsley", reason = "Jarred pesto is the most convenient substitute; fresh parsley brightens a jar of pesto" },
+    { original = "mortar and pestle", substitute = "food processor or blender on pulse setting", reason = "A food processor makes excellent pesto; pulse to avoid overheating the basil" },
+    { original = "Parmesan and Pecorino", substitute = "any hard, salty aged cheese", reason = "Any aged hard cheese provides the salt and richness that the traditional cheeses contribute" }
+]

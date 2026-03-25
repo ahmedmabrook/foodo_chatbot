@@ -1,0 +1,136 @@
+# ============================================================
+# RECIPE DOCUMENT — FRENCH ONION SOUP
+# Cuisine: French
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "french_french_onion_soup"
+cuisine = "French"
+dish_name = "French Onion Soup"
+alternate_names = ["Soupe à l'oignon gratinée", "Gratinée Lyonnaise", "Onion Gratin Soup"]
+category = "soup"
+tags = ["comfort_food", "traditional", "contains_dairy", "contains_gluten", "contains_alcohol"]
+allergens = ["dairy", "gluten"]
+difficulty = "medium"
+total_time_minutes = 90
+
+[recipe.standard]
+serving_size = "1 crock (approximately 380g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 75
+
+[recipe.standard.ingredients]
+items = [
+    "1.2 kg yellow onions (about 5-6 large), thinly sliced",
+    "4 tbsp unsalted butter",
+    "1 tbsp olive oil",
+    "1 tsp sugar",
+    "3 cloves garlic, minced",
+    "1/2 cup dry white wine (or dry sherry)",
+    "1 liter good beef broth",
+    "2 sprigs fresh thyme (or 1/2 tsp dried)",
+    "1 bay leaf",
+    "Salt and black pepper to taste",
+    "4 thick slices baguette",
+    "150g Gruyère cheese, grated"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Melt butter with olive oil in a large heavy pot over medium heat. Add onions with 1 tsp sugar and 1/2 tsp salt. Stir to coat.",
+    "Cook onions, stirring every 5-8 minutes, for 45-60 minutes until deeply caramelized and dark brown. Reduce heat if sticking. This is the foundation — do not rush it.",
+    "Add garlic and cook 1 minute. Add wine and scrape up any browned bits. Cook until wine evaporates.",
+    "Add beef broth, thyme, and bay leaf. Bring to a simmer. Cook 15 minutes. Season with salt and pepper.",
+    "Toast baguette slices under the broiler at 450°F (230°C) until golden.",
+    "Ladle soup into oven-safe crocks or bowls. Float a baguette slice on top. Cover generously with Gruyère.",
+    "Place under broiler at 500°F (260°C) for 3-5 minutes until cheese is bubbling, browned, and forms a crust. Serve immediately."
+]
+
+[recipe.standard.macros]
+calories = 420
+protein_g = 16
+carbs_g = 42
+fat_g = 20
+fiber_g = 5
+sugar_g = 14
+sodium_mg = 780
+# VALIDATION: (16×4) + (42×4) + (20×9) = 64 + 168 + 180 = 412 ✓ (within ±10 of 420)
+
+[recipe.healthy_variant]
+variant_name = "Light French Onion Soup with Whole Grain Toast and Reduced Cheese"
+variant_type = "low_calorie"
+description = "A lighter version using olive oil instead of butter for caramelizing, reduced cheese amount (but still Gruyère for flavor), whole grain baguette for more fiber, and low-sodium beef broth. The caramelized onion magic is fully preserved."
+serving_size = "1 crock (approximately 360g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 75
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1.2 kg yellow onions, thinly sliced",
+    "2 tbsp olive oil",
+    "1/2 tsp sugar",
+    "3 cloves garlic, minced",
+    "1/3 cup dry white wine",
+    "1 liter low-sodium beef broth",
+    "2 sprigs fresh thyme",
+    "1 bay leaf",
+    "Salt and black pepper to taste",
+    "4 slices whole grain baguette",
+    "80g Gruyère cheese, grated"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Heat olive oil in a large pot over medium heat. Add onions with sugar and salt. Cook 45-55 minutes, stirring regularly, until deeply caramelized.",
+    "Add garlic, cook 1 minute. Add wine, cook until evaporated.",
+    "Add low-sodium broth, thyme, and bay leaf. Simmer 15 minutes. Season.",
+    "Toast whole grain bread under the broiler.",
+    "Ladle soup into oven-safe bowls. Top with whole grain toast and a smaller, more concentrated layer of Gruyère.",
+    "Broil at 500°F (260°C) until cheese is bubbling and golden, 3-4 minutes."
+]
+
+[recipe.healthy_variant.macros]
+calories = 290
+protein_g = 12
+carbs_g = 36
+fat_g = 10
+fiber_g = 6
+sugar_g = 14
+sodium_mg = 500
+# VALIDATION: (12×4) + (36×4) + (10×9) = 48 + 144 + 90 = 282 ✓ (within ±10 of 290)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -130
+protein_difference = "-4g"
+key_changes = [
+    "Olive oil replaces butter — saves ~40 calories from saturated fat",
+    "Half the cheese (80g vs 150g) — saves ~70 calories, still flavorful",
+    "Whole grain baguette — more fiber, lower glycemic impact",
+    "Low-sodium broth — reduces sodium by ~280mg per serving"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "Gruyère cheese", substitute = "Swiss cheese or Emmental", saving_percent = 30, reason = "Swiss cheese melts identically and has a similar nutty flavor at lower cost" },
+    { original = "dry white wine", substitute = "additional beef broth + 1 tsp white wine vinegar", saving_percent = 90, reason = "Broth adds depth; vinegar provides the acidity that wine contributes" },
+    { original = "fresh thyme", substitute = "dried thyme (1/2 tsp)", saving_percent = 70, reason = "Dried thyme works perfectly in long-cooked soups" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Gruyère", substitute = "any good melting cheese (Fontina, Raclette, or mozzarella + Parmesan)", reason = "The topping needs good melting and browning; Gruyère is traditional but not exclusive" },
+    { original = "oven-safe crocks", substitute = "any heat-safe bowls — place on a baking sheet before broiling", reason = "Any bowl that can go under the broiler works; the baking sheet catches any drips" },
+    { original = "dry sherry", substitute = "dry white wine, extra broth, or a splash of brandy", reason = "Any dry alcohol that deglazes the pan works; the key is cooking it off completely" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "beef broth", substitute = "water with 2 beef bouillon cubes", reason = "Bouillon provides the beefy, savory depth that is the backbone of this soup" },
+    { original = "Gruyère cheese", substitute = "any hard, meltable cheese you have", reason = "Cheddar, Gouda, or even processed Swiss slices melt and brown under the broiler" },
+    { original = "dry white wine", substitute = "skip it and use extra broth", reason = "The wine adds depth but the dish is excellent without it when high-quality broth is used" }
+]

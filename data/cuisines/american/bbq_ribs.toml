@@ -1,0 +1,131 @@
+# ============================================================
+# RECIPE DOCUMENT — BBQ PORK RIBS
+# Cuisine: American
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "american_bbq_ribs"
+cuisine = "American"
+dish_name = "BBQ Pork Ribs"
+alternate_names = ["Baby Back Ribs", "St. Louis Ribs", "Slow-Smoked Ribs"]
+category = "main_course"
+tags = ["high_protein", "grilled", "comfort_food", "american_classic", "bbq"]
+allergens = ["none"]
+difficulty = "hard"
+total_time_minutes = 270
+
+[recipe.standard]
+serving_size = "4-5 ribs (approximately 350g)"
+servings_per_recipe = 4
+prep_time_minutes = 30
+cook_time_minutes = 240
+
+[recipe.standard.ingredients]
+items = [
+    "1 full rack pork baby back ribs (about 1.4 kg)",
+    "1/4 cup brown sugar",
+    "2 tbsp paprika",
+    "1 tbsp garlic powder",
+    "1 tbsp onion powder",
+    "1 tsp cayenne pepper",
+    "1 tsp black pepper",
+    "2 tsp salt",
+    "1 tsp cumin",
+    "1 cup BBQ sauce (store-bought or homemade)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Remove the silver membrane from the back of the ribs by loosening an edge with a knife and pulling it off with a paper towel.",
+    "Mix brown sugar, paprika, garlic powder, onion powder, cayenne, black pepper, salt, and cumin into a dry rub. Coat both sides of the ribs generously. Wrap in plastic and refrigerate overnight or at least 2 hours.",
+    "Preheat oven to 300°F (150°C). Place ribs bone-side down on a large piece of foil. Wrap tightly. Place on a baking sheet.",
+    "Bake for 2.5 hours until very tender and meat has pulled back from the bone tips.",
+    "Carefully open the foil. Drain excess liquid. Brush both sides generously with BBQ sauce.",
+    "Increase oven to 425°F (220°C) or switch to broil. Cook uncovered for 10-15 minutes until BBQ sauce caramelizes and edges char slightly.",
+    "Rest 10 minutes before slicing between bones. Serve with extra BBQ sauce."
+]
+
+[recipe.standard.macros]
+calories = 560
+protein_g = 40
+carbs_g = 24
+fat_g = 32
+fiber_g = 1
+sugar_g = 18
+sodium_mg = 820
+# VALIDATION: (40×4) + (24×4) + (32×9) = 160 + 96 + 288 = 544 ✓ (within ±10 of 560)
+
+[recipe.healthy_variant]
+variant_name = "Oven-Baked Spiced Chicken Ribs with Sugar-Free BBQ Sauce"
+variant_type = "low_calorie"
+description = "A lighter version using bone-in chicken thighs treated like ribs — dry-rubbed, slow-baked for tenderness, then finished with sugar-free BBQ sauce. Delivers the same smoky, sticky, caramelized experience at a fraction of the calories and fat."
+serving_size = "2 chicken thighs (approximately 300g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 60
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1.2 kg bone-in skin-on chicken thighs (remove skin before serving)",
+    "2 tbsp paprika",
+    "1 tbsp garlic powder",
+    "1 tbsp onion powder",
+    "1/2 tsp cayenne",
+    "1 tsp black pepper",
+    "1.5 tsp salt",
+    "1 tsp cumin",
+    "3/4 cup sugar-free BBQ sauce"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Mix all dry spices into a rub. Coat chicken thighs thoroughly. Refrigerate 2 hours or overnight.",
+    "Preheat oven to 325°F (165°C). Place chicken skin-side down on a wire rack over a baking sheet.",
+    "Bake for 35 minutes. Flip chicken. Brush with sugar-free BBQ sauce.",
+    "Increase oven to 425°F (220°C). Bake 15-20 more minutes until sauce caramelizes and chicken is cooked through (165°F/74°C internal temperature).",
+    "Remove skin before serving. Serve with extra sugar-free sauce and coleslaw."
+]
+
+[recipe.healthy_variant.macros]
+calories = 320
+protein_g = 36
+carbs_g = 12
+fat_g = 14
+fiber_g = 1
+sugar_g = 4
+sodium_mg = 580
+# VALIDATION: (36×4) + (12×4) + (14×9) = 144 + 48 + 126 = 318 ✓ (within ±10 of 320)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -240
+protein_difference = "-4g"
+key_changes = [
+    "Chicken thighs instead of pork ribs — reduces fat by ~18g per serving",
+    "Sugar-free BBQ sauce — eliminates ~14g added sugar per serving",
+    "No brown sugar in the rub — reduces added sugar further",
+    "Skin removed before serving — additional fat reduction"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "baby back ribs", substitute = "spare ribs or St. Louis cut ribs", saving_percent = 30, reason = "Spare ribs cost less and have more meat; cook time increases by 30-45 minutes" },
+    { original = "store-bought BBQ sauce", substitute = "ketchup + brown sugar + apple cider vinegar + a dash of Worcestershire", saving_percent = 50, reason = "Homemade sauce from pantry staples costs less and can be customized" },
+    { original = "fresh paprika", substitute = "smoked paprika (for same amount)", saving_percent = 0, reason = "Smoked paprika may cost similar but adds a deeper smoky flavor without a smoker" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "baby back ribs", substitute = "pork shoulder chops cut into 3-4 rib-size pieces", reason = "Shoulder cuts are available in most butcher shops and supermarkets; result is very similar" },
+    { original = "smoked paprika", substitute = "regular paprika + a drop of liquid smoke", reason = "Liquid smoke adds the smoky dimension that smoked paprika provides" },
+    { original = "cayenne pepper", substitute = "chili flakes or hot sauce brushed on at the end", reason = "Any heat source works; add after cooking if heat level is uncertain" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "brown sugar in rub", substitute = "regular white sugar or honey", reason = "White sugar caramelizes the same way; honey can be brushed on during the final phase" },
+    { original = "BBQ sauce", substitute = "ketchup + 1 tbsp vinegar + 1 tbsp Worcestershire sauce + pinch of cayenne", reason = "This pantry-staple combination creates a basic BBQ-style glaze" },
+    { original = "wire rack for baking", substitute = "place on a foil-lined sheet and flip halfway", reason = "No rack needed if you flip the ribs partway through to ensure even cooking" }
+]

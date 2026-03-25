@@ -1,0 +1,154 @@
+# ============================================================
+# RECIPE DOCUMENT — SALOONA
+# Cuisine: Khaliji
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "khaliji_saloona"
+cuisine = "Khaliji"
+dish_name = "Saloona"
+alternate_names = ["Salona", "Saluna", "Gulf Chicken Stew"]
+category = "main_course"
+tags = ["comfort_food", "high_protein", "traditional", "everyday", "stew"]
+allergens = ["none"]
+difficulty = "easy"
+total_time_minutes = 75
+
+# ============================================================
+# STANDARD (TRADITIONAL) RECIPE
+# ============================================================
+[recipe.standard]
+serving_size = "1 bowl with rice (approximately 420g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 60
+
+[recipe.standard.ingredients]
+items = [
+    "800g bone-in chicken pieces (thighs and drumsticks)",
+    "2 cups basmati rice",
+    "2 medium onions, diced",
+    "3 medium tomatoes, diced",
+    "2 medium zucchini, cubed",
+    "2 medium carrots, cubed",
+    "4 cloves garlic, minced",
+    "2 tbsp tomato paste",
+    "2 tbsp ghee",
+    "1 tsp baharat",
+    "1 tsp cumin",
+    "1 tsp turmeric",
+    "1/2 tsp cinnamon",
+    "2 dried limes, pierced",
+    "Salt and black pepper to taste",
+    "Fresh cilantro for garnish"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Heat ghee in a large pot over medium-high heat (375°F/190°C). Brown chicken pieces on all sides, about 5-6 minutes. Remove.",
+    "Sauté onions in the same pot until golden, about 6 minutes. Add garlic, tomato paste, and all spices. Cook 2 minutes.",
+    "Add diced tomatoes and cook 3 minutes. Return chicken to the pot. Add dried limes.",
+    "Pour in 1.5 liters of water. Season generously with salt and pepper. Bring to a boil, skim foam, then reduce heat. Simmer covered for 30 minutes.",
+    "Add carrots. Cook 10 minutes. Add zucchini. Cook 10 more minutes until all vegetables are tender.",
+    "Meanwhile, cook basmati rice using the strained broth from the stew for extra flavor.",
+    "Serve saloona over or alongside the rice. Garnish with fresh cilantro."
+]
+
+[recipe.standard.macros]
+calories = 490
+protein_g = 32
+carbs_g = 58
+fat_g = 14
+fiber_g = 6
+sugar_g = 8
+sodium_mg = 500
+# VALIDATION: (32×4) + (58×4) + (14×9) = 128 + 232 + 126 = 486 ✓ (within ±10 of 490)
+
+# ============================================================
+# HEALTHY VARIANT
+# ============================================================
+[recipe.healthy_variant]
+variant_name = "Light Saloona with Skinless Chicken and Brown Rice"
+variant_type = "low_calorie"
+description = "A lighter everyday saloona using skinless chicken pieces, brown basmati rice, and olive oil instead of ghee. Extra vegetables replace some of the rice to increase fiber and reduce calorie density."
+serving_size = "1 bowl (approximately 400g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 65
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "800g skinless chicken thighs and drumsticks",
+    "1.5 cups brown basmati rice",
+    "2 medium onions, diced",
+    "3 medium tomatoes, diced",
+    "2 medium zucchini, cubed",
+    "2 medium carrots, cubed",
+    "200g green beans, trimmed",
+    "4 cloves garlic, minced",
+    "1 tbsp tomato paste",
+    "1 tbsp olive oil",
+    "1 tsp baharat",
+    "1 tsp cumin",
+    "1 tsp turmeric",
+    "2 dried limes, pierced",
+    "Salt and black pepper to taste",
+    "Fresh cilantro for garnish"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Heat olive oil in a large pot. Brown skinless chicken pieces on all sides. Remove.",
+    "Sauté onions until golden. Add garlic, tomato paste, and spices. Cook 2 minutes.",
+    "Add diced tomatoes. Return chicken. Add dried limes. Add 1.5 liters of water. Season. Simmer covered 30 minutes.",
+    "Add carrots. Cook 10 minutes. Add zucchini and green beans. Cook 10 more minutes.",
+    "Cook brown basmati rice separately in salted water or strained broth for 35-40 minutes.",
+    "Serve stew alongside brown rice. Garnish with cilantro."
+]
+
+[recipe.healthy_variant.macros]
+calories = 360
+protein_g = 32
+carbs_g = 42
+fat_g = 8
+fiber_g = 8
+sugar_g = 8
+sodium_mg = 360
+# VALIDATION: (32×4) + (42×4) + (8×9) = 128 + 168 + 72 = 368 ✓ (within ±10 of 360)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -130
+protein_difference = "0g"
+key_changes = [
+    "Skinless chicken — removes skin fat, reduces calories by ~60 per serving",
+    "Brown basmati rice — adds fiber, lower glycemic index",
+    "Olive oil instead of ghee — healthier fat, smaller quantity",
+    "Green beans added — extra fiber and nutrients without significant calories"
+]
+
+# ============================================================
+# SUBSTITUTIONS
+# ============================================================
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "bone-in chicken thighs", substitute = "whole chicken legs", saving_percent = 20, reason = "Whole legs are often sold at lower cost per kg and contain both thigh and drumstick" },
+    { original = "basmati rice", substitute = "any long-grain white rice", saving_percent = 30, reason = "Any long-grain rice works well; basmati has a distinctive aroma but is not essential" },
+    { original = "ghee", substitute = "vegetable oil", saving_percent = 60, reason = "Vegetable oil is functionally identical for sautéing and stewing" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "dried limes", substitute = "juice of 1 lemon + a strip of lemon peel", reason = "Provides the tartness and citrus note that dried limes contribute" },
+    { original = "baharat spice mix", substitute = "allspice + cumin + black pepper + cinnamon", reason = "Standard warm spices available at any grocery store approximate baharat" },
+    { original = "zucchini", substitute = "eggplant or any summer squash", reason = "Eggplant absorbs the stew flavors beautifully and cooks in a similar timeframe" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "dried limes", substitute = "1 tbsp lemon juice added at end of cooking", reason = "Lemon juice provides the sourness that defines the dish's flavor" },
+    { original = "tomato paste", substitute = "2 tbsp ketchup or crushed canned tomatoes", reason = "Both provide the sweet tomato base needed for the stew" },
+    { original = "baharat", substitute = "cumin + cinnamon + black pepper (equal parts)", reason = "These three pantry spices cover the essential flavor notes of baharat" }
+]

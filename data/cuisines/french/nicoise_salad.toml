@@ -1,0 +1,142 @@
+# ============================================================
+# RECIPE DOCUMENT — SALADE NIÇOISE
+# Cuisine: French
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "french_nicoise_salad"
+cuisine = "French"
+dish_name = "Salade Niçoise"
+alternate_names = ["Niçoise Salad", "Nice Salad", "Salad Nicoise"]
+category = "salad"
+tags = ["traditional", "high_protein", "gluten_free", "contains_eggs", "contains_shellfish", "healthy"]
+allergens = ["eggs", "shellfish"]
+difficulty = "easy"
+total_time_minutes = 30
+
+[recipe.standard]
+serving_size = "1 large plate (approximately 400g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 10
+
+[recipe.standard.ingredients]
+items = [
+    "2 cans (160g each) tuna in olive oil, drained",
+    "200g green beans (haricots verts), trimmed and blanched",
+    "4 medium boiled eggs, halved",
+    "200g cherry tomatoes, halved",
+    "100g Niçoise olives (or Kalamata olives)",
+    "4 medium boiled potatoes (waxy variety), sliced",
+    "6 anchovy fillets",
+    "4 tbsp extra-virgin olive oil",
+    "1.5 tbsp red wine vinegar",
+    "1 tsp Dijon mustard",
+    "1 clove garlic, minced",
+    "Salt and black pepper to taste",
+    "Fresh basil leaves"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Boil eggs: place in cold water, bring to boil, cook 8-9 minutes for hard-boiled. Cool in ice water. Peel and halve.",
+    "Blanch green beans: cook in salted boiling water for 3-4 minutes until bright green and tender-crisp. Transfer to ice water immediately. Drain.",
+    "Boil potatoes until just tender, about 15 minutes. Cool and slice.",
+    "Make dressing: whisk together olive oil, red wine vinegar, Dijon mustard, minced garlic, salt, and pepper.",
+    "Arrange the salad: arrange green beans, potato slices, cherry tomatoes, and olives on a large platter.",
+    "Place tuna in chunks on top. Arrange boiled egg halves. Lay anchovy fillets over the tuna.",
+    "Drizzle dressing generously over everything. Garnish with fresh basil.",
+    "Serve at room temperature — do not toss. This is a composed salad."
+]
+
+[recipe.standard.macros]
+calories = 460
+protein_g = 32
+carbs_g = 28
+fat_g = 24
+fiber_g = 6
+sugar_g = 4
+sodium_mg = 740
+# VALIDATION: (32×4) + (28×4) + (24×9) = 128 + 112 + 216 = 456 ✓ (within ±10 of 460)
+
+[recipe.healthy_variant]
+variant_name = "Light Niçoise with Seared Fresh Tuna and Extra Vegetables"
+variant_type = "high_protein"
+description = "An upgraded Niçoise using seared fresh tuna steaks instead of canned, with extra green vegetables and a lighter lemon-herb vinaigrette using half the olive oil. Skips the potatoes to reduce carbs and adds avocado for healthy fats and creaminess."
+serving_size = "1 large plate (approximately 420g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 15
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "4 fresh tuna steaks (about 150g each)",
+    "200g green beans, blanched",
+    "4 boiled eggs, halved",
+    "200g cherry tomatoes, halved",
+    "60g Niçoise or Kalamata olives",
+    "1 ripe avocado, sliced",
+    "100g cucumber, sliced",
+    "4 anchovy fillets (optional)",
+    "Light dressing: 2 tbsp extra-virgin olive oil",
+    "Light dressing: 2 tbsp lemon juice",
+    "Light dressing: 1 tsp Dijon mustard",
+    "Light dressing: 1 clove garlic, minced",
+    "Light dressing: fresh herbs (basil, parsley)",
+    "Salt and pepper to taste"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Boil eggs 8 minutes. Cool, peel, and halve.",
+    "Blanch green beans 3-4 minutes in salted boiling water. Shock in ice water.",
+    "Season tuna steaks with salt and pepper. Sear in a very hot pan for 1-2 minutes per side (medium-rare preferred). Rest 2 minutes. Slice.",
+    "Make lemon herb dressing: whisk olive oil, lemon juice, Dijon mustard, garlic, herbs, salt, and pepper.",
+    "Arrange green beans, cherry tomatoes, cucumber, olives, and avocado slices on a platter.",
+    "Place sliced seared tuna. Add egg halves and anchovy fillets.",
+    "Drizzle with light dressing. Serve immediately."
+]
+
+[recipe.healthy_variant.macros]
+calories = 380
+protein_g = 38
+carbs_g = 12
+fat_g = 20
+fiber_g = 7
+sugar_g = 4
+sodium_mg = 540
+# VALIDATION: (38×4) + (12×4) + (20×9) = 152 + 48 + 180 = 380 ✓
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -80
+protein_difference = "+6g"
+key_changes = [
+    "Seared fresh tuna instead of canned — higher protein, no added oil from canning",
+    "No potatoes — reduces carbs by ~16g per serving",
+    "Avocado added — healthy monounsaturated fats replace some olive oil",
+    "Lemon-herb dressing uses half the oil — saves ~60 calories"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "canned tuna in olive oil", substitute = "canned tuna in water", saving_percent = 20, reason = "Tuna in water is typically cheaper and lower in calories; drizzle olive oil separately" },
+    { original = "Niçoise olives", substitute = "any black or Kalamata olives, pitted", saving_percent = 30, reason = "Kalamata olives are widely available and provide similar briny, meaty flavor" },
+    { original = "haricots verts (thin French beans)", substitute = "regular green beans or frozen green beans", saving_percent = 40, reason = "Regular green beans provide the same flavor and texture; just blanch for 1-2 minutes less" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "fresh tuna steaks", substitute = "canned tuna in oil (drain well, flake into large chunks)", reason = "Canned tuna is universally available; use high-quality oil-packed for the best result" },
+    { original = "Niçoise olives", substitute = "any cured black olive", reason = "The key is a briny, firm olive that adds saltiness without being too soft" },
+    { original = "anchovy fillets", substitute = "a few capers or extra olives", reason = "Capers provide similar briny, salty flavor for those who prefer not to use anchovies" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "red wine vinegar in dressing", substitute = "lemon juice or apple cider vinegar", reason = "Any acidic liquid creates a simple vinaigrette; lemon juice brightens the salad nicely" },
+    { original = "Dijon mustard", substitute = "yellow mustard or a pinch of mustard powder", reason = "Mustard emulsifies the dressing; any mustard style works" },
+    { original = "fresh basil garnish", substitute = "fresh parsley or chives", reason = "Any fresh herb provides the green herbal note for the composed salad" }
+]

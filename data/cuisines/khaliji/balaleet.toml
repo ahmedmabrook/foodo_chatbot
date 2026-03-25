@@ -1,0 +1,142 @@
+# ============================================================
+# RECIPE DOCUMENT — BALALEET
+# Cuisine: Khaliji
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "khaliji_balaleet"
+cuisine = "Khaliji"
+dish_name = "Balaleet"
+alternate_names = ["Balaleet bil Bayd", "Sweet Vermicelli Breakfast", "Gulf Sweet Noodles"]
+category = "breakfast"
+tags = ["breakfast", "sweet", "comfort_food", "traditional", "festive", "contains_gluten", "contains_eggs"]
+allergens = ["gluten", "eggs"]
+difficulty = "easy"
+total_time_minutes = 35
+
+# ============================================================
+# STANDARD (TRADITIONAL) RECIPE
+# ============================================================
+[recipe.standard]
+serving_size = "1 plate with egg (approximately 280g)"
+servings_per_recipe = 4
+prep_time_minutes = 10
+cook_time_minutes = 25
+
+[recipe.standard.ingredients]
+items = [
+    "250g thin vermicelli noodles",
+    "4 large eggs",
+    "1/2 cup sugar",
+    "3 tbsp ghee",
+    "1 tsp cardamom (ground)",
+    "1/2 tsp saffron threads soaked in 2 tbsp warm water",
+    "1/4 tsp turmeric",
+    "1/2 cup raisins",
+    "1/4 cup toasted almonds or pine nuts (for garnish)",
+    "Rose water (1 tsp, optional)",
+    "Salt (a small pinch)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Break vermicelli into 4-5cm pieces. Heat 2 tbsp ghee in a large pan over medium heat (350°F/175°C). Fry the dry vermicelli, stirring constantly, for 3-4 minutes until golden brown.",
+    "Add 2 cups boiling water to the pan. Add sugar, cardamom, saffron water, turmeric, raisins, and rose water. Stir well.",
+    "Cover and cook over low heat for 8-10 minutes until vermicelli absorbs all liquid and is cooked through. Stir gently once or twice.",
+    "Meanwhile, heat the remaining 1 tbsp ghee in a separate non-stick pan over medium heat (350°F/175°C). Beat eggs with a pinch of salt. Pour in and scramble gently, pulling from the edges, until just barely set and still creamy. Remove from heat immediately.",
+    "Fluff the sweet vermicelli with a fork. Taste and adjust sweetness.",
+    "Plate the sweet vermicelli. Place the scrambled eggs on top or alongside. Garnish with toasted almonds or pine nuts.",
+    "Serve immediately while warm. The contrast of sweet noodles with savory egg is the signature of this dish."
+]
+
+[recipe.standard.macros]
+calories = 520
+protein_g = 14
+carbs_g = 72
+fat_g = 20
+fiber_g = 3
+sugar_g = 32
+sodium_mg = 200
+# VALIDATION: (14×4) + (72×4) + (20×9) = 56 + 288 + 180 = 524 ✓ (within ±10 of 520)
+
+# ============================================================
+# HEALTHY VARIANT
+# ============================================================
+[recipe.healthy_variant]
+variant_name = "Light Balaleet with Whole Wheat Vermicelli and Reduced Sugar"
+variant_type = "low_calorie"
+description = "A lighter balaleet using whole wheat vermicelli, half the sugar replaced with dates for natural sweetness, and olive oil instead of ghee. The egg component is made with egg whites and one whole egg to reduce cholesterol while maintaining protein."
+serving_size = "1 plate with egg (approximately 260g)"
+servings_per_recipe = 4
+prep_time_minutes = 10
+cook_time_minutes = 25
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "200g whole wheat vermicelli or thin whole wheat spaghetti, broken",
+    "2 whole eggs + 4 egg whites",
+    "3 tbsp sugar",
+    "4 Medjool dates, pitted and finely chopped",
+    "1 tbsp olive oil",
+    "1 tsp cardamom (ground)",
+    "1/4 tsp saffron in 2 tbsp warm water",
+    "1/4 tsp turmeric",
+    "2 tbsp raisins",
+    "Toasted almonds for garnish (1 tbsp)"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Heat olive oil in a large pan over medium heat. Fry broken whole wheat vermicelli, stirring often, for 3-4 minutes until golden.",
+    "Add 2 cups boiling water. Add sugar, chopped dates, cardamom, saffron water, turmeric, and raisins. Stir.",
+    "Cover and cook on low heat for 8-10 minutes until liquid is absorbed. Stir gently once.",
+    "Beat 2 whole eggs + 4 egg whites with a pinch of salt. Cook in a non-stick pan with cooking spray over medium heat, scrambling gently until just set.",
+    "Plate whole wheat vermicelli. Top with egg scramble. Garnish with a few toasted almond slices."
+]
+
+[recipe.healthy_variant.macros]
+calories = 360
+protein_g = 16
+carbs_g = 54
+fat_g = 8
+fiber_g = 5
+sugar_g = 20
+sodium_mg = 160
+# VALIDATION: (16×4) + (54×4) + (8×9) = 64 + 216 + 72 = 352 ✓ (within ±10 of 360)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -160
+protein_difference = "+2g"
+key_changes = [
+    "Whole wheat vermicelli instead of white — more fiber, lower glycemic index",
+    "Dates replace half the sugar — natural sweetness with added fiber and minerals",
+    "Olive oil instead of ghee — healthier unsaturated fat, used in smaller amount",
+    "Egg whites replace 2 whole eggs — reduces fat and cholesterol"
+]
+
+# ============================================================
+# SUBSTITUTIONS
+# ============================================================
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "saffron threads", substitute = "1/4 tsp turmeric (already in recipe, double it)", saving_percent = 95, reason = "Saffron is expensive; extra turmeric provides the golden color without the cost" },
+    { original = "pine nuts", substitute = "toasted pumpkin seeds or sunflower seeds", saving_percent = 70, reason = "Seeds provide the same crunch at a fraction of the cost of nuts" },
+    { original = "Medjool dates", substitute = "regular dried dates, roughly chopped", saving_percent = 40, reason = "Standard dates provide the same natural sweetness at lower cost" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "thin vermicelli noodles", substitute = "angel hair pasta broken into pieces", reason = "Thin angel hair is available everywhere and cooks identically to vermicelli" },
+    { original = "ground cardamom", substitute = "seeds from 4-5 cardamom pods, lightly crushed", reason = "Whole pods can be opened and seeds ground with a mortar or the back of a spoon" },
+    { original = "rose water", substitute = "a tiny drop of vanilla extract", reason = "Vanilla provides a floral sweetness similar to rose water in this context" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "saffron", substitute = "a pinch of turmeric for color — omit flavor substitute", reason = "Turmeric provides the golden color that saffron gives; the saffron flavor is subtle anyway" },
+    { original = "raisins", substitute = "any dried fruit (apricots or cranberries, roughly chopped)", reason = "Any sweet dried fruit provides the chewy, sweet bursts in the noodles" },
+    { original = "ghee", substitute = "butter or any neutral oil", reason = "Butter is the closest equivalent to ghee for toasting the dry vermicelli" }
+]

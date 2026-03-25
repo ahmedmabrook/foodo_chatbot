@@ -1,0 +1,140 @@
+# ============================================================
+# RECIPE DOCUMENT — BÖREK (SU BÖREĞİ)
+# Cuisine: Turkish
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "turkish_borek"
+cuisine = "Turkish"
+dish_name = "Börek"
+alternate_names = ["Borek", "Su Böreği", "Su Boregi", "Turkish Cheese Pastry", "Water Borek"]
+category = "main_course"
+tags = ["comfort_food", "festive", "high_protein", "traditional", "contains_dairy", "contains_eggs", "contains_gluten"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "medium"
+total_time_minutes = 90
+
+[recipe.standard]
+serving_size = "1 slice (approximately 250g)"
+servings_per_recipe = 8
+prep_time_minutes = 40
+cook_time_minutes = 50
+
+[recipe.standard.ingredients]
+items = [
+    "1 package (500g) yufka or phyllo dough sheets",
+    "400g white cheese (beyaz peynir) or feta, crumbled",
+    "3 eggs",
+    "1 cup whole milk",
+    "1/2 cup plain yogurt",
+    "1/2 cup olive oil or vegetable oil",
+    "1 bunch flat-leaf parsley, finely chopped",
+    "Salt to taste (feta may be salty enough)",
+    "1 tsp black pepper",
+    "1 egg yolk + 1 tbsp milk (for brushing)",
+    "1 tbsp sesame seeds or nigella seeds for topping"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Preheat oven to 375°F (190°C). Grease a 9×13-inch (23×33cm) baking dish with oil.",
+    "Make the soaking mixture: whisk together eggs, milk, yogurt, and oil. Season lightly with salt and pepper.",
+    "Make the cheese filling: combine crumbled white cheese, chopped parsley, and black pepper. Taste for salt.",
+    "Lay the first sheet of yufka/phyllo in the baking dish. Brush or drizzle generously with the soaking mixture. Repeat with 3-4 more layers.",
+    "Spread the cheese filling evenly over the layered dough.",
+    "Continue layering remaining yufka sheets on top, brushing each layer with the soaking mixture. Pour any remaining soaking mixture over the top layer.",
+    "Mix egg yolk with 1 tbsp milk and brush the top. Sprinkle sesame or nigella seeds.",
+    "Bake at 375°F (190°C) for 40-50 minutes until deep golden brown and crisp on top. Rest 10 minutes before slicing.",
+    "Cut into squares and serve warm. Su böreği should be flaky on top and soft inside."
+]
+
+[recipe.standard.macros]
+calories = 380
+protein_g = 14
+carbs_g = 36
+fat_g = 20
+fiber_g = 2
+sugar_g = 4
+sodium_mg = 620
+# VALIDATION: (14×4) + (36×4) + (20×9) = 56 + 144 + 180 = 380 ✓
+
+[recipe.healthy_variant]
+variant_name = "Light Börek with Spinach-Ricotta Filling and Whole Wheat Phyllo"
+variant_type = "low_calorie"
+description = "A lighter börek using reduced-fat ricotta blended with wilted spinach instead of full-fat white cheese, whole wheat phyllo where available, and a light egg-white soaking mixture instead of full eggs and whole milk. The crispy layered texture is maintained."
+serving_size = "1 slice (approximately 240g)"
+servings_per_recipe = 8
+prep_time_minutes = 40
+cook_time_minutes = 45
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1 package (500g) phyllo dough sheets",
+    "300g part-skim ricotta cheese",
+    "150g reduced-fat feta, crumbled",
+    "300g fresh spinach, wilted and squeezed dry",
+    "2 eggs + 2 egg whites",
+    "3/4 cup low-fat milk",
+    "1/3 cup plain low-fat yogurt",
+    "3 tbsp olive oil",
+    "1 bunch flat-leaf parsley, finely chopped",
+    "Salt and pepper to taste",
+    "1 tsp nigella seeds for topping"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 375°F (190°C). Lightly oil a 9×13-inch baking dish with 1 tsp olive oil.",
+    "Wilt spinach in a dry pan over medium heat. Squeeze out all liquid. Chop roughly.",
+    "Make filling: combine ricotta, reduced-fat feta, wilted spinach, parsley, and pepper. Mix well.",
+    "Make soaking mixture: whisk eggs, egg whites, low-fat milk, yogurt, and olive oil together.",
+    "Layer half the phyllo sheets in the dish, brushing each with the soaking mixture.",
+    "Spread spinach-ricotta filling evenly over the layered dough.",
+    "Layer remaining phyllo sheets on top, brushing each with soaking mixture.",
+    "Bake at 375°F (190°C) for 40-45 minutes until golden brown. Rest 10 minutes before cutting.",
+    "Sprinkle with nigella seeds and serve warm."
+]
+
+[recipe.healthy_variant.macros]
+calories = 270
+protein_g = 14
+carbs_g = 30
+fat_g = 11
+fiber_g = 3
+sugar_g = 4
+sodium_mg = 440
+# VALIDATION: (14×4) + (30×4) + (11×9) = 56 + 120 + 99 = 275 ✓ (within ±10 of 270)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -110
+protein_difference = "0g"
+key_changes = [
+    "Part-skim ricotta + reduced-fat feta instead of full-fat cheese — saves ~70 calories per slice",
+    "Spinach added — substantial volume, fiber, and nutrients with minimal calories",
+    "Egg whites replace some whole eggs and low-fat milk replaces whole milk — saves ~30 calories",
+    "Less oil in soaking mixture — saves ~15 calories per slice"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "beyaz peynir (Turkish white cheese)", substitute = "feta cheese or ricotta", saving_percent = 10, reason = "Feta is widely available and provides the same salty, creamy filling as beyaz peynir" },
+    { original = "yufka sheets (Turkish phyllo)", substitute = "standard phyllo dough sheets (thinner; use 2-3 per yufka layer)", saving_percent = 10, reason = "Standard phyllo produces similar crispy, layered results with slightly thinner layers" },
+    { original = "nigella seeds for topping", substitute = "sesame seeds or poppy seeds", saving_percent = 50, reason = "Any small seed adds visual appeal and a mild nutty flavor to the baked top" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "yufka dough (large Turkish flatbread sheets)", substitute = "store-bought phyllo pastry", reason = "Phyllo pastry is widely available and produces an excellent börek with proper layering" },
+    { original = "flat-leaf parsley", substitute = "fresh dill or dried herbs", reason = "Dill is a common Turkish herb; any fresh or dried herb adds flavor to the cheese filling" },
+    { original = "nigella seeds", substitute = "sesame seeds", reason = "Sesame seeds are universally available and provide a similar toasted, nutty topping" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "yufka or phyllo sheets", substitute = "spring roll wrappers (smaller börek portions, crisp result)", reason = "Spring roll wrappers create individual crispy börek portions when filled and baked" },
+    { original = "white cheese + parsley filling", substitute = "any soft cheese with herbs (cream cheese, cottage cheese)", reason = "Any soft cheese mixed with dried herbs produces a satisfying börek filling" },
+    { original = "sesame/nigella seeds topping", substitute = "skip topping or brush with extra egg wash", reason = "A plain egg wash finish gives golden color without specialty seeds" }
+]

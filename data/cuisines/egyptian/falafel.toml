@@ -1,0 +1,154 @@
+# ============================================================
+# RECIPE DOCUMENT — FALAFEL (TA'AMEYA)
+# Cuisine: Egyptian
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "egyptian_falafel"
+cuisine = "Egyptian"
+dish_name = "Falafel"
+alternate_names = ["Ta'ameya", "Taamiya", "Egyptian Falafel"]
+category = "main_course"
+tags = ["vegan", "vegetarian", "street_food", "contains_gluten", "high_protein", "comfort_food"]
+allergens = ["none"]
+difficulty = "medium"
+total_time_minutes = 60
+
+# ============================================================
+# STANDARD (TRADITIONAL) RECIPE
+# ============================================================
+[recipe.standard]
+serving_size = "5-6 falafel pieces in pita (approximately 280g)"
+servings_per_recipe = 4
+prep_time_minutes = 30
+cook_time_minutes = 30
+
+[recipe.standard.ingredients]
+items = [
+    "2 cups dried fava beans (broad beans), soaked overnight and peeled",
+    "1/2 cup fresh parsley",
+    "1/2 cup fresh cilantro",
+    "1/2 cup fresh dill",
+    "1 small onion, roughly chopped",
+    "6 cloves garlic",
+    "1 tsp cumin",
+    "1 tsp coriander",
+    "1/2 tsp black pepper",
+    "1/2 tsp baking powder",
+    "Salt to taste",
+    "Sesame seeds (for coating, optional)",
+    "Vegetable oil for deep frying",
+    "4 pita breads (for serving)",
+    "Tahini sauce, sliced tomatoes, pickles (for serving)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Soak dried fava beans in water overnight (at least 12 hours). Drain. Peel off the outer skins if not already split and peeled.",
+    "IMPORTANT: Do NOT cook the beans. Egyptian falafel uses raw soaked fava beans, unlike some other versions. This gives them their unique bright green interior.",
+    "In a food processor, combine peeled soaked fava beans, parsley, cilantro, dill, onion, and garlic. Pulse until a coarse paste forms — it should not be completely smooth. Small pieces should still be visible.",
+    "Transfer to a bowl. Add cumin, coriander, black pepper, baking powder, and salt. Mix well. Refrigerate the mixture for 30 minutes — this helps the falafel hold together.",
+    "Heat vegetable oil in a deep pan to 350°F (175°C). The oil should be at least 5cm deep.",
+    "Using wet hands or a falafel mold, shape mixture into flat patties (Egyptian ta'ameya are disc-shaped, not ball-shaped). Roll edges in sesame seeds if using.",
+    "Fry in batches of 4-5 for 3-4 minutes per side, flipping once, until deep golden brown. Do not crowd the pan. Drain on paper towels.",
+    "Serve immediately in pita with tahini sauce, sliced tomatoes, pickles, and salad."
+]
+
+[recipe.standard.macros]
+calories = 380
+protein_g = 14
+carbs_g = 36
+fat_g = 20
+fiber_g = 10
+sugar_g = 3
+sodium_mg = 480
+# VALIDATION: (14×4) + (36×4) + (20×9) = 56 + 144 + 180 = 380 ✓
+
+# ============================================================
+# HEALTHY VARIANT
+# ============================================================
+[recipe.healthy_variant]
+variant_name = "Baked Ta'ameya with Extra Greens"
+variant_type = "low_calorie"
+description = "Oven-baked Egyptian falafel using the same authentic fava bean and herb base, but baked instead of deep-fried. Brushed with a small amount of olive oil to achieve a golden crust. Reduces fat significantly while preserving the distinctive flavor and bright green color."
+serving_size = "5-6 baked falafel in whole wheat pita (approximately 270g)"
+servings_per_recipe = 4
+prep_time_minutes = 30
+cook_time_minutes = 30
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "2 cups dried fava beans (broad beans), soaked overnight and peeled",
+    "1 cup fresh parsley",
+    "1 cup fresh cilantro",
+    "1/2 cup fresh dill",
+    "1 small onion, roughly chopped",
+    "6 cloves garlic",
+    "1 cup fresh spinach leaves",
+    "1 tsp cumin",
+    "1 tsp coriander",
+    "1/2 tsp black pepper",
+    "1/2 tsp baking powder",
+    "Salt to taste",
+    "1 tbsp olive oil (for brushing)",
+    "4 whole wheat pita breads"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Soak dried fava beans overnight. Drain and peel.",
+    "Preheat oven to 400°F (200°C). Line a baking sheet with parchment paper.",
+    "Pulse soaked fava beans, parsley, cilantro, dill, spinach, onion, and garlic in a food processor until a coarse paste forms.",
+    "Add cumin, coriander, black pepper, baking powder, and salt. Mix well. Refrigerate 30 minutes.",
+    "Shape into disc-shaped patties (about 4cm diameter, 1cm thick).",
+    "Place on the baking sheet. Brush tops lightly with olive oil.",
+    "Bake 15 minutes, flip, brush the other side with oil, bake another 12-15 minutes until golden brown and crispy on the outside.",
+    "Serve in whole wheat pita with tahini sauce and salad."
+]
+
+[recipe.healthy_variant.macros]
+calories = 270
+protein_g = 14
+carbs_g = 36
+fat_g = 8
+fiber_g = 12
+sugar_g = 3
+sodium_mg = 360
+# VALIDATION: (14×4) + (36×4) + (8×9) = 56 + 144 + 72 = 272 ✓ (within ±10 of 270)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -110
+protein_difference = "0g"
+key_changes = [
+    "Baked instead of deep-fried — reduces fat by ~12g per serving, saves ~108 calories",
+    "Added spinach to the mix — increases iron, folate, and overall nutrient density",
+    "Double herbs (1 cup each parsley and cilantro) — more micronutrients, vibrant green color",
+    "Whole wheat pita — more fiber than regular pita"
+]
+
+# ============================================================
+# SUBSTITUTIONS
+# ============================================================
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "dried fava beans", substitute = "canned fava beans (drain well, pat dry)", saving_percent = 0, reason = "Saves overnight soaking time; canned beans are sometimes cheaper and equally effective" },
+    { original = "fresh herbs (parsley, cilantro, dill)", substitute = "frozen chopped herbs or a herb cube", saving_percent = 60, reason = "Frozen herbs or herb cubes are pre-portioned, waste-free, and significantly cheaper than fresh" },
+    { original = "vegetable oil for deep frying", substitute = "bake instead (see healthy variant)", saving_percent = 80, reason = "Baking eliminates the need for a liter of frying oil" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "dried fava beans", substitute = "canned chickpeas (makes Levantine-style falafel, not Egyptian)", reason = "Chickpeas are universally available; flavor and color will differ from Egyptian ta'ameya" },
+    { original = "fresh dill", substitute = "extra fresh parsley or cilantro", reason = "The herb combination can be adjusted; more parsley or cilantro fills in for missing dill" },
+    { original = "tahini sauce", substitute = "hummus thinned with lemon juice and water", reason = "Thinned hummus provides a similar sesame-chickpea flavor for dipping" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "baking powder", substitute = "1/2 tsp baking soda", reason = "Baking soda provides the same leavening lift to keep falafel light inside" },
+    { original = "fresh garlic", substitute = "1 tsp garlic powder", reason = "Garlic powder is a common pantry staple that provides the same garlic base flavor" },
+    { original = "fresh parsley", substitute = "dried parsley (use 2 tbsp) — note: use extra fresh cilantro if available", reason = "Dried parsley works as a substitute; the herbs primarily provide flavor rather than structure" }
+]

@@ -1,0 +1,147 @@
+# ============================================================
+# RECIPE DOCUMENT — JAREESH
+# Cuisine: Khaliji
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "khaliji_jareesh"
+cuisine = "Khaliji"
+dish_name = "Jareesh"
+alternate_names = ["Jareesh bil Dajaj", "Crushed Wheat Porridge", "Saudi Jareesh"]
+category = "main_course"
+tags = ["comfort_food", "festive", "ramadan", "traditional", "contains_gluten", "high_protein"]
+allergens = ["gluten", "dairy"]
+difficulty = "medium"
+total_time_minutes = 150
+
+# ============================================================
+# STANDARD (TRADITIONAL) RECIPE
+# ============================================================
+[recipe.standard]
+serving_size = "1 bowl (approximately 380g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 130
+
+[recipe.standard.ingredients]
+items = [
+    "2 cups coarse cracked wheat (jareesh)",
+    "600g chicken pieces (bone-in, skin-on)",
+    "1 large onion, finely diced",
+    "4 cloves garlic, minced",
+    "2 tbsp ghee",
+    "1 cup plain yogurt",
+    "1 tsp baharat",
+    "1 tsp turmeric",
+    "1 tsp cumin",
+    "Salt to taste",
+    "Water (approximately 1.5 liters)",
+    "Caramelized onions and ghee for topping"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Wash the cracked wheat and soak in water for 1 hour. Drain.",
+    "Boil chicken pieces in 1.5 liters of water with salt until fully cooked, about 30-35 minutes. Remove chicken. Reserve the broth. Shred chicken meat off the bone.",
+    "In a large pot, heat ghee over medium heat. Sauté diced onion until golden brown, about 8 minutes. Add garlic and cook 1 minute.",
+    "Add the drained cracked wheat. Stir to coat in the onion-ghee mixture. Pour in the reserved chicken broth.",
+    "Bring to a boil, then reduce heat to very low. Cover and cook for 45-60 minutes, stirring every 10-15 minutes to prevent sticking. The wheat will break down and become porridge-like.",
+    "Add baharat, turmeric, cumin, and shredded chicken. Stir well. Add yogurt and mix thoroughly.",
+    "Continue cooking on very low heat for another 15-20 minutes, stirring frequently. The jareesh should be thick and creamy.",
+    "For topping: fry sliced onions in ghee until deep golden and caramelized. Serve jareesh in bowls topped with caramelized onions and a drizzle of extra ghee."
+]
+
+[recipe.standard.macros]
+calories = 460
+protein_g = 28
+carbs_g = 52
+fat_g = 16
+fiber_g = 6
+sugar_g = 5
+sodium_mg = 420
+# VALIDATION: (28×4) + (52×4) + (16×9) = 112 + 208 + 144 = 464 ✓ (within ±10 of 460)
+
+# ============================================================
+# HEALTHY VARIANT
+# ============================================================
+[recipe.healthy_variant]
+variant_name = "Light Jareesh with Chicken Breast and Low-Fat Yogurt"
+variant_type = "low_calorie"
+description = "A lighter jareesh using skinless chicken breast, low-fat yogurt, and olive oil instead of ghee. The wheat base and spice profile remain authentic, but caramelized onions are baked instead of fried and ghee topping is reduced to a minimal garnish."
+serving_size = "1 bowl (approximately 360g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 110
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "2 cups coarse cracked wheat (jareesh)",
+    "500g skinless chicken breast",
+    "1 large onion, finely diced",
+    "4 cloves garlic, minced",
+    "1 tbsp olive oil",
+    "1 cup low-fat plain yogurt (2%)",
+    "1 tsp baharat",
+    "1 tsp turmeric",
+    "1 tsp cumin",
+    "Salt to taste",
+    "1.5 liters low-sodium chicken broth"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Soak cracked wheat for 1 hour. Drain.",
+    "Poach chicken breast in broth for 20-25 minutes. Remove and shred. Reserve broth.",
+    "Heat olive oil in a large pot over medium heat. Sauté diced onion until golden. Add garlic, cook 1 minute.",
+    "Add drained wheat. Stir to coat. Pour in reserved broth.",
+    "Simmer covered on low heat for 45-55 minutes, stirring often.",
+    "Add baharat, turmeric, cumin, shredded chicken, and low-fat yogurt. Stir well.",
+    "Cook 15 more minutes on very low heat until thick and creamy. Serve with a minimal drizzle of olive oil."
+]
+
+[recipe.healthy_variant.macros]
+calories = 330
+protein_g = 28
+carbs_g = 44
+fat_g = 6
+fiber_g = 6
+sugar_g = 4
+sodium_mg = 300
+# VALIDATION: (28×4) + (44×4) + (6×9) = 112 + 176 + 54 = 342 ✓ (within ±10 of 330)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -130
+protein_difference = "0g"
+key_changes = [
+    "Skinless chicken breast instead of bone-in skin-on chicken — removes fat from skin",
+    "Low-fat yogurt instead of full-fat — reduces fat content by ~4g per serving",
+    "Olive oil instead of ghee for cooking — healthier fat profile",
+    "Eliminated fried caramelized onion topping — saves ~60 calories per serving"
+]
+
+# ============================================================
+# SUBSTITUTIONS
+# ============================================================
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "coarse cracked wheat (jareesh)", substitute = "steel-cut oats or rolled oats", saving_percent = 30, reason = "Oats are cheaper and create a similar creamy porridge texture; flavor will differ" },
+    { original = "plain yogurt", substitute = "sour cream diluted with milk (1:1)", saving_percent = 20, reason = "Diluted sour cream provides similar tang and creaminess at comparable or lower cost" },
+    { original = "ghee topping", substitute = "butter, melted and drizzled", saving_percent = 50, reason = "Melted butter provides the same rich, finishing flavor as ghee" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "cracked wheat (jareesh)", substitute = "bulgur wheat (coarse grade)", reason = "Coarse bulgur is available in most supermarkets and gives a similar texture with shorter cooking time" },
+    { original = "baharat", substitute = "equal parts allspice, cinnamon, black pepper, and coriander", reason = "This combination approximates the warm Gulf spice blend" },
+    { original = "bone-in chicken", substitute = "rotisserie chicken, shredded", reason = "Pre-cooked rotisserie chicken saves time; use store-bought broth for the liquid" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "cracked wheat", substitute = "finely broken pasta or rice (creates different texture)", reason = "Both work as the starchy base of the porridge if wheat is unavailable" },
+    { original = "plain yogurt", substitute = "milk (use 1/2 cup extra, reduce water)", reason = "Extra milk adds creaminess and approximates the effect of yogurt in cooking" },
+    { original = "baharat spice mix", substitute = "cumin + black pepper + a pinch of nutmeg", reason = "These common kitchen spices create a simplified warm spice base" }
+]

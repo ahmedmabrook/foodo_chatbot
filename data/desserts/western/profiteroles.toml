@@ -1,0 +1,133 @@
+# ============================================================
+# RECIPE DOCUMENT — PROFITEROLES
+# Cuisine: French / Western Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "western_profiteroles"
+cuisine = "French"
+dish_name = "Profiteroles"
+alternate_names = ["Cream Puffs", "Choux à la Crème", "Chocolate Profiteroles"]
+category = "dessert"
+tags = ["french", "classic", "elegant", "contains_gluten", "contains_dairy", "contains_eggs", "vegetarian"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "medium"
+total_time_minutes = 75
+
+[recipe.standard]
+serving_size = "3 profiteroles with sauce (approximately 160g)"
+servings_per_recipe = 6
+prep_time_minutes = 30
+cook_time_minutes = 45
+
+[recipe.standard.ingredients]
+items = [
+    "Choux pastry: 120ml whole milk",
+    "Choux pastry: 120ml water",
+    "Choux pastry: 100g unsalted butter",
+    "Choux pastry: 1/2 tsp salt, 1 tsp sugar",
+    "Choux pastry: 140g all-purpose flour",
+    "Choux pastry: 4 large eggs",
+    "Cream filling: 400ml heavy cream",
+    "Cream filling: 2 tbsp powdered sugar",
+    "Cream filling: 1 tsp vanilla extract",
+    "Chocolate sauce: 150g dark chocolate",
+    "Chocolate sauce: 150ml heavy cream",
+    "Chocolate sauce: 1 tbsp butter"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make choux pastry: bring milk, water, butter, salt, and sugar to a full boil in a saucepan. Remove from heat. Add flour all at once and beat vigorously until dough pulls from sides and forms a smooth ball.",
+    "Return to low heat and cook, stirring, for 1-2 minutes to dry out the dough.",
+    "Transfer to a bowl. Beat in eggs one at a time — the dough should be smooth, glossy, and fall from a spoon in a V-shape. It will look curdled at first; keep beating.",
+    "Pipe or spoon 18 mounds (about 3cm diameter) onto parchment-lined baking sheets, spaced apart.",
+    "Bake at 400°F (200°C) for 20-25 minutes until deeply golden and hollow-sounding when tapped. Do not open the oven for the first 15 minutes. Cool completely.",
+    "Make filling: whip cold heavy cream with powdered sugar and vanilla to firm peaks.",
+    "Make sauce: heat cream and butter until simmering. Pour over chopped chocolate. Stir until smooth.",
+    "Fill profiteroles: pierce the base of each puff and pipe cream in, or slice and fill. Stack on a platter, pour warm chocolate sauce over. Serve immediately."
+]
+
+[recipe.standard.macros]
+calories = 420
+protein_g = 7
+carbs_g = 28
+fat_g = 32
+fiber_g = 1
+sugar_g = 14
+sodium_mg = 200
+# VALIDATION: (7×4) + (28×4) + (32×9) = 28 + 112 + 288 = 428 ✓ (within ±10 of 420)
+
+[recipe.healthy_variant]
+variant_name = "Light Profiteroles with Greek Yogurt Cream and Dark Chocolate Drizzle"
+variant_type = "low_calorie"
+description = "Profiteroles with the same classic choux pastry shells, but filled with a Greek yogurt and whipped cream blend (50/50) instead of pure whipped cream, and drizzled with a lighter dark chocolate sauce made with milk instead of heavy cream. The light-as-air choux shell is identical."
+serving_size = "3 profiteroles with sauce (approximately 150g)"
+servings_per_recipe = 6
+prep_time_minutes = 30
+cook_time_minutes = 45
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "Choux pastry: 120ml whole milk, 120ml water, 100g butter, salt, sugar, 140g flour, 4 eggs (same as standard)",
+    "Light filling: 200ml whipping cream",
+    "Light filling: 200g 0% Greek yogurt, well drained",
+    "Light filling: 2 tbsp powdered sugar",
+    "Light filling: 1 tsp vanilla extract",
+    "Light chocolate sauce: 80g dark chocolate (70%+)",
+    "Light chocolate sauce: 100ml whole milk",
+    "Light chocolate sauce: 1 tsp honey"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Make and bake choux pastry exactly as in standard recipe — same shells.",
+    "Cool completely.",
+    "Make light filling: whip cold cream to firm peaks. Gently fold in Greek yogurt, powdered sugar, and vanilla.",
+    "Make light chocolate sauce: heat milk until steaming. Pour over chopped dark chocolate and honey. Stir until smooth.",
+    "Fill cooled puffs with yogurt cream filling. Drizzle with light chocolate sauce. Serve immediately."
+]
+
+[recipe.healthy_variant.macros]
+calories = 270
+protein_g = 9
+carbs_g = 26
+fat_g = 15
+fiber_g = 1
+sugar_g = 10
+sodium_mg = 200
+# VALIDATION: (9×4) + (26×4) + (15×9) = 36 + 104 + 135 = 275 ✓ (within ±10 of 270)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -150
+protein_difference = "+2g"
+key_changes = [
+    "Greek yogurt replaces half the whipped cream in filling — cuts fat significantly",
+    "Milk-based chocolate sauce instead of cream ganache — saves ~60 calories per serving",
+    "Choux shells identical — the structural technique is unchanged",
+    "Dark 70%+ chocolate in sauce — more antioxidants, less sugar"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "heavy cream for filling", substitute = "whipping cream (35% fat — equally good, usually cheaper)", saving_percent = 15, reason = "Whipping cream whips to firm peaks and fills profiteroles identically to heavy cream" },
+    { original = "dark chocolate for sauce", substitute = "milk chocolate or dark cocoa sauce (3 tbsp cocoa, 2 tbsp sugar, 3 tbsp milk)", saving_percent = 40, reason = "A quick cocoa sauce provides chocolate flavor at minimal cost" },
+    { original = "all-purpose flour for choux", substitute = "bread flour (creates slightly crispier shells)", saving_percent = 5, reason = "Bread flour's higher protein creates crispier, sturdier choux shells" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "piping bag for shaping choux", substitute = "two wet spoons to dollop mounds (round, not piped)", reason = "Spoon-dropped choux creates rustic round puffs that bake and fill identically" },
+    { original = "dark chocolate (bar)", substitute = "dark chocolate chips", reason = "Chocolate chips melt into smooth sauce equally well" },
+    { original = "vanilla extract in filling", substitute = "1 tsp vanilla sugar or half a vanilla bean's seeds", reason = "Any vanilla form provides the aromatic background in the cream filling" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "choux pastry (from scratch)", substitute = "store-bought cream puffs or vol-au-vent shells (fill and sauce only)", reason = "Many bakeries sell unfilled cream puff shells; simply fill and sauce them" },
+    { original = "heavy cream for filling", substitute = "thick Greek yogurt only — no cream (lighter, tangy, protein-rich)", reason = "Thick well-drained Greek yogurt sweetened with a little honey fills puffs beautifully" },
+    { original = "chocolate sauce", substitute = "warmed jam or honey drizzle", reason = "Warm berry jam or a honey drizzle provides sweetness and visual appeal over the puffs" }
+]

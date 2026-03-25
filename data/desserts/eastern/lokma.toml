@@ -1,0 +1,134 @@
+# ============================================================
+# RECIPE DOCUMENT — LOKMA
+# Cuisine: Turkish/Arab / Eastern Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "eastern_lokma"
+cuisine = "Turkish"
+dish_name = "Lokma"
+alternate_names = ["Lokmades", "Luqmat al Qadi", "Fried Dough Balls", "Honey Fritters"]
+category = "dessert"
+tags = ["turkish", "arab", "street_food", "fried", "vegan", "contains_gluten", "vegetarian"]
+allergens = ["gluten"]
+difficulty = "easy"
+total_time_minutes = 45
+
+[recipe.standard]
+serving_size = "8 lokma with syrup (approximately 160g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 25
+
+[recipe.standard.ingredients]
+items = [
+    "Dough: 250g all-purpose flour",
+    "Dough: 1 tsp instant yeast",
+    "Dough: 1 tsp sugar",
+    "Dough: 1/2 tsp salt",
+    "Dough: 250ml warm water",
+    "For frying: vegetable oil (about 1 liter)",
+    "Sugar syrup: 300g sugar",
+    "Sugar syrup: 200ml water",
+    "Sugar syrup: 1 tbsp lemon juice",
+    "Sugar syrup: 1 tsp cinnamon",
+    "Topping: ground cinnamon and sesame seeds"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make dough: whisk flour, yeast, sugar, and salt. Add warm water and mix into a smooth, sticky batter (thicker than pancake batter, thinner than bread dough). Cover and rest 30-40 minutes until doubled and bubbly.",
+    "Make syrup: combine sugar, water, and lemon juice in a saucepan. Bring to a boil, stirring. Simmer 8-10 minutes until slightly thickened. Add cinnamon. Keep warm.",
+    "Heat oil in a deep pot to 350°F (175°C).",
+    "Using two wet spoons or a small ice cream scoop, drop teaspoon-sized balls of dough into the hot oil. Do not overcrowd. Fry 3-4 minutes, turning, until golden brown all over.",
+    "Remove with a slotted spoon and immediately submerge in warm sugar syrup for 1-2 minutes.",
+    "Transfer to a serving plate. Sprinkle with cinnamon and sesame seeds. Serve immediately while warm and crispy."
+]
+
+[recipe.standard.macros]
+calories = 360
+protein_g = 4
+carbs_g = 62
+fat_g = 10
+fiber_g = 1
+sugar_g = 40
+sodium_mg = 160
+# VALIDATION: (4×4) + (62×4) + (10×9) = 16 + 248 + 90 = 354 ✓ (within ±10 of 360)
+
+[recipe.healthy_variant]
+variant_name = "Baked Lokma with Honey and Cinnamon"
+variant_type = "low_calorie"
+description = "Lokma balls baked in the oven instead of deep-fried, coated with a honey-cinnamon glaze instead of sugar syrup. The light, airy dough ball shape is achieved by using a muffin tin for perfectly round baked rounds. Much lower in fat with no absorbed frying oil."
+serving_size = "8 lokma with glaze (approximately 150g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 20
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "Dough: 250g all-purpose flour",
+    "Dough: 1 tsp instant yeast",
+    "Dough: 1 tsp sugar",
+    "Dough: 1/2 tsp salt",
+    "Dough: 250ml warm water",
+    "Dough: 1 tbsp olive oil",
+    "Honey glaze: 80g honey",
+    "Honey glaze: 2 tbsp water",
+    "Honey glaze: 1 tsp cinnamon",
+    "Topping: sesame seeds and ground cinnamon"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Make dough as in standard recipe with added olive oil. Rest 30-40 minutes until doubled.",
+    "Preheat oven to 400°F (200°C). Lightly oil a mini muffin tin.",
+    "Spoon dough into mini muffin cups (fill about 2/3 full).",
+    "Bake at 400°F (200°C) for 12-15 minutes until golden and puffed.",
+    "Make honey glaze: warm honey and water together. Stir in cinnamon.",
+    "While still warm, brush lokma generously with honey glaze or dip briefly.",
+    "Sprinkle with sesame seeds and cinnamon. Serve warm."
+]
+
+[recipe.healthy_variant.macros]
+calories = 220
+protein_g = 5
+carbs_g = 46
+fat_g = 2
+fiber_g = 1
+sugar_g = 24
+sodium_mg = 160
+# VALIDATION: (5×4) + (46×4) + (2×9) = 20 + 184 + 18 = 222 ✓ (within ±10 of 220)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -140
+protein_difference = "+1g"
+key_changes = [
+    "Baked instead of deep-fried — removes nearly all added fat",
+    "Honey glaze instead of sugar syrup — natural sweetener with trace minerals",
+    "Less total sugar in glaze vs heavy syrup soak — saves ~40 calories per serving",
+    "Olive oil in dough — small amount provides healthy fat for tenderness"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "honey for glaze", substitute = "sugar syrup (standard lokma approach)", saving_percent = 50, reason = "Standard sugar syrup is the traditional and cheaper soaking medium for lokma" },
+    { original = "sesame seeds garnish", substitute = "cinnamon only or powdered sugar dusting", saving_percent = 80, reason = "Any spice or sugar dusting provides the traditional finish" },
+    { original = "instant yeast", substitute = "active dry yeast (activate first in warm water, add 10 minutes total)", saving_percent = 10, reason = "Active dry yeast produces identical bubbly dough for lokma" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "deep frying (1 liter oil)", substitute = "shallow frying in 3cm oil, turning frequently", reason = "Shallow frying uses far less oil; turn lokma more often for even browning" },
+    { original = "mini muffin tin for baking", substitute = "any small oven-safe molds or simply shape by hand on baking sheet", reason = "Free-form baked lokma are slightly less round but bake identically" },
+    { original = "sugar syrup soak", substitute = "dusting with powdered sugar (lighter, no soaking required)", reason = "Powdered sugar dusting provides sweetness without the heavy syrup soak" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "instant yeast dough", substitute = "mix equal parts flour and self-raising flour with water (no yeast needed)", reason = "Self-raising flour provides leavening without yeast for quick no-wait lokma" },
+    { original = "sugar syrup", substitute = "jam thinned with water, warm for dipping", reason = "Warmed jam provides flavor and sweetness for dipping lokma" },
+    { original = "sesame seed topping", substitute = "ground cinnamon alone", reason = "Cinnamon is the most essential aromatic garnish for lokma" }
+]

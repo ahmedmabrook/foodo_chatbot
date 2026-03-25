@@ -1,0 +1,136 @@
+# ============================================================
+# RECIPE DOCUMENT — GULASH BIL CREAM
+# Cuisine: Egyptian/Arab / Eastern Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "eastern_gulash_bil_cream"
+cuisine = "Egyptian"
+dish_name = "Gulash bil Cream"
+alternate_names = ["Goulash with Cream", "Egyptian Cream Pastry", "Phyllo Cream Dessert", "Gulash"]
+category = "dessert"
+tags = ["egyptian", "arab", "classic", "contains_gluten", "contains_dairy", "vegetarian"]
+allergens = ["gluten", "dairy"]
+difficulty = "easy"
+total_time_minutes = 60
+
+[recipe.standard]
+serving_size = "1 square (approximately 160g)"
+servings_per_recipe = 12
+prep_time_minutes = 20
+cook_time_minutes = 40
+
+[recipe.standard.ingredients]
+items = [
+    "500g phyllo pastry sheets",
+    "200g unsalted butter, melted",
+    "Cream filling: 500ml whole milk",
+    "Cream filling: 200ml heavy cream",
+    "Cream filling: 60g cornstarch",
+    "Cream filling: 80g caster sugar",
+    "Cream filling: 1 tsp vanilla extract",
+    "Cream filling: 1 tsp rose water",
+    "Sugar syrup: 300g sugar, 250ml water, 1 tbsp lemon juice, 1 tsp rose water",
+    "Crushed pistachios for garnish"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make cream filling: whisk milk, cream, cornstarch, and sugar in a saucepan until smooth. Cook over medium heat, stirring constantly, until very thick (holds shape when pressed). Add vanilla and rose water. Cool completely — the filling must be cold before assembly.",
+    "Make syrup: boil sugar and water 5 minutes. Add lemon juice and rose water. Cool.",
+    "Preheat oven to 375°F (190°C). Grease a 9×13-inch baking dish.",
+    "Layer half the phyllo sheets in the baking dish, brushing each sheet with melted butter.",
+    "Spread the cold cream filling evenly over the layered phyllo.",
+    "Layer remaining phyllo sheets on top, brushing each with melted butter. Score the top into squares before baking.",
+    "Bake at 375°F (190°C) for 35-40 minutes until deeply golden.",
+    "Immediately pour cooled syrup over the hot pastry. Allow to absorb 20 minutes before cutting along scored lines.",
+    "Sprinkle with crushed pistachios. Serve at room temperature."
+]
+
+[recipe.standard.macros]
+calories = 420
+protein_g = 6
+carbs_g = 56
+fat_g = 20
+fiber_g = 1
+sugar_g = 36
+sodium_mg = 220
+# VALIDATION: (6×4) + (56×4) + (20×9) = 24 + 224 + 180 = 428 ✓ (within ±10 of 420)
+
+[recipe.healthy_variant]
+variant_name = "Light Gulash with Reduced Butter Phyllo and Greek Yogurt Cream"
+variant_type = "low_calorie"
+description = "A lighter gulash using olive oil spray instead of heavy butter brushing on phyllo, and a cream filling made with low-fat milk and Greek yogurt instead of heavy cream. The syrup is reduced in sugar. The characteristic creamy-crispy layered structure and rose water fragrance are preserved."
+serving_size = "1 square (approximately 150g)"
+servings_per_recipe = 12
+prep_time_minutes = 20
+cook_time_minutes = 40
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "500g phyllo pastry sheets",
+    "Olive oil spray or 60g melted butter (used sparingly, one brush per 2 sheets)",
+    "Light cream filling: 600ml low-fat milk",
+    "Light cream filling: 100g 0% Greek yogurt",
+    "Light cream filling: 55g cornstarch",
+    "Light cream filling: 55g caster sugar",
+    "Light cream filling: 1 tsp vanilla extract",
+    "Light cream filling: 1 tsp rose water",
+    "Light syrup: 180g sugar, 220ml water, 1 tbsp lemon juice, 1 tsp rose water",
+    "Crushed pistachios for garnish (1 tbsp total)"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Make light cream: whisk low-fat milk, Greek yogurt, cornstarch, and sugar in a pan. Cook over medium heat, stirring constantly, until very thick. Add vanilla and rose water. Cool completely.",
+    "Make light syrup: boil sugar and water 3 minutes. Add lemon juice and rose water. Cool.",
+    "Layer half the phyllo, spraying or lightly brushing every other sheet with oil/butter.",
+    "Spread cold light cream filling over layered phyllo.",
+    "Layer remaining phyllo on top, spraying/brushing every other sheet.",
+    "Score top into squares. Bake at 375°F (190°C) for 35-40 minutes until golden.",
+    "Pour cooled light syrup over hot pastry. Rest 20 minutes. Cut and garnish with pistachios."
+]
+
+[recipe.healthy_variant.macros]
+calories = 270
+protein_g = 7
+carbs_g = 44
+fat_g = 8
+fiber_g = 1
+sugar_g = 26
+sodium_mg = 200
+# VALIDATION: (7×4) + (44×4) + (8×9) = 28 + 176 + 72 = 276 ✓ (within ±10 of 270)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -150
+protein_difference = "+1g"
+key_changes = [
+    "Low-fat milk + Greek yogurt instead of whole milk + heavy cream — saves ~80 calories per serving",
+    "Minimal butter/oil on phyllo (every other sheet vs every sheet) — saves ~40 calories per serving",
+    "Reduced sugar syrup (180g vs 300g) — saves ~30 calories per serving",
+    "Greek yogurt adds protein and tangy depth to the cream filling"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "butter for phyllo (200g)", substitute = "olive oil or vegetable oil (use 100ml, apply with pastry brush)", saving_percent = 40, reason = "Any neutral oil applied thinly between phyllo sheets creates crispy, golden layers" },
+    { original = "heavy cream in filling", substitute = "evaporated milk (thicker than regular milk, creates richer filling)", saving_percent = 40, reason = "Evaporated milk provides richness between whole milk and cream at a lower cost" },
+    { original = "crushed pistachios", substitute = "any finely chopped nut or skip entirely", saving_percent = 70, reason = "Any chopped nut or a simple dusting of cinnamon provides the garnish" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "phyllo pastry sheets", substitute = "store-bought puff pastry (thicker, richer result)", reason = "Puff pastry creates a different but delicious buttery, flaky gulash" },
+    { original = "rose water in filling and syrup", substitute = "vanilla extract only (neutral, universally liked)", reason = "Vanilla provides aromatic depth without rose water's floral character" },
+    { original = "cornstarch for cream filling", substitute = "all-purpose flour (use slightly more, about 70g, stir well to avoid lumps)", reason = "Flour-thickened cream filling is a traditional approach that works well in this dessert" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "phyllo pastry", substitute = "filo pastry from any supermarket freezer section", reason = "Frozen phyllo/filo pastry is identical to fresh for this recipe when thawed properly" },
+    { original = "sugar syrup soak", substitute = "drizzle with warm honey", reason = "Warm honey provides fragrant sweetness without a sugar syrup preparation" },
+    { original = "cornstarch cream filling", substitute = "canned custard or thick pudding mix prepared according to package (shortcut)", reason = "Prepared custard from a tin or powder creates a perfectly suitable filling with no cooking" }
+]

@@ -1,0 +1,136 @@
+# ============================================================
+# RECIPE DOCUMENT — IMAM BAYILDI
+# Cuisine: Turkish
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "turkish_imam_bayildi"
+cuisine = "Turkish"
+dish_name = "İmam Bayıldı"
+alternate_names = ["Imam Bayildi", "Stuffed Braised Eggplant", "The Imam Fainted"]
+category = "main_course"
+tags = ["vegan", "vegetarian", "gluten_free", "traditional", "comfort_food"]
+allergens = ["none"]
+difficulty = "medium"
+total_time_minutes = 90
+
+[recipe.standard]
+serving_size = "1 stuffed eggplant half (approximately 350g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 70
+
+[recipe.standard.ingredients]
+items = [
+    "4 medium eggplants",
+    "3 large onions, thinly sliced",
+    "6 cloves garlic, thinly sliced",
+    "4 large tomatoes, diced (or 400g canned)",
+    "1 green bell pepper, diced",
+    "1/2 cup extra-virgin olive oil",
+    "1 tsp sugar",
+    "1 tsp cumin",
+    "1/2 tsp cinnamon",
+    "Salt and black pepper to taste",
+    "Fresh parsley for garnish",
+    "Lemon juice for serving"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Salt eggplants all over and let sit 20 minutes. Pat dry.",
+    "Heat 3 tbsp olive oil in a large pan over medium-high heat (375°F/190°C). Fry eggplants, turning, until golden on all sides, about 8-10 minutes. The eggplant should be partially cooked.",
+    "Make filling: in the same pan, heat 2 tbsp olive oil. Slowly cook sliced onions until very soft and golden, 15-20 minutes. Add garlic and bell pepper. Cook 5 minutes. Add tomatoes, cumin, cinnamon, sugar, salt, and pepper. Cook until thick, about 10 minutes.",
+    "Slit each eggplant lengthwise down the center (do not cut all the way through). Gently open like a pocket.",
+    "Stuff each eggplant generously with the onion-tomato filling.",
+    "Place stuffed eggplants in a deep baking dish. Pour remaining olive oil and 1/2 cup water around them.",
+    "Cover tightly and bake at 350°F (175°C) for 30-35 minutes until very tender and flavors melded.",
+    "Serve at room temperature with a squeeze of lemon and fresh parsley. Imam Bayıldı improves as it rests — best the next day."
+]
+
+[recipe.standard.macros]
+calories = 280
+protein_g = 5
+carbs_g = 26
+fat_g = 18
+fiber_g = 8
+sugar_g = 14
+sodium_mg = 380
+# VALIDATION: (5×4) + (26×4) + (18×9) = 20 + 104 + 162 = 286 ✓ (within ±10 of 280)
+
+[recipe.healthy_variant]
+variant_name = "Light İmam Bayıldı with Reduced Oil and Added Chickpeas"
+variant_type = "low_calorie"
+description = "A lighter imam bayıldı where eggplants are roasted instead of pan-fried, olive oil is reduced by 60%, and chickpeas are added to the filling for protein. Still completely vegan and gluten-free."
+serving_size = "1 stuffed eggplant (approximately 360g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 65
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "4 medium eggplants",
+    "3 large onions, thinly sliced",
+    "6 cloves garlic, sliced",
+    "4 large tomatoes, diced",
+    "1 green bell pepper, diced",
+    "200g canned chickpeas, drained",
+    "3 tbsp extra-virgin olive oil",
+    "1 tsp sugar",
+    "1 tsp cumin, 1/2 tsp cinnamon",
+    "Salt and pepper to taste",
+    "Fresh parsley for garnish"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 425°F (220°C). Salt eggplants, pat dry. Brush with 1 tbsp olive oil and roast 20-25 minutes until tender.",
+    "Make filling: heat 2 tbsp olive oil. Slowly cook onions until golden. Add garlic, bell pepper. Add tomatoes, chickpeas, cumin, cinnamon, sugar, salt, pepper. Cook until thick.",
+    "Slit roasted eggplants. Stuff with chickpea-onion filling.",
+    "Place in baking dish. Cover and bake at 350°F (175°C) for 20-25 minutes.",
+    "Serve at room temperature with lemon and parsley."
+]
+
+[recipe.healthy_variant.macros]
+calories = 210
+protein_g = 8
+carbs_g = 28
+fat_g = 8
+fiber_g = 10
+sugar_g = 12
+sodium_mg = 280
+# VALIDATION: (8×4) + (28×4) + (8×9) = 32 + 112 + 72 = 216 ✓ (within ±10 of 210)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -70
+protein_difference = "+3g"
+key_changes = [
+    "Roasted instead of pan-fried eggplant — saves ~60 calories in absorbed oil",
+    "Olive oil reduced by 60% — saves significant calories",
+    "Chickpeas added — plant protein and fiber",
+    "Result is still vegan and nutritionally superior"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "extra-virgin olive oil (generous amount)", substitute = "regular olive oil", saving_percent = 30, reason = "The dish is cooked at length; regular olive oil provides adequate flavor for cooking" },
+    { original = "fresh tomatoes", substitute = "canned crushed or diced tomatoes", saving_percent = 30, reason = "Canned tomatoes are often cheaper and produce equally good results in slow-cooked dishes" },
+    { original = "multiple medium eggplants", substitute = "2 large eggplants cut in half lengthwise", saving_percent = 20, reason = "Larger eggplants are often proportionally cheaper; use the same total weight" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "medium globe eggplants", substitute = "Japanese eggplants (use 2-3 per serving, smaller)", reason = "Japanese eggplants are more tender and have fewer seeds; adjust quantity to weight" },
+    { original = "cinnamon in filling", substitute = "allspice (use half the amount)", reason = "Allspice provides a similar warm, sweet spice note as cinnamon in savory dishes" },
+    { original = "fresh green bell pepper", substitute = "any color bell pepper or green chili (milder)", reason = "The pepper adds sweetness and color; any variety works for this purpose" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "olive oil", substitute = "any neutral cooking oil", reason = "Olive oil is traditional and preferred; however any neutral oil works for cooking the filling" },
+    { original = "fresh tomatoes", substitute = "2 tbsp tomato paste + 1 cup water", reason = "Tomato paste creates the concentrated tomato base needed for the filling" },
+    { original = "cinnamon and cumin", substitute = "mixed spice blend or curry powder (use half amount)", reason = "Any warm spice blend provides the background spice notes of this dish" }
+]

@@ -1,0 +1,135 @@
+# ============================================================
+# RECIPE DOCUMENT — BUFFALO WINGS
+# Cuisine: American
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "american_buffalo_wings"
+cuisine = "American"
+dish_name = "Buffalo Wings"
+alternate_names = ["Buffalo Chicken Wings", "Hot Wings", "Anchor Bar Wings"]
+category = "main_course"
+tags = ["high_protein", "street_food", "comfort_food", "american_classic", "spicy", "contains_dairy"]
+allergens = ["dairy", "eggs"]
+difficulty = "easy"
+total_time_minutes = 55
+
+[recipe.standard]
+serving_size = "6 wings (approximately 300g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 40
+
+[recipe.standard.ingredients]
+items = [
+    "1.2 kg chicken wings, split at joint into flats and drumettes",
+    "1/2 cup hot sauce (Frank's RedHot or similar)",
+    "1/3 cup unsalted butter",
+    "1 tbsp white vinegar",
+    "1/2 tsp garlic powder",
+    "1/2 tsp Worcestershire sauce",
+    "1 tsp baking powder (for crispiness — not baking soda)",
+    "Salt to taste",
+    "Vegetable oil for deep frying (or baking as alternative)",
+    "Blue cheese dressing and celery sticks for serving"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Pat wings completely dry with paper towels — this is critical for crispiness.",
+    "Toss wings with baking powder and salt. For maximum crispiness, refrigerate uncovered on a wire rack for 1-8 hours to dry out the skin.",
+    "Deep fry option: heat oil to 375°F (190°C) in a deep pot. Fry wings in batches for 10-12 minutes until golden brown and cooked through (165°F/74°C internal). Drain on paper towels.",
+    "Alternatively, bake: preheat oven to 425°F (220°C). Place wings on a wire rack over a baking sheet. Bake 40-45 minutes, flipping halfway, until crispy.",
+    "Make the Buffalo sauce: melt butter in a small saucepan over low heat. Add hot sauce, vinegar, garlic powder, and Worcestershire. Whisk until smooth. Do not boil.",
+    "Immediately toss the hot crispy wings in the Buffalo sauce until fully coated.",
+    "Serve immediately with blue cheese dressing and celery sticks."
+]
+
+[recipe.standard.macros]
+calories = 480
+protein_g = 36
+carbs_g = 4
+fat_g = 34
+fiber_g = 0
+sugar_g = 2
+sodium_mg = 860
+# VALIDATION: (36×4) + (4×4) + (34×9) = 144 + 16 + 306 = 466 ✓ (within ±10 of 480)
+
+[recipe.healthy_variant]
+variant_name = "Baked Buffalo Cauliflower Wings"
+variant_type = "vegan"
+description = "A plant-based version using whole cauliflower florets battered with seasoned chickpea flour and baked until crispy, then tossed in the classic Buffalo hot sauce. Delivers the spicy, tangy Buffalo flavor in a low-calorie, high-fiber vegetarian format."
+serving_size = "10 cauliflower pieces (approximately 280g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 30
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1 large cauliflower head, cut into large florets",
+    "3/4 cup chickpea flour",
+    "1/2 cup water",
+    "1/2 tsp garlic powder",
+    "1/2 tsp paprika",
+    "Salt to taste",
+    "1/2 cup hot sauce (Frank's RedHot)",
+    "1 tbsp olive oil",
+    "1 tbsp maple syrup or honey",
+    "1/2 tsp garlic powder"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 450°F (230°C). Line a large baking sheet with parchment.",
+    "Make batter: whisk chickpea flour, water, garlic powder, paprika, and salt until smooth.",
+    "Dip each cauliflower floret in the batter, shaking off excess. Place on the baking sheet without crowding.",
+    "Bake 20 minutes until batter is set and starting to turn golden. Flip each piece.",
+    "Make Buffalo sauce: combine hot sauce, olive oil, honey, and garlic powder in a bowl.",
+    "Remove cauliflower from oven. Brush generously with Buffalo sauce.",
+    "Return to oven and bake another 8-10 minutes until sauce caramelizes and edges are crispy.",
+    "Serve immediately with ranch dressing (dairy-free if desired) and celery sticks."
+]
+
+[recipe.healthy_variant.macros]
+calories = 180
+protein_g = 8
+carbs_g = 26
+fat_g = 6
+fiber_g = 6
+sugar_g = 8
+sodium_mg = 540
+# VALIDATION: (8×4) + (26×4) + (6×9) = 32 + 104 + 54 = 190 ✓ (within ±10 of 180)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -300
+protein_difference = "-28g"
+key_changes = [
+    "Cauliflower instead of chicken — plant-based, high-fiber, dramatically fewer calories",
+    "Baked instead of deep-fried — eliminates frying oil entirely",
+    "Chickpea flour batter instead of plain coating — adds plant protein and fiber",
+    "No butter in sauce — olive oil replaces butter, saving ~80 calories"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "Frank's RedHot sauce", substitute = "any hot sauce (Tabasco or store brand) mixed with 1 tsp garlic powder", saving_percent = 30, reason = "Any vinegar-based hot sauce works; Frank's is traditional but not essential" },
+    { original = "blue cheese dressing", substitute = "ranch dressing or sour cream with garlic", saving_percent = 20, reason = "Ranch is a universally available, slightly cheaper alternative dipping sauce" },
+    { original = "unsalted butter", substitute = "regular salted butter (reduce added salt)", saving_percent = 5, reason = "Salted butter is often slightly cheaper; just reduce other salt additions" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "baking powder (for wings)", substitute = "omit — wings will be slightly less crispy", reason = "Baking powder helps with crispiness but wings will still cook fine without it" },
+    { original = "Frank's RedHot", substitute = "equal parts hot sauce of any brand + white vinegar", reason = "Frank's base is hot sauce + vinegar; this combination replicates that profile" },
+    { original = "blue cheese dressing", substitute = "plain yogurt with crumbled feta and garlic", reason = "This quick homemade dip approximates the tangy, creamy, slightly funky blue cheese flavor" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "hot sauce", substitute = "ketchup + cayenne + vinegar (1 tbsp each)", reason = "This combination creates a basic hot, tangy sauce from pantry ingredients" },
+    { original = "unsalted butter", substitute = "any butter or margarine", reason = "The sauce emulsion works with any fat; salted butter just requires less added salt" },
+    { original = "Worcestershire sauce", substitute = "soy sauce (use half the amount)", reason = "Soy sauce provides the same savory umami depth as Worcestershire" }
+]

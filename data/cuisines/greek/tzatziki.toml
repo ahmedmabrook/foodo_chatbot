@@ -1,0 +1,128 @@
+# ============================================================
+# RECIPE DOCUMENT — TZATZIKI
+# Cuisine: Greek
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "greek_tzatziki"
+cuisine = "Greek"
+dish_name = "Tzatziki"
+alternate_names = ["Cacık", "Greek Yogurt Dip", "Cucumber Yogurt Sauce"]
+category = "appetizer"
+tags = ["vegetarian", "gluten_free", "quick_meal", "traditional", "contains_dairy", "healthy", "low_calorie"]
+allergens = ["dairy"]
+difficulty = "easy"
+total_time_minutes = 20
+
+[recipe.standard]
+serving_size = "1/4 cup (approximately 80g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 0
+
+[recipe.standard.ingredients]
+items = [
+    "500g full-fat Greek yogurt",
+    "1 large cucumber",
+    "3 cloves garlic, minced or grated",
+    "2 tbsp extra-virgin olive oil",
+    "1 tbsp fresh dill, finely chopped",
+    "1 tbsp fresh mint, finely chopped (optional)",
+    "1 tbsp lemon juice or white wine vinegar",
+    "Salt to taste"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Grate the cucumber using a box grater. Place in a clean kitchen towel and squeeze out as much liquid as possible — this is the most important step. Excess cucumber water makes tzatziki runny.",
+    "In a bowl, combine Greek yogurt, squeezed cucumber, minced garlic, olive oil, dill, mint (if using), and lemon juice.",
+    "Season with salt. Mix well.",
+    "Taste — adjust garlic, lemon, and salt to preference.",
+    "Cover and refrigerate for at least 30 minutes before serving to allow flavors to meld.",
+    "Serve drizzled with olive oil and a sprinkle of fresh dill. Traditionally served with warm pita, as a dip with vegetables, or as a sauce for grilled meats."
+]
+
+[recipe.standard.macros]
+calories = 110
+protein_g = 8
+carbs_g = 6
+fat_g = 6
+fiber_g = 1
+sugar_g = 4
+sodium_mg = 200
+# VALIDATION: (8×4) + (6×4) + (6×9) = 32 + 24 + 54 = 110 ✓
+
+[recipe.healthy_variant]
+variant_name = "Low-Fat Tzatziki with Extra Cucumber and Herbs"
+variant_type = "low_calorie"
+description = "A lighter tzatziki using 0% fat Greek yogurt, extra cucumber for volume, and extra fresh herbs (adding dill, mint, and parsley). Less olive oil in the dip itself, with a small amount drizzled on top for flavor. Nearly identical taste with significantly fewer calories."
+serving_size = "1/4 cup (approximately 80g)"
+servings_per_recipe = 6
+prep_time_minutes = 15
+cook_time_minutes = 0
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "500g 0% fat Greek yogurt",
+    "1.5 large cucumbers",
+    "3 cloves garlic, minced",
+    "1 tsp extra-virgin olive oil (for drizzling only)",
+    "2 tbsp fresh dill, finely chopped",
+    "1 tbsp fresh mint, finely chopped",
+    "1 tbsp fresh parsley, finely chopped",
+    "1 tbsp lemon juice",
+    "Salt and white pepper to taste"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Grate cucumber and squeeze out all liquid very thoroughly.",
+    "Combine 0% Greek yogurt, squeezed cucumber, garlic, dill, mint, parsley, and lemon juice. Mix well.",
+    "Season with salt and white pepper.",
+    "Refrigerate 30 minutes.",
+    "Serve with a drizzle of olive oil (the 1 tsp is just for garnish)."
+]
+
+[recipe.healthy_variant.macros]
+calories = 60
+protein_g = 9
+carbs_g = 5
+fat_g = 1
+fiber_g = 1
+sugar_g = 4
+sodium_mg = 160
+# VALIDATION: (9×4) + (5×4) + (1×9) = 36 + 20 + 9 = 65 ✓ (within ±10 of 60)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -50
+protein_difference = "+1g"
+key_changes = [
+    "0% fat Greek yogurt instead of full-fat — cuts fat by ~5g per serving",
+    "No olive oil mixed in — saves ~30 calories per serving (only drizzled for garnish)",
+    "Extra cucumber — more volume with negligible calories",
+    "Extra parsley added — more micronutrients and fresh flavor"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "full-fat Greek yogurt", substitute = "regular plain yogurt strained through cheesecloth overnight", saving_percent = 40, reason = "Homemade strained yogurt produces the same thick consistency as Greek yogurt at fraction of the cost" },
+    { original = "fresh dill", substitute = "dried dill (1/2 tsp)", saving_percent = 80, reason = "Dried dill works in tzatziki; use less as it is more concentrated" },
+    { original = "fresh mint", substitute = "dried mint (1/4 tsp) or simply omit", saving_percent = 80, reason = "Dried mint provides a subtle cooling note; the dill alone is equally traditional" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Greek yogurt", substitute = "regular full-fat plain yogurt, strained", reason = "Regular yogurt strained in a cheesecloth for 2-4 hours becomes thick like Greek yogurt" },
+    { original = "fresh dill", substitute = "fresh parsley (the most available fresh herb)", reason = "Parsley provides a fresh herbal note; the flavor profile differs but works well" },
+    { original = "white wine vinegar", substitute = "lemon juice (same amount)", reason = "Both provide the necessary acid to balance the richness of the yogurt" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "Greek yogurt", substitute = "sour cream (for a richer, tangier version)", reason = "Sour cream produces a similar thick, tangy dip; it has a slightly different flavor profile" },
+    { original = "fresh garlic", substitute = "1/2 tsp garlic powder", reason = "Garlic powder provides consistent garlic flavor without peeling; use less than fresh" },
+    { original = "lemon juice", substitute = "white vinegar (use half the amount)", reason = "White vinegar provides the acid balance; use less as it is more intense than lemon juice" }
+]

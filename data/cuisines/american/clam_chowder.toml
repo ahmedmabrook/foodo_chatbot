@@ -1,0 +1,140 @@
+# ============================================================
+# RECIPE DOCUMENT — NEW ENGLAND CLAM CHOWDER
+# Cuisine: American
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "american_clam_chowder"
+cuisine = "American"
+dish_name = "New England Clam Chowder"
+alternate_names = ["Boston Clam Chowder", "White Clam Chowder", "Clam Chowdah"]
+category = "soup"
+tags = ["comfort_food", "american_classic", "contains_dairy", "contains_shellfish", "seafood"]
+allergens = ["shellfish", "dairy", "gluten"]
+difficulty = "medium"
+total_time_minutes = 50
+
+[recipe.standard]
+serving_size = "1 bowl (approximately 380g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 35
+
+[recipe.standard.ingredients]
+items = [
+    "2 cans (400g each) chopped clams, juice reserved",
+    "4 slices bacon, diced",
+    "1 large onion, diced",
+    "3 stalks celery, diced",
+    "3 medium potatoes, peeled and cubed",
+    "2 cups heavy cream",
+    "1 cup whole milk",
+    "3 tbsp butter",
+    "3 tbsp all-purpose flour",
+    "1 tsp dried thyme",
+    "1 bay leaf",
+    "Salt and white pepper to taste",
+    "Fresh parsley and oyster crackers for serving"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Cook diced bacon in a large pot over medium heat until crispy. Remove bacon and set aside. Leave bacon fat in the pot.",
+    "Add butter to the bacon fat. Sauté onion and celery until soft, about 5 minutes. Add flour and stir for 2 minutes to make a roux.",
+    "Add reserved clam juice and enough water to make 2 cups total liquid. Whisk until smooth. Bring to a simmer.",
+    "Add cubed potatoes, thyme, and bay leaf. Cook for 12-15 minutes until potatoes are tender.",
+    "Add heavy cream and milk. Reduce heat to low — do not boil after adding cream.",
+    "Add chopped clams. Cook on low heat for 5 minutes until clams are heated through. Taste and season with salt and white pepper.",
+    "Serve in bowls topped with crispy bacon, fresh parsley, and oyster crackers."
+]
+
+[recipe.standard.macros]
+calories = 520
+protein_g = 22
+carbs_g = 38
+fat_g = 32
+fiber_g = 3
+sugar_g = 6
+sodium_mg = 920
+# VALIDATION: (22×4) + (38×4) + (32×9) = 88 + 152 + 288 = 528 ✓ (within ±10 of 520)
+
+[recipe.healthy_variant]
+variant_name = "Light Clam Chowder with Cauliflower and Low-Fat Milk"
+variant_type = "low_calorie"
+description = "A lighter chowder using cauliflower puree to replace most of the heavy cream, low-fat milk, and turkey bacon instead of regular bacon. The base is thickened by blending cauliflower for a creamy texture without the saturated fat of heavy cream."
+serving_size = "1 bowl (approximately 380g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 35
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "2 cans chopped clams, juice reserved",
+    "3 slices turkey bacon, diced",
+    "1 large onion, diced",
+    "3 stalks celery, diced",
+    "2 medium potatoes, peeled and cubed",
+    "1 small cauliflower head, cut into florets",
+    "2 cups low-fat milk (1%)",
+    "1 tbsp olive oil",
+    "1 tbsp all-purpose flour",
+    "1 tsp dried thyme",
+    "1 bay leaf",
+    "Salt and white pepper to taste",
+    "Fresh parsley for serving"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Cook turkey bacon in a pot until crispy. Remove and set aside.",
+    "Heat olive oil in same pot. Sauté onion and celery until soft. Add flour and stir 1 minute.",
+    "Add reserved clam juice and enough water to make 2 cups. Whisk smooth. Add potatoes, cauliflower florets, thyme, bay leaf.",
+    "Simmer 15 minutes until potatoes and cauliflower are very tender.",
+    "Remove bay leaf. Use an immersion blender to blend about 1/3 of the soup (mostly the cauliflower). This creates a creamy base without adding cream.",
+    "Add low-fat milk. Heat gently on low. Add clams and cook 5 minutes.",
+    "Season with salt and white pepper. Serve topped with turkey bacon crumbles and fresh parsley."
+]
+
+[recipe.healthy_variant.macros]
+calories = 280
+protein_g = 24
+carbs_g = 32
+fat_g = 8
+fiber_g = 5
+sugar_g = 8
+sodium_mg = 640
+# VALIDATION: (24×4) + (32×4) + (8×9) = 96 + 128 + 72 = 296 ✓ (within ±10 of 280)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -240
+protein_difference = "+2g"
+key_changes = [
+    "Cauliflower puree replaces heavy cream — removes ~200 calories and ~24g fat per serving",
+    "Low-fat milk instead of whole milk — saves ~30 calories per serving",
+    "Turkey bacon instead of regular bacon — reduces fat by ~4g per serving",
+    "More vegetables (cauliflower) — increases fiber and micronutrients"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "canned clams", substitute = "canned mussels or canned baby clams", saving_percent = 20, reason = "Canned mussels and baby clams provide similar briny seafood flavor at lower cost" },
+    { original = "heavy cream", substitute = "evaporated milk (full-fat or low-fat)", saving_percent = 30, reason = "Evaporated milk is concentrated, creamy, and shelf-stable, a much cheaper alternative" },
+    { original = "bacon", substitute = "diced ham or smoked sausage", saving_percent = 15, reason = "Both provide the smoky, salty flavor that bacon contributes to the chowder" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "oyster crackers", substitute = "saltine crackers or crusty bread", reason = "Any bland, crunchy bread product serves as the accompaniment to chowder" },
+    { original = "canned clams", substitute = "frozen clams or fresh clams (steam and chop)", reason = "Fresh clams make exceptional chowder; use the clam steaming liquid as broth" },
+    { original = "white pepper", substitute = "black pepper", reason = "White pepper provides a slightly different heat but black pepper works fine" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "heavy cream", substitute = "whole milk + 1 tbsp butter (simmered together)", reason = "This combination approximates the richness of light cream" },
+    { original = "fresh thyme", substitute = "dried thyme (use 1/3 the amount) or dried oregano", reason = "Dried herbs work in cooked soups; reduce quantity as they are more concentrated" },
+    { original = "bacon", substitute = "any cured or smoked meat you have (smoked turkey, ham)", reason = "The smoky pork element is for flavor depth; any smoky ingredient achieves this" }
+]

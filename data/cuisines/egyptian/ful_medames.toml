@@ -1,0 +1,134 @@
+[metadata]
+doc_id = "egyptian_ful_medames"
+cuisine = "Egyptian"
+dish_name = "Ful Medames"
+alternate_names = ["Foul Medames", "Fool Medames", "Egyptian Fava Beans"]
+category = "breakfast"
+tags = ["vegan", "breakfast", "fava_beans", "street_food", "high_protein", "traditional", "gluten_free"]
+allergens = ["none"]
+difficulty = "easy"
+total_time_minutes = 40
+
+[recipe.standard]
+serving_size = "1 bowl (approximately 300g)"
+servings_per_recipe = 4
+prep_time_minutes = 10
+cook_time_minutes = 30
+
+[recipe.standard.ingredients]
+items = [
+    "2 cans (800g total) small fava beans (ful medames), drained and rinsed",
+    "4 cloves garlic, minced",
+    "4 tablespoons fresh lemon juice (about 2 lemons)",
+    "3 tablespoons extra virgin olive oil, divided",
+    "1 teaspoon ground cumin",
+    "1/2 teaspoon ground coriander",
+    "1/4 teaspoon cayenne pepper",
+    "Salt and black pepper to taste",
+    "4 hard-boiled eggs, halved (for serving)",
+    "1/4 cup fresh flat-leaf parsley, finely chopped",
+    "2 medium tomatoes, diced",
+    "1 small green chili, finely sliced (optional)",
+    "4 rounds Egyptian baladi bread or pita, for serving"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Drain and rinse the canned fava beans. Place them in a medium saucepan with just enough water to cover (about 1 cup). Warm over medium heat (350°F/175°C).",
+    "Once the beans are heated through, mash roughly one-third of the beans against the side of the pot with a fork or potato masher, leaving the rest whole. This creates a thick, creamy texture while retaining some whole beans.",
+    "Add minced garlic, lemon juice, 2 tablespoons olive oil, cumin, coriander, cayenne, salt, and pepper to the pot. Stir well and simmer over medium-low heat for 10-12 minutes until flavors are fully absorbed and the mixture is thick and creamy.",
+    "Taste and adjust seasoning — ful should be garlicky, lemony, and well-cumin-forward. Add more lemon or salt as needed.",
+    "Ladle into shallow bowls. Drizzle remaining 1 tablespoon olive oil over each portion. Top with diced tomatoes, chopped parsley, and green chili slices.",
+    "Serve hot alongside hard-boiled egg halves and warm baladi bread for scooping. Ful must be eaten immediately while hot."
+]
+
+[recipe.standard.macros]
+calories = 390
+protein_g = 20
+carbs_g = 52
+fat_g = 12
+fiber_g = 14
+sugar_g = 5
+sodium_mg = 480
+
+[recipe.healthy_variant]
+variant_name = "Spiced Ful with Fresh Vegetables"
+variant_type = "low_calorie"
+description = "A lighter ful medames that skips the egg and reduces olive oil, amplifying fresh vegetables, herbs, and a tahini-lemon drizzle for added nutrition without significant added fat."
+serving_size = "1 bowl (approximately 310g)"
+servings_per_recipe = 4
+prep_time_minutes = 10
+cook_time_minutes = 25
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "2 cans (800g total) small fava beans, drained and rinsed",
+    "4 cloves garlic, minced",
+    "5 tablespoons fresh lemon juice (about 2.5 lemons)",
+    "1 tablespoon extra virgin olive oil",
+    "1 tablespoon tahini",
+    "1 teaspoon ground cumin",
+    "1/2 teaspoon ground coriander",
+    "1/4 teaspoon turmeric",
+    "1/4 teaspoon cayenne pepper",
+    "Salt and black pepper to taste",
+    "1/2 cup fresh flat-leaf parsley, finely chopped",
+    "1/2 cup fresh cilantro, chopped",
+    "2 medium tomatoes, finely diced",
+    "1/2 cucumber, finely diced",
+    "1 small red onion, finely diced",
+    "4 rounds whole wheat pita bread, for serving"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Drain and rinse fava beans. Place in a saucepan with 3/4 cup water over medium heat (350°F/175°C). Heat through.",
+    "Mash half the beans with a fork for a creamy base, leaving the other half intact for texture.",
+    "Stir in garlic, lemon juice, olive oil, tahini, cumin, coriander, turmeric, cayenne, salt, and pepper. Simmer over medium-low heat for 10 minutes, stirring occasionally.",
+    "While the beans cook, combine tomatoes, cucumber, and red onion in a small bowl. Season lightly with salt and a squeeze of lemon juice.",
+    "Ladle ful into bowls. Top generously with the fresh vegetable salsa, parsley, and cilantro.",
+    "Serve immediately with whole wheat pita. The tahini-lemon combination adds creaminess without the extra calories of a fried or boiled egg."
+]
+
+[recipe.healthy_variant.macros]
+calories = 300
+protein_g = 16
+carbs_g = 46
+fat_g = 7
+fiber_g = 15
+sugar_g = 6
+sodium_mg = 340
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -90
+protein_difference = "-4g"
+key_changes = [
+    "Hard-boiled eggs removed, saving approximately 70 calories and 5g fat per serving",
+    "Olive oil reduced from 3 tablespoons to 1 tablespoon across the whole recipe",
+    "Tahini adds creaminess with healthy fats and no significant calorie penalty",
+    "Fresh cucumber and extra herbs add volume and nutrients with negligible calories",
+    "Whole wheat pita replaces white baladi bread for added fiber"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "Canned small fava beans (ful medames)", substitute = "Dried fava beans soaked overnight and boiled 90 minutes", saving_percent = 60, reason = "Dried fava beans cost a fraction of canned versions and produce superior flavor when cooked from scratch" },
+    { original = "Extra virgin olive oil", substitute = "Regular olive oil or sunflower oil", saving_percent = 30, reason = "Extra virgin olive oil is the most expensive olive oil tier; regular olive oil provides the same fat with similar flavor at lower cost" },
+    { original = "Fresh lemon juice", substitute = "Bottled lemon juice (use same quantity)", saving_percent = 50, reason = "Bottled lemon juice is significantly cheaper and works well in cooked dishes like ful" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Small fava beans (ful medames variety)", substitute = "Broad fava beans or butter beans, mashed more thoroughly", reason = "Larger fava beans or butter beans may be easier to find; mashing them more creates the same creamy texture" },
+    { original = "Egyptian baladi bread", substitute = "Any flatbread, pita bread, or crusty bread", reason = "Baladi is specific to Egypt; any flatbread works as the traditional scooping vehicle" },
+    { original = "Fresh flat-leaf parsley", substitute = "Fresh cilantro or dried parsley (1 teaspoon)", reason = "Cilantro gives a different but equally authentic Middle Eastern flavor; dried parsley works in a pinch" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "Ground coriander", substitute = "Extra ground cumin (1/4 teaspoon additional)", reason = "Cumin is the dominant flavoring; coriander adds depth but the dish is still authentic without it" },
+    { original = "Fresh green chili", substitute = "Pinch of red chili flakes or extra cayenne", reason = "Any form of heat works in ful medames; dried chili flakes from most pantries achieve the same effect" },
+    { original = "Tahini", substitute = "A small drizzle of olive oil and a pinch of sesame seeds if available", reason = "Tahini adds creaminess; in its absence a generous olive oil drizzle maintains the richness of the dish" }
+]

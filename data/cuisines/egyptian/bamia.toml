@@ -1,0 +1,149 @@
+# ============================================================
+# RECIPE DOCUMENT — BAMIA
+# Cuisine: Egyptian
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "egyptian_bamia"
+cuisine = "Egyptian"
+dish_name = "Bamia"
+alternate_names = ["Okra Stew", "Bamya", "Egyptian Okra with Beef"]
+category = "main_course"
+tags = ["comfort_food", "high_protein", "traditional", "stew"]
+allergens = ["none"]
+difficulty = "easy"
+total_time_minutes = 70
+
+# ============================================================
+# STANDARD (TRADITIONAL) RECIPE
+# ============================================================
+[recipe.standard]
+serving_size = "1 bowl with rice (approximately 380g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 55
+
+[recipe.standard.ingredients]
+items = [
+    "500g beef stew meat (chuck or round), cut into 3cm cubes",
+    "500g fresh or frozen okra, ends trimmed",
+    "1 large onion, diced",
+    "6 cloves garlic, minced",
+    "400g canned crushed tomatoes",
+    "2 tbsp tomato paste",
+    "2 tbsp vegetable oil",
+    "1 tsp cumin",
+    "1 tsp coriander",
+    "1/2 tsp black pepper",
+    "1/4 tsp cinnamon",
+    "Salt to taste",
+    "Juice of 1 lemon",
+    "2 cups long-grain rice (for serving)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Heat oil in a large heavy pot over medium-high heat (375°F/190°C). Brown beef cubes on all sides, about 5-6 minutes total. Remove and set aside.",
+    "In the same pot, sauté diced onion until golden, about 5 minutes. Add garlic, cumin, coriander, cinnamon, and black pepper. Cook 1 minute.",
+    "Add tomato paste and cook 2 minutes, stirring. Add crushed tomatoes and browned beef. Add 1.5 cups water. Season with salt.",
+    "Bring to a boil, then reduce heat to low. Cover and simmer for 35-40 minutes until beef is nearly tender.",
+    "Add okra to the pot. Do not stir too aggressively once okra is added to minimize sliminess.",
+    "Add lemon juice. Cook uncovered for 15-20 minutes until okra is tender and sauce has thickened.",
+    "Cook rice separately. Serve bamia over rice."
+]
+
+[recipe.standard.macros]
+calories = 310
+protein_g = 24
+carbs_g = 22
+fat_g = 14
+fiber_g = 6
+sugar_g = 5
+sodium_mg = 440
+# VALIDATION: (24×4) + (22×4) + (14×9) = 96 + 88 + 126 = 310 ✓
+
+# ============================================================
+# HEALTHY VARIANT
+# ============================================================
+[recipe.healthy_variant]
+variant_name = "Light Bamia with Lean Beef and Cauliflower Rice"
+variant_type = "low_carb"
+description = "A lower-carb bamia using lean beef, extra okra, and served with cauliflower rice instead of white rice. The sauce is made lighter by using fresh tomatoes and less oil, resulting in a nutrient-dense, lower-calorie stew."
+serving_size = "1 bowl (approximately 350g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 50
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "400g lean beef (top round or sirloin), cut into 3cm cubes",
+    "600g fresh or frozen okra",
+    "1 large onion, diced",
+    "6 cloves garlic, minced",
+    "3 medium fresh tomatoes, diced",
+    "1 tbsp tomato paste",
+    "1 tsp olive oil",
+    "1 tsp cumin",
+    "1 tsp coriander",
+    "Salt and black pepper to taste",
+    "Juice of 1.5 lemons",
+    "1 medium cauliflower head, grated (for cauliflower rice)"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Heat olive oil in a pot over medium-high heat (375°F/190°C). Brown lean beef cubes on all sides, about 4-5 minutes. Remove and set aside.",
+    "In the same pot, sauté onion until soft. Add garlic, cumin, coriander, and pepper. Cook 1 minute.",
+    "Add tomato paste, fresh diced tomatoes, and 1 cup water. Add browned beef. Season with salt.",
+    "Simmer covered for 30 minutes until beef is nearly tender.",
+    "Add okra and lemon juice. Cook uncovered for 15-20 minutes.",
+    "For cauliflower rice: grate or pulse cauliflower. Microwave in a bowl for 4-5 minutes, or sauté with a spray of oil in a pan over medium heat (350°F/175°C) for 5 minutes. Season with salt.",
+    "Serve bamia over cauliflower rice."
+]
+
+[recipe.healthy_variant.macros]
+calories = 230
+protein_g = 22
+carbs_g = 18
+fat_g = 8
+fiber_g = 9
+sugar_g = 7
+sodium_mg = 310
+# VALIDATION: (22×4) + (18×4) + (8×9) = 88 + 72 + 72 = 232 ✓ (within ±10 of 230)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -80
+protein_difference = "-2g"
+key_changes = [
+    "Cauliflower rice instead of white rice — removes ~150 calories of carbs from the side",
+    "Lean beef instead of chuck — reduces fat by ~6g per serving",
+    "Extra okra (600g vs 500g) — more fiber and volume with minimal calories",
+    "Fresh tomatoes instead of canned crushed — less sodium, no added ingredients"
+]
+
+# ============================================================
+# SUBSTITUTIONS
+# ============================================================
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "beef stew meat", substitute = "chicken thighs (bone-in)", saving_percent = 40, reason = "Chicken thighs are much cheaper than beef and become very tender in stews; okra pairs beautifully with chicken" },
+    { original = "fresh okra", substitute = "frozen okra", saving_percent = 50, reason = "Frozen okra is available year-round at lower cost and works identically in stews" },
+    { original = "canned crushed tomatoes", substitute = "fresh tomatoes, peeled and crushed", saving_percent = 30, reason = "Fresh tomatoes in season are cheaper; simply blanch, peel, and crush them" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "fresh okra", substitute = "green beans (trim ends, cut into 3cm pieces)", reason = "Green beans are universally available and create a similar hearty stew when the okra is unavailable" },
+    { original = "cumin", substitute = "curry powder (use half the amount)", reason = "Curry powder contains cumin and will add warmth with a slightly different flavor profile" },
+    { original = "canned crushed tomatoes", substitute = "2 tbsp tomato paste + 1.5 cups water", reason = "Diluted tomato paste creates a quick tomato base when canned tomatoes are unavailable" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "lemon juice", substitute = "white vinegar (use half the amount)", reason = "Vinegar provides the tartness that balances the richness of the meat stew" },
+    { original = "coriander (ground)", substitute = "cumin (extra, or combined with black pepper)", reason = "Extra cumin and black pepper approximate the warmth of coriander" },
+    { original = "vegetable oil", substitute = "any neutral cooking oil or butter", reason = "Any cooking fat works for browning the meat at the start" }
+]

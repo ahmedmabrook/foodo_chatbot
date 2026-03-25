@@ -1,0 +1,142 @@
+# ============================================================
+# RECIPE DOCUMENT — HÜNKÂR BEĞENDİ
+# Cuisine: Turkish
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "turkish_hunkar_begendi"
+cuisine = "Turkish"
+dish_name = "Hünkâr Beğendi"
+alternate_names = ["Hunkar Begendi", "Sultan's Delight", "Lamb on Smoked Eggplant Purée"]
+category = "main_course"
+tags = ["comfort_food", "festive", "high_protein", "traditional", "contains_dairy"]
+allergens = ["dairy"]
+difficulty = "medium"
+total_time_minutes = 75
+
+[recipe.standard]
+serving_size = "1 plate with purée (approximately 400g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 55
+
+[recipe.standard.ingredients]
+items = [
+    "600g boneless lamb shoulder, cut into 4cm cubes",
+    "1 large onion, finely diced",
+    "3 cloves garlic, minced",
+    "2 large tomatoes, diced (or 400g canned)",
+    "1 green bell pepper, diced",
+    "2 tbsp tomato paste",
+    "3 tbsp olive oil",
+    "1 tsp cumin, 1 tsp paprika, 1/2 tsp cinnamon",
+    "Salt and black pepper to taste",
+    "Béchamel-eggplant purée: 4 large eggplants (about 1.2kg)",
+    "Béchamel: 2 tbsp butter, 2 tbsp flour, 1 cup warm milk",
+    "Béchamel: 60g aged kaşar or parmesan cheese, grated",
+    "Salt, white pepper, and nutmeg for béchamel",
+    "Fresh parsley for garnish"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make lamb stew: heat olive oil in a heavy pot over medium-high heat. Brown lamb cubes in batches until deeply seared on all sides, about 4 minutes per batch. Remove and set aside.",
+    "In the same pot, sauté onion until soft. Add garlic and bell pepper. Cook 3 minutes. Add tomato paste and stir for 2 minutes.",
+    "Return lamb. Add diced tomatoes, cumin, paprika, cinnamon, salt, and pepper. Add 1/2 cup water. Bring to a boil, then reduce to a low simmer. Cover and cook 45-50 minutes until lamb is very tender.",
+    "Char eggplants: directly over a gas flame or under a broiler, char the eggplants all over, turning regularly, until completely blackened outside and fully soft inside, about 15-20 minutes. Allow to cool slightly.",
+    "Peel charred eggplants and discard blackened skin. Place flesh in a colander and press gently to remove excess liquid. Chop flesh finely.",
+    "Make béchamel: melt butter in a saucepan over medium heat. Whisk in flour and cook 1-2 minutes. Gradually whisk in warm milk. Cook, stirring, until thick and smooth, about 5 minutes. Season with salt, white pepper, and nutmeg.",
+    "Combine eggplant purée with béchamel. Stir in grated cheese. Heat gently.",
+    "Serve by spreading eggplant béchamel on plates and topping with lamb stew. Garnish with fresh parsley."
+]
+
+[recipe.standard.macros]
+calories = 520
+protein_g = 34
+carbs_g = 26
+fat_g = 30
+fiber_g = 7
+sugar_g = 12
+sodium_mg = 560
+# VALIDATION: (34×4) + (26×4) + (30×9) = 136 + 104 + 270 = 510 ✓ (within ±10 of 520)
+
+[recipe.healthy_variant]
+variant_name = "Light Hünkâr Beğendi with Lean Beef and Low-Fat Eggplant Purée"
+variant_type = "low_calorie"
+description = "A lighter version using lean beef stew cuts instead of fatty lamb shoulder, and a light eggplant purée made with low-fat milk and minimal butter — no béchamel. The smoky roasted eggplant flavor and the characteristic lamb-over-purée presentation are preserved."
+serving_size = "1 plate with purée (approximately 380g)"
+servings_per_recipe = 4
+prep_time_minutes = 20
+cook_time_minutes = 55
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "600g lean beef stew meat (round or chuck, trimmed), cut into 4cm cubes",
+    "1 large onion, finely diced",
+    "3 cloves garlic, minced",
+    "2 large tomatoes, diced",
+    "1 green bell pepper, diced",
+    "1 tbsp tomato paste",
+    "2 tbsp olive oil",
+    "1 tsp cumin, 1 tsp paprika, 1/2 tsp cinnamon",
+    "Salt and black pepper",
+    "Light eggplant purée: 4 large eggplants (about 1.2kg)",
+    "Light purée: 1 tbsp butter, 1 tbsp flour, 3/4 cup low-fat milk",
+    "Light purée: 30g reduced-fat cheese, grated",
+    "Salt, white pepper, lemon juice",
+    "Fresh parsley for garnish"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Brown lean beef in 1 tbsp olive oil in batches. Remove and set aside.",
+    "Sauté onion in remaining oil. Add garlic, bell pepper. Add tomato paste. Return beef. Add tomatoes, cumin, paprika, cinnamon, salt, pepper, and 1/2 cup water. Simmer covered 45-50 minutes until tender.",
+    "Char eggplants over gas flame or under broiler until completely blackened and soft. Cool, peel, and drain flesh in a colander.",
+    "Make light béchamel: melt 1 tbsp butter, whisk in flour, cook 1 minute. Whisk in low-fat milk and stir until smooth and thickened. Season with salt, white pepper, and a squeeze of lemon.",
+    "Mix drained eggplant into the light béchamel. Stir in reduced-fat cheese. Heat gently.",
+    "Plate eggplant purée and top with beef stew. Garnish with fresh parsley."
+]
+
+[recipe.healthy_variant.macros]
+calories = 360
+protein_g = 34
+carbs_g = 22
+fat_g = 14
+fiber_g = 7
+sugar_g = 10
+sodium_mg = 420
+# VALIDATION: (34×4) + (22×4) + (14×9) = 136 + 88 + 126 = 350 ✓ (within ±10 of 360)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -160
+protein_difference = "0g"
+key_changes = [
+    "Lean beef instead of lamb shoulder — reduces fat by ~12g per serving",
+    "Reduced béchamel (1 tbsp butter vs. 2 tbsp) and low-fat milk — saves ~50 calories",
+    "Half the cheese in purée — saves ~30 calories",
+    "Lemon juice added to purée for brightness without calories"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "boneless lamb shoulder", substitute = "bone-in lamb shoulder or neck (remove bone after cooking)", saving_percent = 20, reason = "Bone-in cuts are often cheaper; the bone adds flavor to the stew during the long braise" },
+    { original = "kaşar cheese in purée", substitute = "parmesan or any aged hard cheese", saving_percent = 20, reason = "Any aged hard cheese adds the same savory, umami depth to the eggplant béchamel" },
+    { original = "4 large eggplants", substitute = "2 very large eggplants (same total weight)", saving_percent = 10, reason = "Fewer larger eggplants provide the same yield with slightly less charring surface area" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "lamb shoulder (for stew)", substitute = "beef chuck or any braising beef cut", reason = "Beef chuck braises to the same tender, shreddable result as lamb in similar times" },
+    { original = "gas flame for charring eggplant", substitute = "oven broiler at maximum heat, turning every 5 minutes", reason = "The broiler gets very close to direct flame charring for the essential smoky flavor" },
+    { original = "kaşar cheese", substitute = "any mild melting cheese (mozzarella, young cheddar)", reason = "Any mild melting cheese provides the creamy, savory quality needed in the eggplant purée" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "lamb shoulder stew", substitute = "canned chickpeas + the same spiced tomato sauce (vegan version)", reason = "The spiced tomato sauce is excellent on eggplant purée with chickpeas for a vegan adaptation" },
+    { original = "béchamel-eggplant purée", substitute = "roasted eggplant blended with 2 tbsp butter and seasoning (no flour/milk)", reason = "A simpler roasted eggplant mash with butter captures the smoky richness without the béchamel technique" },
+    { original = "kaşar cheese in béchamel", substitute = "skip the cheese and add a pinch of nutmeg", reason = "Nutmeg adds the warm aromatic depth that cheese provides in the purée" }
+]

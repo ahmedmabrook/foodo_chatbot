@@ -1,0 +1,131 @@
+# ============================================================
+# RECIPE DOCUMENT — QUICHE LORRAINE
+# Cuisine: French
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "french_quiche_lorraine"
+cuisine = "French"
+dish_name = "Quiche Lorraine"
+alternate_names = ["Lorraine Quiche", "French Bacon and Cream Tart", "Tarte Lorraine"]
+category = "main_course"
+tags = ["comfort_food", "traditional", "contains_dairy", "contains_eggs", "contains_gluten"]
+allergens = ["dairy", "eggs", "gluten"]
+difficulty = "medium"
+total_time_minutes = 90
+
+[recipe.standard]
+serving_size = "1 slice (approximately 200g)"
+servings_per_recipe = 6
+prep_time_minutes = 30
+cook_time_minutes = 60
+
+[recipe.standard.ingredients]
+items = [
+    "Pastry: 200g all-purpose flour, 100g cold butter, 1 egg yolk, 3 tbsp ice water, pinch salt",
+    "Filling: 200g lardons or thick-cut bacon, diced",
+    "Filling: 4 large eggs",
+    "Filling: 250ml heavy cream",
+    "Filling: 100ml whole milk",
+    "Filling: 80g Gruyère cheese, grated",
+    "Filling: pinch of nutmeg",
+    "Filling: salt and white pepper to taste"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make pastry: pulse flour, cold butter, and salt in a food processor until breadcrumbs form. Add egg yolk and ice water. Pulse until dough just comes together. Form a disc, wrap, refrigerate 30 minutes.",
+    "Roll pastry to fit a 23cm tart pan. Press in gently. Prick the base with a fork. Blind bake at 375°F (190°C) with weights for 15 minutes. Remove weights, bake 5 more minutes until pale golden.",
+    "Cook lardons in a dry pan until rendered and lightly colored. Drain on paper towels.",
+    "Whisk together eggs, cream, milk, grated Gruyère, nutmeg, salt, and pepper.",
+    "Scatter lardons evenly over the blind-baked pastry shell. Pour egg cream mixture over.",
+    "Bake at 350°F (175°C) for 30-35 minutes until the filling is just set with a slight wobble in the center. It will firm up as it cools.",
+    "Cool 10 minutes before slicing. Serve warm or at room temperature."
+]
+
+[recipe.standard.macros]
+calories = 520
+protein_g = 16
+carbs_g = 28
+fat_g = 38
+fiber_g = 1
+sugar_g = 3
+sodium_mg = 620
+# VALIDATION: (16×4) + (28×4) + (38×9) = 64 + 112 + 342 = 518 ✓ (within ±10 of 520)
+
+[recipe.healthy_variant]
+variant_name = "Crustless Quiche Lorraine with Turkey Bacon and Reduced Cream"
+variant_type = "low_carb"
+description = "A low-carb crustless quiche eliminating the pastry shell entirely. Uses turkey bacon instead of lardons, a mixture of light cream and low-fat milk instead of heavy cream, and reduces the cheese quantity. Baked in a tart or pie dish."
+serving_size = "1 slice (approximately 180g)"
+servings_per_recipe = 6
+prep_time_minutes = 15
+cook_time_minutes = 45
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "150g turkey bacon, diced",
+    "4 large eggs",
+    "2 egg whites",
+    "120ml light cream (half-and-half)",
+    "120ml low-fat milk",
+    "60g Gruyère cheese, grated",
+    "1 cup baby spinach (added for extra nutrition)",
+    "pinch of nutmeg",
+    "Salt and white pepper to taste",
+    "Cooking spray for the pan"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 350°F (175°C). Spray a 23cm pie or tart dish with cooking spray.",
+    "Cook turkey bacon in a pan until slightly crispy. Drain.",
+    "Wilt spinach in the same pan for 1 minute. Squeeze out excess moisture.",
+    "Whisk eggs, egg whites, light cream, milk, Gruyère, nutmeg, salt, and pepper.",
+    "Scatter turkey bacon and spinach in the dish. Pour egg mixture over.",
+    "Bake 35-40 minutes until just set with a slight wobble. Cool 10 minutes before slicing."
+]
+
+[recipe.healthy_variant.macros]
+calories = 220
+protein_g = 18
+carbs_g = 4
+fat_g = 14
+fiber_g = 1
+sugar_g = 2
+sodium_mg = 440
+# VALIDATION: (18×4) + (4×4) + (14×9) = 72 + 16 + 126 = 214 ✓ (within ±10 of 220)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -300
+protein_difference = "+2g"
+key_changes = [
+    "No pastry crust — eliminates ~150 calories and ~15g fat per serving",
+    "Turkey bacon instead of lardons — reduces fat by ~8g per serving",
+    "Light cream + low-fat milk instead of heavy cream — saves ~60 calories",
+    "Added spinach — increases iron and vitamins for negligible extra calories"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "Gruyère cheese", substitute = "Swiss cheese or Emmental, grated", saving_percent = 30, reason = "Both have similar melting and flavor profiles to Gruyère at lower cost" },
+    { original = "lardons", substitute = "regular smoked bacon or ham cubes", saving_percent = 25, reason = "Regular smoked bacon provides the same smoky salt pork flavor" },
+    { original = "heavy cream", substitute = "evaporated milk (full-fat)", saving_percent = 35, reason = "Evaporated milk is concentrated and creamy, giving a similar richness to heavy cream" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "lardons", substitute = "diced ham or prosciutto", reason = "Cured pork in any form provides the salty, savory backbone of quiche Lorraine" },
+    { original = "Gruyère", substitute = "any Swiss-style or mild hard cheese", reason = "Any good melting cheese that does not overwhelm provides the same role" },
+    { original = "tart pan with removable base", substitute = "regular pie dish or oven-safe skillet", reason = "Any oven-safe dish works; removable sides just make presentation easier" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "heavy cream", substitute = "sour cream thinned with milk", reason = "Sour cream provides richness and fat; thin with milk to get the right consistency" },
+    { original = "lardons", substitute = "any cooked cured meat you have (ham, salami)", reason = "Quiche Lorraine needs a salty pork element; any cooked cured meat works" },
+    { original = "Gruyère", substitute = "cheddar or any melting cheese", reason = "Strong cheddar provides excellent flavor and melts beautifully in the egg custard" }
+]

@@ -1,0 +1,138 @@
+# ============================================================
+# RECIPE DOCUMENT — SPANAKOPITA
+# Cuisine: Greek
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "greek_spanakopita"
+cuisine = "Greek"
+dish_name = "Spanakopita"
+alternate_names = ["Greek Spinach Pie", "Spanakopites", "Spinach and Feta Pie"]
+category = "main_course"
+tags = ["vegetarian", "comfort_food", "traditional", "festive", "contains_dairy", "contains_eggs", "contains_gluten"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "medium"
+total_time_minutes = 80
+
+[recipe.standard]
+serving_size = "1 slice (approximately 200g)"
+servings_per_recipe = 8
+prep_time_minutes = 30
+cook_time_minutes = 50
+
+[recipe.standard.ingredients]
+items = [
+    "500g fresh spinach (or 400g frozen, thawed and squeezed dry)",
+    "300g feta cheese, crumbled",
+    "3 large eggs",
+    "1 large onion, finely diced",
+    "4 green onions, chopped",
+    "1/4 cup fresh dill, chopped",
+    "1/4 cup fresh parsley, chopped",
+    "1/4 tsp nutmeg",
+    "Black pepper to taste",
+    "12 sheets phyllo dough",
+    "100ml olive oil or melted butter (for brushing phyllo)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "If using fresh spinach: wilt in a hot pan, then squeeze out ALL moisture with your hands. This step is critical — excess moisture makes soggy spanakopita.",
+    "Sauté diced onion in 1 tbsp olive oil until soft. Cool.",
+    "Mix together spinach, crumbled feta, eggs, sautéed onion, green onions, dill, parsley, nutmeg, and black pepper.",
+    "Preheat oven to 375°F (190°C). Brush a 9x13 inch baking dish with olive oil.",
+    "Lay 6 phyllo sheets in the dish, brushing each sheet lightly with olive oil. Let edges overhang.",
+    "Spread the spinach-feta filling evenly.",
+    "Lay remaining 6 phyllo sheets on top, brushing each with oil. Fold in the overhanging edges.",
+    "Score the top into portion-sized pieces (do not cut all the way through — this prevents tearing when hot). Brush top generously with oil.",
+    "Bake 40-45 minutes until golden and crispy. Rest 15 minutes before serving."
+]
+
+[recipe.standard.macros]
+calories = 320
+protein_g = 12
+carbs_g = 26
+fat_g = 20
+fiber_g = 4
+sugar_g = 3
+sodium_mg = 560
+# VALIDATION: (12×4) + (26×4) + (20×9) = 48 + 104 + 180 = 332 ✓ (within ±10 of 320)
+
+[recipe.healthy_variant]
+variant_name = "Crustless Spanakopita with Reduced Feta"
+variant_type = "low_calorie"
+description = "A crustless spanakopita served as a frittata-style bake. Eliminates the phyllo dough entirely, reduces feta quantity, and adds extra vegetables including leeks and kale. Baked in a deep dish for easy slicing."
+serving_size = "1 slice (approximately 190g)"
+servings_per_recipe = 8
+prep_time_minutes = 20
+cook_time_minutes = 40
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "500g fresh spinach, wilted and squeezed dry",
+    "200g kale, stems removed, blanched and squeezed dry",
+    "150g feta cheese, crumbled",
+    "4 large eggs + 4 egg whites",
+    "1 large onion, finely diced",
+    "1 leek, sliced",
+    "1/4 cup fresh dill",
+    "1/4 cup fresh parsley",
+    "1/4 tsp nutmeg",
+    "Black pepper to taste",
+    "Cooking spray"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 375°F (190°C). Spray a deep 9x13 dish with cooking spray.",
+    "Wilt and squeeze spinach and kale until very dry.",
+    "Sauté onion and leek until soft. Cool.",
+    "Mix spinach, kale, onion, leek, dill, parsley, nutmeg, and pepper. Fold in crumbled feta.",
+    "Whisk eggs and egg whites. Mix into the spinach-feta mixture.",
+    "Pour into the prepared dish. Bake 35-40 minutes until set and edges are golden.",
+    "Cool 10 minutes before slicing."
+]
+
+[recipe.healthy_variant.macros]
+calories = 160
+protein_g = 14
+carbs_g = 10
+fat_g = 8
+fiber_g = 4
+sugar_g = 3
+sodium_mg = 420
+# VALIDATION: (14×4) + (10×4) + (8×9) = 56 + 40 + 72 = 168 ✓ (within ±10 of 160)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -160
+protein_difference = "+2g"
+key_changes = [
+    "No phyllo dough — eliminates all carbs from pastry, saves ~100 calories per serving",
+    "Reduced feta (150g vs 300g) — saves ~80 calories per serving",
+    "Egg whites replace 4 whole eggs — reduces fat and cholesterol",
+    "Kale added — extra iron, calcium, and vitamins"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "fresh spinach (large amount)", substitute = "frozen spinach, thawed and squeezed very dry", saving_percent = 50, reason = "Frozen spinach is much cheaper and works identically when all moisture is removed" },
+    { original = "feta cheese", substitute = "ricotta + a pinch of salt", saving_percent = 30, reason = "Ricotta provides similar creaminess; add extra salt to approximate feta's brininess" },
+    { original = "phyllo dough", substitute = "ready-made puff pastry (produces different texture but works)", saving_percent = 20, reason = "Puff pastry creates a thicker, flakier crust; fold it as a top and bottom layer" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "phyllo dough", substitute = "filo pastry (same product, different spelling)", reason = "Phyllo and filo are the same thing; it is available in the freezer section of most supermarkets" },
+    { original = "fresh dill", substitute = "dried dill (use 1 tbsp dried)", reason = "Dried dill works in cooked fillings; fresh dill is preferred but dried is acceptable" },
+    { original = "feta cheese", substitute = "halloumi, cubed fine, or any brined cheese", reason = "Any brined, salty cheese provides the moisture and salt of feta" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "phyllo dough", substitute = "omit — make a crustless version baked in a dish", reason = "Spanakopita filling is excellent on its own as a crustless bake" },
+    { original = "fresh dill and parsley", substitute = "dried Italian herbs or dried mint + parsley", reason = "Any fresh green herb combination maintains the herbal character" },
+    { original = "olive oil for brushing", substitute = "melted butter or neutral oil", reason = "Any fat applied between phyllo layers creates the crispy, golden result" }
+]

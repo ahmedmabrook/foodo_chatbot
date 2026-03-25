@@ -1,0 +1,131 @@
+# ============================================================
+# RECIPE DOCUMENT — BRUSCHETTA
+# Cuisine: Italian
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "italian_bruschetta"
+cuisine = "Italian"
+dish_name = "Bruschetta"
+alternate_names = ["Bruschetta al Pomodoro", "Tomato Bruschetta", "Italian Garlic Bread"]
+category = "appetizer"
+tags = ["vegetarian", "vegan", "appetizer", "quick_meal", "street_food", "contains_gluten"]
+allergens = ["gluten"]
+difficulty = "easy"
+total_time_minutes = 20
+
+[recipe.standard]
+serving_size = "3 bruschetta pieces (approximately 180g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 5
+
+[recipe.standard.ingredients]
+items = [
+    "1 large baguette or ciabatta loaf, sliced into 12 rounds",
+    "4 large ripe tomatoes, finely diced",
+    "4 cloves garlic (2 for rubbing on bread, 2 minced for topping)",
+    "15 fresh basil leaves, torn",
+    "4 tbsp extra-virgin olive oil",
+    "1 tbsp balsamic vinegar (optional)",
+    "Salt and black pepper to taste"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Dice tomatoes and place in a colander. Salt lightly and let drain 10 minutes to remove excess liquid — this prevents soggy bruschetta.",
+    "Toast or grill bread slices under the broiler at 450°F (230°C) for 2-3 minutes per side until golden and crispy with char marks.",
+    "Immediately rub one side of each hot toasted slice with a cut garlic clove — the rough surface acts like a grater.",
+    "Drizzle rubbed side generously with olive oil.",
+    "Combine drained tomatoes with minced garlic, torn basil, remaining olive oil, salt, and pepper. Toss.",
+    "Spoon tomato mixture generously onto each slice just before serving — do not assemble too early or the bread will get soggy.",
+    "Optional: add a drizzle of balsamic vinegar. Serve immediately."
+]
+
+[recipe.standard.macros]
+calories = 280
+protein_g = 6
+carbs_g = 38
+fat_g = 12
+fiber_g = 3
+sugar_g = 5
+sodium_mg = 380
+# VALIDATION: (6×4) + (38×4) + (12×9) = 24 + 152 + 108 = 284 ✓ (within ±10 of 280)
+
+[recipe.healthy_variant]
+variant_name = "Whole Grain Bruschetta with Avocado and Tomato"
+variant_type = "high_protein"
+description = "Bruschetta on whole grain bread topped with mashed avocado and fresh tomatoes. Adds healthy monounsaturated fats from avocado, reduces refined carbs with whole grain bread, and replaces some olive oil. A nutrient-dense, satisfying version of the original."
+serving_size = "3 bruschetta pieces (approximately 200g)"
+servings_per_recipe = 4
+prep_time_minutes = 15
+cook_time_minutes = 5
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "12 slices whole grain bread or whole wheat baguette",
+    "3 large ripe tomatoes, diced",
+    "2 ripe avocados",
+    "4 cloves garlic (2 for rubbing, 2 minced)",
+    "1/2 red onion, finely diced",
+    "15 fresh basil leaves, torn",
+    "1 tbsp extra-virgin olive oil",
+    "Juice of 1 lemon",
+    "Salt and black pepper to taste",
+    "Chili flakes (optional)"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Dice tomatoes and drain in a colander with a pinch of salt for 10 minutes.",
+    "Toast whole grain bread slices under broil at 450°F (230°C) for 2-3 minutes per side until crispy.",
+    "Rub each slice with a cut garlic clove. Drizzle with a tiny amount of olive oil.",
+    "Mash avocados with lemon juice, minced garlic, salt, and pepper.",
+    "Spread avocado mixture over each toast slice.",
+    "Combine drained tomatoes with red onion, basil, and chili flakes.",
+    "Top each avocado slice with tomato mixture. Serve immediately."
+]
+
+[recipe.healthy_variant.macros]
+calories = 260
+protein_g = 7
+carbs_g = 30
+fat_g = 14
+fiber_g = 8
+sugar_g = 5
+sodium_mg = 300
+# VALIDATION: (7×4) + (30×4) + (14×9) = 28 + 120 + 126 = 274 ✓ (within ±10 of 260)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -20
+protein_difference = "+1g"
+key_changes = [
+    "Whole grain bread — more fiber, lower glycemic index than white bread",
+    "Avocado base — healthy monounsaturated fats, potassium, fiber",
+    "Reduced olive oil — avocado provides fat, less added oil needed",
+    "Red onion added — extra antioxidants and flavor"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "ciabatta or baguette", substitute = "any crusty bread or sourdough", saving_percent = 30, reason = "Any bread that toasts well works; sourdough adds a tangy flavor that complements tomatoes" },
+    { original = "fresh basil", substitute = "dried basil (1/2 tsp) or fresh parsley", saving_percent = 70, reason = "Fresh basil is expensive; dried basil provides a softer flavor; parsley adds freshness" },
+    { original = "balsamic vinegar", substitute = "red wine vinegar (use half the amount)", saving_percent = 50, reason = "Red wine vinegar provides acidity without the sweetness; adjust to taste" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "ciabatta", substitute = "French baguette or any artisan bread", reason = "Any rustic bread with a firm crust that can be toasted works perfectly" },
+    { original = "fresh basil", substitute = "fresh mint or flat-leaf parsley", reason = "Both provide fresh herbal brightness; parsley is universally available" },
+    { original = "extra-virgin olive oil", substitute = "regular olive oil or a neutral oil for drizzling", reason = "Extra-virgin olive oil provides the best flavor but any olive oil works" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "fresh tomatoes", substitute = "canned diced tomatoes, drained very well", reason = "Well-drained canned tomatoes work in a pinch; season aggressively and add a pinch of sugar" },
+    { original = "fresh garlic for rubbing", substitute = "garlic powder sprinkled over the oil", reason = "Garlic powder provides garlic flavor without the fresh rubbing step" },
+    { original = "fresh basil", substitute = "dried Italian seasoning or simply omit", reason = "The tomato and garlic are the essential flavors; herbs enhance but are not mandatory" }
+]

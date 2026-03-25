@@ -1,0 +1,131 @@
+# ============================================================
+# RECIPE DOCUMENT — CHURROS
+# Cuisine: Spanish / Western Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "western_churros"
+cuisine = "Spanish"
+dish_name = "Churros"
+alternate_names = ["Spanish Churros", "Churros con Chocolate", "Fried Dough Sticks"]
+category = "dessert"
+tags = ["spanish", "street_food", "fried", "comfort_food", "contains_gluten", "vegetarian"]
+allergens = ["gluten"]
+difficulty = "medium"
+total_time_minutes = 35
+
+[recipe.standard]
+serving_size = "6 churros with chocolate sauce (approximately 180g)"
+servings_per_recipe = 4
+prep_time_minutes = 10
+cook_time_minutes = 25
+
+[recipe.standard.ingredients]
+items = [
+    "Churro dough: 240ml water",
+    "Churro dough: 1 tbsp granulated sugar",
+    "Churro dough: 1/2 tsp salt",
+    "Churro dough: 2 tbsp vegetable oil",
+    "Churro dough: 150g all-purpose flour",
+    "For frying: vegetable oil (about 1 liter)",
+    "Coating: 50g granulated sugar + 1 tsp cinnamon, mixed",
+    "Chocolate dipping sauce: 100g dark chocolate, chopped",
+    "Chocolate sauce: 120ml heavy cream",
+    "Chocolate sauce: 1 tbsp butter"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make dough: bring water, sugar, salt, and oil to a boil in a saucepan. Remove from heat. Add flour all at once and stir vigorously until a smooth, non-sticky dough forms and pulls from the sides of the pan.",
+    "Let dough cool 5 minutes. Transfer to a piping bag fitted with a large star tip.",
+    "Heat oil in a deep pot to 350°F (175°C). Carefully pipe 15cm strips of dough directly into the hot oil, using scissors to cut. Fry in batches, turning occasionally, for 3-4 minutes until deep golden brown.",
+    "Drain on paper towels. Immediately toss in cinnamon sugar.",
+    "Make chocolate sauce: heat cream until simmering. Pour over chopped chocolate and butter. Stir until smooth.",
+    "Serve churros hot with chocolate dipping sauce."
+]
+
+[recipe.standard.macros]
+calories = 420
+protein_g = 5
+carbs_g = 52
+fat_g = 22
+fiber_g = 2
+sugar_g = 24
+sodium_mg = 200
+# VALIDATION: (5×4) + (52×4) + (22×9) = 20 + 208 + 198 = 426 ✓ (within ±10 of 420)
+
+[recipe.healthy_variant]
+variant_name = "Baked Churros with Dark Chocolate Yogurt Dip"
+variant_type = "low_calorie"
+description = "Churros baked in the oven instead of deep-fried, with minimal oil brushed on. The characteristic ridged star-piped shape and cinnamon sugar coating are kept. Served with a protein-rich Greek yogurt dark chocolate dip instead of heavy cream ganache. Same crisp exterior, 60% less fat."
+serving_size = "6 churros with dip (approximately 170g)"
+servings_per_recipe = 4
+prep_time_minutes = 10
+cook_time_minutes = 25
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "Churro dough: 240ml water",
+    "Churro dough: 1 tbsp sugar, 1/2 tsp salt, 1 tbsp olive oil",
+    "Churro dough: 150g all-purpose flour",
+    "Coating: 3 tbsp granulated sugar + 1 tsp cinnamon",
+    "Spray or brush: 1 tbsp vegetable oil for coating before baking",
+    "Yogurt chocolate dip: 150g 0% Greek yogurt",
+    "Yogurt chocolate dip: 2 tbsp cocoa powder",
+    "Yogurt chocolate dip: 1 tbsp honey or maple syrup",
+    "Yogurt chocolate dip: 1/2 tsp vanilla extract"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 425°F (220°C). Line a baking sheet with parchment paper.",
+    "Make dough as in standard recipe: boil water with sugar, salt, oil. Add flour off heat and stir until smooth dough forms.",
+    "Cool dough 5 minutes. Pipe 15cm strips onto the prepared baking sheet.",
+    "Lightly brush or spray with oil. Bake at 425°F (220°C) for 15-18 minutes, turning once halfway through, until golden and crisp.",
+    "While still hot, roll in cinnamon sugar.",
+    "Make dip: whisk Greek yogurt, cocoa powder, honey, and vanilla until smooth. Serve alongside warm churros."
+]
+
+[recipe.healthy_variant.macros]
+calories = 235
+protein_g = 7
+carbs_g = 42
+fat_g = 5
+fiber_g = 2
+sugar_g = 16
+sodium_mg = 200
+# VALIDATION: (7×4) + (42×4) + (5×9) = 28 + 168 + 45 = 241 ✓ (within ±10 of 235)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -185
+protein_difference = "+2g"
+key_changes = [
+    "Baked instead of deep-fried — eliminates ~150 calories of absorbed frying oil",
+    "Greek yogurt chocolate dip instead of cream ganache — saves ~80 calories and adds protein",
+    "Minimal oil brush (1 tbsp total) instead of 1 liter frying oil",
+    "Cinnamon sugar coating maintained — the classic flavor experience is preserved"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "dark chocolate for dipping sauce", substitute = "cocoa powder sauce (2 tbsp cocoa, 1 tbsp sugar, 3 tbsp hot water, stir)", saving_percent = 70, reason = "A quick cocoa sauce provides chocolate flavor at minimal cost" },
+    { original = "piping bag with star tip", substitute = "zip-lock bag with corner cut off (round shape, not ridged)", saving_percent = 100, reason = "Any piping bag alternative works; churros will be round rather than star-ridged but taste identical" },
+    { original = "heavy cream for chocolate sauce", substitute = "whole milk (thinner sauce but functional)", saving_percent = 50, reason = "Whole milk thins the sauce but the chocolate flavor is preserved" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "star-tipped piping bag", substitute = "spoon dough into rough sticks by hand or use fork-pressed shapes", reason = "Hand-shaped churros have a different appearance but identical taste when fried or baked" },
+    { original = "deep frying oil (1 liter)", substitute = "shallow fry in 2cm oil, turning frequently", reason = "Shallow frying uses less oil; ensure even browning by turning churros more frequently" },
+    { original = "dark chocolate for sauce", substitute = "milk chocolate chips or any chocolate for melting", reason = "Milk chocolate produces a sweeter, milder dipping sauce equally popular with churros" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "all-purpose flour", substitute = "self-raising flour (reduce salt slightly)", reason = "Self-raising flour produces a slightly lighter dough but fries or bakes successfully" },
+    { original = "piping bag", substitute = "shape by hand into rough sticks, roll between palms", reason = "Hand-rolled sticks fry or bake identically with only minor appearance differences" },
+    { original = "cinnamon sugar coating", substitute = "plain granulated sugar or powdered sugar", reason = "Any sugar coating provides the sweet crunch; cinnamon is preferred but not essential" }
+]

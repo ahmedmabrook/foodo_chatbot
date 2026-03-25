@@ -1,0 +1,130 @@
+# ============================================================
+# RECIPE DOCUMENT — TIRAMISU
+# Cuisine: Italian / Western Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "western_tiramisu"
+cuisine = "Italian"
+dish_name = "Tiramisu"
+alternate_names = ["Tiramisù", "Italian Coffee Dessert", "Pick Me Up"]
+category = "dessert"
+tags = ["italian", "classic", "no_bake", "contains_dairy", "contains_eggs", "contains_gluten", "contains_alcohol"]
+allergens = ["dairy", "eggs", "gluten"]
+difficulty = "medium"
+total_time_minutes = 30
+
+[recipe.standard]
+serving_size = "1 portion (approximately 180g)"
+servings_per_recipe = 8
+prep_time_minutes = 30
+cook_time_minutes = 0
+
+[recipe.standard.ingredients]
+items = [
+    "500g mascarpone cheese",
+    "4 large eggs, separated",
+    "100g caster sugar",
+    "300ml strong espresso or very strong coffee, cooled",
+    "3 tbsp dark rum or Marsala wine (optional)",
+    "200g ladyfinger biscuits (savoiardi)",
+    "Unsweetened cocoa powder for dusting",
+    "50g dark chocolate, finely grated (optional)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Beat egg yolks and sugar together with an electric mixer until pale, thick, and the mixture falls in ribbons, about 3-4 minutes.",
+    "Add mascarpone to the egg yolk mixture and fold gently until smooth and creamy.",
+    "In a clean bowl, beat egg whites to stiff peaks. Gently fold into the mascarpone mixture in two additions, keeping as much air as possible.",
+    "Combine cooled espresso and rum/Marsala in a shallow bowl. Quickly dip each ladyfinger (1-2 seconds per side — do not soak) in the coffee mixture.",
+    "Arrange a layer of dipped ladyfingers in the base of a 9×13-inch (23×33cm) dish or individual glasses.",
+    "Spread half the mascarpone cream over the ladyfingers. Add a second layer of dipped ladyfingers. Top with remaining cream.",
+    "Dust generously with unsweetened cocoa powder. Cover and refrigerate for at least 4 hours (overnight is best). Dust with more cocoa and grated chocolate before serving."
+]
+
+[recipe.standard.macros]
+calories = 390
+protein_g = 8
+carbs_g = 32
+fat_g = 26
+fiber_g = 1
+sugar_g = 22
+sodium_mg = 120
+# VALIDATION: (8×4) + (32×4) + (26×9) = 32 + 128 + 234 = 394 ✓ (within ±10 of 390)
+
+[recipe.healthy_variant]
+variant_name = "Light Tiramisu with Greek Yogurt Mascarpone Blend and Reduced Sugar"
+variant_type = "low_calorie"
+description = "A lighter tiramisu blending mascarpone with 0% Greek yogurt (50/50) to cut fat significantly, using only egg yolks (no raw whites) with reduced sugar. The classic espresso-soaked ladyfinger structure and cocoa dusting are fully preserved. No alcohol version for broader accessibility."
+serving_size = "1 portion (approximately 180g)"
+servings_per_recipe = 8
+prep_time_minutes = 30
+cook_time_minutes = 0
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "250g mascarpone cheese",
+    "250g 0% Greek yogurt",
+    "4 large egg yolks",
+    "70g caster sugar",
+    "1 tsp vanilla extract",
+    "300ml strong espresso, cooled",
+    "1 tbsp coffee liqueur or vanilla extract (optional)",
+    "200g ladyfinger biscuits",
+    "Unsweetened cocoa powder for dusting"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Beat egg yolks and sugar until pale and creamy. Fold in mascarpone and Greek yogurt until smooth.",
+    "Add vanilla extract. Taste and adjust sweetness.",
+    "Dip ladyfingers briefly in cooled espresso (1 second per side). Arrange in dish.",
+    "Spread half the cream over ladyfingers. Add second layer of dipped ladyfingers. Top with remaining cream.",
+    "Dust generously with cocoa powder. Refrigerate at least 4 hours.",
+    "Dust again with cocoa before serving."
+]
+
+[recipe.healthy_variant.macros]
+calories = 255
+protein_g = 8
+carbs_g = 28
+fat_g = 13
+fiber_g = 1
+sugar_g = 18
+sodium_mg = 120
+# VALIDATION: (8×4) + (28×4) + (13×9) = 32 + 112 + 117 = 261 ✓ (within ±10 of 255)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -135
+protein_difference = "0g"
+key_changes = [
+    "50% Greek yogurt replaces half the mascarpone — cuts fat from 26g to 13g per serving",
+    "Reduced sugar (70g vs 100g) — saves ~40 calories across the batch",
+    "No raw egg whites — removes food safety concern with uncooked whites",
+    "Classic structure fully maintained — espresso ladyfingers and cocoa dusting unchanged"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "mascarpone cheese", substitute = "cream cheese blended with 2 tbsp heavy cream (per 100g mascarpone)", saving_percent = 40, reason = "Blended cream cheese approximates mascarpone's rich, smooth texture in tiramisu" },
+    { original = "ladyfinger biscuits (savoiardi)", substitute = "sponge cake cut into fingers, or plain digestive biscuits", saving_percent = 30, reason = "Any light, absorbent biscuit or sponge creates the soaked layered base" },
+    { original = "dark rum or Marsala", substitute = "extra espresso or 1 tsp vanilla extract", saving_percent = 100, reason = "Extra strong espresso or vanilla provides depth without the alcohol cost" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "savoiardi ladyfinger biscuits", substitute = "any finger-shaped sponge biscuit or plain sponge cake", reason = "Any sponge-type biscuit absorbs espresso without disintegrating" },
+    { original = "Marsala wine", substitute = "dark rum, coffee liqueur, or omit entirely", reason = "Any compatible liqueur or additional espresso works; many excellent tiramisus contain no alcohol" },
+    { original = "strong espresso", substitute = "very strong instant coffee (2 tsp per 60ml water)", reason = "Strong instant coffee provides the necessary coffee intensity for soaking" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "mascarpone cheese", substitute = "full-fat cream cheese softened with 2 tbsp milk", reason = "Softened cream cheese creates a close approximation of mascarpone's richness" },
+    { original = "ladyfingers", substitute = "any plain biscuit quickly dipped in espresso", reason = "Plain digestive or Graham crackers work if dipped briefly to absorb coffee without dissolving" },
+    { original = "cocoa powder for dusting", substitute = "finely grated dark chocolate", reason = "Grated dark chocolate provides a similar bitter-chocolate finish to the top layer" }
+]

@@ -1,0 +1,133 @@
+[metadata]
+doc_id = "french_coq_au_vin"
+cuisine = "French"
+dish_name = "Coq au Vin"
+alternate_names = ["Chicken in Wine", "Poulet au Vin Rouge"]
+category = "main_course"
+tags = ["chicken", "braised", "wine", "classic", "slow-cooked", "winter"]
+allergens = ["dairy", "gluten"]
+difficulty = "medium"
+total_time_minutes = 120
+
+[recipe.standard]
+serving_size = "1 portion (approximately 380g)"
+servings_per_recipe = 4
+prep_time_minutes = 25
+cook_time_minutes = 95
+
+[recipe.standard.ingredients]
+items = [
+    "1 whole chicken (about 1.8 kg), cut into 8 pieces",
+    "750 ml dry red wine (Burgundy or Pinot Noir)",
+    "200 g lardons (thick-cut bacon cubes)",
+    "250 g cremini mushrooms, halved",
+    "200 g pearl onions, peeled",
+    "4 garlic cloves, minced",
+    "2 tablespoons tomato paste",
+    "2 tablespoons all-purpose flour",
+    "300 ml chicken stock",
+    "2 tablespoons unsalted butter",
+    "2 tablespoons olive oil",
+    "1 bouquet garni (thyme, bay leaf, parsley)",
+    "Salt and black pepper to taste",
+    "2 tablespoons fresh parsley, chopped for garnish"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Pat chicken pieces dry with paper towels and season generously with salt and pepper. Heat 1 tablespoon oil in a large Dutch oven over medium-high heat (375°F/190°C) and sear chicken in batches until golden brown on all sides, about 3-4 minutes per side. Remove and set aside.",
+    "In the same pot, render the lardons over medium heat until crispy. Remove with a slotted spoon and add to the chicken. Add pearl onions to the pot and cook until lightly golden, 4-5 minutes. Remove and set aside.",
+    "Add remaining oil and butter to the pot. Sauté garlic and mushrooms until mushrooms are golden, about 5 minutes. Stir in tomato paste and cook 1 minute. Sprinkle flour over mushrooms and stir to coat, cooking 1-2 minutes.",
+    "Pour in red wine, scraping up any browned bits from the bottom. Add chicken stock and bouquet garni. Return chicken pieces, lardons, and pearl onions to the pot. The liquid should come about halfway up the chicken.",
+    "Bring to a gentle boil, then reduce heat to low, cover, and braise at a gentle simmer (285°F/140°C) for 60-75 minutes until chicken is tender and cooked through to an internal temperature of 165°F/74°C.",
+    "Remove chicken and pearl onions. Discard bouquet garni. Increase heat to medium-high and reduce sauce for 10-15 minutes until it coats the back of a spoon. Return chicken and onions, adjust seasoning, garnish with parsley, and serve immediately."
+]
+
+[recipe.standard.macros]
+calories = 580
+protein_g = 46
+carbs_g = 14
+fat_g = 32
+fiber_g = 2
+sugar_g = 4
+sodium_mg = 720
+
+[recipe.healthy_variant]
+variant_name = "Light Coq au Vin"
+variant_type = "low_calorie"
+description = "A lighter take on the classic using skinless chicken, turkey bacon, and reduced butter. The wine-braised depth of flavour is preserved while cutting saturated fat significantly."
+serving_size = "1 portion (approximately 360g)"
+servings_per_recipe = 4
+prep_time_minutes = 25
+cook_time_minutes = 90
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1 whole chicken (about 1.8 kg), skin removed, cut into 8 pieces",
+    "500 ml dry red wine (Burgundy or Pinot Noir)",
+    "120 g turkey bacon, diced",
+    "250 g cremini mushrooms, halved",
+    "200 g pearl onions, peeled",
+    "4 garlic cloves, minced",
+    "2 tablespoons tomato paste",
+    "1 tablespoon cornstarch dissolved in 2 tablespoons cold water",
+    "350 ml low-sodium chicken stock",
+    "1 teaspoon olive oil",
+    "1 bouquet garni (thyme, bay leaf, parsley)",
+    "2 medium carrots, sliced",
+    "Salt and black pepper to taste",
+    "3 tablespoons fresh parsley, chopped for garnish"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Pat skinless chicken pieces dry and season with salt and pepper. Heat olive oil in a large Dutch oven over medium-high heat (375°F/190°C) and sear chicken in batches until golden, about 3 minutes per side. Remove and set aside.",
+    "In the same pot, cook turkey bacon over medium heat until slightly crispy, about 3 minutes. Add pearl onions and carrots, cook 4-5 minutes until lightly coloured. Add garlic and cook 1 minute more.",
+    "Stir in tomato paste and cook 1 minute. Add mushrooms and cook until softened, about 4 minutes.",
+    "Pour in red wine and chicken stock, scraping up any browned bits. Add bouquet garni and return chicken pieces to the pot.",
+    "Bring to a gentle boil, then reduce heat to low, cover, and braise at a gentle simmer (285°F/140°C) for 60-70 minutes until chicken reaches an internal temperature of 165°F/74°C.",
+    "Remove chicken pieces and discard bouquet garni. Stir cornstarch slurry into the simmering sauce and cook 2-3 minutes until slightly thickened. Return chicken, adjust seasoning, garnish with parsley, and serve immediately."
+]
+
+[recipe.healthy_variant.macros]
+calories = 390
+protein_g = 48
+carbs_g = 13
+fat_g = 12
+fiber_g = 3
+sugar_g = 5
+sodium_mg = 520
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -190
+protein_difference = "+2g"
+key_changes = [
+    "Skin removed from chicken, eliminating the primary source of saturated fat",
+    "Turkey bacon replaces lardons, reducing fat content significantly",
+    "Butter eliminated entirely; only 1 teaspoon olive oil used for searing",
+    "Cornstarch slurry replaces flour for thickening, reducing caloric density",
+    "Carrots added to increase fibre and natural sweetness without calories"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "Burgundy or Pinot Noir wine", substitute = "Any dry table red wine or cooking wine", saving_percent = 60, reason = "Inexpensive dry red wine delivers the same braising acidity and depth without the premium price tag" },
+    { original = "Pearl onions", substitute = "Regular yellow onion cut into wedges", saving_percent = 50, reason = "Wedge-cut yellow onions break down similarly during braising and cost a fraction of pearl onions" },
+    { original = "Cremini mushrooms", substitute = "White button mushrooms", saving_percent = 30, reason = "Button mushrooms have a milder flavour but are widely available and far cheaper" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Lardons", substitute = "Thick-cut bacon cut into small cubes", reason = "Regular bacon cut into cubes mimics the texture and smoky fat of lardons, available in any supermarket" },
+    { original = "Bouquet garni (fresh herbs tied together)", substitute = "1 teaspoon dried thyme and 2 bay leaves added loose to the pot", reason = "Dried herbs are pantry staples that deliver the same aromatic profile without requiring fresh bundles" },
+    { original = "Dutch oven", substitute = "Large oven-safe pot or deep skillet with a tight-fitting lid", reason = "Any heavy-bottomed pot that can go from stovetop to oven or maintain low heat will work" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "All-purpose flour (as thickener)", substitute = "Cornstarch slurry (1 tablespoon cornstarch + 2 tablespoons cold water)", reason = "Cornstarch is a common pantry item and produces a glossy, clear sauce rather than an opaque one" },
+    { original = "Chicken stock (store-bought)", substitute = "Water with 1 teaspoon soy sauce and a pinch of salt", reason = "Adds umami and depth in a pinch using common condiments already in most kitchens" },
+    { original = "Tomato paste", substitute = "2 tablespoons ketchup or 3 tablespoons crushed canned tomatoes, reduced", reason = "Both options add the necessary tomato flavour and acidity available in virtually every home" }
+]

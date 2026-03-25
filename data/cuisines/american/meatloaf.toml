@@ -1,0 +1,142 @@
+# ============================================================
+# RECIPE DOCUMENT — CLASSIC MEATLOAF
+# Cuisine: American
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "american_meatloaf"
+cuisine = "American"
+dish_name = "Classic Meatloaf"
+alternate_names = ["Traditional Meatloaf", "American Meatloaf", "Glazed Meatloaf"]
+category = "main_course"
+tags = ["comfort_food", "american_classic", "high_protein", "contains_gluten", "contains_eggs"]
+allergens = ["gluten", "eggs", "dairy"]
+difficulty = "easy"
+total_time_minutes = 80
+
+[recipe.standard]
+serving_size = "2 slices (approximately 250g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 60
+
+[recipe.standard.ingredients]
+items = [
+    "700g ground beef (80% lean)",
+    "1 cup breadcrumbs",
+    "1/2 cup whole milk",
+    "2 large eggs",
+    "1 small onion, finely diced",
+    "3 cloves garlic, minced",
+    "2 tbsp Worcestershire sauce",
+    "1 tbsp ketchup (in mix) + 1/4 cup for glaze",
+    "1 tbsp brown sugar (for glaze)",
+    "1 tsp mustard (for glaze)",
+    "1 tsp dried thyme",
+    "1 tsp salt",
+    "1/2 tsp black pepper",
+    "1/2 tsp paprika"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Preheat oven to 350°F (175°C). Line a loaf pan with parchment or lightly grease.",
+    "Soak breadcrumbs in milk for 5 minutes — this is the panade and keeps the meatloaf moist.",
+    "In a large bowl, combine ground beef, soaked breadcrumbs, eggs, onion, garlic, Worcestershire, 1 tbsp ketchup, thyme, salt, pepper, and paprika. Mix gently with your hands until just combined — do not overwork.",
+    "Transfer mixture to the loaf pan. Shape into a loaf with rounded top. Do not pack too tightly.",
+    "Make glaze: mix 1/4 cup ketchup + 1 tbsp brown sugar + 1 tsp mustard. Spread half over the top of the loaf.",
+    "Bake for 45 minutes. Remove and spread remaining glaze over the top.",
+    "Bake another 15 minutes until internal temperature reaches 160°F (71°C).",
+    "Let rest 10 minutes before slicing. Serve with mashed potatoes and green beans."
+]
+
+[recipe.standard.macros]
+calories = 420
+protein_g = 28
+carbs_g = 22
+fat_g = 24
+fiber_g = 1
+sugar_g = 10
+sodium_mg = 640
+# VALIDATION: (28×4) + (22×4) + (24×9) = 112 + 88 + 216 = 416 ✓ (within ±10 of 420)
+
+[recipe.healthy_variant]
+variant_name = "Turkey Meatloaf with Oat Breadcrumbs and Vegetable Mix"
+variant_type = "low_calorie"
+description = "A leaner meatloaf using 93% lean ground turkey, rolled oats instead of breadcrumbs for extra fiber, and packed with grated vegetables for moisture and nutrition. The glaze uses reduced-sugar ketchup."
+serving_size = "2 slices (approximately 240g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 60
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "700g lean ground turkey (93%)",
+    "1/2 cup rolled oats",
+    "1/2 cup low-fat milk",
+    "2 large eggs",
+    "1 small onion, finely diced",
+    "1 medium zucchini, grated and squeezed dry",
+    "1 medium carrot, grated",
+    "3 cloves garlic, minced",
+    "1 tbsp Worcestershire sauce",
+    "1 tsp dried thyme",
+    "1 tsp salt",
+    "1/2 tsp black pepper",
+    "Glaze: 3 tbsp reduced-sugar ketchup + 1 tsp Dijon mustard"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 350°F (175°C). Line a loaf pan with parchment.",
+    "Soak rolled oats in milk for 5 minutes.",
+    "Combine turkey, soaked oats, eggs, onion, grated zucchini, grated carrot, garlic, Worcestershire, thyme, salt, and pepper. Mix gently until combined.",
+    "Transfer to loaf pan. Shape into a loaf.",
+    "Mix reduced-sugar ketchup and Dijon mustard for the glaze. Spread half over the loaf.",
+    "Bake 45 minutes. Add remaining glaze. Bake another 15 minutes until internal temperature reaches 165°F (74°C).",
+    "Rest 10 minutes before slicing."
+]
+
+[recipe.healthy_variant.macros]
+calories = 280
+protein_g = 30
+carbs_g = 16
+fat_g = 10
+fiber_g = 3
+sugar_g = 5
+sodium_mg = 460
+# VALIDATION: (30×4) + (16×4) + (10×9) = 120 + 64 + 90 = 274 ✓ (within ±10 of 280)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -140
+protein_difference = "+2g"
+key_changes = [
+    "Lean ground turkey instead of 80% lean beef — reduces fat by ~14g per serving",
+    "Rolled oats instead of breadcrumbs — more fiber, gluten-sensitive option",
+    "Grated zucchini and carrot — adds moisture and nutrients, replaces some fat",
+    "Reduced-sugar ketchup glaze — saves ~5g added sugar per serving"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "80% lean ground beef", substitute = "70% lean ground beef (drain off excess fat after baking)", saving_percent = 15, reason = "Fattier ground beef costs less per kg; excess fat drains out during baking" },
+    { original = "Italian seasoned breadcrumbs", substitute = "crushed crackers or toast crumbled fine", saving_percent = 50, reason = "Any dry bread product works as the panade binder in meatloaf" },
+    { original = "fresh garlic", substitute = "1 tsp garlic powder", saving_percent = 30, reason = "Garlic powder provides consistent garlic flavor without chopping" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Worcestershire sauce", substitute = "soy sauce + a drop of hot sauce", reason = "Soy sauce provides the savory depth of Worcestershire; hot sauce adds tang" },
+    { original = "brown sugar in glaze", substitute = "regular white sugar or honey", reason = "Any sweetener provides the sweet-tangy balance in the glaze" },
+    { original = "loaf pan", substitute = "free-form on a baking sheet lined with foil", reason = "Meatloaf can be shaped by hand on a flat pan; it spreads slightly but cooks identically" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "whole milk (for panade)", substitute = "any milk or water", reason = "The liquid just soaks the bread to keep the meatloaf moist; water works fine" },
+    { original = "breadcrumbs", substitute = "torn bread soaked in milk", reason = "Old bread torn into pieces and soaked creates the same panade effect as store-bought breadcrumbs" },
+    { original = "ketchup and mustard glaze", substitute = "just ketchup, or any tomato-based sauce", reason = "Plain ketchup is the classic glaze; any tomato condiment caramelizes well on top" }
+]

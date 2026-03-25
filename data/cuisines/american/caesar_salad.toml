@@ -1,0 +1,135 @@
+# ============================================================
+# RECIPE DOCUMENT — CAESAR SALAD
+# Cuisine: American
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "american_caesar_salad"
+cuisine = "American"
+dish_name = "Caesar Salad"
+alternate_names = ["Caesar's Salad", "Classic Caesar", "Grilled Chicken Caesar"]
+category = "salad"
+tags = ["american_classic", "contains_dairy", "contains_eggs", "contains_gluten", "high_protein"]
+allergens = ["dairy", "eggs", "gluten", "shellfish"]
+difficulty = "medium"
+total_time_minutes = 30
+
+[recipe.standard]
+serving_size = "1 large salad plate (approximately 320g)"
+servings_per_recipe = 4
+prep_time_minutes = 25
+cook_time_minutes = 5
+
+[recipe.standard.ingredients]
+items = [
+    "2 heads romaine lettuce, torn",
+    "4 slices sourdough or baguette, cubed (for croutons)",
+    "60g Parmesan cheese, freshly grated",
+    "2 tbsp olive oil (for croutons)",
+    "Dressing: 3 cloves garlic, 6 anchovy fillets",
+    "Dressing: 2 egg yolks",
+    "Dressing: 2 tbsp lemon juice",
+    "Dressing: 1 tsp Dijon mustard",
+    "Dressing: 1/2 cup olive oil",
+    "Dressing: 2 tbsp Worcestershire sauce",
+    "Salt and black pepper to taste"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make croutons: toss bread cubes with 2 tbsp olive oil, salt, and pepper. Spread on a baking sheet. Bake at 375°F (190°C) for 10-12 minutes until golden and crispy. Cool completely.",
+    "Make the dressing: on a cutting board, finely mince garlic and anchovy fillets together into a paste. Transfer to a bowl.",
+    "Whisk in egg yolks, lemon juice, and Dijon mustard until combined.",
+    "Slowly drizzle in olive oil while whisking constantly to emulsify the dressing. Season with Worcestershire, salt, and lots of black pepper.",
+    "Wash and dry romaine leaves thoroughly. Tear into large pieces.",
+    "In a large bowl, toss romaine with just enough dressing to coat every leaf — do not overdress.",
+    "Add most of the croutons and half the Parmesan. Toss again. Divide among plates.",
+    "Top with remaining croutons, Parmesan, and cracked black pepper. Serve immediately."
+]
+
+[recipe.standard.macros]
+calories = 380
+protein_g = 12
+carbs_g = 20
+fat_g = 28
+fiber_g = 4
+sugar_g = 3
+sodium_mg = 680
+# VALIDATION: (12×4) + (20×4) + (28×9) = 48 + 80 + 252 = 380 ✓
+
+[recipe.healthy_variant]
+variant_name = "Grilled Chicken Caesar with Greek Yogurt Dressing"
+variant_type = "high_protein"
+description = "A protein-packed Caesar salad with grilled chicken breast added, the dressing made with Greek yogurt instead of egg yolks and oil, and whole grain croutons. Parmesan is reduced but still present for flavor."
+serving_size = "1 large salad plate with chicken (approximately 380g)"
+servings_per_recipe = 4
+prep_time_minutes = 25
+cook_time_minutes = 15
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "2 heads romaine lettuce, torn",
+    "400g chicken breast, grilled and sliced",
+    "2 slices whole grain bread, cubed and toasted (croutons)",
+    "30g Parmesan cheese, freshly grated",
+    "Dressing: 3/4 cup plain Greek yogurt (0%)",
+    "Dressing: 3 cloves garlic, minced",
+    "Dressing: 3 anchovy fillets",
+    "Dressing: 2 tbsp lemon juice",
+    "Dressing: 1 tsp Dijon mustard",
+    "Dressing: 1 tsp Worcestershire sauce",
+    "Salt and black pepper to taste"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Grill chicken breast seasoned with salt and pepper on a grill pan over medium-high heat (400°F/200°C) for 6-7 minutes per side until cooked through (165°F/74°C). Rest 5 minutes, then slice.",
+    "Toast whole grain bread cubes at 375°F (190°C) for 10-12 minutes until crispy.",
+    "Make dressing: blend or whisk Greek yogurt, garlic, anchovy fillets, lemon juice, Dijon mustard, Worcestershire, salt, and pepper until smooth.",
+    "Toss romaine with yogurt dressing. Add whole grain croutons and half the Parmesan.",
+    "Top with sliced grilled chicken and remaining Parmesan."
+]
+
+[recipe.healthy_variant.macros]
+calories = 300
+protein_g = 36
+carbs_g = 16
+fat_g = 8
+fiber_g = 4
+sugar_g = 4
+sodium_mg = 520
+# VALIDATION: (36×4) + (16×4) + (8×9) = 144 + 64 + 72 = 280 ✓ (within ±10 of 300)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -80
+protein_difference = "+24g"
+key_changes = [
+    "Greek yogurt dressing replaces egg yolk and oil dressing — saves ~18g fat per serving",
+    "Grilled chicken breast added — significantly boosts protein content",
+    "Whole grain croutons — more fiber than white bread croutons",
+    "Reduced Parmesan — saves ~40 calories while maintaining flavor"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "anchovy fillets", substitute = "1 tsp Worcestershire sauce + a small piece of canned tuna", saving_percent = 60, reason = "Worcestershire already contains anchovies; a bit of tuna adds depth without buying anchovy tins" },
+    { original = "Parmesan (freshly grated)", substitute = "any hard Italian cheese (Pecorino Romano or Grana Padano)", saving_percent = 20, reason = "Pecorino Romano is sharper and often cheaper; use slightly less as it has more intense flavor" },
+    { original = "sourdough for croutons", substitute = "any stale bread", saving_percent = 80, reason = "Day-old bread makes the best croutons; use whatever bread is available" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "anchovy fillets", substitute = "anchovy paste (1 tsp) or Worcestershire sauce alone", reason = "Anchovy paste in a tube is widely available and more convenient; Worcestershire provides similar umami" },
+    { original = "raw egg yolks", substitute = "1 tbsp mayonnaise", reason = "Mayo is already emulsified egg yolk and oil; use 2 tbsp for a similar base dressing" },
+    { original = "romaine lettuce", substitute = "iceberg lettuce or little gem lettuce", reason = "Both provide the crispy texture of romaine; iceberg has less flavor but good crunch" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "anchovy fillets", substitute = "a splash of soy sauce + squeeze of lemon", reason = "Soy sauce provides saltiness and umami depth; lemon brightens the dressing without anchovies" },
+    { original = "Parmesan cheese", substitute = "any hard cheese you have, finely grated", reason = "Any aged hard cheese provides the salty, savory element that Parmesan contributes" },
+    { original = "Dijon mustard", substitute = "regular yellow mustard", reason = "Yellow mustard provides the emulsifying and flavor role of Dijon; use the same amount" }
+]

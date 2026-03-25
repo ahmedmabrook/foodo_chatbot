@@ -1,0 +1,145 @@
+# ============================================================
+# RECIPE DOCUMENT — LASAGNA BOLOGNESE
+# Cuisine: Italian
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "italian_lasagna"
+cuisine = "Italian"
+dish_name = "Lasagna Bolognese"
+alternate_names = ["Lasagne al Forno", "Baked Lasagna", "Classic Italian Lasagna"]
+category = "main_course"
+tags = ["comfort_food", "festive", "high_protein", "contains_gluten", "contains_dairy", "contains_eggs"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "hard"
+total_time_minutes = 180
+
+[recipe.standard]
+serving_size = "1 generous portion (approximately 400g)"
+servings_per_recipe = 8
+prep_time_minutes = 60
+cook_time_minutes = 120
+
+[recipe.standard.ingredients]
+items = [
+    "12 lasagna pasta sheets",
+    "Bolognese: 500g ground beef",
+    "Bolognese: 200g Italian pork sausage, casing removed",
+    "Bolognese: 1 large onion, finely diced",
+    "Bolognese: 2 carrots, finely diced",
+    "Bolognese: 2 stalks celery, finely diced",
+    "Bolognese: 4 cloves garlic, minced",
+    "Bolognese: 400g canned crushed tomatoes",
+    "Bolognese: 2 tbsp tomato paste",
+    "Bolognese: 1 cup dry red wine",
+    "Bolognese: 1/2 cup whole milk",
+    "Béchamel: 4 cups whole milk",
+    "Béchamel: 4 tbsp butter",
+    "Béchamel: 4 tbsp all-purpose flour",
+    "Béchamel: pinch of nutmeg, salt, white pepper",
+    "100g Parmesan cheese, grated",
+    "2 tbsp olive oil, salt, pepper"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Make Bolognese: heat olive oil in a large pot. Cook onion, carrot, and celery (soffritto) until soft, 10 minutes. Add garlic, cook 1 minute. Add ground beef and sausage; brown completely, breaking up. Add tomato paste; cook 2 minutes. Add red wine; cook until evaporated. Add crushed tomatoes, milk, salt, and pepper. Simmer uncovered on very low heat for 45-60 minutes until rich and thick.",
+    "Make Béchamel: melt butter in a saucepan over medium heat. Whisk in flour; cook 2 minutes. Gradually whisk in warm milk until smooth. Cook, stirring constantly, until thick, about 5-7 minutes. Season with nutmeg, salt, and white pepper.",
+    "Cook lasagna sheets according to package directions. Drain and lay flat on a lightly oiled surface.",
+    "Preheat oven to 375°F (190°C). Grease a 9x13 inch baking dish.",
+    "Assemble: spread a thin layer of Bolognese on the bottom. Lay pasta sheets. Spread Bolognese, then béchamel, then a sprinkle of Parmesan. Repeat layers, finishing with béchamel and a generous layer of Parmesan.",
+    "Cover with foil. Bake 30 minutes. Remove foil. Bake another 15-20 minutes until top is golden and bubbling.",
+    "Rest 15-20 minutes before cutting. This is critical — it allows the layers to set."
+]
+
+[recipe.standard.macros]
+calories = 580
+protein_g = 32
+carbs_g = 52
+fat_g = 26
+fiber_g = 4
+sugar_g = 10
+sodium_mg = 680
+# VALIDATION: (32×4) + (52×4) + (26×9) = 128 + 208 + 234 = 570 ✓ (within ±10 of 580)
+
+[recipe.healthy_variant]
+variant_name = "Zucchini Noodle Lasagna with Turkey Bolognese"
+variant_type = "low_carb"
+description = "A low-carb lasagna using thin-sliced zucchini strips as pasta replacement, lean ground turkey for the Bolognese, and a lighter ricotta-based layer instead of heavy béchamel. Reduces carbs dramatically while maintaining the layered structure."
+serving_size = "1 portion (approximately 400g)"
+servings_per_recipe = 8
+prep_time_minutes = 45
+cook_time_minutes = 60
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "4 large zucchini, sliced lengthwise into 5mm strips (pasta substitute)",
+    "Turkey Bolognese: 500g lean ground turkey",
+    "Turkey Bolognese: 1 large onion, finely diced",
+    "Turkey Bolognese: 2 carrots, finely diced",
+    "Turkey Bolognese: 4 cloves garlic, minced",
+    "Turkey Bolognese: 400g canned crushed tomatoes",
+    "Turkey Bolognese: 2 tbsp tomato paste",
+    "Turkey Bolognese: 1 tsp dried basil, 1 tsp oregano",
+    "Turkey Bolognese: 1 tbsp olive oil",
+    "Ricotta layer: 400g part-skim ricotta",
+    "Ricotta layer: 2 eggs",
+    "Ricotta layer: 1/2 tsp nutmeg",
+    "80g part-skim mozzarella, shredded",
+    "40g Parmesan cheese, grated",
+    "Salt and pepper to taste"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Salt zucchini strips on both sides. Let sit 15 minutes to draw out moisture. Pat completely dry — this prevents a watery lasagna.",
+    "Make turkey Bolognese: sauté onion and carrot in olive oil until soft. Add garlic. Add turkey and brown completely. Add tomato paste, crushed tomatoes, basil, oregano, salt, and pepper. Simmer 20-25 minutes.",
+    "Mix ricotta with eggs, nutmeg, salt, and pepper in a bowl.",
+    "Preheat oven to 375°F (190°C).",
+    "Assemble: thin layer of turkey sauce on bottom. Layer zucchini strips. Spread ricotta mixture. Add turkey sauce. Repeat layers. Top with remaining sauce, mozzarella, and Parmesan.",
+    "Bake uncovered 35-40 minutes until golden and bubbling. Rest 10 minutes before serving."
+]
+
+[recipe.healthy_variant.macros]
+calories = 320
+protein_g = 30
+carbs_g = 16
+fat_g = 16
+fiber_g = 4
+sugar_g = 8
+sodium_mg = 480
+# VALIDATION: (30×4) + (16×4) + (16×9) = 120 + 64 + 144 = 328 ✓ (within ±10 of 320)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -260
+protein_difference = "-2g"
+key_changes = [
+    "Zucchini strips replace pasta — eliminates ~36g carbs per serving",
+    "Turkey instead of beef and pork sausage — reduces fat by ~10g per serving",
+    "Ricotta instead of béchamel — fewer calories, more protein, no refined starch",
+    "Part-skim cheeses — reduces saturated fat"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "ground beef + Italian sausage", substitute = "ground beef only", saving_percent = 20, reason = "Italian sausage adds flavor; substitute with extra beef plus 1 tsp fennel seeds and Italian seasoning" },
+    { original = "dry red wine", substitute = "beef broth or grape juice + 1 tsp red wine vinegar", saving_percent = 90, reason = "Broth provides the liquid and depth; a small amount of vinegar adds acidity" },
+    { original = "Parmesan cheese", substitute = "any hard, aged cheese finely grated", saving_percent = 30, reason = "Pecorino Romano or aged cheddar provide similar saltiness and melting qualities" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "fresh lasagna sheets", substitute = "oven-ready (no-boil) dried lasagna sheets", reason = "No-boil lasagna sheets absorb sauce as they bake; widely available and more convenient" },
+    { original = "Italian pork sausage", substitute = "any fresh pork or chicken sausage, casing removed", reason = "Any fresh uncooked sausage provides the fat and seasoning of Italian sausage" },
+    { original = "whole nutmeg (grated)", substitute = "pinch of ground nutmeg from a jar", reason = "Pre-ground nutmeg is widely available; use a smaller amount as it's more potent" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "dry red wine", substitute = "extra beef broth + 1 tbsp tomato paste", reason = "Extra tomato paste deepens the sauce; broth adds liquid without needing wine" },
+    { original = "béchamel sauce", substitute = "warmed cream cheese thinned with a little milk", reason = "Cream cheese mixed with milk creates a quick, rich white layer with minimal effort" },
+    { original = "Parmesan", substitute = "any aged cheddar or hard cheese you have", reason = "The top cheese layer just needs to melt and brown; any hard cheese works" }
+]

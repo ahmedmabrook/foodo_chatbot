@@ -1,0 +1,152 @@
+[metadata]
+doc_id = "khaliji_machboos"
+cuisine = "Khaliji"
+dish_name = "Machboos"
+alternate_names = ["Machbus", "Majboos", "Bahraini Spiced Rice"]
+category = "main_course"
+tags = ["rice", "chicken", "spiced", "one-pot", "loomi", "bahraini", "kuwaiti"]
+allergens = ["none"]
+difficulty = "medium"
+total_time_minutes = 100
+
+[recipe.standard]
+serving_size = "1 plate (approximately 430g)"
+servings_per_recipe = 5
+prep_time_minutes = 20
+cook_time_minutes = 80
+
+[recipe.standard.ingredients]
+items = [
+    "1 whole chicken (about 1.5 kg), cut into 8 pieces",
+    "3 cups basmati rice, rinsed and soaked 30 minutes",
+    "2 large onions, thinly sliced",
+    "4 cloves garlic, minced",
+    "2 medium tomatoes, diced",
+    "2 tablespoons tomato paste",
+    "3 tablespoons ghee",
+    "3 loomi (dried black limes), pierced",
+    "1 cinnamon stick",
+    "4 cardamom pods, bruised",
+    "4 cloves",
+    "2 dried bay leaves",
+    "1 teaspoon turmeric",
+    "1 teaspoon machboos spice blend (or baharat)",
+    "0.5 teaspoon coriander",
+    "0.5 teaspoon cumin",
+    "0.5 teaspoon black pepper",
+    "0.25 teaspoon saffron threads, dissolved in 2 tablespoons warm water",
+    "Salt to taste",
+    "4 cups chicken broth",
+    "Small bunch fresh coriander (cilantro), chopped",
+    "1 green chili, whole (optional)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Heat ghee in a large heavy pot over medium-high heat. Brown the chicken pieces skin-side down for 6–8 minutes per side until deep golden. Remove and set aside.",
+    "In the same pot, fry the sliced onions over medium heat for 12 minutes until deeply caramelized and golden brown.",
+    "Add garlic and cook 1 minute. Add diced tomatoes and tomato paste; cook 5 minutes until the tomatoes break down.",
+    "Stir in all ground spices (turmeric, machboos blend, coriander, cumin, black pepper) and add the whole spices (cinnamon stick, cardamom, cloves, bay leaves) and pierced loomi. Mix well.",
+    "Return chicken to pot. Pour in chicken broth and add the green chili if using. Bring to a boil, then reduce heat to low, cover, and simmer 40 minutes.",
+    "Remove chicken and measure out 3.5 cups of the spiced broth. Return broth to pot and bring to a boil.",
+    "Drain soaked rice and add to the boiling broth along with saffron water and the reserved loomi from the broth. Stir once.",
+    "Place chicken pieces on top of the rice. Cover tightly and cook on the lowest heat (230°F / 110°C) for 25 minutes without lifting the lid.",
+    "Remove from heat and rest, covered, for 10 minutes. Fluff rice with a fork, transfer to a large platter, arrange chicken on top, and scatter chopped fresh coriander over everything."
+]
+
+[recipe.standard.macros]
+calories = 590
+protein_g = 42
+carbs_g = 65
+fat_g = 16
+fiber_g = 3
+sugar_g = 4
+sodium_mg = 610
+
+[recipe.healthy_variant]
+variant_name = "Light Machboos with Cauliflower Rice"
+variant_type = "low_carb"
+description = "A low-carb, lower-calorie Machboos that replaces basmati rice with cauliflower rice and uses skinless chicken breast. All traditional spices and loomi are preserved for authentic flavor, making this ideal for those reducing refined carbohydrates."
+serving_size = "1 plate (approximately 380g)"
+servings_per_recipe = 5
+prep_time_minutes = 25
+cook_time_minutes = 50
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1.2 kg skinless boneless chicken breast, cut into large chunks",
+    "1 large head cauliflower (about 1 kg), grated into rice-sized pieces",
+    "2 large onions, thinly sliced",
+    "4 cloves garlic, minced",
+    "2 medium tomatoes, diced",
+    "1.5 tablespoons tomato paste",
+    "1.5 tablespoons olive oil",
+    "3 loomi (dried black limes), pierced",
+    "1 cinnamon stick",
+    "4 cardamom pods, bruised",
+    "4 cloves",
+    "1 teaspoon turmeric",
+    "1 teaspoon machboos spice blend (or baharat)",
+    "0.5 teaspoon coriander",
+    "0.5 teaspoon cumin",
+    "0.5 teaspoon black pepper",
+    "0.25 teaspoon saffron threads, dissolved in 2 tablespoons warm water",
+    "Salt to taste",
+    "1.5 cups low-sodium chicken broth",
+    "Small bunch fresh coriander (cilantro), chopped"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Heat olive oil in a large heavy pot over medium-high heat. Sear skinless chicken breast chunks for 4–5 minutes per side until golden. Remove and set aside.",
+    "In the same pot, caramelize sliced onions over medium heat for 12 minutes. Add garlic and cook 1 minute.",
+    "Add diced tomatoes and tomato paste; cook 5 minutes until softened.",
+    "Add all spices (both ground and whole) and loomi. Stir to coat the onion mixture.",
+    "Return chicken, pour in 1.5 cups low-sodium broth, add saffron water. Bring to a boil, reduce to low, cover, and simmer 25 minutes.",
+    "Remove chicken. Remove and discard whole spices and loomi. Leave any remaining broth in the pot.",
+    "Add grated cauliflower to the pot. Toss to coat with the spiced cooking juices. Cover and cook over medium-low heat (300°F / 150°C) for 8–10 minutes, stirring halfway, until cauliflower is tender but not mushy.",
+    "Place chicken on top of the cauliflower rice. Cover and heat through for 3 more minutes.",
+    "Transfer to a platter and garnish generously with fresh chopped coriander."
+]
+
+[recipe.healthy_variant.macros]
+calories = 340
+protein_g = 46
+carbs_g = 18
+fat_g = 8
+fiber_g = 5
+sugar_g = 6
+sodium_mg = 380
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -250
+protein_difference = "+4g"
+key_changes = [
+    "Replaced 3 cups basmati rice with cauliflower rice, eliminating most of the refined carbohydrates",
+    "Switched from bone-in whole chicken to skinless chicken breast to reduce fat",
+    "Reduced ghee from 3 tablespoons to 1.5 tablespoons olive oil",
+    "Reduced sodium by using low-sodium broth and eliminating added salt where possible"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "whole chicken", substitute = "chicken drumsticks or thighs (bone-in)", saving_percent = 25, reason = "Drumsticks and thighs are consistently cheaper than whole chicken and have excellent flavor for braised rice dishes." },
+    { original = "saffron threads", substitute = "0.25 teaspoon turmeric plus a pinch of sweet paprika", saving_percent = 90, reason = "Saffron is the world's most expensive spice; turmeric provides color and paprika adds warmth at negligible cost." },
+    { original = "basmati rice", substitute = "parboiled long-grain white rice", saving_percent = 35, reason = "Parboiled rice holds up well in one-pot cooking and is widely available at lower cost." }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "loomi (dried black lime)", substitute = "strips of lime peel plus a squeeze of lime juice stirred in at the end", reason = "Dried limes are a Gulf specialty; fresh lime peel and juice approximate the sour-floral note." },
+    { original = "machboos spice blend", substitute = "1 teaspoon allspice plus 0.5 teaspoon cinnamon plus 0.25 teaspoon nutmeg", reason = "This combination closely mirrors the warm, sweet-savory profile of a traditional machboos blend." },
+    { original = "fresh coriander (cilantro)", substitute = "fresh flat-leaf parsley", reason = "Parsley provides a bright fresh garnish for those who dislike coriander's soapy notes." }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "ghee", substitute = "clarified unsalted butter or regular unsalted butter", reason = "Clarified butter is easy to make at home and provides the same nutty richness as ghee." },
+    { original = "whole cloves", substitute = "0.25 teaspoon ground cloves", reason = "Ground cloves are a pantry staple that delivers the same flavor without needing whole spices." },
+    { original = "chicken broth (store-bought)", substitute = "water with 1 chicken bouillon cube", reason = "A bouillon cube dissolved in hot water provides adequate savory depth when broth is not on hand." }
+]

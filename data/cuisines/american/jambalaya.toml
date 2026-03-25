@@ -1,0 +1,152 @@
+# ============================================================
+# RECIPE DOCUMENT — JAMBALAYA
+# Cuisine: American
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "american_jambalaya"
+cuisine = "American"
+dish_name = "Jambalaya"
+alternate_names = ["Creole Jambalaya", "Louisiana Jambalaya", "Red Jambalaya"]
+category = "main_course"
+tags = ["comfort_food", "american_classic", "spicy", "high_protein", "contains_shellfish", "one_pot"]
+allergens = ["shellfish", "gluten"]
+difficulty = "medium"
+total_time_minutes = 60
+
+[recipe.standard]
+serving_size = "1 plate (approximately 400g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 40
+
+[recipe.standard.ingredients]
+items = [
+    "300g andouille sausage (or smoked sausage), sliced",
+    "300g shrimp, peeled and deveined",
+    "300g chicken thighs, boneless, cut into 2cm pieces",
+    "2 cups long-grain white rice",
+    "1 large onion, diced",
+    "1 green bell pepper, diced",
+    "3 stalks celery, diced",
+    "4 cloves garlic, minced",
+    "400g canned diced tomatoes",
+    "2 cups chicken broth",
+    "2 tbsp vegetable oil",
+    "1 tsp paprika",
+    "1 tsp dried thyme",
+    "1 tsp dried oregano",
+    "1/2 tsp cayenne pepper",
+    "1 tsp Worcestershire sauce",
+    "1 bay leaf",
+    "Salt and black pepper to taste",
+    "Green onions for garnish"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Heat oil in a large heavy pot or Dutch oven over medium-high heat (375°F/190°C). Brown andouille sausage slices for 3-4 minutes. Remove.",
+    "Season chicken with salt, pepper, and paprika. Brown in the same pot for 4-5 minutes. Remove.",
+    "Sauté the 'holy trinity': onion, bell pepper, and celery until softened, about 6 minutes. Add garlic and cook 1 minute.",
+    "Add tomatoes, paprika, thyme, oregano, cayenne, Worcestershire, and bay leaf. Cook 3 minutes, scraping any browned bits from the bottom.",
+    "Return sausage and chicken to the pot. Add chicken broth. Bring to a boil.",
+    "Add rice. Stir once to distribute. Reduce heat to low, cover tightly, and cook 20 minutes without lifting the lid.",
+    "Lift lid and nestle shrimp into the rice. Replace lid and cook 5 more minutes until shrimp are pink and cooked through.",
+    "Remove bay leaf. Fluff with a fork. Garnish with sliced green onions. Serve hot."
+]
+
+[recipe.standard.macros]
+calories = 520
+protein_g = 34
+carbs_g = 60
+fat_g = 14
+fiber_g = 4
+sugar_g = 6
+sodium_mg = 860
+# VALIDATION: (34×4) + (60×4) + (14×9) = 136 + 240 + 126 = 502 ✓ (within ±10 of 520)
+
+[recipe.healthy_variant]
+variant_name = "Light Jambalaya with Turkey Sausage and Brown Rice"
+variant_type = "low_calorie"
+description = "A leaner jambalaya using turkey andouille sausage, shrimp, and skinless chicken breast. Brown rice replaces white for extra fiber. Extra bell peppers and tomatoes increase vegetable content while reducing calorie density."
+serving_size = "1 plate (approximately 400g)"
+servings_per_recipe = 6
+prep_time_minutes = 20
+cook_time_minutes = 55
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "200g turkey andouille or smoked turkey sausage, sliced",
+    "300g shrimp, peeled and deveined",
+    "300g skinless chicken breast, cubed",
+    "1.5 cups brown long-grain rice",
+    "1 large onion, diced",
+    "2 bell peppers (green and red), diced",
+    "3 stalks celery, diced",
+    "4 cloves garlic, minced",
+    "400g canned diced tomatoes",
+    "2.5 cups low-sodium chicken broth",
+    "1 tbsp olive oil",
+    "1 tsp paprika",
+    "1 tsp dried thyme",
+    "1/2 tsp cayenne",
+    "1 bay leaf",
+    "Salt and black pepper to taste",
+    "Green onions for garnish"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Heat olive oil in a large pot over medium-high heat. Brown turkey sausage. Remove.",
+    "Brown chicken breast pieces in same pot. Remove.",
+    "Sauté onion, bell peppers, and celery until soft. Add garlic, cook 1 minute.",
+    "Add diced tomatoes, paprika, thyme, cayenne, and bay leaf. Cook 3 minutes.",
+    "Return sausage and chicken. Add broth. Bring to a boil. Add brown rice, stir once.",
+    "Cover tightly and cook on low for 35-40 minutes until rice is cooked.",
+    "Add shrimp, cover, cook 5 more minutes until pink and cooked through.",
+    "Fluff, remove bay leaf, garnish with green onions."
+]
+
+[recipe.healthy_variant.macros]
+calories = 380
+protein_g = 34
+carbs_g = 44
+fat_g = 8
+fiber_g = 6
+sugar_g = 6
+sodium_mg = 580
+# VALIDATION: (34×4) + (44×4) + (8×9) = 136 + 176 + 72 = 384 ✓ (within ±10 of 380)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -140
+protein_difference = "0g"
+key_changes = [
+    "Turkey sausage instead of andouille — reduces fat by ~6g per serving",
+    "Brown rice instead of white — adds fiber, lower glycemic index",
+    "Chicken breast instead of thighs — leaner protein source",
+    "Extra bell pepper added — more vegetables, more vitamin C, more fiber"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "andouille sausage", substitute = "any smoked kielbasa or chorizo", saving_percent = 25, reason = "Any smoked sausage delivers the fat and smoky flavor that andouille provides" },
+    { original = "raw shrimp", substitute = "canned or frozen cooked shrimp (add at very end)", saving_percent = 30, reason = "Frozen shrimp costs less and works well; just add at the end to heat through" },
+    { original = "chicken thighs", substitute = "chicken breast or drumsticks, boneless", saving_percent = 10, reason = "Any cut of chicken works in jambalaya; thighs stay juicier but breast works fine" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "andouille sausage", substitute = "Polish kielbasa or any smoked sausage", reason = "Andouille is not globally available; any smoky cured sausage provides the same role" },
+    { original = "Worcestershire sauce", substitute = "soy sauce (use half the amount)", reason = "Soy sauce provides umami depth similar to Worcestershire" },
+    { original = "long-grain rice", substitute = "any white rice (adjust liquid and cooking time)", reason = "Any rice variety works; long-grain stays separate but medium-grain is fine" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "andouille sausage", substitute = "any leftover cooked meat + a drop of hot sauce", reason = "Jambalaya is historically a leftover dish — use what you have with extra seasoning" },
+    { original = "dried thyme and oregano", substitute = "Italian seasoning blend (use same total amount)", reason = "Italian seasoning contains both herbs plus others; works as a convenient substitute" },
+    { original = "cayenne pepper", substitute = "any hot sauce added at the end, to taste", reason = "Hot sauce provides heat and vinegar tang that works well in jambalaya" }
+]

@@ -1,0 +1,733 @@
+# ============================================================
+# MANIFEST — FOODO CHATBOT KNOWLEDGE BASE
+# Total recipes: 98
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[meta]
+total_recipes = 98
+cuisines = ["Egyptian", "Khaliji", "American", "Italian", "French", "Greek", "Turkish"]
+dessert_collections = ["Western", "Eastern"]
+schema_version = "1.0"
+
+# ============================================================
+# EGYPTIAN CUISINE (10 recipes)
+# ============================================================
+
+[[recipes]]
+doc_id = "egyptian_koshari"
+dish_name = "Koshari"
+cuisine = "Egyptian"
+category = "main_course"
+standard_calories = 580
+
+[[recipes]]
+doc_id = "egyptian_ful_medames"
+dish_name = "Ful Medames"
+cuisine = "Egyptian"
+category = "main_course"
+standard_calories = 390
+
+[[recipes]]
+doc_id = "egyptian_molokhia"
+dish_name = "Molokhia"
+cuisine = "Egyptian"
+category = "main_course"
+standard_calories = 350
+
+[[recipes]]
+doc_id = "egyptian_mahshi"
+dish_name = "Mahshi"
+cuisine = "Egyptian"
+category = "main_course"
+standard_calories = 410
+
+[[recipes]]
+doc_id = "egyptian_fattah"
+dish_name = "Fattah"
+cuisine = "Egyptian"
+category = "main_course"
+standard_calories = 560
+
+[[recipes]]
+doc_id = "egyptian_hawawshi"
+dish_name = "Hawawshi"
+cuisine = "Egyptian"
+category = "main_course"
+standard_calories = 500
+
+[[recipes]]
+doc_id = "egyptian_bamia"
+dish_name = "Bamia"
+cuisine = "Egyptian"
+category = "main_course"
+standard_calories = 310
+
+[[recipes]]
+doc_id = "egyptian_kofta_meshweya"
+dish_name = "Kofta Meshweya"
+cuisine = "Egyptian"
+category = "main_course"
+standard_calories = 370
+
+[[recipes]]
+doc_id = "egyptian_falafel"
+dish_name = "Falafel"
+cuisine = "Egyptian"
+category = "main_course"
+standard_calories = 380
+
+[[recipes]]
+doc_id = "egyptian_shakshuka"
+dish_name = "Shakshuka"
+cuisine = "Egyptian"
+category = "breakfast"
+standard_calories = 310
+
+# ============================================================
+# KHALIJI (GULF) CUISINE (10 recipes)
+# ============================================================
+
+[[recipes]]
+doc_id = "khaliji_kabsa"
+dish_name = "Kabsa"
+cuisine = "Khaliji"
+category = "main_course"
+standard_calories = 620
+
+[[recipes]]
+doc_id = "khaliji_machboos"
+dish_name = "Machboos"
+cuisine = "Khaliji"
+category = "main_course"
+standard_calories = 590
+
+[[recipes]]
+doc_id = "khaliji_harees"
+dish_name = "Harees"
+cuisine = "Khaliji"
+category = "main_course"
+standard_calories = 480
+
+[[recipes]]
+doc_id = "khaliji_thareed"
+dish_name = "Thareed"
+cuisine = "Khaliji"
+category = "main_course"
+standard_calories = 520
+
+[[recipes]]
+doc_id = "khaliji_mandi"
+dish_name = "Mandi"
+cuisine = "Khaliji"
+category = "main_course"
+standard_calories = 580
+
+[[recipes]]
+doc_id = "khaliji_margoog"
+dish_name = "Margoog"
+cuisine = "Khaliji"
+category = "main_course"
+standard_calories = 540
+
+[[recipes]]
+doc_id = "khaliji_jareesh"
+dish_name = "Jareesh"
+cuisine = "Khaliji"
+category = "main_course"
+standard_calories = 460
+
+[[recipes]]
+doc_id = "khaliji_mutabbaq"
+dish_name = "Mutabbaq"
+cuisine = "Khaliji"
+category = "main_course"
+standard_calories = 540
+
+[[recipes]]
+doc_id = "khaliji_saloona"
+dish_name = "Saloona"
+cuisine = "Khaliji"
+category = "main_course"
+standard_calories = 490
+
+[[recipes]]
+doc_id = "khaliji_balaleet"
+dish_name = "Balaleet"
+cuisine = "Khaliji"
+category = "breakfast"
+standard_calories = 520
+
+# ============================================================
+# AMERICAN CUISINE (10 recipes)
+# ============================================================
+
+[[recipes]]
+doc_id = "american_classic_burger"
+dish_name = "Classic Burger"
+cuisine = "American"
+category = "main_course"
+standard_calories = 660
+
+[[recipes]]
+doc_id = "american_mac_and_cheese"
+dish_name = "Mac and Cheese"
+cuisine = "American"
+category = "main_course"
+standard_calories = 720
+
+[[recipes]]
+doc_id = "american_bbq_ribs"
+dish_name = "BBQ Ribs"
+cuisine = "American"
+category = "main_course"
+standard_calories = 560
+
+[[recipes]]
+doc_id = "american_buffalo_wings"
+dish_name = "Buffalo Wings"
+cuisine = "American"
+category = "main_course"
+standard_calories = 480
+
+[[recipes]]
+doc_id = "american_clam_chowder"
+dish_name = "Clam Chowder"
+cuisine = "American"
+category = "soup"
+standard_calories = 520
+
+[[recipes]]
+doc_id = "american_cornbread"
+dish_name = "Cornbread"
+cuisine = "American"
+category = "side_dish"
+standard_calories = 240
+
+[[recipes]]
+doc_id = "american_jambalaya"
+dish_name = "Jambalaya"
+cuisine = "American"
+category = "main_course"
+standard_calories = 520
+
+[[recipes]]
+doc_id = "american_meatloaf"
+dish_name = "Meatloaf"
+cuisine = "American"
+category = "main_course"
+standard_calories = 420
+
+[[recipes]]
+doc_id = "american_caesar_salad"
+dish_name = "Caesar Salad"
+cuisine = "American"
+category = "salad"
+standard_calories = 380
+
+[[recipes]]
+doc_id = "american_pancakes"
+dish_name = "Pancakes"
+cuisine = "American"
+category = "breakfast"
+standard_calories = 340
+
+# ============================================================
+# ITALIAN CUISINE (10 recipes)
+# ============================================================
+
+[[recipes]]
+doc_id = "italian_margherita_pizza"
+dish_name = "Margherita Pizza"
+cuisine = "Italian"
+category = "main_course"
+standard_calories = 560
+
+[[recipes]]
+doc_id = "italian_spaghetti_carbonara"
+dish_name = "Spaghetti Carbonara"
+cuisine = "Italian"
+category = "main_course"
+standard_calories = 660
+
+[[recipes]]
+doc_id = "italian_lasagna"
+dish_name = "Lasagna"
+cuisine = "Italian"
+category = "main_course"
+standard_calories = 580
+
+[[recipes]]
+doc_id = "italian_risotto_milanese"
+dish_name = "Risotto Milanese"
+cuisine = "Italian"
+category = "main_course"
+standard_calories = 480
+
+[[recipes]]
+doc_id = "italian_osso_buco"
+dish_name = "Osso Buco"
+cuisine = "Italian"
+category = "main_course"
+standard_calories = 420
+
+[[recipes]]
+doc_id = "italian_bruschetta"
+dish_name = "Bruschetta"
+cuisine = "Italian"
+category = "appetizer"
+standard_calories = 280
+
+[[recipes]]
+doc_id = "italian_eggplant_parmigiana"
+dish_name = "Eggplant Parmigiana"
+cuisine = "Italian"
+category = "main_course"
+standard_calories = 380
+
+[[recipes]]
+doc_id = "italian_minestrone"
+dish_name = "Minestrone"
+cuisine = "Italian"
+category = "soup"
+standard_calories = 280
+
+[[recipes]]
+doc_id = "italian_pesto_pasta"
+dish_name = "Pesto Pasta"
+cuisine = "Italian"
+category = "main_course"
+standard_calories = 620
+
+[[recipes]]
+doc_id = "italian_arancini"
+dish_name = "Arancini"
+cuisine = "Italian"
+category = "appetizer"
+standard_calories = 520
+
+# ============================================================
+# FRENCH CUISINE (10 recipes)
+# ============================================================
+
+[[recipes]]
+doc_id = "french_coq_au_vin"
+dish_name = "Coq au Vin"
+cuisine = "French"
+category = "main_course"
+standard_calories = 580
+
+[[recipes]]
+doc_id = "french_cassoulet"
+dish_name = "Cassoulet"
+cuisine = "French"
+category = "main_course"
+standard_calories = 810
+
+[[recipes]]
+doc_id = "french_ratatouille"
+dish_name = "Ratatouille"
+cuisine = "French"
+category = "main_course"
+standard_calories = 220
+
+[[recipes]]
+doc_id = "french_french_onion_soup"
+dish_name = "French Onion Soup"
+cuisine = "French"
+category = "soup"
+standard_calories = 420
+
+[[recipes]]
+doc_id = "french_beef_bourguignon"
+dish_name = "Beef Bourguignon"
+cuisine = "French"
+category = "main_course"
+standard_calories = 560
+
+[[recipes]]
+doc_id = "french_quiche_lorraine"
+dish_name = "Quiche Lorraine"
+cuisine = "French"
+category = "main_course"
+standard_calories = 520
+
+[[recipes]]
+doc_id = "french_crepes"
+dish_name = "Crepes"
+cuisine = "French"
+category = "breakfast"
+standard_calories = 460
+
+[[recipes]]
+doc_id = "french_bouillabaisse"
+dish_name = "Bouillabaisse"
+cuisine = "French"
+category = "soup"
+standard_calories = 420
+
+[[recipes]]
+doc_id = "french_croissant"
+dish_name = "Croissant"
+cuisine = "French"
+category = "breakfast"
+standard_calories = 340
+
+[[recipes]]
+doc_id = "french_nicoise_salad"
+dish_name = "Nicoise Salad"
+cuisine = "French"
+category = "salad"
+standard_calories = 460
+
+# ============================================================
+# GREEK CUISINE (10 recipes)
+# ============================================================
+
+[[recipes]]
+doc_id = "greek_moussaka"
+dish_name = "Moussaka"
+cuisine = "Greek"
+category = "main_course"
+standard_calories = 430
+
+[[recipes]]
+doc_id = "greek_souvlaki"
+dish_name = "Souvlaki"
+cuisine = "Greek"
+category = "main_course"
+standard_calories = 430
+
+[[recipes]]
+doc_id = "greek_spanakopita"
+dish_name = "Spanakopita"
+cuisine = "Greek"
+category = "main_course"
+standard_calories = 320
+
+[[recipes]]
+doc_id = "greek_pastitsio"
+dish_name = "Pastitsio"
+cuisine = "Greek"
+category = "main_course"
+standard_calories = 520
+
+[[recipes]]
+doc_id = "greek_greek_salad"
+dish_name = "Greek Salad"
+cuisine = "Greek"
+category = "salad"
+standard_calories = 320
+
+[[recipes]]
+doc_id = "greek_tzatziki"
+dish_name = "Tzatziki"
+cuisine = "Greek"
+category = "side_dish"
+standard_calories = 110
+
+[[recipes]]
+doc_id = "greek_dolmades"
+dish_name = "Dolmades"
+cuisine = "Greek"
+category = "appetizer"
+standard_calories = 280
+
+[[recipes]]
+doc_id = "greek_stifado"
+dish_name = "Stifado"
+cuisine = "Greek"
+category = "main_course"
+standard_calories = 420
+
+[[recipes]]
+doc_id = "greek_fasolada"
+dish_name = "Fasolada"
+cuisine = "Greek"
+category = "soup"
+standard_calories = 320
+
+[[recipes]]
+doc_id = "greek_gyros"
+dish_name = "Gyros"
+cuisine = "Greek"
+category = "main_course"
+standard_calories = 540
+
+# ============================================================
+# TURKISH CUISINE (10 recipes)
+# ============================================================
+
+[[recipes]]
+doc_id = "turkish_iskender_kebab"
+dish_name = "Iskender Kebab"
+cuisine = "Turkish"
+category = "main_course"
+standard_calories = 620
+
+[[recipes]]
+doc_id = "turkish_lahmacun"
+dish_name = "Lahmacun"
+cuisine = "Turkish"
+category = "main_course"
+standard_calories = 480
+
+[[recipes]]
+doc_id = "turkish_manti"
+dish_name = "Manti"
+cuisine = "Turkish"
+category = "main_course"
+standard_calories = 520
+
+[[recipes]]
+doc_id = "turkish_pide"
+dish_name = "Pide"
+cuisine = "Turkish"
+category = "main_course"
+standard_calories = 560
+
+[[recipes]]
+doc_id = "turkish_imam_bayildi"
+dish_name = "Imam Bayildi"
+cuisine = "Turkish"
+category = "main_course"
+standard_calories = 280
+
+[[recipes]]
+doc_id = "turkish_mercimek_corbasi"
+dish_name = "Mercimek Corbasi"
+cuisine = "Turkish"
+category = "soup"
+standard_calories = 260
+
+[[recipes]]
+doc_id = "turkish_borek"
+dish_name = "Borek"
+cuisine = "Turkish"
+category = "main_course"
+standard_calories = 380
+
+[[recipes]]
+doc_id = "turkish_adana_kebab"
+dish_name = "Adana Kebab"
+cuisine = "Turkish"
+category = "main_course"
+standard_calories = 480
+
+[[recipes]]
+doc_id = "turkish_menemen"
+dish_name = "Menemen"
+cuisine = "Turkish"
+category = "breakfast"
+standard_calories = 300
+
+[[recipes]]
+doc_id = "turkish_hunkar_begendi"
+dish_name = "Hunkar Begendi"
+cuisine = "Turkish"
+category = "main_course"
+standard_calories = 520
+
+# ============================================================
+# WESTERN DESSERTS (14 recipes)
+# ============================================================
+
+[[recipes]]
+doc_id = "western_chocolate_lava_cake"
+dish_name = "Chocolate Lava Cake"
+cuisine = "American"
+category = "dessert"
+standard_calories = 420
+
+[[recipes]]
+doc_id = "western_new_york_cheesecake"
+dish_name = "New York Cheesecake"
+cuisine = "American"
+category = "dessert"
+standard_calories = 480
+
+[[recipes]]
+doc_id = "western_creme_brulee"
+dish_name = "Creme Brulee"
+cuisine = "French"
+category = "dessert"
+standard_calories = 340
+
+[[recipes]]
+doc_id = "western_apple_crumble"
+dish_name = "Apple Crumble"
+cuisine = "British"
+category = "dessert"
+standard_calories = 380
+
+[[recipes]]
+doc_id = "western_brownies"
+dish_name = "Brownies"
+cuisine = "American"
+category = "dessert"
+standard_calories = 320
+
+[[recipes]]
+doc_id = "western_tiramisu"
+dish_name = "Tiramisu"
+cuisine = "Italian"
+category = "dessert"
+standard_calories = 390
+
+[[recipes]]
+doc_id = "western_panna_cotta"
+dish_name = "Panna Cotta"
+cuisine = "Italian"
+category = "dessert"
+standard_calories = 340
+
+[[recipes]]
+doc_id = "western_churros"
+dish_name = "Churros"
+cuisine = "Spanish"
+category = "dessert"
+standard_calories = 420
+
+[[recipes]]
+doc_id = "western_macarons"
+dish_name = "Macarons"
+cuisine = "French"
+category = "dessert"
+standard_calories = 180
+
+[[recipes]]
+doc_id = "western_red_velvet_cake"
+dish_name = "Red Velvet Cake"
+cuisine = "American"
+category = "dessert"
+standard_calories = 520
+
+[[recipes]]
+doc_id = "western_banana_bread"
+dish_name = "Banana Bread"
+cuisine = "American"
+category = "dessert"
+standard_calories = 290
+
+[[recipes]]
+doc_id = "western_lemon_tart"
+dish_name = "Lemon Tart"
+cuisine = "French"
+category = "dessert"
+standard_calories = 360
+
+[[recipes]]
+doc_id = "western_molten_cookie"
+dish_name = "Molten Skillet Cookie"
+cuisine = "American"
+category = "dessert"
+standard_calories = 620
+
+[[recipes]]
+doc_id = "western_profiteroles"
+dish_name = "Profiteroles"
+cuisine = "French"
+category = "dessert"
+standard_calories = 420
+
+# ============================================================
+# EASTERN DESSERTS (14 recipes)
+# ============================================================
+
+[[recipes]]
+doc_id = "eastern_kunafa"
+dish_name = "Kunafa"
+cuisine = "Levantine"
+category = "dessert"
+standard_calories = 420
+
+[[recipes]]
+doc_id = "eastern_baklava"
+dish_name = "Baklava"
+cuisine = "Turkish"
+category = "dessert"
+standard_calories = 280
+
+[[recipes]]
+doc_id = "eastern_basbousa"
+dish_name = "Basbousa"
+cuisine = "Egyptian"
+category = "dessert"
+standard_calories = 260
+
+[[recipes]]
+doc_id = "eastern_umm_ali"
+dish_name = "Umm Ali"
+cuisine = "Egyptian"
+category = "dessert"
+standard_calories = 520
+
+[[recipes]]
+doc_id = "eastern_qatayef"
+dish_name = "Qatayef"
+cuisine = "Levantine"
+category = "dessert"
+standard_calories = 480
+
+[[recipes]]
+doc_id = "eastern_maamoul"
+dish_name = "Maamoul"
+cuisine = "Levantine"
+category = "dessert"
+standard_calories = 200
+
+[[recipes]]
+doc_id = "eastern_halawet_el_jibn"
+dish_name = "Halawet El Jibn"
+cuisine = "Syrian"
+category = "dessert"
+standard_calories = 380
+
+[[recipes]]
+doc_id = "eastern_lokma"
+dish_name = "Lokma"
+cuisine = "Turkish"
+category = "dessert"
+standard_calories = 360
+
+[[recipes]]
+doc_id = "eastern_riz_bi_haleeb"
+dish_name = "Riz bi Haleeb"
+cuisine = "Lebanese"
+category = "dessert"
+standard_calories = 340
+
+[[recipes]]
+doc_id = "eastern_znoud_el_sit"
+dish_name = "Znoud El Sit"
+cuisine = "Lebanese"
+category = "dessert"
+standard_calories = 420
+
+[[recipes]]
+doc_id = "eastern_gulash_bil_cream"
+dish_name = "Gulash bil Cream"
+cuisine = "Egyptian"
+category = "dessert"
+standard_calories = 420
+
+[[recipes]]
+doc_id = "eastern_balah_el_sham"
+dish_name = "Balah El Sham"
+cuisine = "Egyptian"
+category = "dessert"
+standard_calories = 400
+
+[[recipes]]
+doc_id = "eastern_luqaimat"
+dish_name = "Luqaimat"
+cuisine = "Khaliji"
+category = "dessert"
+standard_calories = 340
+
+[[recipes]]
+doc_id = "eastern_halva"
+dish_name = "Halva"
+cuisine = "Turkish"
+category = "dessert"
+standard_calories = 360

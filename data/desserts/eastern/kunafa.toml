@@ -1,0 +1,142 @@
+[metadata]
+doc_id = "eastern_kunafa"
+cuisine = "Eastern Dessert"
+dish_name = "Kunafa"
+alternate_names = ["Knafeh", "Kanafeh", "Konafa"]
+category = "dessert"
+tags = ["cheese", "syrup", "shredded-pastry", "levantine", "palestinian", "baked"]
+allergens = ["gluten", "dairy"]
+difficulty = "medium"
+total_time_minutes = 75
+
+[recipe.standard]
+serving_size = "1 piece (approximately 150g)"
+servings_per_recipe = 12
+prep_time_minutes = 25
+cook_time_minutes = 50
+
+[recipe.standard.ingredients]
+items = [
+    "500g kataifi (shredded phyllo dough / kadayif)",
+    "200g unsalted butter, melted",
+    "500g Nabulsi cheese (or Akkawi cheese), desalted and sliced",
+    "200g fresh ricotta cheese",
+    "1 tbsp orange blossom water",
+    "1 tbsp rose water",
+    "1/2 tsp orange food coloring (optional, for traditional orange color)",
+    "2 tbsp coarse semolina",
+    "For sugar syrup: 2 cups (400g) granulated white sugar",
+    "For sugar syrup: 1 cup (240ml) water",
+    "For sugar syrup: 1 tsp lemon juice",
+    "For sugar syrup: 1 tbsp orange blossom water",
+    "For sugar syrup: 1 tbsp rose water",
+    "Crushed pistachios, for garnish"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Prepare the sugar syrup first: combine sugar, water, and lemon juice in a saucepan over medium heat. Stir until sugar dissolves, then bring to a boil. Simmer for 8–10 minutes without stirring until slightly thickened. Remove from heat, stir in orange blossom water and rose water. Set aside to cool.",
+    "Desalt the Nabulsi cheese by soaking in cold water for 2–3 hours (or overnight), changing water every 30 minutes. Drain and pat dry. If using Akkawi, repeat the same process.",
+    "Mix the desalted Nabulsi cheese and ricotta together. Add rose water and orange blossom water to the cheese mixture and combine well.",
+    "Loosen the kataifi strands by pulling them apart. Toss with melted butter until every strand is well coated. If using food coloring, mix it into the butter before coating.",
+    "Preheat oven to 375°F (190°C). Grease a round 12-inch (30cm) baking pan with butter.",
+    "Press half the buttered kataifi evenly into the bottom of the pan, pressing firmly to form a compact layer. Sprinkle the semolina over the base layer to absorb moisture.",
+    "Spread the cheese mixture evenly over the kataifi base, leaving a small border around the edges.",
+    "Top with the remaining kataifi, pressing gently to seal the cheese layer. Press the top layer firmly to ensure even cooking.",
+    "Bake in the preheated oven at 375°F (190°C) for 40–50 minutes, until the top is deep golden-orange and crisp.",
+    "Immediately upon removing from the oven, invert the kunafa onto a large serving platter. Pour about two-thirds of the cooled sugar syrup evenly over the hot kunafa.",
+    "Garnish generously with crushed pistachios. Serve immediately while warm, with remaining syrup on the side."
+]
+
+[recipe.standard.macros]
+calories = 420
+protein_g = 10
+carbs_g = 52
+fat_g = 19
+fiber_g = 1
+sugar_g = 36
+sodium_mg = 310
+
+[recipe.healthy_variant]
+variant_name = "Light Kunafa with Reduced Syrup"
+variant_type = "low_calorie"
+description = "A lighter version of the classic using a thinner base, low-fat ricotta, and a 50% reduced-sugar honey syrup instead of the full sugar syrup. Phyllo is misted with olive oil spray instead of brushed with butter."
+serving_size = "1 piece (approximately 130g)"
+servings_per_recipe = 12
+prep_time_minutes = 25
+cook_time_minutes = 45
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "400g kataifi (shredded phyllo dough)",
+    "Olive oil cooking spray (instead of butter)",
+    "350g low-fat ricotta cheese",
+    "200g light cream cheese",
+    "1 tbsp orange blossom water",
+    "1 tbsp rose water",
+    "1 tbsp coarse semolina",
+    "For honey syrup: 3 tbsp raw honey",
+    "For honey syrup: 1/2 cup (120ml) water",
+    "For honey syrup: 1 tsp lemon juice",
+    "For honey syrup: 1 tsp orange blossom water",
+    "2 tbsp crushed pistachios, for garnish"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Prepare reduced honey syrup: combine honey, water, and lemon juice in a small saucepan. Bring to a simmer over low heat for 5 minutes. Stir in orange blossom water and remove from heat. The syrup will be thin — this is intentional for a lighter coating.",
+    "Mix low-fat ricotta and light cream cheese together until smooth. Stir in orange blossom water and rose water.",
+    "Loosen kataifi strands and spread them on a baking sheet. Spray evenly with olive oil cooking spray in two rounds, tossing between rounds to coat all strands.",
+    "Preheat oven to 375°F (190°C). Lightly spray a 12-inch (30cm) round pan with cooking spray.",
+    "Press half the oiled kataifi into the pan to form a thin, even base. Sprinkle semolina over the base.",
+    "Spread the cheese mixture evenly over the base.",
+    "Cover with remaining kataifi and press down firmly. Spray the top lightly with cooking spray.",
+    "Bake at 375°F (190°C) for 40–45 minutes until golden and crisp.",
+    "Invert onto a serving platter. Drizzle the honey syrup evenly over the top.",
+    "Garnish with crushed pistachios and serve warm."
+]
+
+[recipe.healthy_variant.macros]
+calories = 260
+protein_g = 9
+carbs_g = 30
+fat_g = 11
+fiber_g = 1
+sugar_g = 16
+sodium_mg = 210
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -160
+protein_difference = "-1g"
+key_changes = [
+    "Replaced 200g butter with olive oil spray, drastically reducing saturated fat",
+    "Eliminated full-sugar syrup (400g sugar) in favor of a light honey-water syrup",
+    "Used light cream cheese and low-fat ricotta instead of high-fat Nabulsi/Akkawi cheese",
+    "Reduced total kataifi quantity and pressed thinner base layer"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "Nabulsi cheese", substitute = "Mozzarella cheese", saving_percent = 55, reason = "Mozzarella is widely available and much cheaper; its mild flavor and melt closely mimic Nabulsi. Desalting step is not required." },
+    { original = "Pistachios (garnish)", substitute = "Crushed walnuts or almonds", saving_percent = 40, reason = "Walnuts and almonds cost significantly less than pistachios while providing a similar crunchy garnish and nutty flavor." },
+    { original = "Orange blossom water", substitute = "Vanilla extract (1/4 tsp)", saving_percent = 50, reason = "Orange blossom water is specialty-priced; a small amount of vanilla provides comparable aromatic sweetness at a fraction of the cost." }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Kataifi (shredded phyllo)", substitute = "Vermicelli noodles, toasted", reason = "Shredded phyllo can be hard to find outside Middle Eastern stores; thin toasted vermicelli gives a similar crunch and golden color." },
+    { original = "Nabulsi cheese", substitute = "Fresh mozzarella + a pinch of salt", reason = "Nabulsi is uncommon outside Levantine communities; fresh mozzarella provides the same stretch and mild dairy flavor." },
+    { original = "Rose water", substitute = "A few drops of vanilla extract", reason = "Rose water is not stocked in all supermarkets; vanilla adds a comparable floral-sweet aromatic note." }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "Kataifi mold / round baking pan", substitute = "Standard oven-safe skillet or springform pan", reason = "A well-greased cast-iron skillet or springform pan produces an identical result and flips cleanly." },
+    { original = "Pastry brush for butter", substitute = "Hands or two forks to toss strands", reason = "Tossing strands by hand or with forks coats them in butter just as effectively as a pastry brush." },
+    { original = "Sugar thermometer", substitute = "Cold-water drop test", reason = "Drop a small amount of syrup into cold water — thread stage (soft, pliable strand) indicates the syrup is ready without any equipment." },
+    { original = "Commercial food coloring", substitute = "Saffron water (pinch of saffron steeped in 1 tbsp warm water)", reason = "Saffron gives the same golden-orange hue and adds a subtle floral flavor with no artificial additives." },
+    { original = "Nabulsi cheese (specialty)", substitute = "Ricotta + stretched fresh mozzarella mix", reason = "Combining ricotta for creaminess and mozzarella for stretch recreates the texture of Nabulsi from pantry-accessible dairy." },
+    { original = "Large round serving tray", substitute = "Inverted baking sheet lined with parchment", reason = "A parchment-lined baking sheet is large enough to catch the inverted kunafa and present it for serving." }
+]

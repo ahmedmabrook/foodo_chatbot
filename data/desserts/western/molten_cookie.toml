@@ -1,0 +1,137 @@
+# ============================================================
+# RECIPE DOCUMENT — MOLTEN COOKIE (SKILLET COOKIE)
+# Cuisine: American / Western Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "western_molten_cookie"
+cuisine = "American"
+dish_name = "Molten Skillet Cookie"
+alternate_names = ["Pizookie", "Skillet Cookie", "Deep Dish Cookie", "Giant Cookie"]
+category = "dessert"
+tags = ["american", "comfort_food", "indulgent", "quick", "contains_gluten", "contains_dairy", "contains_eggs", "vegetarian"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "easy"
+total_time_minutes = 30
+
+[recipe.standard]
+serving_size = "1 slice with ice cream (approximately 180g)"
+servings_per_recipe = 6
+prep_time_minutes = 10
+cook_time_minutes = 20
+
+[recipe.standard.ingredients]
+items = [
+    "170g unsalted butter",
+    "150g granulated sugar",
+    "100g brown sugar, packed",
+    "2 large eggs",
+    "1 tsp pure vanilla extract",
+    "280g all-purpose flour",
+    "1 tsp baking soda",
+    "1/2 tsp salt",
+    "300g dark chocolate chips",
+    "Serving: 2-3 scoops vanilla ice cream"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Preheat oven to 350°F (175°C). Generously butter a 10-inch cast-iron skillet.",
+    "Melt butter in the skillet over medium heat until lightly browned (it will smell nutty). Remove from heat and cool slightly.",
+    "Whisk both sugars into the browned butter in the skillet. Add eggs and vanilla, whisking until combined.",
+    "Add flour, baking soda, and salt. Stir until just combined.",
+    "Fold in chocolate chips.",
+    "Press dough evenly into the buttered skillet.",
+    "Bake at 350°F (175°C) for 18-22 minutes until the edges are golden but the center still looks underdone and slightly glossy. The center will set as it cools.",
+    "Serve immediately from the skillet topped with scoops of vanilla ice cream. Eat while warm."
+]
+
+[recipe.standard.macros]
+calories = 620
+protein_g = 7
+carbs_g = 82
+fat_g = 30
+fiber_g = 3
+sugar_g = 58
+sodium_mg = 280
+# VALIDATION: (7×4) + (82×4) + (30×9) = 28 + 328 + 270 = 626 ✓ (within ±10 of 620)
+
+[recipe.healthy_variant]
+variant_name = "Oat-Almond Skillet Cookie with Dark Chocolate and Banana"
+variant_type = "low_calorie"
+description = "A healthier skillet cookie using a mix of oat flour and almond flour instead of all-purpose flour, coconut oil instead of butter, mashed banana and honey instead of refined sugar, and dark chocolate chunks (70%+). Higher in fiber and healthy fats, served with low-fat frozen yogurt instead of ice cream."
+serving_size = "1 slice with frozen yogurt (approximately 170g)"
+servings_per_recipe = 6
+prep_time_minutes = 10
+cook_time_minutes = 22
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "90g coconut oil, melted",
+    "1 ripe banana, mashed",
+    "80g honey or maple syrup",
+    "80g brown sugar",
+    "2 large eggs",
+    "1 tsp vanilla extract",
+    "150g oat flour",
+    "100g almond flour",
+    "1 tsp baking soda",
+    "1/2 tsp salt",
+    "150g dark chocolate chunks (70%+)",
+    "Serving: low-fat vanilla frozen yogurt"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 350°F (175°C). Lightly oil a 10-inch cast-iron skillet.",
+    "Whisk together coconut oil, mashed banana, honey, brown sugar, eggs, and vanilla until combined.",
+    "Add oat flour, almond flour, baking soda, and salt. Stir until just combined.",
+    "Fold in dark chocolate chunks.",
+    "Press dough into the prepared skillet.",
+    "Bake at 350°F (175°C) for 18-22 minutes until edges are set and center is slightly underdone.",
+    "Serve warm with low-fat frozen yogurt."
+]
+
+[recipe.healthy_variant.macros]
+calories = 415
+protein_g = 8
+carbs_g = 52
+fat_g = 20
+fiber_g = 4
+sugar_g = 34
+sodium_mg = 240
+# VALIDATION: (8×4) + (52×4) + (20×9) = 32 + 208 + 180 = 420 ✓ (within ±10 of 415)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -205
+protein_difference = "+1g"
+key_changes = [
+    "Oat + almond flour instead of all-purpose — adds fiber and reduces refined carbs",
+    "Banana and honey replace most refined sugar — natural sweetness with lower glycemic impact",
+    "Coconut oil instead of butter — reduces saturated fat",
+    "Dark 70%+ chocolate instead of standard chips — more antioxidants, less sugar"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "cast-iron skillet", substitute = "any oven-safe round baking dish or 9-inch cake pan", saving_percent = 100, reason = "Any oven-proof dish works; cast iron gives crispy edges but is not essential" },
+    { original = "dark chocolate chips (300g)", substitute = "chopped chocolate bar (any type) or fewer chips", saving_percent = 30, reason = "Any chocolate works; reducing the amount saves money without losing the essential cookie character" },
+    { original = "vanilla ice cream for serving", substitute = "plain yogurt or skip the topping", saving_percent = 60, reason = "A warm cookie is excellent served simply with a dollop of yogurt or plain" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "cast-iron skillet", substitute = "9-inch (23cm) round cake pan lined with parchment", reason = "A lined cake pan produces an identical deep-dish cookie result" },
+    { original = "browned butter technique", substitute = "simply melted butter (skip browning step)", reason = "Browned butter adds nuttiness but melted butter produces an equally delicious cookie" },
+    { original = "dark chocolate chips", substitute = "milk chocolate chips or mixed chocolate types", reason = "Any chocolate chips work; flavor preference determines the best choice" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "all-purpose flour", substitute = "self-raising flour (omit baking soda)", reason = "Self-raising flour includes leavening; skip the added baking soda" },
+    { original = "brown sugar", substitute = "regular white sugar + 1 tsp molasses", reason = "White sugar plus a drop of molasses replicates brown sugar's moisture and caramel notes" },
+    { original = "chocolate chips", substitute = "any chocolate bar broken into rough pieces", reason = "Any chocolate form provides the melted chocolate pockets in the baked cookie" }
+]

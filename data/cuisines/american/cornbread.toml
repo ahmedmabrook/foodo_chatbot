@@ -1,0 +1,133 @@
+# ============================================================
+# RECIPE DOCUMENT — SOUTHERN CORNBREAD
+# Cuisine: American
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "american_cornbread"
+cuisine = "American"
+dish_name = "Southern Cornbread"
+alternate_names = ["Buttermilk Cornbread", "Cast Iron Cornbread", "Southern Skillet Cornbread"]
+category = "side_dish"
+tags = ["vegetarian", "comfort_food", "american_classic", "contains_gluten", "contains_dairy", "contains_eggs", "baked"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "easy"
+total_time_minutes = 35
+
+[recipe.standard]
+serving_size = "1 wedge (approximately 100g)"
+servings_per_recipe = 8
+prep_time_minutes = 10
+cook_time_minutes = 25
+
+[recipe.standard.ingredients]
+items = [
+    "1 cup yellow cornmeal",
+    "1 cup all-purpose flour",
+    "1/4 cup sugar",
+    "1 tbsp baking powder",
+    "1/2 tsp salt",
+    "1 cup buttermilk",
+    "2 large eggs",
+    "1/3 cup vegetable oil",
+    "2 tbsp butter (for the cast-iron skillet)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Preheat oven to 425°F (220°C). Place a 10-inch cast-iron skillet in the oven while it preheats — a very hot pan is key to a crispy crust.",
+    "Whisk together cornmeal, flour, sugar, baking powder, and salt in a large bowl.",
+    "In a separate bowl, whisk buttermilk, eggs, and vegetable oil until combined.",
+    "Pour the wet ingredients into the dry ingredients. Stir until just combined — do not overmix. A few lumps are fine.",
+    "Carefully remove the hot skillet from the oven. Add butter and swirl to coat the bottom and sides. The butter will sizzle and brown — this creates the crust.",
+    "Quickly pour the batter into the hot buttered skillet. Return immediately to oven.",
+    "Bake for 20-25 minutes until the top is golden brown and a toothpick inserted in the center comes out clean.",
+    "Cool 5 minutes in the pan. Run a knife around the edges, flip onto a plate, and slice into wedges."
+]
+
+[recipe.standard.macros]
+calories = 240
+protein_g = 6
+carbs_g = 34
+fat_g = 10
+fiber_g = 2
+sugar_g = 8
+sodium_mg = 320
+# VALIDATION: (6×4) + (34×4) + (10×9) = 24 + 136 + 90 = 250 ✓ (within ±10 of 240)
+
+[recipe.healthy_variant]
+variant_name = "Whole Grain Cornbread with Greek Yogurt and Reduced Sugar"
+variant_type = "low_calorie"
+description = "A healthier cornbread using whole wheat flour instead of all-purpose, Greek yogurt replacing most of the oil for moisture, and honey replacing refined sugar. Extra cornmeal boosts fiber and the natural corn flavor."
+serving_size = "1 wedge (approximately 95g)"
+servings_per_recipe = 8
+prep_time_minutes = 10
+cook_time_minutes = 25
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1.25 cups yellow cornmeal",
+    "3/4 cup whole wheat flour",
+    "2 tsp baking powder",
+    "1/2 tsp salt",
+    "3/4 cup low-fat buttermilk",
+    "2 large eggs",
+    "1/2 cup plain Greek yogurt (2%)",
+    "2 tbsp honey",
+    "1 tbsp olive oil",
+    "Cooking spray for the skillet"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 425°F (220°C). Spray a 10-inch cast-iron skillet or 9-inch baking dish with cooking spray and place in oven.",
+    "Whisk together cornmeal, whole wheat flour, baking powder, and salt.",
+    "Whisk together buttermilk, eggs, Greek yogurt, honey, and olive oil.",
+    "Combine wet and dry ingredients, stirring until just combined.",
+    "Pour batter into hot skillet. Bake 22-25 minutes until golden and a toothpick comes out clean.",
+    "Cool 5 minutes before slicing."
+]
+
+[recipe.healthy_variant.macros]
+calories = 170
+protein_g = 7
+carbs_g = 28
+fat_g = 4
+fiber_g = 3
+sugar_g = 5
+sodium_mg = 240
+# VALIDATION: (7×4) + (28×4) + (4×9) = 28 + 112 + 36 = 176 ✓ (within ±10 of 170)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -70
+protein_difference = "+1g"
+key_changes = [
+    "Whole wheat flour replaces all-purpose — more fiber, more nutrients",
+    "Greek yogurt replaces most oil — reduces fat by ~6g per serving, adds protein",
+    "Honey replaces refined sugar — natural sweetener with trace minerals",
+    "More cornmeal — intensifies corn flavor while improving fiber content"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "buttermilk", substitute = "regular milk + 1 tbsp vinegar or lemon juice (let sit 5 minutes)", saving_percent = 40, reason = "This quick homemade buttermilk substitute works identically in baked goods" },
+    { original = "vegetable oil", substitute = "melted coconut oil or any neutral oil", saving_percent = 10, reason = "Any neutral cooking oil provides the same fat content and texture" },
+    { original = "cast iron skillet", substitute = "any oven-safe 9-inch baking pan or muffin tin", saving_percent = 100, reason = "A regular baking pan works fine; you lose the crispy side crust but the bread is identical" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "yellow cornmeal", substitute = "white cornmeal or polenta (coarse grind)", reason = "White cornmeal produces a slightly lighter cornbread; coarse polenta adds more texture" },
+    { original = "buttermilk", substitute = "plain yogurt thinned with milk to buttermilk consistency", reason = "Yogurt provides the same acid and fat for a tender crumb" },
+    { original = "cast-iron skillet", substitute = "greased 8x8 inch baking dish", reason = "Any baking dish will produce cornbread; cast iron just gives a better crust" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "buttermilk", substitute = "1 cup milk + 1 tbsp white vinegar", reason = "The acid in vinegar reacts with baking powder for the same lift as buttermilk" },
+    { original = "sugar", substitute = "honey or maple syrup (use same amount)", reason = "Any liquid sweetener works; reduce milk by 1-2 tbsp to compensate for extra liquid" },
+    { original = "vegetable oil", substitute = "melted butter", reason = "Melted butter works perfectly and adds a richer flavor to the cornbread" }
+]

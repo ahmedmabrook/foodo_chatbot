@@ -1,0 +1,154 @@
+# ============================================================
+# RECIPE DOCUMENT — MAHSHI
+# Cuisine: Egyptian
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "egyptian_mahshi"
+cuisine = "Egyptian"
+dish_name = "Mahshi"
+alternate_names = ["Mahasha", "Warak Dawali", "Stuffed Grape Leaves"]
+category = "main_course"
+tags = ["comfort_food", "vegetarian", "festive", "traditional", "contains_gluten"]
+allergens = ["none"]
+difficulty = "hard"
+total_time_minutes = 120
+
+# ============================================================
+# STANDARD (TRADITIONAL) RECIPE
+# ============================================================
+[recipe.standard]
+serving_size = "1 plate (approximately 350g, 8-10 pieces)"
+servings_per_recipe = 6
+prep_time_minutes = 60
+cook_time_minutes = 60
+
+[recipe.standard.ingredients]
+items = [
+    "30 fresh or jarred grape leaves (or 4 medium bell peppers and 2 zucchini)",
+    "2 cups short-grain rice, washed and soaked 20 minutes",
+    "400g ground beef or lamb (optional — omit for vegetarian)",
+    "3 medium tomatoes, diced",
+    "1 large onion, finely diced",
+    "1/2 cup fresh parsley, finely chopped",
+    "1/2 cup fresh dill, finely chopped",
+    "4 tbsp olive oil",
+    "2 tbsp tomato paste",
+    "1 tsp cumin",
+    "1 tsp coriander",
+    "1 tsp allspice",
+    "1/2 tsp cinnamon",
+    "Salt and black pepper to taste",
+    "Juice of 2 lemons",
+    "1 cup chicken or vegetable broth"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Prepare the stuffing: combine soaked rice, diced tomatoes, onion, parsley, dill, 2 tbsp olive oil, tomato paste, cumin, coriander, allspice, cinnamon, salt, and pepper in a large bowl. If using meat, add it now. Mix thoroughly.",
+    "If using grape leaves: blanch fresh leaves in boiling water for 2 minutes to soften. Rinse jarred leaves. Pat dry. If stuffing peppers or zucchini: cut tops off peppers and hollow out seeds; cut zucchini tops and hollow with a spoon.",
+    "For grape leaves: place a leaf vein-side up. Add 1 tsp of stuffing near the stem end. Fold the bottom up, fold in the sides, then roll tightly into a finger-sized cylinder. Do not overfill — the rice will expand.",
+    "For peppers/zucchini: fill each with stuffing, leaving 1 cm at the top for rice expansion.",
+    "Line a heavy pot with sliced tomatoes or empty grape leaves to prevent sticking. Arrange stuffed grape leaves tightly in layers seam-side down. Place stuffed peppers/zucchini upright around the pot.",
+    "Mix lemon juice, remaining olive oil, and broth. Pour over the mahshi. Place a heavy plate on top to keep rolls in place. Add water to just cover.",
+    "Bring to a boil over high heat, then reduce to low. Cover and simmer for 45-55 minutes until rice is fully cooked and liquid is absorbed. Check after 40 minutes.",
+    "Remove from heat and let rest 10 minutes before uncovering and serving."
+]
+
+[recipe.standard.macros]
+calories = 410
+protein_g = 18
+carbs_g = 52
+fat_g = 14
+fiber_g = 5
+sugar_g = 4
+sodium_mg = 420
+# VALIDATION: (18×4) + (52×4) + (14×9) = 72 + 208 + 126 = 406 ✓ (within ±10 of 410)
+
+# ============================================================
+# HEALTHY VARIANT
+# ============================================================
+[recipe.healthy_variant]
+variant_name = "Mahshi with Cauliflower Rice and Extra Vegetables"
+variant_type = "low_carb"
+description = "A low-carb stuffed vegetable dish using cauliflower rice as the base instead of white rice. The filling is packed with extra herbs and vegetables, and grape leaves are used exclusively. Omits meat entirely for a fiber-rich vegetarian version."
+serving_size = "1 plate (approximately 320g, 8-10 pieces)"
+servings_per_recipe = 6
+prep_time_minutes = 55
+cook_time_minutes = 40
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "30 fresh or jarred grape leaves",
+    "1 medium cauliflower head, grated into rice-sized pieces (about 3 cups)",
+    "3 medium tomatoes, finely diced",
+    "1 large onion, finely diced",
+    "1 cup fresh parsley, finely chopped",
+    "1/2 cup fresh mint, finely chopped",
+    "1/2 cup fresh dill, finely chopped",
+    "1 tbsp olive oil",
+    "1 tsp cumin",
+    "1 tsp coriander",
+    "1/2 tsp allspice",
+    "Salt and black pepper to taste",
+    "Juice of 3 lemons",
+    "1 cup vegetable broth"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Prepare cauliflower rice: grate or pulse cauliflower florets in a food processor until rice-sized. Squeeze out excess moisture with a clean towel.",
+    "Mix cauliflower rice with diced tomatoes, onion, parsley, mint, dill, olive oil, cumin, coriander, allspice, salt, and pepper. Let sit 10 minutes.",
+    "Blanch grape leaves in boiling water for 2 minutes. Pat dry.",
+    "Roll grape leaves: place leaf vein-side up, add 1 tsp cauliflower filling near stem. Fold bottom up, fold in sides, roll into a tight cylinder.",
+    "Line a pot with tomato slices. Arrange stuffed grape leaves tightly seam-side down in layers.",
+    "Pour lemon juice, broth, and a pinch of salt over the rolls. Place a heavy plate on top.",
+    "Bring to a boil, then reduce to low heat. Simmer for 30-35 minutes until grape leaves are very tender. Cauliflower cooks faster than rice — check at 25 minutes."
+]
+
+[recipe.healthy_variant.macros]
+calories = 160
+protein_g = 6
+carbs_g = 22
+fat_g = 6
+fiber_g = 8
+sugar_g = 6
+sodium_mg = 280
+# VALIDATION: (6×4) + (22×4) + (6×9) = 24 + 88 + 54 = 166 ✓ (within ±10 of 160)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -250
+protein_difference = "-12g"
+key_changes = [
+    "Cauliflower rice replaces white rice — reduces carbs by 30g per serving, cuts calories by ~180",
+    "No meat — eliminates saturated fat, lowers calories further",
+    "Extra fresh herbs (mint added) — increases micronutrient density and fiber",
+    "Reduced olive oil (1 tbsp vs 4 tbsp) — saves ~90 calories from fat"
+]
+
+# ============================================================
+# SUBSTITUTIONS
+# ============================================================
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "fresh grape leaves", substitute = "jarred grape leaves in brine", saving_percent = 40, reason = "Jarred grape leaves are widely available, cost less, and require no blanching — just rinse to reduce saltiness" },
+    { original = "ground lamb", substitute = "ground beef", saving_percent = 35, reason = "Ground beef is significantly cheaper than lamb and works equally well in the filling" },
+    { original = "fresh dill and parsley", substitute = "dried herbs (use 1/3 the amount)", saving_percent = 70, reason = "Dried herbs cost a fraction of fresh and provide similar flavor when cooked into the filling" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "grape leaves", substitute = "cabbage leaves (blanched to soften)", reason = "Cabbage leaves are universally available and make excellent mahshi rolls with a mild flavor" },
+    { original = "short-grain rice", substitute = "any white rice (medium-grain works best)", reason = "Short-grain is traditional but medium-grain rice is available everywhere and works well" },
+    { original = "allspice", substitute = "equal parts cinnamon and black pepper", reason = "Allspice can be hard to find; this combination approximates its warm, slightly spicy flavor" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "fresh lemon juice", substitute = "2 tbsp white vinegar diluted in 2 tbsp water", reason = "Vinegar provides the same tartness needed for the cooking liquid" },
+    { original = "tomato paste", substitute = "2 tbsp ketchup or crushed canned tomatoes", reason = "Both provide tomato flavor and color for the stuffing mixture" },
+    { original = "vegetable broth", substitute = "water with 1 tsp salt and a pinch of turmeric", reason = "Plain water with seasoning works as the cooking liquid" }
+]

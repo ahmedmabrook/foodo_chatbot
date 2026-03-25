@@ -1,0 +1,149 @@
+# ============================================================
+# RECIPE DOCUMENT — RED VELVET CAKE
+# Cuisine: American / Western Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "western_red_velvet_cake"
+cuisine = "American"
+dish_name = "Red Velvet Cake"
+alternate_names = ["Red Velvet Layer Cake", "Classic Red Velvet"]
+category = "dessert"
+tags = ["american", "classic", "celebration", "contains_gluten", "contains_dairy", "contains_eggs", "vegetarian"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "medium"
+total_time_minutes = 90
+
+[recipe.standard]
+serving_size = "1 slice (approximately 130g)"
+servings_per_recipe = 12
+prep_time_minutes = 30
+cook_time_minutes = 60
+
+[recipe.standard.ingredients]
+items = [
+    "280g all-purpose flour",
+    "30g cocoa powder",
+    "1 tsp baking soda",
+    "1 tsp baking powder",
+    "1/2 tsp salt",
+    "240ml buttermilk",
+    "2 tbsp red food coloring (liquid) or 1 tsp red gel coloring",
+    "1 tsp white wine vinegar",
+    "1 tsp vanilla extract",
+    "230g unsalted butter, softened",
+    "300g caster sugar",
+    "2 large eggs",
+    "Cream cheese frosting: 450g full-fat cream cheese, softened",
+    "Frosting: 120g unsalted butter, softened",
+    "Frosting: 400g powdered sugar",
+    "Frosting: 1 tsp vanilla extract"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Preheat oven to 350°F (175°C). Grease and line two 9-inch round cake pans.",
+    "Whisk together flour, cocoa, baking soda, baking powder, and salt. Set aside.",
+    "Combine buttermilk, food coloring, vinegar, and vanilla in a jug.",
+    "Beat softened butter and sugar until light and fluffy, about 4 minutes. Add eggs one at a time, beating well after each.",
+    "Alternately fold in the flour mixture and buttermilk mixture in 3 additions, beginning and ending with flour. Mix until just combined.",
+    "Divide batter evenly between prepared pans. Bake at 350°F (175°C) for 30-35 minutes until a toothpick comes out clean. Cool completely.",
+    "Make frosting: beat cream cheese and butter until smooth. Add powdered sugar and vanilla. Beat until light and fluffy.",
+    "Level cake layers. Place first layer on a plate, spread with frosting, top with second layer, frost the top and sides. Garnish with red velvet crumbs."
+]
+
+[recipe.standard.macros]
+calories = 520
+protein_g = 6
+carbs_g = 66
+fat_g = 26
+fiber_g = 1
+sugar_g = 52
+sodium_mg = 340
+# VALIDATION: (6×4) + (66×4) + (26×9) = 24 + 264 + 234 = 522 ✓ (within ±10 of 520)
+
+[recipe.healthy_variant]
+variant_name = "Lighter Red Velvet Cake with Greek Yogurt and Reduced-Sugar Frosting"
+variant_type = "low_calorie"
+description = "A lighter red velvet using Greek yogurt instead of butter in the batter, reducing fat significantly. The cream cheese frosting uses half the amount of butter and powdered sugar is replaced in part by a small amount of stevia blend. The characteristic red color, cocoa tang, and cream cheese frosting pairing are fully preserved."
+serving_size = "1 slice (approximately 120g)"
+servings_per_recipe = 12
+prep_time_minutes = 30
+cook_time_minutes = 35
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "280g all-purpose flour",
+    "30g cocoa powder",
+    "1 tsp baking soda",
+    "1 tsp baking powder",
+    "1/2 tsp salt",
+    "240ml low-fat buttermilk",
+    "2 tbsp red food coloring",
+    "1 tsp white wine vinegar",
+    "1 tsp vanilla extract",
+    "80g unsalted butter, softened",
+    "200g caster sugar",
+    "150g 0% Greek yogurt",
+    "2 large eggs",
+    "Light frosting: 350g reduced-fat cream cheese, softened",
+    "Light frosting: 50g unsalted butter, softened",
+    "Light frosting: 250g powdered sugar",
+    "Light frosting: 1 tsp vanilla extract"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Preheat oven to 350°F (175°C). Grease and line two 9-inch pans.",
+    "Whisk dry ingredients (flour, cocoa, baking soda, baking powder, salt).",
+    "Combine buttermilk, food coloring, vinegar, and vanilla.",
+    "Beat butter and sugar until fluffy. Add Greek yogurt and eggs, beat until combined.",
+    "Fold in flour and buttermilk mixture alternately, three additions each. Do not overmix.",
+    "Bake at 350°F (175°C) for 28-32 minutes until done. Cool completely.",
+    "Beat reduced-fat cream cheese and butter. Add powdered sugar and vanilla. Beat until smooth.",
+    "Layer and frost as standard recipe."
+]
+
+[recipe.healthy_variant.macros]
+calories = 360
+protein_g = 8
+carbs_g = 52
+fat_g = 14
+fiber_g = 1
+sugar_g = 38
+sodium_mg = 340
+# VALIDATION: (8×4) + (52×4) + (14×9) = 32 + 208 + 126 = 366 ✓ (within ±10 of 360)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -160
+protein_difference = "+2g"
+key_changes = [
+    "Greek yogurt replaces most butter in batter — reduces fat by ~10g per slice",
+    "Lighter cream cheese frosting (less butter, less sugar) — saves ~60 calories per slice",
+    "Reduced caster sugar in batter (200g vs 300g) — saves ~30 calories per slice",
+    "Reduced-fat cream cheese — further reduces fat in frosting"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "red food coloring (large amount)", substitute = "beet juice or beet powder (natural coloring, earthy flavor)", saving_percent = 30, reason = "Beet powder or concentrated beet juice creates a natural red color; flavor is very subtle when baked" },
+    { original = "full-fat cream cheese for frosting", substitute = "half cream cheese and half plain cream or sour cream", saving_percent = 20, reason = "Adding sour cream stretches cream cheese frosting without losing the tangy flavor profile" },
+    { original = "buttermilk", substitute = "240ml regular milk + 1 tbsp white vinegar (let sit 5 minutes)", saving_percent = 30, reason = "Homemade buttermilk substitute works identically in the recipe" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "red food coloring gel", substitute = "red velvet cocoa powder blend (specialty ingredient) or natural beet powder", reason = "Some specialty cocoas contain anthocyanins that react with vinegar to create a natural reddish hue" },
+    { original = "white wine vinegar", substitute = "apple cider vinegar or distilled white vinegar", reason = "Any mild acid vinegar reacts with the cocoa and baking soda to create the characteristic red velvet chemistry" },
+    { original = "buttermilk", substitute = "any acid-milk combination (yogurt thinned with milk works equally well)", reason = "The acidity from any soured dairy product activates the leavening and creates the moist crumb" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "two 9-inch round cake pans", substitute = "one 9×13-inch sheet cake pan (bake as a sheet cake, frost on top)", reason = "A sheet cake format requires no layering and uses common pan sizes" },
+    { original = "electric mixer for frosting", substitute = "whisk vigorously by hand until smooth (10 minutes)", reason = "Cream cheese frosting can be made by hand if cream cheese is very well softened" },
+    { original = "piped or layered frosting", substitute = "spread frosting generously with a knife — rustic style", reason = "A knife-spread frosting requires no special tools and looks beautifully rustic" }
+]

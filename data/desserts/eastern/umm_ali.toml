@@ -1,0 +1,134 @@
+# ============================================================
+# RECIPE DOCUMENT — UMM ALI
+# Cuisine: Egyptian / Eastern Dessert
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "eastern_umm_ali"
+cuisine = "Egyptian"
+dish_name = "Umm Ali"
+alternate_names = ["Om Ali", "Egyptian Bread Pudding", "Umm Ali Dessert"]
+category = "dessert"
+tags = ["egyptian", "classic", "comfort_food", "contains_gluten", "contains_dairy", "contains_nuts", "vegetarian"]
+allergens = ["gluten", "dairy", "nuts"]
+difficulty = "easy"
+total_time_minutes = 45
+
+[recipe.standard]
+serving_size = "1 portion (approximately 220g)"
+servings_per_recipe = 6
+prep_time_minutes = 15
+cook_time_minutes = 30
+
+[recipe.standard.ingredients]
+items = [
+    "300g puff pastry sheets (or day-old croissants, torn)",
+    "1 liter whole milk",
+    "200ml heavy cream",
+    "150g caster sugar",
+    "1 tsp vanilla extract",
+    "50g raisins",
+    "50g shredded coconut",
+    "50g chopped mixed nuts (almonds, pistachios, walnuts)",
+    "1 tsp ground cinnamon",
+    "Topping: 100ml heavy cream (for drizzling before baking)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "If using puff pastry: bake at 400°F (200°C) for 15 minutes until golden and puffed. Cool and tear into rough pieces.",
+    "Preheat oven to 375°F (190°C).",
+    "Heat milk, heavy cream, sugar, and vanilla in a saucepan until sugar dissolves and mixture is hot (170°F/77°C). Do not boil.",
+    "Arrange torn pastry pieces loosely in a large baking dish (9×13 inch). Scatter raisins, coconut, nuts, and cinnamon over and between the pastry.",
+    "Pour hot milk mixture evenly over everything. Press pastry down gently to absorb.",
+    "Drizzle remaining 100ml cream over the top.",
+    "Bake at 375°F (190°C) for 20-25 minutes until the top is golden and bubbling.",
+    "Serve immediately while hot and creamy — umm ali does not keep well and should be eaten fresh from the oven."
+]
+
+[recipe.standard.macros]
+calories = 520
+protein_g = 10
+carbs_g = 54
+fat_g = 30
+fiber_g = 2
+sugar_g = 36
+sodium_mg = 300
+# VALIDATION: (10×4) + (54×4) + (30×9) = 40 + 216 + 270 = 526 ✓ (within ±10 of 520)
+
+[recipe.healthy_variant]
+variant_name = "Light Umm Ali with Phyllo, Low-Fat Milk, and Reduced Sugar"
+variant_type = "low_calorie"
+description = "A lighter umm ali using baked phyllo sheets instead of puff pastry (far less fat), whole milk instead of heavy cream, and reduced sugar. The layered bread pudding format, nuts, raisins, coconut, and warm spice profile are all preserved. Served smaller portions from a slightly less rich base."
+serving_size = "1 portion (approximately 210g)"
+servings_per_recipe = 6
+prep_time_minutes = 15
+cook_time_minutes = 30
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "8 phyllo pastry sheets, lightly brushed with oil and baked until golden",
+    "1 liter low-fat milk (2%)",
+    "100ml evaporated skim milk",
+    "100g caster sugar",
+    "1 tsp vanilla extract",
+    "40g raisins",
+    "30g shredded coconut",
+    "40g chopped mixed nuts",
+    "1 tsp ground cinnamon",
+    "1/4 tsp nutmeg"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Bake phyllo sheets brushed lightly with oil at 375°F (190°C) until golden and crisp, about 8 minutes. Cool and crumble.",
+    "Heat low-fat milk, evaporated skim milk, sugar, and vanilla until sugar dissolves and milk is hot.",
+    "Arrange crumbled phyllo in baking dish. Scatter raisins, coconut, and nuts. Sprinkle cinnamon and nutmeg.",
+    "Pour hot milk mixture over. Press down gently.",
+    "Bake at 375°F (190°C) for 20-25 minutes until golden on top.",
+    "Serve immediately."
+]
+
+[recipe.healthy_variant.macros]
+calories = 315
+protein_g = 10
+carbs_g = 46
+fat_g = 11
+fiber_g = 2
+sugar_g = 28
+sodium_mg = 240
+# VALIDATION: (10×4) + (46×4) + (11×9) = 40 + 184 + 99 = 323 ✓ (within ±10 of 315)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -205
+protein_difference = "0g"
+key_changes = [
+    "Phyllo instead of puff pastry — removes ~100 calories of butter-fat per serving",
+    "Low-fat milk + evaporated skim instead of whole milk + heavy cream — saves ~80 calories per serving",
+    "Reduced sugar (100g vs 150g) — saves ~30 calories per serving",
+    "Warm spices maintained — full aromatic profile with no calorie cost"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "puff pastry sheets", substitute = "day-old croissants or brioche, torn (classic variation)", saving_percent = 30, reason = "Day-old bread items are perfect for umm ali and are often available at reduced price" },
+    { original = "mixed nuts (almonds, pistachios, walnuts)", substitute = "any single nut type or sunflower seeds", saving_percent = 40, reason = "Any crunchy nut or seed provides the textural contrast; a single cheaper nut works well" },
+    { original = "heavy cream", substitute = "whole milk (all milk, no cream — lighter version)", saving_percent = 50, reason = "All-milk umm ali is lighter and still rich when served hot" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "puff pastry", substitute = "any flaky pastry or even toasted bread cubes", reason = "Umm ali is essentially a bread pudding — any baked, torn starchy base works" },
+    { original = "shredded coconut", substitute = "omit or use extra nuts or dried fruit", reason = "Coconut is traditional but the dish is excellent without it; substitute freely" },
+    { original = "raisins", substitute = "any dried fruit (dried apricots, dried cranberries, dried dates)", reason = "Any dried fruit provides the sweet, chewy texture element in umm ali" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "puff pastry or croissants", substitute = "any available bread, toast, or crackers (even pita)", reason = "Umm ali works with virtually any starchy base; flatbread and pita are common in home kitchens" },
+    { original = "caster sugar in milk", substitute = "honey or sweetened condensed milk (adjust quantity)", reason = "Any sweetener dissolved in the hot milk creates the sweet milk soaking base" },
+    { original = "mixed nuts", substitute = "skip nuts entirely or use one affordable nut", reason = "Umm ali without nuts is still a delicious, satisfying dessert" }
+]
