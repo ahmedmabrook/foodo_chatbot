@@ -1,0 +1,8 @@
+pydantic==2.8.2
+pydantic-settings==2.4.0
+python-dotenv==1.0.1
+pinecone==5.3.1
+google-generativeai==0.8.3
+pytest==8.3.3
+pytest-asyncio==0.23.8
+anyio==4.4.0
