@@ -1,0 +1,123 @@
+# ============================================================
+# RECIPE DOCUMENT — RICE CAKES WITH TOPPINGS
+# Category: Snacks
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "snack_rice_cakes"
+cuisine = "Snacks"
+dish_name = "Rice Cakes with Toppings"
+alternate_names = ["Puffed Rice Cakes", "Rice Cake Snack", "Open-Faced Rice Cake"]
+category = "snack"
+tags = ["snack", "quick", "low_calorie", "gluten_free", "vegetarian", "portable", "contains_nuts"]
+allergens = ["tree_nuts", "peanuts"]
+difficulty = "easy"
+total_time_minutes = 5
+
+[recipe.standard]
+serving_size = "2 rice cakes with toppings (approximately 130g)"
+servings_per_recipe = 1
+prep_time_minutes = 5
+cook_time_minutes = 0
+
+[recipe.standard.ingredients]
+items = [
+    "2 plain or lightly salted rice cakes (~18g each)",
+    "2 tbsp natural peanut butter",
+    "1 small banana, sliced into coins",
+    "Pinch of cinnamon",
+    "Optional: a drizzle of honey (1/2 tsp)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Lay rice cakes flat on a plate.",
+    "Spread 1 tbsp peanut butter evenly on each rice cake.",
+    "Slice the banana and arrange coins over the peanut butter.",
+    "Dust with cinnamon and drizzle honey if using.",
+    "Eat immediately — rice cakes soften quickly once topped."
+]
+
+[recipe.standard.macros]
+calories = 260
+protein_g = 6
+carbs_g = 40
+fat_g = 8
+fiber_g = 3
+sugar_g = 16
+sodium_mg = 130
+# VALIDATION: (6×4) + (40×4) + (8×9) = 24 + 160 + 72 = 256 ≈ 260 ✓ (within ±10)
+
+[recipe.healthy_variant]
+variant_name = "Rice Cakes with Avocado & Cottage Cheese"
+variant_type = "high_protein"
+description = "Replaces peanut butter and banana with avocado and cottage cheese — swapping simple carbs and fat for a protein-rich, healthy-fat combination. Topped with cucumber and cherry tomatoes for freshness. More savory, more satiating, and better macros for a midday snack."
+serving_size = "2 rice cakes with toppings (approximately 160g)"
+servings_per_recipe = 1
+prep_time_minutes = 5
+cook_time_minutes = 0
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "2 plain rice cakes (~18g each)",
+    "1/4 ripe avocado (~50g), sliced or mashed",
+    "3 tbsp (60g) low-fat cottage cheese",
+    "4 cherry tomatoes, halved",
+    "4 thin slices cucumber",
+    "Salt, black pepper, red chili flakes to taste",
+    "Optional: a squeeze of lemon juice over the avocado to prevent browning"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "If using mashed avocado: mash with a fork until smooth with a pinch of salt and lemon juice.",
+    "Spread mashed or sliced avocado on one rice cake.",
+    "Spoon cottage cheese on the other rice cake.",
+    "Top each with cherry tomatoes and cucumber slices.",
+    "Season with salt, pepper, and chili flakes.",
+    "Eat immediately."
+]
+
+[recipe.healthy_variant.macros]
+calories = 220
+protein_g = 10
+carbs_g = 28
+fat_g = 8
+fiber_g = 4
+sugar_g = 4
+sodium_mg = 280
+# VALIDATION: (10×4) + (28×4) + (8×9) = 40 + 112 + 72 = 224 ≈ 220 ✓ (within ±10)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -40
+protein_difference = "+4g"
+key_changes = [
+    "Cottage cheese replaces 1 tbsp peanut butter — same calories but 8g more protein",
+    "Avocado replaces the other 1 tbsp peanut butter — similar fat content but with monounsaturated fats",
+    "Banana removed — saves ~50 cal of sugar carbs; cucumber and tomatoes add volume with minimal calories",
+    "Savory profile makes this more suitable as a midday snack than the sweet banana version"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "rice cakes", substitute = "plain wholegrain crackers or crispbread (same concept, slightly cheaper per serving)", saving_percent = 20, reason = "Crispbreads and rice cakes serve the same function as a light, crunchy base for toppings" },
+    { original = "avocado", substitute = "mashed cooked white beans or hummus — same creamy-green-fat vibe", saving_percent = 50, reason = "White beans are much cheaper than avocado and provide a similar creamy base" },
+    { original = "cottage cheese", substitute = "plain Greek yogurt or ricotta in the same amount", saving_percent = 10, reason = "All three are high-protein dairy options with similar textures when used as a spread" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "rice cakes", substitute = "any plain, low-calorie cracker or thin crispbread", reason = "The base is just a neutral, crunchy vehicle for toppings — any plain cracker works" },
+    { original = "cottage cheese", substitute = "labneh or strained yogurt (widely available in the Middle East)", reason = "Labneh is a direct functional substitute with a slightly tangier, denser profile" },
+    { original = "avocado", substitute = "tahini drizzle or olive oil with a sprinkle of za'atar for a Middle Eastern twist", reason = "Tahini provides similar healthy fats with a regional flavor profile" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "rice cakes", substitute = "toasted slices of bread, cucumber rounds, or celery boats as the base", reason = "Any sturdy flat surface works as a vehicle for toppings — even thick cucumber slices" },
+    { original = "cherry tomatoes", substitute = "any ripe tomato, sliced or diced", reason = "Any tomato variety provides the same acidity and freshness" },
+    { original = "chili flakes", substitute = "a few drops of hot sauce or a pinch of black pepper", reason = "Any heat source serves the same purpose of brightening the savory topping combination" }
+]

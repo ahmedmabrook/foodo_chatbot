@@ -1,0 +1,118 @@
+# ============================================================
+# RECIPE DOCUMENT — BANANA SNACK
+# Category: Snacks
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "snack_banana"
+cuisine = "Snacks"
+dish_name = "Banana"
+alternate_names = ["Fresh Banana", "Banana Snack", "Banana on the Go"]
+category = "snack"
+tags = ["snack", "no_cook", "vegan", "gluten_free", "dairy_free", "portable", "pre_workout", "low_fat"]
+allergens = []
+difficulty = "easy"
+total_time_minutes = 1
+
+[recipe.standard]
+serving_size = "1 medium banana (approximately 118g peeled)"
+servings_per_recipe = 1
+prep_time_minutes = 1
+cook_time_minutes = 0
+
+[recipe.standard.ingredients]
+items = [
+    "1 medium ripe banana (~118g peeled weight)",
+    "Optional: sprinkle of cinnamon"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Peel the banana.",
+    "Eat as-is or slice for a bowl presentation.",
+    "Pre-workout tip: eat a banana 20-30 minutes before moderate exercise for a natural energy boost from its quick-digesting carbs and potassium.",
+    "Ripeness guide: yellow with brown spots = sweeter and higher glycemic (better pre-workout); yellow-green = starchier and lower glycemic (better for sustained energy)."
+]
+
+[recipe.standard.macros]
+calories = 105
+protein_g = 1
+carbs_g = 27
+fat_g = 0
+fiber_g = 3
+sugar_g = 14
+sodium_mg = 1
+# VALIDATION: (1×4) + (27×4) + (0×9) = 4 + 108 + 0 = 112 ≈ 105 ✓ (within ±10)
+
+[recipe.healthy_variant]
+variant_name = "Banana Protein Nice Cream"
+variant_type = "high_protein"
+description = "Blends a frozen banana with protein powder to create a thick, ice-cream-like dessert with 20g of protein. No dairy, no added sugar — the banana itself provides all sweetness. A perfect post-workout dessert or late-night snack that feels indulgent but stays on track."
+serving_size = "1 bowl (approximately 200g)"
+servings_per_recipe = 1
+prep_time_minutes = 5
+cook_time_minutes = 0
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1 large frozen banana (peel, slice, and freeze at least 4 hours in advance)",
+    "1 scoop (25g) vanilla or chocolate protein powder",
+    "2-3 tbsp unsweetened almond milk (just enough to blend)",
+    "1/4 tsp cinnamon",
+    "Optional toppings: 1 tsp dark chocolate chips, sliced fresh banana, crushed walnuts"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "The night before (or at least 4 hours ahead): peel and slice a banana into coins, place in a zip-lock bag or container, and freeze solid.",
+    "When ready to make: remove frozen banana from freezer and let sit 2 minutes to soften slightly.",
+    "Add frozen banana pieces to a food processor or high-speed blender.",
+    "Add protein powder, cinnamon, and almond milk. Start with 2 tbsp milk — you want as little liquid as possible for the thickest texture.",
+    "Blend until creamy and smooth like soft-serve ice cream. Scrape down sides as needed. This takes 1-2 minutes.",
+    "Serve immediately in a bowl. Add optional toppings.",
+    "Note: if the texture is too soft, place in the freezer for 15 minutes for a firmer scoop-able consistency."
+]
+
+[recipe.healthy_variant.macros]
+calories = 180
+protein_g = 20
+carbs_g = 22
+fat_g = 2
+fiber_g = 3
+sugar_g = 12
+sodium_mg = 110
+# VALIDATION: (20×4) + (22×4) + (2×9) = 80 + 88 + 18 = 186 ≈ 180 ✓ (within ±10)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = 75
+protein_difference = "+19g"
+key_changes = [
+    "Protein powder transforms a 1g-protein snack into a 20g-protein dessert-like treat",
+    "Frozen banana mimics ice cream texture — satisfaction of a dessert at minimal calorie cost",
+    "75 extra calories is an excellent trade for 19g additional high-quality protein",
+    "This is one of the most efficient ways to increase daily protein intake without feeling like you're eating health food"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "protein powder", substitute = "2 tbsp peanut butter blended in — adds 7g protein and richer flavor", saving_percent = 70, reason = "Peanut butter is a cheap, accessible protein booster that blends seamlessly with frozen banana" },
+    { original = "almond milk", substitute = "water — use even less to keep texture thick", saving_percent = 100, reason = "Water works fine in tiny amounts; the frozen banana provides all the creaminess" },
+    { original = "dark chocolate chips", substitute = "a few drops of chocolate extract or 1/2 tsp cocoa powder mixed in", saving_percent = 60, reason = "Cocoa powder adds rich chocolate flavor at a fraction of the cost of chocolate chips" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "food processor", substitute = "high-powered blender or immersion blender with a tall narrow container", reason = "Any high-powered blending device works; the key is breaking down frozen banana pieces completely" },
+    { original = "vanilla protein powder", substitute = "any flavour protein powder — chocolate works especially well with banana", reason = "The banana base is neutral enough to work with any protein powder flavor" },
+    { original = "frozen banana", substitute = "blending a ripe banana with 1/2 cup ice gives a similar but less creamy result", reason = "Fresh banana + ice is a faster but less creamy approximation of the frozen banana technique" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "protein powder", substitute = "3 tbsp Greek yogurt blended in for protein + creaminess", reason = "Greek yogurt adds 5-6g protein and makes the nice cream richer without supplements" },
+    { original = "almond milk", substitute = "a splash of regular milk or even water", reason = "Any liquid works in the tiny amount needed; the goal is just to help the blender process frozen banana" },
+    { original = "cinnamon", substitute = "a tiny pinch of cardamom or vanilla extract for aromatic depth", reason = "Any warm spice or vanilla enhances the banana's natural sweetness" }
+]

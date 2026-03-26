@@ -1,0 +1,131 @@
+# ============================================================
+# RECIPE DOCUMENT — PROTEIN OATMEAL
+# Category: High Protein / Fitness
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "high_protein_protein_oatmeal"
+cuisine = "Fitness"
+dish_name = "Protein Oatmeal"
+alternate_names = ["Proats", "Protein Porridge", "Muscle Oats"]
+category = "breakfast"
+tags = ["breakfast", "high_protein", "fitness", "meal_prep", "vegetarian", "contains_dairy", "contains_gluten"]
+allergens = ["gluten", "dairy"]
+difficulty = "easy"
+total_time_minutes = 10
+
+[recipe.standard]
+serving_size = "1 bowl (approximately 350g cooked)"
+servings_per_recipe = 1
+prep_time_minutes = 2
+cook_time_minutes = 8
+
+[recipe.standard.ingredients]
+items = [
+    "1/2 cup rolled oats",
+    "1 cup low-fat milk (or water + splash of milk)",
+    "1 scoop (30g) vanilla whey protein powder",
+    "1 ripe banana, sliced",
+    "1 tbsp natural peanut butter",
+    "1 tsp honey",
+    "1/2 tsp cinnamon",
+    "Pinch of salt",
+    "Optional toppings: chopped walnuts, extra banana slices, drizzle of peanut butter"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Combine oats, milk, cinnamon, and salt in a small saucepan over medium heat.",
+    "Stir frequently and cook 5-7 minutes until oats are creamy and have absorbed most of the liquid.",
+    "Remove from heat. This step is critical: let the oatmeal cool slightly for 1-2 minutes before adding protein powder — adding whey to boiling liquid can make it lumpy and rubbery.",
+    "Stir in protein powder until fully dissolved and smooth.",
+    "Transfer to a bowl. Top with sliced banana and peanut butter.",
+    "Drizzle honey over the top. Add optional toppings if desired and serve immediately."
+]
+
+[recipe.standard.macros]
+calories = 460
+protein_g = 28
+carbs_g = 54
+fat_g = 14
+fiber_g = 5
+sugar_g = 22
+sodium_mg = 240
+# VALIDATION: (28×4) + (54×4) + (14×9) = 112 + 216 + 126 = 454 ≈ 460 ✓ (within ±10)
+
+[recipe.healthy_variant]
+variant_name = "Overnight Casein Oats"
+variant_type = "high_protein"
+description = "No-cook overnight oats built around casein protein for all-night muscle protein synthesis. Prepared the night before — chia seeds absorb liquid to create a thick, pudding-like texture. No heating required; grab it straight from the fridge."
+serving_size = "1 jar (approximately 340g)"
+servings_per_recipe = 1
+prep_time_minutes = 5
+cook_time_minutes = 0
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1/2 cup rolled oats",
+    "1 scoop (30g) unflavoured or vanilla casein protein powder",
+    "1 tbsp chia seeds",
+    "3/4 cup unsweetened almond milk",
+    "1/4 cup plain Greek yogurt (0% fat)",
+    "1/2 tsp cinnamon",
+    "1/4 tsp vanilla extract",
+    "1/4 cup mixed berries (to add in the morning)",
+    "Stevia or monk fruit sweetener to taste"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "The night before: combine oats, casein powder, chia seeds, almond milk, Greek yogurt, cinnamon, vanilla, and sweetener in a jar or container with a lid.",
+    "Stir thoroughly until protein powder is fully incorporated — no dry pockets.",
+    "Seal and refrigerate overnight (at least 6 hours). The chia seeds and oats will absorb the liquid.",
+    "In the morning: remove from fridge, give it a stir. The texture should be thick like pudding.",
+    "Add a splash of almond milk if you prefer a looser consistency.",
+    "Top with mixed berries and serve cold — or microwave 1-2 minutes if you prefer warm."
+]
+
+[recipe.healthy_variant.macros]
+calories = 360
+protein_g = 30
+carbs_g = 40
+fat_g = 10
+fiber_g = 8
+sugar_g = 6
+sodium_mg = 180
+# VALIDATION: (30×4) + (40×4) + (10×9) = 120 + 160 + 90 = 370 ≈ 360 ✓ (within ±10)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -100
+protein_difference = "+2g"
+key_changes = [
+    "Casein replaces whey — ideal for overnight repair; digests over 6-8 hours vs 1-2 for whey",
+    "Chia seeds replace peanut butter — cuts 60 cal while adding 5g fiber and omega-3s",
+    "Almond milk replaces dairy milk — reduces calories and saturated fat",
+    "No honey or banana — eliminates ~90 cal of sugar; berries add antioxidants with minimal sugar",
+    "Meal prep friendly — made the night before, requires zero cooking in the morning"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "casein protein powder", substitute = "cottage cheese (1/4 cup blended smooth) stirred into oats", saving_percent = 50, reason = "Cottage cheese is naturally high in casein and produces a similarly thick, creamy texture" },
+    { original = "almond milk", substitute = "water + 1 tbsp powdered skim milk", saving_percent = 65, reason = "Powdered milk adds creaminess and protein at a much lower cost than carton almond milk" },
+    { original = "chia seeds", substitute = "ground flaxseeds", saving_percent = 30, reason = "Flaxseeds provide similar omega-3 content and thickening properties" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "casein protein powder", substitute = "whey protein (add after cooking, not overnight)", reason = "Whey works fine but won't stay as thick overnight — add it in the morning instead" },
+    { original = "rolled oats", substitute = "quick oats (reduce soaking time to 2-3 hours)", reason = "Quick oats absorb liquid faster and are available in most markets worldwide" },
+    { original = "almond milk", substitute = "any plant-based or regular low-fat milk", reason = "Any milk works; the choice only affects calorie and fat content slightly" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "protein powder", substitute = "2 tbsp peanut butter + 1 tbsp hemp seeds mixed in", reason = "Whole-food proteins add 8-10g protein per serving without any supplements" },
+    { original = "chia seeds", substitute = "1 tsp ground flaxseed or simply increase oats by 2 tbsp", reason = "More oats will still absorb liquid overnight and add fiber without extra shopping" },
+    { original = "mixed berries", substitute = "any fresh, frozen, or dried fruit you have on hand", reason = "The topping is purely for flavor — any fruit works with these oats" }
+]

@@ -1,0 +1,135 @@
+# ============================================================
+# RECIPE DOCUMENT — PROTEIN PANCAKES
+# Category: High Protein / Fitness
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "high_protein_protein_pancakes"
+cuisine = "Fitness"
+dish_name = "Protein Pancakes"
+alternate_names = ["Whey Pancakes", "Macro Pancakes", "Fitness Pancakes"]
+category = "breakfast"
+tags = ["breakfast", "high_protein", "fitness", "post_workout", "contains_dairy", "contains_eggs", "contains_gluten"]
+allergens = ["gluten", "dairy", "eggs"]
+difficulty = "easy"
+total_time_minutes = 20
+
+[recipe.standard]
+serving_size = "3 pancakes (approximately 230g)"
+servings_per_recipe = 4
+prep_time_minutes = 5
+cook_time_minutes = 15
+
+[recipe.standard.ingredients]
+items = [
+    "1 cup rolled oats (blended into oat flour)",
+    "1 scoop (30g) vanilla whey protein powder",
+    "1 tsp baking powder",
+    "1/4 tsp salt",
+    "1/2 tsp cinnamon",
+    "2 large eggs",
+    "3/4 cup low-fat milk",
+    "1 tbsp honey",
+    "1 tsp vanilla extract",
+    "1 tbsp coconut oil (for griddle)",
+    "Fresh berries and Greek yogurt for serving"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Blend rolled oats in a blender until a fine oat flour forms.",
+    "In a bowl, whisk together oat flour, protein powder, baking powder, salt, and cinnamon.",
+    "In a separate bowl, whisk eggs, milk, honey, and vanilla.",
+    "Pour wet ingredients into dry and stir gently until just combined. Let rest 3 minutes — the batter will thicken slightly.",
+    "Heat a non-stick griddle or pan over medium heat (350°F/175°C). Brush with coconut oil.",
+    "Pour 1/4 cup batter per pancake. Cook 2-3 minutes until bubbles appear on surface and edges look dry.",
+    "Flip and cook 1-2 more minutes until golden.",
+    "Serve with fresh berries and a dollop of Greek yogurt."
+]
+
+[recipe.standard.macros]
+calories = 380
+protein_g = 30
+carbs_g = 34
+fat_g = 14
+fiber_g = 3
+sugar_g = 9
+sodium_mg = 340
+# VALIDATION: (30×4) + (34×4) + (14×9) = 120 + 136 + 126 = 382 ≈ 380 ✓ (within ±10)
+
+[recipe.healthy_variant]
+variant_name = "Casein & Egg White Flourless Pancakes"
+variant_type = "high_protein"
+description = "A flour-free, ultra-high-protein stack made with casein protein powder and egg whites for slow-digesting, muscle-supporting macros. Banana provides natural sweetness and binding without added sugar."
+serving_size = "3 pancakes (approximately 220g)"
+servings_per_recipe = 4
+prep_time_minutes = 5
+cook_time_minutes = 15
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1 scoop (30g) casein protein powder (vanilla)",
+    "1 ripe banana, mashed",
+    "4 large egg whites",
+    "1/4 cup plain Greek yogurt (0% fat)",
+    "1 tsp baking powder",
+    "1/4 tsp cinnamon",
+    "Pinch of salt",
+    "Cooking spray",
+    "Fresh strawberries for serving"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Mash the banana thoroughly in a bowl until no large lumps remain.",
+    "Add egg whites, Greek yogurt, casein powder, baking powder, cinnamon, and salt. Whisk until smooth.",
+    "The batter will be thick — this is expected with casein. Let rest 2 minutes.",
+    "Heat a non-stick pan over medium-low heat (325°F/160°C). Spray with cooking spray.",
+    "Pour 3 tbsp batter per pancake. Cook slowly, about 3-4 minutes — casein pancakes need lower heat to avoid burning. Edges will set but surface stays slightly wet.",
+    "Flip gently and cook 2 more minutes.",
+    "Serve with fresh strawberries. No syrup needed — the banana provides sweetness."
+]
+
+[recipe.healthy_variant.macros]
+calories = 280
+protein_g = 36
+carbs_g = 18
+fat_g = 8
+fiber_g = 2
+sugar_g = 8
+sodium_mg = 260
+# VALIDATION: (36×4) + (18×4) + (8×9) = 144 + 72 + 72 = 288 ≈ 280 ✓ (within ±10)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -100
+protein_difference = "+6g"
+key_changes = [
+    "Casein replaces whey — slower digesting, better for satiety and overnight muscle repair",
+    "Egg whites replace whole eggs — eliminates yolk fat while boosting protein",
+    "Mashed banana replaces oat flour — removes gluten, adds potassium and natural sweetness",
+    "No honey or added sugar — banana alone provides all the sweetness needed"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "casein protein powder", substitute = "whey protein powder or plant-based protein", saving_percent = 20, reason = "Whey is generally cheaper than casein and works just as well in pancakes" },
+    { original = "Greek yogurt", substitute = "regular plain yogurt, strained overnight through cheesecloth", saving_percent = 40, reason = "Straining regular yogurt produces a thick, protein-rich yogurt at fraction of the cost" },
+    { original = "fresh strawberries", substitute = "frozen strawberries, thawed", saving_percent = 50, reason = "Frozen berries are nutritionally identical and much cheaper than fresh" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "casein protein powder", substitute = "cottage cheese blended smooth (use 1/4 cup)", reason = "Cottage cheese is a natural casein-rich food available in any supermarket" },
+    { original = "egg whites (from whole eggs)", substitute = "carton egg whites (pre-separated)", reason = "Carton egg whites are convenient and eliminate the need to separate eggs" },
+    { original = "cooking spray", substitute = "a few drops of neutral oil rubbed with a paper towel", reason = "Any neutral oil applied thinly prevents sticking just as effectively" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "protein powder", substitute = "2 extra eggs + 2 tbsp peanut butter for protein boost", reason = "Eggs and nut butter are kitchen staples that raise protein content without specialty products" },
+    { original = "casein protein", substitute = "blend 1/4 cup cottage cheese into the batter", reason = "Cottage cheese is essentially liquid casein and performs identically in low-heat pancakes" },
+    { original = "banana (for binding)", substitute = "2 tbsp unsweetened applesauce or 1 tbsp chia seeds soaked in 3 tbsp water", reason = "Both provide binding without affecting the protein profile" }
+]

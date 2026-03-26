@@ -1,0 +1,140 @@
+# ============================================================
+# RECIPE DOCUMENT — HOMEMADE PROTEIN BAR
+# Category: Snacks
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "snack_protein_bar_homemade"
+cuisine = "Snacks"
+dish_name = "Homemade No-Bake Protein Bar"
+alternate_names = ["DIY Protein Bar", "No-Bake Energy Bar", "Homemade Fitness Bar"]
+category = "snack"
+tags = ["snack", "high_protein", "meal_prep", "no_bake", "fitness", "vegetarian", "contains_nuts", "contains_dairy", "contains_gluten"]
+allergens = ["gluten", "dairy", "tree_nuts", "peanuts"]
+difficulty = "easy"
+total_time_minutes = 20
+
+[recipe.standard]
+serving_size = "1 bar (approximately 60g)"
+servings_per_recipe = 10
+prep_time_minutes = 20
+cook_time_minutes = 0
+
+[recipe.standard.ingredients]
+items = [
+    "1 cup rolled oats",
+    "2 scoops (60g) vanilla whey protein powder",
+    "1/2 cup natural peanut butter",
+    "1/3 cup honey",
+    "1/4 cup chopped almonds",
+    "2 tbsp dark chocolate chips",
+    "2 tbsp ground flaxseeds",
+    "1 tsp vanilla extract",
+    "Pinch of salt",
+    "2-4 tbsp milk (to bind, as needed)"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Line an 8x8 inch (20x20cm) pan with parchment paper, leaving overhang on two sides.",
+    "In a large bowl, combine rolled oats, protein powder, flaxseeds, chopped almonds, and salt. Stir to distribute evenly.",
+    "In a separate microwave-safe bowl, combine peanut butter and honey. Microwave 30-45 seconds until warm and pourable. Stir well.",
+    "Add vanilla extract to the peanut butter mixture, then pour over the dry ingredients.",
+    "Mix thoroughly. The dough should hold together when pressed — if too dry, add milk 1 tbsp at a time.",
+    "Press the mixture firmly and evenly into the prepared pan. Use the bottom of a measuring cup to compact it tightly.",
+    "Sprinkle dark chocolate chips over the top and press them in lightly.",
+    "Refrigerate at least 1 hour until firm.",
+    "Lift out using parchment overhang, cut into 10 equal bars.",
+    "Store in the refrigerator for up to 1 week, or freeze individual bars for up to 1 month."
+]
+
+[recipe.standard.macros]
+calories = 240
+protein_g = 20
+carbs_g = 22
+fat_g = 8
+fiber_g = 3
+sugar_g = 12
+sodium_mg = 110
+# VALIDATION: (20×4) + (22×4) + (8×9) = 80 + 88 + 72 = 240 ✓ (exact)
+
+[recipe.healthy_variant]
+variant_name = "Low-Sugar High-Protein Casein Bar"
+variant_type = "high_protein"
+description = "Uses casein protein for slow-digesting protein that makes these bars perfect as a nighttime snack or long-duration workout fuel. Reduces honey by half and replaces it with mashed dates, which provide natural fiber alongside sweetness. Eliminates chocolate chips and adds chia seeds."
+serving_size = "1 bar (approximately 55g)"
+servings_per_recipe = 10
+prep_time_minutes = 20
+cook_time_minutes = 0
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1 cup rolled oats",
+    "2 scoops (60g) casein protein powder (vanilla or unflavoured)",
+    "1/2 cup natural almond butter",
+    "4 Medjool dates, pitted and mashed into a paste",
+    "2 tbsp honey (half the standard amount)",
+    "2 tbsp chia seeds",
+    "2 tbsp hemp seeds",
+    "1 tsp cinnamon",
+    "1 tsp vanilla extract",
+    "Pinch of salt",
+    "2-3 tbsp almond milk (to bind, as needed)"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Line an 8x8 inch pan with parchment paper.",
+    "Combine rolled oats, casein powder, chia seeds, hemp seeds, cinnamon, and salt in a large bowl.",
+    "Mash pitted dates into a smooth paste using a fork or small food processor.",
+    "Warm almond butter in the microwave for 30 seconds. Combine with mashed dates, honey, and vanilla until smooth.",
+    "Pour wet mixture over dry ingredients. Mix thoroughly. Add almond milk as needed — casein bars tend to be drier than whey bars.",
+    "Press firmly into pan. Compact tightly — loose bars will crumble.",
+    "Refrigerate 2 hours (casein-based dough needs longer to set than whey-based).",
+    "Cut into 10 bars and store in the fridge."
+]
+
+[recipe.healthy_variant.macros]
+calories = 200
+protein_g = 24
+carbs_g = 12
+fat_g = 6
+fiber_g = 4
+sugar_g = 6
+sodium_mg = 90
+# VALIDATION: (24×4) + (12×4) + (6×9) = 96 + 48 + 54 = 198 ≈ 200 ✓
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -40
+protein_difference = "+4g"
+key_changes = [
+    "Casein replaces whey — slow-digesting protein, ideal for pre-sleep snack or sustained energy",
+    "Dates replace half the honey — provides fiber, potassium, and natural sugar vs. pure honey",
+    "Chocolate chips removed — saves ~40 cal and 3g fat; almond butter provides richness",
+    "Chia + hemp seeds added — boost fiber, omega-3s, and complete plant protein",
+    "40% less total sugar per bar (6g vs 12g)"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "casein protein powder", substitute = "whey protein powder (slightly cheaper) or powdered skim milk (very cheap)", saving_percent = 30, reason = "Whey works fine; powdered milk is the cheapest complete protein option for bars" },
+    { original = "almond butter", substitute = "peanut butter — cheapest nut butter available", saving_percent = 40, reason = "Peanut butter performs identically as a binder and provides similar fat and protein content" },
+    { original = "Medjool dates", substitute = "regular pitted dates (cheaper variety) or 3 tbsp honey (omit dates entirely)", saving_percent = 50, reason = "Any dates work; extra honey also works but removes the fiber benefit of dates" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "rolled oats", substitute = "quick oats or oat bran (slightly different texture, same function)", reason = "Any oat variety binds and provides the same fiber; texture differs slightly" },
+    { original = "protein powder", substitute = "substitute with extra oats and peanut butter — you lose 15g protein but gain a simpler ingredient list", reason = "Energy bars without protein powder are still excellent snacks; adjust expectations accordingly" },
+    { original = "chia seeds", substitute = "ground flaxseeds — equally nutritious and more universally available", reason = "Ground flaxseeds provide similar omega-3 and fiber content and act as binders in no-bake recipes" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "honey (as binder)", substitute = "any thick sweetener: molasses, date syrup, maple syrup, or agave", reason = "The functional role of honey here is to be a sticky binder; any thick liquid sweetener works" },
+    { original = "8x8 pan + parchment", substitute = "roll into balls (protein bites) instead of bars — no pan needed", reason = "The same mixture can be rolled into 20 small balls and refrigerated on any flat surface lined with wrap" },
+    { original = "refrigeration for setting", substitute = "press into a container and freeze 30 minutes for faster setting", reason = "Freezing speeds up the setting process when you need bars quickly" }
+]

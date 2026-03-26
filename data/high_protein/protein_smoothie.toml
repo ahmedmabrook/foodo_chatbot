@@ -1,0 +1,129 @@
+# ============================================================
+# RECIPE DOCUMENT — PROTEIN SMOOTHIE
+# Category: High Protein / Fitness
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "high_protein_protein_smoothie"
+cuisine = "Fitness"
+dish_name = "Protein Smoothie"
+alternate_names = ["Protein Shake", "Muscle Smoothie", "Post-Workout Shake"]
+category = "breakfast"
+tags = ["breakfast", "snack", "high_protein", "quick", "post_workout", "blended", "contains_dairy", "contains_nuts"]
+allergens = ["dairy", "tree_nuts"]
+difficulty = "easy"
+total_time_minutes = 5
+
+[recipe.standard]
+serving_size = "1 large smoothie (approximately 500ml)"
+servings_per_recipe = 1
+prep_time_minutes = 5
+cook_time_minutes = 0
+
+[recipe.standard.ingredients]
+items = [
+    "1 scoop (30g) vanilla whey protein powder",
+    "1 ripe banana (fresh or frozen)",
+    "1 cup whole milk",
+    "1 tbsp natural peanut butter",
+    "1/4 cup rolled oats",
+    "1 tbsp honey",
+    "1/2 cup ice cubes",
+    "Optional: 1 tsp cocoa powder for chocolate flavour"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Add all ingredients to blender in this order: liquid first (milk), then soft ingredients (banana, peanut butter, honey), then dry (oats, protein powder), then ice last.",
+    "Blend on high for 45-60 seconds until completely smooth.",
+    "Check consistency: if too thick, add a splash of milk. If too thin, add more frozen banana or a few ice cubes.",
+    "Pour into a large glass and drink immediately — protein smoothies are best consumed fresh.",
+    "Post-workout timing: drink within 30-45 minutes of training for optimal muscle protein synthesis."
+]
+
+[recipe.standard.macros]
+calories = 480
+protein_g = 34
+carbs_g = 52
+fat_g = 14
+fiber_g = 4
+sugar_g = 30
+sodium_mg = 220
+# VALIDATION: (34×4) + (52×4) + (14×9) = 136 + 208 + 126 = 470 ≈ 480 ✓ (within ±10)
+
+[recipe.healthy_variant]
+variant_name = "Low-Sugar Casein Berry Smoothie"
+variant_type = "high_protein"
+description = "Replaces the calorie-dense peanut butter and honey with spinach and mixed frozen berries for antioxidants. Casein protein instead of whey for slower absorption. Unsweetened almond milk keeps calories low while still creating a thick, creamy texture."
+serving_size = "1 large smoothie (approximately 500ml)"
+servings_per_recipe = 1
+prep_time_minutes = 5
+cook_time_minutes = 0
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1 scoop (30g) casein protein powder (vanilla or chocolate)",
+    "1 cup frozen mixed berries (blueberries, strawberries, raspberries)",
+    "1 cup unsweetened almond milk",
+    "1 large handful baby spinach (doesn't affect flavor, adds iron and vitamins)",
+    "1/2 banana (frozen, for creaminess)",
+    "1 tbsp chia seeds",
+    "1/4 tsp cinnamon",
+    "Ice cubes (optional — frozen berries may be enough)"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Add almond milk to blender first.",
+    "Add spinach and blend for 15 seconds alone — this prevents leafy chunks in the final smoothie.",
+    "Add frozen berries, frozen banana, casein powder, chia seeds, and cinnamon.",
+    "Blend on high 45-60 seconds. Casein makes smoothies very thick — this is normal and desirable.",
+    "Taste before serving: the berries provide natural sweetness. Add a few drops of stevia if needed.",
+    "If too thick to drink through a straw, add a splash more almond milk and blend briefly.",
+    "Consume within 20 minutes — casein smoothies thicken further as the chia seeds absorb liquid."
+]
+
+[recipe.healthy_variant.macros]
+calories = 280
+protein_g = 30
+carbs_g = 28
+fat_g = 6
+fiber_g = 8
+sugar_g = 12
+sodium_mg = 180
+# VALIDATION: (30×4) + (28×4) + (6×9) = 120 + 112 + 54 = 286 ≈ 280 ✓ (within ±10)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -200
+protein_difference = "-4g"
+key_changes = [
+    "Peanut butter removed — saves 100 cal and 8g fat; chia seeds add healthy fats with fewer calories",
+    "Honey removed — mixed berries provide all sweetness naturally at much lower calorie cost",
+    "Whole milk replaced with unsweetened almond milk — saves ~60 cal and 4g saturated fat",
+    "Spinach added — zero caloric impact, provides iron, vitamin K, and folate",
+    "Casein replaces whey — slower digestion gives sustained amino acid release over 6 hours"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "whey protein powder", substitute = "powdered skim milk (double the quantity)", saving_percent = 60, reason = "Powdered milk is a complete protein source at a fraction of the cost of protein powder" },
+    { original = "almond milk", substitute = "water + 1 tbsp powdered milk, or just regular low-fat milk", saving_percent = 70, reason = "Regular dairy or powdered milk is much cheaper and has more protein than almond milk" },
+    { original = "frozen mixed berries", substitute = "1 ripe fresh banana + any seasonal fruit you have", saving_percent = 40, reason = "Fresh in-season fruit is cheaper than frozen berries and provides similar antioxidants" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "casein protein powder", substitute = "blend in 1/4 cup cottage cheese for slow-release casein protein", reason = "Cottage cheese is a natural whole-food casein source available everywhere" },
+    { original = "chia seeds", substitute = "1 tbsp ground flaxseeds or simply omit", reason = "Ground flaxseeds provide similar omega-3s and thickening; omitting has minimal nutritional impact" },
+    { original = "unsweetened almond milk", substitute = "any plant-based or dairy milk, adjusting for calorie goals", reason = "Any liquid base works — oat milk, rice milk, coconut milk, or regular dairy milk" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "protein powder", substitute = "2 tbsp peanut butter + 2 extra tbsp Greek yogurt", reason = "Nut butter plus yogurt together provide 10-12g protein without any supplements" },
+    { original = "frozen banana", substitute = "1/4 ripe avocado for creaminess without added sugar", reason = "Avocado provides the same thick, creamy texture as frozen banana with less sugar and more healthy fat" },
+    { original = "ice cubes", substitute = "freeze the banana in advance — blends into a naturally cold, thick smoothie", reason = "A pre-frozen banana eliminates the need for ice and creates a creamier consistency" }
+]

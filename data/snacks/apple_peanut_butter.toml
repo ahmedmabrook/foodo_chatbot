@@ -1,0 +1,118 @@
+# ============================================================
+# RECIPE DOCUMENT — APPLE WITH PEANUT BUTTER
+# Category: Snacks
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "snack_apple_peanut_butter"
+cuisine = "Snacks"
+dish_name = "Apple with Peanut Butter"
+alternate_names = ["Apple & PB", "PB Apple Slices", "Apple Dip Snack"]
+category = "snack"
+tags = ["snack", "no_cook", "vegetarian", "vegan", "quick", "gluten_free", "contains_nuts"]
+allergens = ["tree_nuts", "peanuts"]
+difficulty = "easy"
+total_time_minutes = 3
+
+[recipe.standard]
+serving_size = "1 medium apple + 2 tbsp peanut butter (approximately 250g)"
+servings_per_recipe = 1
+prep_time_minutes = 3
+cook_time_minutes = 0
+
+[recipe.standard.ingredients]
+items = [
+    "1 medium apple (Fuji, Gala, or Granny Smith — ~180g)",
+    "2 tbsp (32g) natural peanut butter (no added sugar or oil)",
+    "Optional: a pinch of cinnamon or a few raisins for garnish"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Wash and core the apple. Slice into 8 even wedges — a thin layer of skin on each slice helps with structural integrity for dipping.",
+    "If peanut butter is separated (oil on top), stir it well before portioning.",
+    "Arrange apple slices on a plate.",
+    "Serve peanut butter in a small ramekin on the side for dipping, or spread a thin layer on each slice.",
+    "Optional: dust with cinnamon for extra flavour without added calories.",
+    "Eat within 30 minutes — cut apples brown quickly. A squeeze of lemon juice slows browning if meal-prepping."
+]
+
+[recipe.standard.macros]
+calories = 280
+protein_g = 6
+carbs_g = 28
+fat_g = 16
+fiber_g = 5
+sugar_g = 18
+sodium_mg = 60
+# VALIDATION: (6×4) + (28×4) + (16×9) = 24 + 112 + 144 = 280 ✓ (exact)
+
+[recipe.healthy_variant]
+variant_name = "Apple with Almond Butter & Seeds"
+variant_type = "low_calorie"
+description = "Reduces nut butter to 1.5 tbsp and swaps to almond butter, which has a slightly better micronutrient profile. Adds pumpkin seeds for extra protein and magnesium. Choosing a tart apple like Granny Smith keeps sugar content lower."
+serving_size = "1 medium tart apple + 1.5 tbsp almond butter + seeds (approximately 230g)"
+servings_per_recipe = 1
+prep_time_minutes = 3
+cook_time_minutes = 0
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1 medium Granny Smith apple (~170g — tart variety has less sugar than sweet apples)",
+    "1.5 tbsp (24g) natural almond butter (no added sugar)",
+    "1 tsp pumpkin seeds",
+    "1/4 tsp cinnamon",
+    "Optional: a few hemp seeds for extra protein"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Slice apple into 8 wedges. Granny Smith apples are firmer and hold up better for dipping.",
+    "Portion almond butter into a small bowl. Top with pumpkin seeds pressed lightly into the surface.",
+    "Dust apple slices and almond butter with cinnamon.",
+    "Dip apple slices into almond butter. Eat immediately for best texture."
+]
+
+[recipe.healthy_variant.macros]
+calories = 220
+protein_g = 6
+carbs_g = 24
+fat_g = 12
+fiber_g = 5
+sugar_g = 14
+sodium_mg = 40
+# VALIDATION: (6×4) + (24×4) + (12×9) = 24 + 96 + 108 = 228 ≈ 220 ✓ (within ±10)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -60
+protein_difference = "0g"
+key_changes = [
+    "1.5 tbsp instead of 2 tbsp nut butter — removes ~50 cal without meaningfully changing satiety",
+    "Granny Smith apple instead of sweet varieties — ~20% less sugar than Fuji or Gala",
+    "Almond butter vs peanut butter — slightly more vitamin E and magnesium per serving",
+    "Pumpkin seeds add magnesium, zinc, and 2g extra protein per tsp"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "almond butter", substitute = "peanut butter (always cheaper than almond butter)", saving_percent = 40, reason = "Peanut butter is nutritionally very close to almond butter at a significantly lower cost" },
+    { original = "pumpkin seeds", substitute = "sunflower seeds or crushed peanuts", saving_percent = 30, reason = "Any seed or nut provides similar crunch and healthy fat" },
+    { original = "Granny Smith apple", substitute = "any apple you have — the variety matters less than the nut butter quality", saving_percent = 10, reason = "Any apple variety works; choose based on what's affordable and in season" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "natural peanut butter (no additives)", substitute = "any peanut butter — regular commercial brands work fine", reason = "Commercial peanut butter has a bit more sugar but is functionally identical as a snack" },
+    { original = "pumpkin seeds", substitute = "any seed or nut: walnuts, almonds, or cashews", reason = "All nuts and seeds provide healthy fats and protein in a similar way" },
+    { original = "Granny Smith apple", substitute = "any firm apple available locally", reason = "The key is a firm apple that won't turn to mush when sliced" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "peanut butter", substitute = "tahini (sesame paste) or any nut or seed butter you have", reason = "Any thick nut or seed paste provides the protein-fat combination that makes this snack satisfying" },
+    { original = "pumpkin seeds", substitute = "a small handful of any mixed nuts or simply omit", reason = "The seeds are an enhancement; the core snack is the apple and nut butter" },
+    { original = "cinnamon", substitute = "a tiny pinch of cardamom or nutmeg", reason = "Any warm spice complements apple's natural sweetness" }
+]

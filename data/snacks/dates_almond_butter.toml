@@ -1,0 +1,121 @@
+# ============================================================
+# RECIPE DOCUMENT — DATES WITH ALMOND BUTTER
+# Category: Snacks
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "snack_dates_almond_butter"
+cuisine = "Snacks"
+dish_name = "Dates with Almond Butter"
+alternate_names = ["Stuffed Dates", "Date Almond Bites", "Energy Dates"]
+category = "snack"
+tags = ["snack", "no_cook", "vegan", "gluten_free", "dairy_free", "natural_sugar", "energy_dense", "contains_nuts"]
+allergens = ["tree_nuts"]
+difficulty = "easy"
+total_time_minutes = 5
+
+[recipe.standard]
+serving_size = "3 Medjool dates + 1.5 tbsp almond butter (approximately 120g)"
+servings_per_recipe = 1
+prep_time_minutes = 5
+cook_time_minutes = 0
+
+[recipe.standard.ingredients]
+items = [
+    "3 Medjool dates (~60g, pitted)",
+    "1.5 tbsp (24g) natural almond butter",
+    "Optional: a pinch of flaky sea salt pressed onto the almond butter for a sweet-salty combination",
+    "Optional: 1/4 tsp cinnamon dusted over the top"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "If dates are not pre-pitted: make a lengthwise slit along each date and remove the pit.",
+    "Open each date like a small vessel.",
+    "Fill each date with approximately 1/2 tbsp almond butter.",
+    "Sprinkle with flaky sea salt and cinnamon if using.",
+    "Serve immediately or store in the refrigerator for up to 3 days."
+]
+
+[recipe.standard.macros]
+calories = 280
+protein_g = 4
+carbs_g = 40
+fat_g = 12
+fiber_g = 4
+sugar_g = 34
+sodium_mg = 30
+# VALIDATION: (4×4) + (40×4) + (12×9) = 16 + 160 + 108 = 284 ≈ 280 ✓ (within ±10)
+
+[recipe.healthy_variant]
+variant_name = "Stuffed Dates with Almond Butter & Hemp Seeds"
+variant_type = "high_protein"
+description = "Reduces to 2 dates instead of 3 to cut the sugar load, adds hemp seeds to each stuffed date for protein and omega-3s, and tops with a small amount of dark chocolate shavings for antioxidants. A more nutritionally complete version of this classic Middle Eastern-inspired snack."
+serving_size = "2 stuffed dates with seeds (approximately 90g)"
+servings_per_recipe = 1
+prep_time_minutes = 5
+cook_time_minutes = 0
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "2 Medjool dates (~40g, pitted)",
+    "1.5 tbsp (24g) natural almond butter",
+    "1 tsp hemp seeds",
+    "1 tsp dark chocolate shavings or 1/4 tsp raw cacao nibs",
+    "Pinch of cinnamon",
+    "Pinch of flaky sea salt"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Pit the dates and open them flat.",
+    "Fill each date with 3/4 tbsp almond butter.",
+    "Press hemp seeds into the almond butter on each date.",
+    "Top with dark chocolate shavings or cacao nibs.",
+    "Dust with cinnamon and a tiny pinch of sea salt.",
+    "Refrigerate for 10 minutes if you prefer them firm, or eat immediately for a softer texture."
+]
+
+[recipe.healthy_variant.macros]
+calories = 240
+protein_g = 6
+carbs_g = 28
+fat_g = 12
+fiber_g = 4
+sugar_g = 22
+sodium_mg = 35
+# VALIDATION: (6×4) + (28×4) + (12×9) = 24 + 112 + 108 = 244 ≈ 240 ✓ (within ±10)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -40
+protein_difference = "+2g"
+key_changes = [
+    "2 dates instead of 3 — reduces sugar from 34g to 22g, which is a significant reduction for a snack",
+    "Hemp seeds added — provide 3g complete plant protein per tsp + all essential amino acids",
+    "Cacao nibs replace no-chocolate option — add magnesium and flavonoids with minimal sugar",
+    "Same almond butter amount — maintains the healthy fat that slows sugar absorption from the dates"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "Medjool dates", substitute = "regular (non-Medjool) pitted dates — smaller, less caramel-rich, but functional", saving_percent = 60, reason = "Medjool dates are premium; regular pitted dates from a bag cost far less and work identically" },
+    { original = "almond butter", substitute = "peanut butter or tahini — both significantly cheaper", saving_percent = 40, reason = "Peanut butter and tahini both stuff dates beautifully and have very similar fat and protein profiles" },
+    { original = "hemp seeds", substitute = "sesame seeds or crushed walnuts — both cheaper with similar nutrient profiles", saving_percent = 50, reason = "Any seed or nut pressed into the almond butter provides crunch, protein, and healthy fat" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Medjool dates", substitute = "any large pitted dates (Deglet Noor, Halawi, Zahidi)", reason = "Deglet Noor dates are the most widely available globally and work well for stuffing" },
+    { original = "almond butter", substitute = "tahini mixed with a tiny bit of honey — common in Middle Eastern households", reason = "Tahini-honey mixture is a traditional date pairing in Arab cuisine and extremely delicious" },
+    { original = "hemp seeds", substitute = "ground flaxseeds, sesame seeds, or finely chopped pistachios", reason = "Any seed or nut topping adds protein and texture to stuffed dates" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "almond butter", substitute = "any nut or seed butter: peanut butter, sunflower seed butter, or tahini", reason = "The date acts as a natural cup; any thick, creamy fat-protein paste fills it perfectly" },
+    { original = "flaky sea salt", substitute = "a tiny pinch of regular table salt — the effect is the same at smaller scale", reason = "Salt on sweet dates creates the same contrast effect regardless of flake size" },
+    { original = "dark chocolate shavings", substitute = "a small square of any dark chocolate grated over the top, or simply omit", reason = "The chocolate is an enhancement; dates with almond butter are excellent without it" }
+]

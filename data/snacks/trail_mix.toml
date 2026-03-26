@@ -1,0 +1,127 @@
+# ============================================================
+# RECIPE DOCUMENT — TRAIL MIX
+# Category: Snacks
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "snack_trail_mix"
+cuisine = "Snacks"
+dish_name = "Trail Mix"
+alternate_names = ["GORP", "Nut Mix", "Hiker's Mix", "Energy Mix"]
+category = "snack"
+tags = ["snack", "no_cook", "vegan", "gluten_free", "portable", "energy_dense", "meal_prep", "contains_nuts"]
+allergens = ["tree_nuts", "peanuts"]
+difficulty = "easy"
+total_time_minutes = 5
+
+[recipe.standard]
+serving_size = "1/3 cup (approximately 45g)"
+servings_per_recipe = 8
+prep_time_minutes = 5
+cook_time_minutes = 0
+
+[recipe.standard.ingredients]
+items = [
+    "1 cup dry-roasted almonds",
+    "1/2 cup cashews",
+    "1/2 cup peanuts",
+    "1/2 cup dried cranberries (sweetened)",
+    "1/4 cup raisins",
+    "1/4 cup dark chocolate chips (M&Ms or similar)",
+    "1/4 cup sunflower seeds",
+    "Optional: a pinch of sea salt"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Combine all ingredients in a large bowl and stir to distribute evenly.",
+    "Portion into 8 equal servings (approximately 1/3 cup each) using a measuring cup.",
+    "Store in an airtight container or individual zip-lock bags.",
+    "Storage: keeps at room temperature for up to 2 weeks. Refrigerate if including chocolate chips in warm climates."
+]
+
+[recipe.standard.macros]
+calories = 380
+protein_g = 10
+carbs_g = 36
+fat_g = 22
+fiber_g = 4
+sugar_g = 18
+sodium_mg = 80
+# VALIDATION: (10×4) + (36×4) + (22×9) = 40 + 144 + 198 = 382 ≈ 380 ✓
+
+[recipe.healthy_variant]
+variant_name = "Clean Trail Mix with Seeds & Dark Chocolate"
+variant_type = "low_calorie"
+description = "Removes the sweetened dried fruit and milk chocolate, replacing them with unsweetened dried fruit and 85% dark chocolate. Adds seeds (pumpkin, hemp) to increase protein and micronutrients. Fewer calories and less sugar while providing more minerals and antioxidants."
+serving_size = "1/3 cup (approximately 42g)"
+servings_per_recipe = 8
+prep_time_minutes = 5
+cook_time_minutes = 0
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1 cup raw almonds (unroasted, unsalted)",
+    "1/2 cup walnuts",
+    "1/4 cup pumpkin seeds",
+    "1/4 cup hemp seeds",
+    "1/4 cup unsweetened dried cranberries or goji berries",
+    "1/4 cup dark chocolate chips (85% cacao — very small chips)",
+    "2 tbsp coconut flakes (unsweetened)",
+    "1/4 tsp cinnamon tossed through",
+    "Pinch of sea salt"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Combine all ingredients in a large bowl.",
+    "Add cinnamon and sea salt, then toss thoroughly until evenly distributed.",
+    "Taste — the 85% dark chocolate makes this mix notably less sweet than commercial trail mix. This is intentional.",
+    "Portion into 8 equal servings and store in individual bags or airtight jars.",
+    "Tip: portion immediately after making — it's easy to overeat trail mix directly from a large bowl."
+]
+
+[recipe.healthy_variant.macros]
+calories = 320
+protein_g = 12
+carbs_g = 28
+fat_g = 18
+fiber_g = 5
+sugar_g = 8
+sodium_mg = 50
+# VALIDATION: (12×4) + (28×4) + (18×9) = 48 + 112 + 162 = 322 ≈ 320 ✓
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -60
+protein_difference = "+2g"
+key_changes = [
+    "Sweetened dried cranberries replaced with unsweetened — cuts ~40 cal and 10g sugar per serving",
+    "M&Ms/milk chocolate replaced with 85% dark chocolate — same chocolate satisfaction with less sugar and added flavonoids",
+    "Cashews replaced with walnuts — walnuts have more omega-3 ALA fatty acids",
+    "Seeds added (pumpkin, hemp) — boost protein, zinc, and magnesium",
+    "Unsalted nuts — reduces sodium by 30mg"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "walnuts", substitute = "more peanuts (cheapest nut available)", saving_percent = 50, reason = "Peanuts are nutritionally comparable nuts at a much lower price point" },
+    { original = "goji berries", substitute = "raisins (conventional) or dried apricots, chopped", saving_percent = 80, reason = "Goji berries are an expensive superfood; any dried fruit provides similar carbs and antioxidants" },
+    { original = "dark chocolate chips (85%)", substitute = "a square of any dark chocolate, chopped — or simply omit", saving_percent = 30, reason = "Any dark chocolate works; omitting entirely still leaves a satisfying nut-and-seed mix" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "hemp seeds", substitute = "sesame seeds or flaxseeds", reason = "Hemp seeds are not available everywhere; sesame and flax offer similar nutrition at lower cost" },
+    { original = "unsweetened dried cranberries", substitute = "any dried fruit: dates (chopped), apricots, or figs", reason = "Any dried fruit provides sweetness and chewy texture in the mix" },
+    { original = "85% dark chocolate", substitute = "70% dark chocolate or carob chips", reason = "70% chocolate is more widely available and still significantly healthier than milk chocolate" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "multiple nut varieties", substitute = "whatever combination of nuts and seeds you have in the pantry", reason = "The specific nut-to-nut ratio matters far less than the principle: eat a small measured portion" },
+    { original = "coconut flakes", substitute = "simply omit — they are a texture enhancer only", reason = "Coconut flakes add pleasant chewiness but have no impact on the core nutritional value" },
+    { original = "portioning into individual bags", substitute = "use a tablespoon to scoop directly from the jar into a small bowl at snack time", reason = "Pre-portioning is ideal but any mindful portioning method achieves the same result" }
+]

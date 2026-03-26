@@ -1,0 +1,134 @@
+# ============================================================
+# RECIPE DOCUMENT — TUNA WRAP
+# Category: High Protein / Fitness
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "high_protein_tuna_wrap"
+cuisine = "Fitness"
+dish_name = "Tuna Wrap"
+alternate_names = ["Tuna Salad Wrap", "Tuna Tortilla Wrap", "High-Protein Tuna Roll"]
+category = "main_course"
+tags = ["main_course", "high_protein", "quick", "no_cook", "meal_prep", "contains_gluten", "contains_fish"]
+allergens = ["gluten", "fish"]
+difficulty = "easy"
+total_time_minutes = 10
+
+[recipe.standard]
+serving_size = "1 wrap (approximately 300g)"
+servings_per_recipe = 2
+prep_time_minutes = 10
+cook_time_minutes = 0
+
+[recipe.standard.ingredients]
+items = [
+    "2 cans (160g each) tuna in water, drained",
+    "2 large whole wheat flour tortillas (10-inch/25cm)",
+    "2 tbsp mayonnaise",
+    "1 tsp Dijon mustard",
+    "1/2 celery stalk, finely diced",
+    "1/4 red onion, finely diced",
+    "4 romaine lettuce leaves",
+    "1 medium tomato, sliced",
+    "1/4 cucumber, sliced thin",
+    "Salt, black pepper, and lemon juice to taste",
+    "Optional: hot sauce or pickle slices"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Drain tuna cans thoroughly — press the lid against the tuna and squeeze out all liquid.",
+    "In a bowl, combine tuna with mayonnaise, mustard, celery, and red onion. Season with salt, pepper, and a squeeze of lemon juice. Mix well.",
+    "Lay tortilla flat on a clean surface. Place 2 romaine leaves in the center, leaving 2 inches of border on all sides.",
+    "Spoon half the tuna mixture onto the lettuce. Add tomato slices and cucumber.",
+    "Fold the two side edges inward, then roll tightly from the bottom edge upward.",
+    "Cut diagonally in half. Serve immediately or wrap in foil for later."
+]
+
+[recipe.standard.macros]
+calories = 380
+protein_g = 32
+carbs_g = 30
+fat_g = 14
+fiber_g = 4
+sugar_g = 3
+sodium_mg = 620
+# VALIDATION: (32×4) + (30×4) + (14×9) = 128 + 120 + 126 = 374 ≈ 380 ✓ (within ±10)
+
+[recipe.healthy_variant]
+variant_name = "Greek Yogurt Tuna Lettuce Cups"
+variant_type = "high_protein"
+description = "Swaps mayo for Greek yogurt to slash fat and boost protein, and replaces the tortilla with butter lettuce cups to eliminate refined carbs entirely. Lower calorie, higher protein, and crisp — perfect as a light lunch or pre-competition meal."
+serving_size = "4 lettuce cups (approximately 260g)"
+servings_per_recipe = 2
+prep_time_minutes = 10
+cook_time_minutes = 0
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "2 cans (160g each) tuna in water, drained",
+    "8 large butter lettuce or romaine leaves (as cups)",
+    "3 tbsp plain Greek yogurt (0% fat)",
+    "1 tsp Dijon mustard",
+    "1 tsp lemon juice",
+    "1/2 celery stalk, finely diced",
+    "1/4 red onion, finely diced",
+    "1/4 cup cucumber, diced small",
+    "1 tbsp fresh dill or parsley, chopped",
+    "Salt and black pepper to taste",
+    "Optional: capers or pickle relish (adds sodium but no significant calories)"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Drain tuna cans completely.",
+    "In a bowl, combine tuna with Greek yogurt, Dijon mustard, and lemon juice. Stir until fully coated — the yogurt should create a creamy consistency similar to mayo.",
+    "Fold in celery, red onion, cucumber, and fresh dill. Season generously with salt and pepper.",
+    "Arrange lettuce leaves on a plate in pairs — each pair forms a sturdy double-layered cup.",
+    "Spoon tuna mixture into each lettuce cup.",
+    "Add optional capers or relish if desired. Serve immediately — lettuce cups wilt if left too long."
+]
+
+[recipe.healthy_variant.macros]
+calories = 240
+protein_g = 34
+carbs_g = 10
+fat_g = 6
+fiber_g = 2
+sugar_g = 4
+sodium_mg = 580
+# VALIDATION: (34×4) + (10×4) + (6×9) = 136 + 40 + 54 = 230 ≈ 240 ✓ (within ±10)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -140
+protein_difference = "+2g"
+key_changes = [
+    "Greek yogurt replaces mayo — saves ~80 cal and 10g fat; adds extra protein and probiotics",
+    "Lettuce cups replace tortilla — eliminates ~150 cal of refined carbs",
+    "No loss in volume or satiety — the high protein content keeps you full longer",
+    "Fresh dill added — provides flavor complexity that compensates for removed richness of mayo"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "tuna in water cans", substitute = "canned sardines or mackerel in water", saving_percent = 40, reason = "Sardines and mackerel are cheaper, higher in omega-3s, and work perfectly in the same recipe" },
+    { original = "Greek yogurt", substitute = "regular plain yogurt (strained overnight to thicken)", saving_percent = 35, reason = "Strained regular yogurt has the same thick, creamy texture as Greek yogurt" },
+    { original = "butter lettuce", substitute = "any sturdy large lettuce leaf — romaine, iceberg wedges, or even napa cabbage leaves", saving_percent = 30, reason = "Any large, cupped leaf serves as a taco-style shell" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Dijon mustard", substitute = "any mustard, or 1/4 tsp mustard powder + tiny splash of vinegar", reason = "Regular yellow mustard provides similar tang; any mustard works in this recipe" },
+    { original = "fresh dill", substitute = "dried dill (1/3 the amount) or any fresh herb: parsley, chives, or cilantro", reason = "Any fresh herb brightens tuna salad; cilantro gives a more regional Middle Eastern twist" },
+    { original = "capers", substitute = "finely diced pickles or green olives", reason = "Both provide the same salty, briny contrast to the creamy tuna" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "Greek yogurt (in tuna)", substitute = "1 tbsp regular plain yogurt + squeeze of lemon (thin it down slightly)", reason = "Regular yogurt with extra lemon mimics the tang and creaminess of Greek yogurt in this context" },
+    { original = "celery", substitute = "finely diced cucumber or radish for crunch", reason = "Any crisp vegetable adds texture to tuna salad in the same way celery does" },
+    { original = "whole wheat tortilla", substitute = "any flatbread, rice paper, or simply serve the tuna over a bed of lettuce as a salad", reason = "Tuna salad is versatile — it works over greens, in flatbread, or eaten directly with a fork" }
+]

@@ -5,9 +5,10 @@
 # ============================================================
 
 [meta]
-total_recipes = 98
+total_recipes = 114
 cuisines = ["Egyptian", "Khaliji", "American", "Italian", "French", "Greek", "Turkish"]
 dessert_collections = ["Western", "Eastern"]
+fitness_collections = ["High Protein", "Snacks"]
 schema_version = "1.0"
 
 # ============================================================
@@ -731,3 +732,123 @@ dish_name = "Halva"
 cuisine = "Turkish"
 category = "dessert"
 standard_calories = 360
+
+# ============================================================
+# HIGH PROTEIN / FITNESS (8 recipes)
+# ============================================================
+
+[[recipes]]
+doc_id = "high_protein_protein_pancakes"
+dish_name = "Protein Pancakes"
+cuisine = "Fitness"
+category = "breakfast"
+standard_calories = 380
+
+[[recipes]]
+doc_id = "high_protein_greek_yogurt_bowl"
+dish_name = "Greek Yogurt Protein Bowl"
+cuisine = "Fitness"
+category = "breakfast"
+standard_calories = 420
+
+[[recipes]]
+doc_id = "high_protein_protein_oatmeal"
+dish_name = "Protein Oatmeal"
+cuisine = "Fitness"
+category = "breakfast"
+standard_calories = 460
+
+[[recipes]]
+doc_id = "high_protein_egg_white_omelette"
+dish_name = "Egg White Omelette"
+cuisine = "Fitness"
+category = "breakfast"
+standard_calories = 320
+
+[[recipes]]
+doc_id = "high_protein_chicken_rice_bowl"
+dish_name = "Grilled Chicken Rice Bowl"
+cuisine = "Fitness"
+category = "main_course"
+standard_calories = 520
+
+[[recipes]]
+doc_id = "high_protein_tuna_wrap"
+dish_name = "Tuna Wrap"
+cuisine = "Fitness"
+category = "main_course"
+standard_calories = 380
+
+[[recipes]]
+doc_id = "high_protein_cottage_cheese_bowl"
+dish_name = "Cottage Cheese Bowl"
+cuisine = "Fitness"
+category = "snack"
+standard_calories = 260
+
+[[recipes]]
+doc_id = "high_protein_protein_smoothie"
+dish_name = "Protein Smoothie"
+cuisine = "Fitness"
+category = "breakfast"
+standard_calories = 480
+
+# ============================================================
+# SNACKS (8 recipes)
+# ============================================================
+
+[[recipes]]
+doc_id = "snack_apple_peanut_butter"
+dish_name = "Apple with Peanut Butter"
+cuisine = "Snacks"
+category = "snack"
+standard_calories = 280
+
+[[recipes]]
+doc_id = "snack_mixed_berries"
+dish_name = "Mixed Berries Bowl"
+cuisine = "Snacks"
+category = "snack"
+standard_calories = 90
+
+[[recipes]]
+doc_id = "snack_banana"
+dish_name = "Banana"
+cuisine = "Snacks"
+category = "snack"
+standard_calories = 105
+
+[[recipes]]
+doc_id = "snack_trail_mix"
+dish_name = "Trail Mix"
+cuisine = "Snacks"
+category = "snack"
+standard_calories = 380
+
+[[recipes]]
+doc_id = "snack_hummus_veggie_sticks"
+dish_name = "Hummus with Veggie Sticks"
+cuisine = "Snacks"
+category = "snack"
+standard_calories = 280
+
+[[recipes]]
+doc_id = "snack_rice_cakes"
+dish_name = "Rice Cakes with Toppings"
+cuisine = "Snacks"
+category = "snack"
+standard_calories = 260
+
+[[recipes]]
+doc_id = "snack_protein_bar_homemade"
+dish_name = "Homemade No-Bake Protein Bar"
+cuisine = "Snacks"
+category = "snack"
+standard_calories = 240
+
+[[recipes]]
+doc_id = "snack_dates_almond_butter"
+dish_name = "Dates with Almond Butter"
+cuisine = "Snacks"
+category = "snack"
+standard_calories = 280

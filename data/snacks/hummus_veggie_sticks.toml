@@ -1,0 +1,130 @@
+# ============================================================
+# RECIPE DOCUMENT — HUMMUS WITH VEGGIE STICKS
+# Category: Snacks
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "snack_hummus_veggie_sticks"
+cuisine = "Snacks"
+dish_name = "Hummus with Veggie Sticks"
+alternate_names = ["Hummus Dip", "Crudités with Hummus", "Veggie and Hummus Plate"]
+category = "snack"
+tags = ["snack", "vegetarian", "vegan", "gluten_free", "high_fiber", "plant_protein", "contains_sesame"]
+allergens = ["sesame"]
+difficulty = "easy"
+total_time_minutes = 10
+
+[recipe.standard]
+serving_size = "1/3 cup hummus + vegetables + 1 mini pita (approximately 250g)"
+servings_per_recipe = 1
+prep_time_minutes = 10
+cook_time_minutes = 0
+
+[recipe.standard.ingredients]
+items = [
+    "1/3 cup (80g) store-bought hummus (classic or roasted red pepper)",
+    "2 medium carrots, peeled and cut into sticks",
+    "1/2 cucumber, cut into sticks",
+    "2 celery stalks, cut into sticks",
+    "1 mini whole wheat pita (about 30g)",
+    "Optional: a sprinkle of paprika and a drizzle of olive oil on the hummus"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Peel carrots and cut into uniform sticks about 3 inches long and 1/2 inch wide — consistent size makes dipping easier.",
+    "Cut cucumber into similar-sized sticks. No need to peel if using English cucumber.",
+    "Cut celery into 3-inch pieces.",
+    "Spoon hummus into a small bowl. Drizzle lightly with olive oil and dust with paprika if desired.",
+    "Warm mini pita briefly in a toaster or dry pan for 30 seconds for best texture.",
+    "Arrange vegetables and pita around the hummus bowl.",
+    "Eat by dipping vegetables and torn pita into hummus."
+]
+
+[recipe.standard.macros]
+calories = 280
+protein_g = 8
+carbs_g = 34
+fat_g = 12
+fiber_g = 7
+sugar_g = 8
+sodium_mg = 420
+# VALIDATION: (8×4) + (34×4) + (12×9) = 32 + 136 + 108 = 276 ≈ 280 ✓ (within ±10)
+
+[recipe.healthy_variant]
+variant_name = "Homemade Light Hummus with Veggie Sticks (No Pita)"
+variant_type = "low_calorie"
+description = "Homemade hummus reduces tahini by half and adds extra lemon and garlic for flavor, significantly cutting fat without losing the characteristic taste. No pita — replaces starchy dippers with more vegetables including bell pepper and radish. Nearly the same satisfaction at nearly half the calories."
+serving_size = "1/3 cup light hummus + vegetables (approximately 250g)"
+servings_per_recipe = 1
+prep_time_minutes = 10
+cook_time_minutes = 0
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1/2 can (120g) canned chickpeas, rinsed and drained",
+    "1/2 tbsp tahini (half the typical amount)",
+    "1 tbsp lemon juice (fresh)",
+    "1 small garlic clove, minced",
+    "1-2 tbsp cold water (to thin to desired consistency)",
+    "Pinch of cumin, salt, and smoked paprika",
+    "2 medium carrots, cut into sticks",
+    "1/2 cucumber, cut into sticks",
+    "1/2 red or yellow bell pepper, cut into strips",
+    "4 radishes, halved",
+    "Celery sticks"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Make light hummus: blend chickpeas, tahini, lemon juice, garlic, cumin, and salt in a small food processor.",
+    "With processor running, add cold water 1 tbsp at a time until smooth and creamy. Cold water makes hummus lighter and fluffier.",
+    "Taste and adjust — more lemon for brightness, more garlic for punch, more cumin for depth.",
+    "Spoon into a small bowl and dust with paprika.",
+    "Cut all vegetables into uniform dipping sticks. Bell pepper strips are particularly good dippers — they add sweetness and crunch.",
+    "Arrange vegetables around hummus and serve."
+]
+
+[recipe.healthy_variant.macros]
+calories = 160
+protein_g = 8
+carbs_g = 16
+fat_g = 8
+fiber_g = 7
+sugar_g = 6
+sodium_mg = 240
+# VALIDATION: (8×4) + (16×4) + (8×9) = 32 + 64 + 72 = 168 ≈ 160 ✓ (within ±10)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -120
+protein_difference = "0g"
+key_changes = [
+    "Mini pita removed — eliminates ~80 cal; vegetables replace all the dipping action",
+    "Tahini halved — saves ~45 cal and 4g fat; extra lemon compensates for lost richness",
+    "Bell pepper and radish added — increases volume and variety without calories",
+    "Homemade hummus cuts sodium from ~420mg to ~240mg per serving"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "store-bought hummus", substitute = "homemade hummus from a can of chickpeas + any nut/seed butter (tahini substitute)", saving_percent = 60, reason = "A can of chickpeas makes 4+ servings of hummus for less than the cost of one store-bought tub" },
+    { original = "fresh bell peppers", substitute = "whatever vegetables are cheapest and in season: zucchini, broccoli, cauliflower", saving_percent = 30, reason = "Hummus pairs with any vegetable; use whatever is affordable and available" },
+    { original = "tahini", substitute = "peanut butter or sunflower seed butter at half the amount", saving_percent = 50, reason = "Any nut or seed butter works as a tahini substitute in hummus" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "canned chickpeas", substitute = "dried chickpeas soaked overnight and boiled 1.5 hours", reason = "Dried chickpeas make better-tasting hummus and are available in markets where canned chickpeas are not" },
+    { original = "tahini", substitute = "sesame seeds blended with a tiny bit of oil, or simply omit for lower-fat hummus", reason = "Tahini is ground sesame; blending sesame seeds with olive oil makes a direct substitute" },
+    { original = "food processor", substitute = "mash chickpeas by hand with a fork for a rustic, chunky hummus texture", reason = "Hand-mashed hummus has a different texture but is entirely valid — the Middle East's oldest hummus was hand-mashed" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "hummus", substitute = "mashed avocado (guacamole-style) or refried beans as a dip", reason = "Both provide a creamy, plant-based dip for vegetable sticks with similar calorie profiles" },
+    { original = "celery sticks", substitute = "any raw vegetable you have: broccoli florets, cauliflower, snap peas", reason = "The recipe concept is dipping any raw vegetable into a protein-fat dip — vegetable choice is flexible" },
+    { original = "lemon juice (fresh)", substitute = "white vinegar (1/4 tsp) or apple cider vinegar for the same acid brightness", reason = "Acid is the key flavour in hummus; any mild acid brightens it in the same way" }
+]

@@ -1,0 +1,124 @@
+# ============================================================
+# RECIPE DOCUMENT — MIXED BERRIES BOWL
+# Category: Snacks
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "snack_mixed_berries"
+cuisine = "Snacks"
+dish_name = "Mixed Berries Bowl"
+alternate_names = ["Berry Bowl", "Fresh Berries Snack", "Antioxidant Bowl"]
+category = "snack"
+tags = ["snack", "no_cook", "vegan", "gluten_free", "dairy_free", "low_calorie", "antioxidant_rich"]
+allergens = []
+difficulty = "easy"
+total_time_minutes = 3
+
+[recipe.standard]
+serving_size = "1.5 cups mixed berries (approximately 220g)"
+servings_per_recipe = 1
+prep_time_minutes = 3
+cook_time_minutes = 0
+
+[recipe.standard.ingredients]
+items = [
+    "1/2 cup fresh blueberries (~75g)",
+    "1/2 cup fresh strawberries, hulled and halved (~75g)",
+    "1/4 cup fresh raspberries (~40g)",
+    "1/4 cup fresh blackberries (~40g)",
+    "Optional: a few fresh mint leaves for garnish",
+    "Optional: a squeeze of fresh lemon juice to brighten flavors"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Rinse all berries gently under cold running water. Handle raspberries and blackberries very gently — they bruise easily.",
+    "Pat dry lightly with a paper towel or let drain in a colander.",
+    "Combine all berries in a bowl.",
+    "Add mint leaves and a squeeze of lemon if using.",
+    "Serve immediately for the best texture. Fresh berries are at their peak within 1-2 hours of washing."
+]
+
+[recipe.standard.macros]
+calories = 90
+protein_g = 2
+carbs_g = 20
+fat_g = 1
+fiber_g = 6
+sugar_g = 12
+sodium_mg = 5
+# VALIDATION: (2×4) + (20×4) + (1×9) = 8 + 80 + 9 = 97 ≈ 90 ✓ (within ±10)
+
+[recipe.healthy_variant]
+variant_name = "Berries with Greek Yogurt Dip"
+variant_type = "high_protein"
+description = "Transforms the plain berry snack into a protein-rich mini-meal by pairing it with a spiced Greek yogurt dip. Turns 90 calories into a balanced, satisfying snack that keeps hunger at bay for 2-3 hours without adding much sugar or fat."
+serving_size = "1.5 cups berries + 100g yogurt dip (approximately 320g)"
+servings_per_recipe = 1
+prep_time_minutes = 3
+cook_time_minutes = 0
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "1/2 cup fresh blueberries",
+    "1/2 cup fresh strawberries, hulled and halved",
+    "1/4 cup fresh raspberries",
+    "100g (about 1/3 cup) plain Greek yogurt (0% fat)",
+    "1/2 tsp vanilla extract",
+    "1/4 tsp cinnamon",
+    "1 tsp honey or stevia to taste",
+    "Optional: 1 tsp lemon zest stirred into yogurt"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "In a small bowl, stir together Greek yogurt, vanilla, cinnamon, and sweetener until smooth.",
+    "Add lemon zest if using — it makes the dip taste noticeably brighter.",
+    "Wash and prepare berries.",
+    "Arrange berries in a bowl or on a plate around the yogurt dip.",
+    "Dip berries into the yogurt mixture or spoon yogurt directly over the berries."
+]
+
+[recipe.healthy_variant.macros]
+calories = 160
+protein_g = 10
+carbs_g = 22
+fat_g = 3
+fiber_g = 6
+sugar_g = 15
+sodium_mg = 55
+# VALIDATION: (10×4) + (22×4) + (3×9) = 40 + 88 + 27 = 155 ≈ 160 ✓ (within ±10)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = 70
+protein_difference = "+8g"
+key_changes = [
+    "Greek yogurt dip adds 10g protein — transforms a pure-carb snack into a balanced macro combination",
+    "Slight calorie increase is worth the protein — this snack sustains for 2-3 hours vs 1 hour for plain berries",
+    "Zero added fat from the yogurt (0% fat) — the calorie increase is almost purely from protein",
+    "Cinnamon and vanilla make the snack taste indulgent without any added calories"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "fresh mixed berries", substitute = "frozen mixed berries, thawed at room temperature 15 minutes", saving_percent = 50, reason = "Frozen berries are nutritionally identical and much cheaper, especially out of season" },
+    { original = "Greek yogurt dip", substitute = "regular plain yogurt (it will be more liquid but still works as a dip)", saving_percent = 35, reason = "Regular yogurt has a similar nutritional profile and is always cheaper than Greek yogurt" },
+    { original = "fresh blackberries", substitute = "more blueberries or strawberries (typically cheaper and more available)", saving_percent = 40, reason = "Blueberries and strawberries are the most affordable berry varieties in most markets" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "mixed berries", substitute = "any combination of available fruit cut into bite-sized pieces", reason = "The snack concept — fresh fruit with a protein dip — works with any fruit" },
+    { original = "Greek yogurt", substitute = "labneh (strained yogurt common in Middle East) or kefir", reason = "Labneh is Greek yogurt's equivalent in Middle Eastern cuisines; kefir adds probiotics" },
+    { original = "fresh mint", substitute = "dried mint or a slice of cucumber in the yogurt for freshness", reason = "Fresh mint is purely cosmetic and aromatic — easily omitted or substituted" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "Greek yogurt dip", substitute = "blend 1 tbsp plain yogurt with 1 tbsp cottage cheese for a similar thick dip", reason = "The combination of yogurt and cottage cheese creates thickness and protein similar to Greek yogurt" },
+    { original = "honey", substitute = "a pinch of cinnamon + vanilla — both enhance sweetness perception without sugar", reason = "These spices trigger sweet taste perception, reducing the perceived need for actual sweetener" },
+    { original = "lemon zest", substitute = "a tiny squeeze of lemon juice or a few drops of orange juice", reason = "Any citrus brightens the yogurt dip; the amount used is small enough that type barely matters" }
+]

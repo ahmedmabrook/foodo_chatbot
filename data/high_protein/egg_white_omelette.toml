@@ -1,0 +1,135 @@
+# ============================================================
+# RECIPE DOCUMENT — EGG WHITE OMELETTE
+# Category: High Protein / Fitness
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "high_protein_egg_white_omelette"
+cuisine = "Fitness"
+dish_name = "Egg White Omelette"
+alternate_names = ["Egg White Omelette", "White Omelette", "Fitness Omelette"]
+category = "breakfast"
+tags = ["breakfast", "high_protein", "low_fat", "fitness", "keto_friendly", "contains_eggs", "contains_dairy"]
+allergens = ["eggs", "dairy"]
+difficulty = "easy"
+total_time_minutes = 15
+
+[recipe.standard]
+serving_size = "1 large omelette (approximately 280g)"
+servings_per_recipe = 1
+prep_time_minutes = 5
+cook_time_minutes = 10
+
+[recipe.standard.ingredients]
+items = [
+    "4 large eggs (whole)",
+    "1 tbsp olive oil",
+    "1/2 cup baby spinach",
+    "1/4 cup cherry tomatoes, halved",
+    "1/4 cup mushrooms, sliced",
+    "1/4 cup red bell pepper, diced",
+    "30g (1 oz) shredded mozzarella or cheddar cheese",
+    "Salt and black pepper to taste",
+    "Fresh herbs (chives, parsley) for garnish"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Whisk eggs in a bowl with salt and pepper until well combined and slightly frothy.",
+    "Heat 1/2 tbsp olive oil in a non-stick pan over medium heat. Add mushrooms and bell pepper; sauté 3 minutes until softened.",
+    "Add spinach and tomatoes; cook 1 more minute until spinach wilts. Remove vegetables and set aside.",
+    "Wipe the pan clean, add remaining olive oil, and heat over medium heat (325°F/160°C).",
+    "Pour in whisked eggs. As edges begin to set, use a spatula to gently push edges toward center, tilting pan so uncooked egg flows to the edges.",
+    "When the surface is nearly set but still slightly glossy, add cheese and cooked vegetables to one half.",
+    "Fold omelette in half over the filling. Slide onto a plate.",
+    "Garnish with fresh herbs and serve immediately."
+]
+
+[recipe.standard.macros]
+calories = 320
+protein_g = 28
+carbs_g = 6
+fat_g = 20
+fiber_g = 2
+sugar_g = 3
+sodium_mg = 380
+# VALIDATION: (28×4) + (6×4) + (20×9) = 112 + 24 + 180 = 316 ≈ 320 ✓ (within ±10)
+
+[recipe.healthy_variant]
+variant_name = "All-Whites Turkey & Spinach Omelette"
+variant_type = "high_protein"
+description = "Pure egg whites paired with lean turkey breast and spinach — maximum protein with minimal fat. No cheese, no oil (cooking spray only). This is the classic competition prep omelette for cutting phases."
+serving_size = "1 large omelette (approximately 260g)"
+servings_per_recipe = 1
+prep_time_minutes = 5
+cook_time_minutes = 10
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "6 large egg whites (or 200ml carton egg whites)",
+    "60g (2 oz) lean turkey breast, diced or sliced",
+    "1 cup baby spinach",
+    "1/4 cup cherry tomatoes, halved",
+    "1/4 cup mushrooms, sliced",
+    "1/4 cup onion, finely diced",
+    "Cooking spray",
+    "Salt, black pepper, garlic powder to taste",
+    "Fresh chives for garnish"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Season egg whites with salt, pepper, and garlic powder. Whisk vigorously until very frothy — this adds volume.",
+    "Spray a non-stick pan with cooking spray and heat over medium heat.",
+    "Add turkey and onion; cook 3-4 minutes until turkey is cooked through and onion is translucent.",
+    "Add mushrooms and spinach; cook 1 more minute. Add tomatoes and stir briefly. Remove everything and set aside.",
+    "Re-spray pan. Pour in egg whites over medium-low heat (300°F/150°C). Egg whites cook faster than whole eggs — watch carefully.",
+    "As the edges set, gently fold them toward center. The whites will look slightly different from whole eggs — more uniform white, less golden.",
+    "When surface is just set (not wet), add turkey-vegetable filling to one half.",
+    "Fold and slide onto plate. Garnish with chives."
+]
+
+[recipe.healthy_variant.macros]
+calories = 200
+protein_g = 30
+carbs_g = 6
+fat_g = 6
+fiber_g = 2
+sugar_g = 3
+sodium_mg = 420
+# VALIDATION: (30×4) + (6×4) + (6×9) = 120 + 24 + 54 = 198 ≈ 200 ✓
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -120
+protein_difference = "+2g"
+key_changes = [
+    "Egg whites only — removes all yolk fat (each yolk has ~5g fat and 55 cal); keeps all the protein",
+    "Turkey breast replaces olive oil + cheese — lean protein instead of fat sources",
+    "Cooking spray eliminates 120 cal from tablespoon of olive oil",
+    "No cheese — removes ~80 cal and 6g fat while protein stays high from turkey",
+    "Garlic powder and herbs compensate for lost flavor from yolks and cheese"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "turkey breast", substitute = "canned tuna (drained) or any leftover cooked chicken", saving_percent = 40, reason = "Canned tuna is a budget-friendly high-protein filling that pairs well with egg whites" },
+    { original = "baby spinach", substitute = "any leafy green — frozen spinach (thawed and squeezed dry), kale, or chard", saving_percent = 40, reason = "Frozen spinach is significantly cheaper and nutritionally equivalent to fresh" },
+    { original = "cherry tomatoes", substitute = "regular tomatoes, diced, or canned diced tomatoes (well drained)", saving_percent = 30, reason = "Any tomato works; canned is an especially economical choice" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "egg whites only", substitute = "2 whole eggs + 2 egg whites (compromise between protein and richness)", reason = "Using mostly whites with 2 yolks improves flavor and cohesion while keeping fat moderate" },
+    { original = "turkey breast", substitute = "any pre-cooked lean protein: chicken, shrimp, or canned sardines", reason = "The omelette works as a protein vehicle for any lean filling" },
+    { original = "cooking spray", substitute = "a few drops of water in a well-seasoned non-stick pan", reason = "A good non-stick pan can be used with just a splash of water for steam-based cooking" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "carton egg whites", substitute = "separate whole eggs yourself — each large egg yields about 30ml egg white", reason = "Separating whole eggs at home is free and gives you perfectly fresh egg whites" },
+    { original = "fresh herbs", substitute = "dried mixed herbs or simply black pepper and garlic powder", reason = "Dried herbs provide sufficient flavor and are a pantry staple in most homes" },
+    { original = "turkey breast", substitute = "leftover cooked chicken breast, shredded", reason = "Any leftover lean protein repurposed as an omelette filling reduces food waste" }
+]

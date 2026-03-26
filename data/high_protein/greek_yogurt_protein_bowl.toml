@@ -1,0 +1,127 @@
+# ============================================================
+# RECIPE DOCUMENT — GREEK YOGURT PROTEIN BOWL
+# Category: High Protein / Fitness
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "high_protein_greek_yogurt_bowl"
+cuisine = "Fitness"
+dish_name = "Greek Yogurt Protein Bowl"
+alternate_names = ["Protein Parfait", "Whey Yogurt Bowl", "High-Protein Yogurt Bowl"]
+category = "breakfast"
+tags = ["breakfast", "high_protein", "no_cook", "fitness", "quick", "contains_dairy"]
+allergens = ["dairy"]
+difficulty = "easy"
+total_time_minutes = 5
+
+[recipe.standard]
+serving_size = "1 bowl (approximately 350g)"
+servings_per_recipe = 1
+prep_time_minutes = 5
+cook_time_minutes = 0
+
+[recipe.standard.ingredients]
+items = [
+    "200g plain Greek yogurt (2% fat)",
+    "1 scoop (25g) vanilla whey protein powder",
+    "1/2 cup granola",
+    "1/2 cup mixed berries (blueberries, strawberries, raspberries)",
+    "1 tbsp honey",
+    "1 tbsp sliced almonds",
+    "1 tsp chia seeds"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "In a bowl, whisk Greek yogurt and protein powder together until fully smooth — no lumps.",
+    "Taste and adjust sweetness if needed (the protein powder adds some sweetness).",
+    "Spoon the yogurt-protein mixture into a serving bowl.",
+    "Top with granola, mixed berries, and sliced almonds.",
+    "Drizzle honey over the top.",
+    "Sprinkle with chia seeds and serve immediately."
+]
+
+[recipe.standard.macros]
+calories = 420
+protein_g = 36
+carbs_g = 44
+fat_g = 10
+fiber_g = 5
+sugar_g = 22
+sodium_mg = 180
+# VALIDATION: (36×4) + (44×4) + (10×9) = 144 + 176 + 90 = 410 ≈ 420 ✓ (within ±10)
+
+[recipe.healthy_variant]
+variant_name = "Low-Sugar High-Protein Seed Bowl"
+variant_type = "high_protein"
+description = "Drops the granola and honey to eliminate refined carbs and added sugar, replacing them with nutrient-dense seeds, flaxseed, and a small portion of fruit. Casein powder instead of whey for slower absorption and extended satiety."
+serving_size = "1 bowl (approximately 320g)"
+servings_per_recipe = 1
+prep_time_minutes = 5
+cook_time_minutes = 0
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "200g plain Greek yogurt (0% fat)",
+    "1 scoop (25g) unflavoured or vanilla casein protein powder",
+    "1/4 cup blueberries (fresh or frozen-thawed)",
+    "1 tbsp ground flaxseeds",
+    "1 tbsp pumpkin seeds",
+    "1 tbsp hemp seeds",
+    "1/4 tsp cinnamon",
+    "Stevia or monk fruit sweetener to taste (optional)"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Whisk 0% Greek yogurt and casein powder together until completely smooth. Casein makes the mixture very thick — this is desired.",
+    "Add cinnamon and a tiny amount of natural sweetener if the mixture is too tart.",
+    "Transfer to a bowl and top with blueberries.",
+    "Sprinkle ground flaxseed, pumpkin seeds, and hemp seeds over the top.",
+    "Serve immediately. The texture is closer to a thick pudding than a regular yogurt bowl."
+]
+
+[recipe.healthy_variant.macros]
+calories = 280
+protein_g = 38
+carbs_g = 16
+fat_g = 8
+fiber_g = 4
+sugar_g = 8
+sodium_mg = 140
+# VALIDATION: (38×4) + (16×4) + (8×9) = 152 + 64 + 72 = 288 ≈ 280 ✓ (within ±10)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -140
+protein_difference = "+2g"
+key_changes = [
+    "Granola removed — eliminates ~120 cal of refined carbs and added sugar",
+    "Honey removed — saves ~60 cal; sweetness comes from blueberries and natural sweetener only",
+    "0% yogurt vs 2% — reduces fat by ~4g per serving",
+    "Hemp and pumpkin seeds add complete protein, omega-3s, and zinc",
+    "Casein replaces whey — keeps you full for 4-6 hours vs 2-3 with whey"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "whey protein powder", substitute = "powdered milk (half the amount) or an extra 100g Greek yogurt", saving_percent = 60, reason = "Powdered skim milk is a cheap, complete protein source without additives or flavoring" },
+    { original = "granola", substitute = "toasted rolled oats with a pinch of cinnamon", saving_percent = 70, reason = "Plain rolled oats toasted in a dry pan mimics granola texture at a fraction of the cost" },
+    { original = "blueberries", substitute = "frozen mixed berries, thawed", saving_percent = 50, reason = "Frozen berries are nutritionally equivalent and available year-round at lower cost" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "Greek yogurt", substitute = "regular plain yogurt strained through cheesecloth overnight", reason = "Straining removes whey, doubling the protein concentration to match Greek yogurt" },
+    { original = "protein powder", substitute = "an extra 50g Greek yogurt + 1 tbsp peanut butter for protein boost", reason = "Whole-food proteins replace the supplement without requiring specialty products" },
+    { original = "chia seeds", substitute = "ground flaxseeds or hemp seeds", reason = "Both provide omega-3 fatty acids and fiber similarly to chia seeds" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "protein powder", substitute = "2 egg whites mixed in (if you have a blender)", reason = "Raw egg whites blend seamlessly into yogurt and provide high-quality complete protein" },
+    { original = "granola", substitute = "crushed whole-grain crackers or bran cereal", reason = "Any crunchy whole-grain topping adds texture and fiber in the same way" },
+    { original = "honey", substitute = "a mashed ripe banana stirred in for natural sweetness", reason = "Banana adds sweetness, potassium, and creaminess without any refined sugar" }
+]

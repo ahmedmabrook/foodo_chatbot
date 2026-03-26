@@ -1,0 +1,124 @@
+# ============================================================
+# RECIPE DOCUMENT — COTTAGE CHEESE BOWL
+# Category: High Protein / Fitness
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "high_protein_cottage_cheese_bowl"
+cuisine = "Fitness"
+dish_name = "Cottage Cheese Bowl"
+alternate_names = ["Curd Bowl", "High-Protein Cheese Bowl", "Cottage Cheese Parfait"]
+category = "snack"
+tags = ["snack", "breakfast", "high_protein", "no_cook", "quick", "low_carb", "contains_dairy"]
+allergens = ["dairy"]
+difficulty = "easy"
+total_time_minutes = 5
+
+[recipe.standard]
+serving_size = "1 bowl (approximately 280g)"
+servings_per_recipe = 1
+prep_time_minutes = 5
+cook_time_minutes = 0
+
+[recipe.standard.ingredients]
+items = [
+    "200g (3/4 cup) low-fat cottage cheese (2% fat)",
+    "1/2 cup pineapple chunks (fresh or canned in juice, drained)",
+    "1 tsp chia seeds",
+    "1 tsp honey",
+    "1/4 tsp cinnamon",
+    "Optional: a pinch of vanilla powder or 1/4 tsp vanilla extract stirred in"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Spoon cottage cheese into a bowl. If the texture is too chunky, blend briefly or mash with a fork for a smoother consistency.",
+    "Add pineapple chunks on top — fresh is preferred but well-drained canned works fine.",
+    "Drizzle honey over the fruit and cottage cheese.",
+    "Sprinkle chia seeds and cinnamon over the top.",
+    "Stir gently just before eating or leave layered for presentation.",
+    "Serve immediately or refrigerate for up to 2 hours."
+]
+
+[recipe.standard.macros]
+calories = 260
+protein_g = 24
+carbs_g = 28
+fat_g = 6
+fiber_g = 2
+sugar_g = 20
+sodium_mg = 440
+# VALIDATION: (24×4) + (28×4) + (6×9) = 96 + 112 + 54 = 262 ≈ 260 ✓
+
+[recipe.healthy_variant]
+variant_name = "Low-Sugar Berry Cottage Cheese Bowl"
+variant_type = "high_protein"
+description = "Replaces high-sugar pineapple with mixed berries for lower glycemic impact, removes honey, and swaps to full-fat cottage cheese — which is actually more satiating with similar calories. Ground flaxseeds add omega-3s and extra fiber."
+serving_size = "1 bowl (approximately 270g)"
+servings_per_recipe = 1
+prep_time_minutes = 5
+cook_time_minutes = 0
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "200g (3/4 cup) full-fat cottage cheese (4% fat)",
+    "1/4 cup blueberries",
+    "1/4 cup raspberries",
+    "1 tbsp ground flaxseeds",
+    "1 tsp hemp seeds",
+    "1/4 tsp cinnamon",
+    "Stevia or monk fruit drops to taste (optional)"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Spoon cottage cheese into a bowl.",
+    "Top with blueberries and raspberries.",
+    "Sprinkle ground flaxseeds, hemp seeds, and cinnamon over the top.",
+    "Add a few drops of stevia if desired — berries provide natural sweetness.",
+    "Serve immediately. The contrast between cool creamy cottage cheese and fresh tart berries is the appeal of this bowl."
+]
+
+[recipe.healthy_variant.macros]
+calories = 230
+protein_g = 24
+carbs_g = 14
+fat_g = 8
+fiber_g = 4
+sugar_g = 7
+sodium_mg = 380
+# VALIDATION: (24×4) + (14×4) + (8×9) = 96 + 56 + 72 = 224 ≈ 230 ✓ (within ±10)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -30
+protein_difference = "0g"
+key_changes = [
+    "Mixed berries replace pineapple — cuts sugar from 20g to 7g; berries are far lower glycemic than pineapple",
+    "Honey removed — eliminates ~20 cal of added sugar; stevia is zero-calorie",
+    "Ground flaxseeds replace chia seeds — more omega-3 (ALA) per gram and cheaper",
+    "Hemp seeds added — contribute 3g complete plant protein per tablespoon"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "fresh pineapple", substitute = "canned pineapple in water (not syrup), well drained", saving_percent = 60, reason = "Canned pineapple is much cheaper and available year-round; drain thoroughly to limit added sugar" },
+    { original = "chia seeds", substitute = "ground flaxseeds or sesame seeds", saving_percent = 30, reason = "Both provide similar omega-3 fats and fiber at a lower price than chia seeds" },
+    { original = "honey", substitute = "a few drops of vanilla extract + cinnamon for sweetness perception", saving_percent = 100, reason = "Vanilla and cinnamon trick the palate into perceiving greater sweetness without adding sugar" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "cottage cheese", substitute = "ricotta (similar texture and protein content)", reason = "Ricotta is widely available in Mediterranean countries and has a very similar nutritional profile to cottage cheese" },
+    { original = "pineapple", substitute = "any tropical fruit: mango, papaya, or banana", reason = "Any sweet fruit complements the mild savory tang of cottage cheese" },
+    { original = "chia seeds", substitute = "any seed: sunflower seeds, pumpkin seeds, or sesame seeds", reason = "Any seed provides healthy fats and crunch as a topping" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "honey", substitute = "a mashed ripe banana mixed into the cottage cheese for sweetness", reason = "Banana provides natural sweetness, creaminess, and adds potassium" },
+    { original = "fresh berries", substitute = "any fruit you have: apple slices, pear, or dried raisins (use sparingly)", reason = "The purpose is sweet-acid contrast; any fruit provides this" },
+    { original = "hemp seeds", substitute = "crushed walnuts or any nut for crunch and healthy fat", reason = "Any nut or seed provides texture and healthy fat to balance the bowl" }
+]

@@ -1,0 +1,143 @@
+# ============================================================
+# RECIPE DOCUMENT — CHICKEN RICE BOWL
+# Category: High Protein / Fitness
+# Generated for: Health & Nutrition RAG Chatbot Knowledge Base
+# ============================================================
+
+[metadata]
+doc_id = "high_protein_chicken_rice_bowl"
+cuisine = "Fitness"
+dish_name = "Grilled Chicken Rice Bowl"
+alternate_names = ["Meal Prep Bowl", "Chicken and Rice", "Bodybuilder Bowl"]
+category = "main_course"
+tags = ["main_course", "high_protein", "meal_prep", "fitness", "gluten_free", "dairy_free", "post_workout"]
+allergens = []
+difficulty = "easy"
+total_time_minutes = 35
+
+[recipe.standard]
+serving_size = "1 bowl (approximately 480g)"
+servings_per_recipe = 4
+prep_time_minutes = 10
+cook_time_minutes = 25
+
+[recipe.standard.ingredients]
+items = [
+    "500g (1.1 lb) boneless skinless chicken breast",
+    "1.5 cups white jasmine rice",
+    "1 tbsp olive oil (for chicken)",
+    "1 tbsp olive oil (for vegetables)",
+    "2 cups broccoli florets",
+    "1 zucchini, diced",
+    "1 red bell pepper, sliced",
+    "3 cloves garlic, minced",
+    "1 tsp paprika",
+    "1 tsp cumin",
+    "Salt and black pepper to taste",
+    "Lemon wedges for serving",
+    "Optional: sriracha or low-sodium soy sauce"
+]
+
+[recipe.standard.instructions]
+steps = [
+    "Cook rice according to package directions. White jasmine rice: bring 3 cups water to boil, add rice, cover and simmer 18 minutes.",
+    "Meanwhile, season chicken breasts with paprika, cumin, salt, pepper, and a bit of garlic.",
+    "Heat 1 tbsp olive oil in a grill pan or skillet over medium-high heat (400°F/200°C). Cook chicken 6-7 minutes per side until internal temperature reaches 165°F/74°C. Rest 5 minutes, then slice.",
+    "In a separate pan, heat remaining olive oil over medium heat. Sauté garlic 30 seconds.",
+    "Add broccoli, zucchini, and bell pepper. Stir-fry 5-6 minutes until tender-crisp. Season with salt and pepper.",
+    "Assemble bowls: rice on the bottom, sliced chicken on one side, roasted vegetables on the other.",
+    "Serve with lemon wedges and optional sauce."
+]
+
+[recipe.standard.macros]
+calories = 520
+protein_g = 44
+carbs_g = 58
+fat_g = 12
+fiber_g = 4
+sugar_g = 4
+sodium_mg = 320
+# VALIDATION: (44×4) + (58×4) + (12×9) = 176 + 232 + 108 = 516 ≈ 520 ✓ (within ±10)
+
+[recipe.healthy_variant]
+variant_name = "Brown Rice & Lean Chicken Meal Prep Bowl"
+variant_type = "high_protein"
+description = "Swaps white rice for brown rice to double the fiber content, uses minimal oil on the chicken (dry-rubbed and oven-roasted), and adds a larger portion of cruciferous vegetables. Designed for batch cooking — makes 4 identical servings to store in the fridge for the week."
+serving_size = "1 bowl (approximately 500g)"
+servings_per_recipe = 4
+prep_time_minutes = 10
+cook_time_minutes = 35
+
+[recipe.healthy_variant.ingredients]
+items = [
+    "500g (1.1 lb) boneless skinless chicken breast",
+    "1.5 cups brown rice",
+    "Cooking spray",
+    "3 cups broccoli florets",
+    "1 zucchini, diced",
+    "1 cup cherry tomatoes",
+    "1 cup edamame (shelled, from frozen)",
+    "3 cloves garlic, minced",
+    "1 tsp smoked paprika",
+    "1 tsp turmeric",
+    "1 tsp cumin",
+    "1/2 tsp chili flakes (optional)",
+    "Salt, black pepper",
+    "Lemon juice (1/2 lemon)",
+    "Fresh parsley for garnish"
+]
+
+[recipe.healthy_variant.instructions]
+steps = [
+    "Cook brown rice: bring 3.5 cups water to boil, add rice, cover and simmer 30-35 minutes. Brown rice takes longer than white — plan ahead.",
+    "Preheat oven to 400°F/200°C. Line a baking sheet with parchment.",
+    "Mix dry spices (paprika, turmeric, cumin, chili, salt, pepper) with a squeeze of lemon juice to make a dry rub paste. Coat chicken breasts completely.",
+    "Spray baking sheet with cooking spray. Place chicken on one side, broccoli and zucchini on the other. Spray vegetables lightly.",
+    "Roast 22-25 minutes until chicken is 165°F/74°C internally and vegetables are caramelized. Add cherry tomatoes in the last 5 minutes.",
+    "Warm edamame per package directions (usually 2 minutes in hot water).",
+    "Slice chicken and assemble 4 bowls: rice base, sliced chicken, roasted vegetables, edamame.",
+    "Squeeze fresh lemon over each bowl and garnish with parsley. Refrigerate portions for up to 4 days."
+]
+
+[recipe.healthy_variant.macros]
+calories = 420
+protein_g = 44
+carbs_g = 44
+fat_g = 8
+fiber_g = 8
+sugar_g = 4
+sodium_mg = 260
+# VALIDATION: (44×4) + (44×4) + (8×9) = 176 + 176 + 72 = 424 ≈ 420 ✓ (within ±10)
+
+[recipe.healthy_variant.comparison]
+calorie_difference = -100
+protein_difference = "0g"
+key_changes = [
+    "Brown rice replaces white — doubles fiber (4g → 8g), lower glycemic index, more micronutrients",
+    "Oven roasting replaces pan-frying — eliminates 1 tbsp oil (~120 cal), produces juicier chicken",
+    "Edamame added — provides an extra 8g plant protein and complete amino acids per serving",
+    "Turmeric added — anti-inflammatory compound with no calorie cost"
+]
+
+[recipe.substitutions]
+
+[recipe.substitutions.cheaper]
+items = [
+    { original = "chicken breast", substitute = "chicken thighs (skinless) — slightly higher fat but cheaper and juicier", saving_percent = 30, reason = "Thighs are cheaper, more forgiving to cook, and have similar protein content" },
+    { original = "brown rice", substitute = "any whole grain: farro, bulgur, or simply more affordable basmati white rice", saving_percent = 20, reason = "Any grain base works — whole grains are preferable but white rice is perfectly acceptable" },
+    { original = "edamame", substitute = "canned chickpeas or lentils (rinsed)", saving_percent = 50, reason = "Canned legumes are an affordable plant protein and add similar fiber and protein" }
+]
+
+[recipe.substitutions.more_accessible]
+items = [
+    { original = "fresh broccoli", substitute = "frozen broccoli florets (no need to thaw — roast from frozen, add 5 min)", reason = "Frozen broccoli is nutritionally identical and available globally year-round" },
+    { original = "smoked paprika", substitute = "regular paprika + a tiny pinch of cumin", reason = "Smoked paprika is not available everywhere; regular paprika with cumin approximates the flavor" },
+    { original = "edamame", substitute = "green peas, frozen kidney beans, or canned lentils", reason = "Any legume adds plant protein and works in this bowl format" }
+]
+
+[recipe.substitutions.home_essentials]
+items = [
+    { original = "lemon juice", substitute = "white vinegar (1/2 tsp) or apple cider vinegar", reason = "Any acid brightens the dish; vinegar is a universal pantry substitute for citrus" },
+    { original = "fresh parsley", substitute = "dried parsley, dried mixed herbs, or simply black pepper", reason = "Fresh herbs enhance presentation but dried herbs provide similar aromatic flavor" },
+    { original = "cooking spray", substitute = "brush baking sheet with a paper towel dipped in a few drops of oil", reason = "Minimally applied oil performs the same non-stick function as cooking spray" }
+]
